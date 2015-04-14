@@ -1,25 +1,649 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Yqk-7i-1QT">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham-Bold.otf">
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+        </mutableArray>
+        <mutableArray key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+        </mutableArray>
+        <mutableArray key="Gotham-Medium.otf">
+            <string>Gotham-Medium</string>
+            <string>Gotham-Medium</string>
+            <string>Gotham-Medium</string>
+            <string>Gotham-Medium</string>
+            <string>Gotham-Medium</string>
+            <string>Gotham-Medium</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Nicola_Giancecchi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Selfie-Tim-Cook-copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dQ7-Ju-CoT">
+                                <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajG-iz-AGJ">
+                                <rect key="frame" x="156" y="619" width="178" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Study">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lt7-5B-bfC" kind="show" id="OjQ-pl-jer"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFS-Xq-1kz">
+                                <rect key="frame" x="811" y="611" width="178" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="About me">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Bjv-MY-c8G" kind="show" id="nMi-vw-9L1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpt-bm-7hT">
+                                <rect key="frame" x="16" y="72" width="534" height="151"/>
+                                <string key="text">Nicola Giancecchi 
+WWDC 2015 App</string>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="57"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="dQ7-Ju-CoT" secondAttribute="trailing" id="9lR-BQ-rVs"/>
+                            <constraint firstItem="dQ7-Ju-CoT" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="KPE-ju-FER"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="dQ7-Ju-CoT" secondAttribute="bottom" id="b70-mP-xip"/>
+                            <constraint firstItem="dQ7-Ju-CoT" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="mMO-h2-T38"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="460-1p-wh4"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1594" y="434"/>
+        </scene>
+        <!--About Me View Controller-->
+        <scene sceneID="lh5-I8-ehI">
+            <objects>
+                <viewController id="Bjv-MY-c8G" customClass="NGAboutMeViewController" customModule="Nicola_Giancecchi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zys-78-l3X"/>
+                        <viewControllerLayoutGuide type="bottom" id="voW-U6-1Qg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TFe-La-yl9">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nico.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eKa-uL-DGI">
+                                <rect key="frame" x="36" y="99" width="198" height="198"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="198" id="hPZ-t0-VSp"/>
+                                    <constraint firstAttribute="height" constant="198" id="jk2-BT-dLX"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnT-et-AxJ">
+                                <rect key="frame" x="31" y="311" width="374" height="123"/>
+                                <string key="text">NICOLA
+GIANCECCHI</string>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="54"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kSu-pe-c2e">
+                                <rect key="frame" x="437" y="64" width="587" height="704"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="hPO-vZ-ZZy">
+                                        <rect key="frame" x="86" y="75" width="200" height="200"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BORN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Sf-7v-J9P">
+                                                <rect key="frame" x="8" y="15" width="184" height="21"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FEB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ax9-dn-hSE">
+                                                <rect key="frame" x="8" y="44" width="184" height="34"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="30"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C8X-lC-ftO">
+                                                <rect key="frame" x="10" y="57" width="184" height="115"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="80"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1993" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D5y-tq-vtA">
+                                                <rect key="frame" x="10" y="148" width="184" height="36"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="30"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
+                                    </view>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oJr-0Y-0Wm">
+                                        <rect key="frame" x="320" y="161" width="160" height="160"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AGE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MPi-ty-CPK">
+                                                <rect key="frame" x="-12" y="25" width="184" height="21"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="22" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bTH-we-iYS">
+                                                <rect key="frame" x="-12" y="54" width="184" height="80"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="80"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhb-V7-D3J">
+                                        <rect key="frame" x="300" y="448" width="200" height="200"/>
+                                        <color key="backgroundColor" red="0.15251551962038601" green="0.87728651500184718" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="34"/>
+                                        <state key="normal">
+                                            <string key="title">FIND OUT 
+MORE!</string>
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="didTapFindout:" destination="Bjv-MY-c8G" eventType="touchUpInside" id="wBH-Wh-IKU"/>
+                                            <segue destination="fwQ-Mq-lTa" kind="presentation" modalPresentationStyle="formSheet" id="OsP-Zh-8B4"/>
+                                        </connections>
+                                    </button>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Snf-VH-2Es">
+                                        <rect key="frame" x="96" y="352" width="225" height="225"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FROM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Rc-Ip-peD">
+                                                <rect key="frame" x="20" y="44" width="184" height="21"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SMR" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zuH-9p-VI0">
+                                                <rect key="frame" x="20" y="70" width="184" height="80"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="80"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ew0-b3-mDW">
+                                                <rect key="frame" x="20" y="151" width="184" height="40"/>
+                                                <string key="text">REPUBLIC OF
+SAN MARINO</string>
+                                                <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="20"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <gestureRecognizers/>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tjt-O6-n97">
+                                <rect key="frame" x="36" y="503" width="363" height="44"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="18"/>
+                                <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="nicorsm@me.com" image="mail">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didOpenMail:" destination="Bjv-MY-c8G" eventType="touchUpInside" id="JNc-61-jPn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ho0-ef-Cme">
+                                <rect key="frame" x="36" y="596" width="44" height="44"/>
+                                <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="fb">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didOpenFacebook:" destination="Bjv-MY-c8G" eventType="touchUpInside" id="YHY-Mj-v9u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5X-12-KR9">
+                                <rect key="frame" x="95" y="596" width="44" height="44"/>
+                                <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="twt">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didOpenTwitter:" destination="Bjv-MY-c8G" eventType="touchUpInside" id="jJx-zA-gOy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9MU-eE-WDr">
+                                <rect key="frame" x="154" y="596" width="44" height="44"/>
+                                <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="ig">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didOpenInstagram:" destination="Bjv-MY-c8G" eventType="touchUpInside" id="Lcc-El-gdM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UHG-55-V5x">
+                                <rect key="frame" x="213" y="596" width="44" height="44"/>
+                                <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="lin">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didOpenLinkedin:" destination="Bjv-MY-c8G" eventType="touchUpInside" id="AFD-OW-bxX"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w7G-fB-8Rz">
+                                <rect key="frame" x="36" y="444" width="400" height="1"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2Ix-Of-0cq">
+                                <rect key="frame" x="415" y="387" width="1" height="381"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MAIL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nep-Xw-QxF">
+                                <rect key="frame" x="36" y="474" width="40" height="21"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SOCIAL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L94-Kh-2Au">
+                                <rect key="frame" x="36" y="568" width="56" height="21"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CODE REPOS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eih-8x-GfF">
+                                <rect key="frame" x="36" y="666" width="97" height="21"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="14"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jeo-fe-acM">
+                                <rect key="frame" x="95" y="694" width="110" height="44"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="18"/>
+                                <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="work" image="bb">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didOpenBitbucketWork:" destination="Bjv-MY-c8G" eventType="touchUpInside" id="ulK-F3-2fy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeO-ix-dIs">
+                                <rect key="frame" x="213" y="694" width="158" height="44"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="18"/>
+                                <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="university" image="bb">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didOpenBitbucketUniversity:" destination="Bjv-MY-c8G" eventType="touchUpInside" id="g6X-5W-LDn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pVy-bA-RBf">
+                                <rect key="frame" x="36" y="694" width="44" height="44"/>
+                                <inset key="titleEdgeInsets" minX="15" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" image="gh">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="didOpenGithub:" destination="Bjv-MY-c8G" eventType="touchUpInside" id="6j9-zJ-c0z"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sanmarino.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KkJ-iZ-DJv">
+                                <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.10000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.0" green="0.76251562500000003" blue="1" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="eKa-uL-DGI" firstAttribute="leading" secondItem="TFe-La-yl9" secondAttribute="leadingMargin" constant="20" id="2og-XE-RFz"/>
+                            <constraint firstItem="eKa-uL-DGI" firstAttribute="top" secondItem="zys-78-l3X" secondAttribute="bottom" constant="35" id="Kkl-OL-L50"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="btnFindOutRSM" destination="vhb-V7-D3J" id="eQH-tl-4x5"/>
+                        <outlet property="bubblesView" destination="kSu-pe-c2e" id="PLL-uJ-UJj"/>
+                        <outlet property="imgProfile" destination="eKa-uL-DGI" id="4yO-PM-d43"/>
+                        <outlet property="viewAge" destination="oJr-0Y-0Wm" id="ZLm-sT-izM"/>
+                        <outlet property="viewBorn" destination="hPO-vZ-ZZy" id="ugE-2E-LLT"/>
+                        <outlet property="viewCountry" destination="Snf-VH-2Es" id="v0J-fo-TWq"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s5p-ID-nB2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2260" y="1350"/>
+        </scene>
+        <!--Republic of San Marino-->
+        <scene sceneID="vLp-0Y-feo">
+            <objects>
+                <viewController id="OxV-1d-7Sf" customClass="NGSanMarinoInfoViewController" customModule="Nicola_Giancecchi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="E7H-Z5-yw7"/>
+                        <viewControllerLayoutGuide type="bottom" id="bc2-Ys-eSj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="L6L-jG-WI7">
+                        <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOa-8q-2Po">
+                                <rect key="frame" x="0.0" y="0.0" width="540" height="620"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54y-cQ-A7b">
+                                        <rect key="frame" x="0.0" y="0.0" width="540" height="824"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foto-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vHh-7e-5mh">
+                                                <rect key="frame" x="0.0" y="0.0" width="200" height="163"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="roQ-in-wkG"/>
+                                                    <constraint firstAttribute="height" constant="163" id="zI3-Dv-h7s"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palazzo-pubblico.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MWW-Se-H8U">
+                                                <rect key="frame" x="208" y="0.0" width="141" height="163"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="141" id="4D9-Zz-VKe"/>
+                                                    <constraint firstAttribute="height" constant="163" id="TOW-NO-c5f"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patricio.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="drP-fQ-qiW">
+                                                <rect key="frame" x="0.0" y="586" width="200" height="163"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="200" id="6H2-QB-AlT"/>
+                                                    <constraint firstAttribute="height" constant="163" id="8iP-bN-fl7"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7cn-wT-Wg3">
+                                                <rect key="frame" x="357" y="0.0" width="183" height="163"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="209" id="jrs-Ko-rwL"/>
+                                                    <constraint firstAttribute="height" constant="163" id="xks-LD-ZQd"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="REPUBLIC OF SAN MARINO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mgJ-Kr-H8M">
+                                                <rect key="frame" x="15" y="178" width="510" height="41"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="41" id="7CC-qi-9fn"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="34"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34K-nL-7Lf">
+                                                <rect key="frame" x="15" y="234" width="510" height="75"/>
+                                                <string key="text">San Marino is the oldest Republic in the world located in the heart of the Italian peninsula. San Marino is independent from 301 AD, the year of death of the patron Marino, founder of the Republic. Since then it is considered a land of freedom and a living witness of democracy through the centuries.</string>
+                                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Geq-fD-8H4">
+                                                <rect key="frame" x="0.0" y="324" width="540" height="142"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="142" id="s2U-nG-ROH"/>
+                                                </constraints>
+                                            </mapView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywD-NN-L4L">
+                                                <rect key="frame" x="15" y="481" width="510" height="90"/>
+                                                <string key="text">Its size is just over 61 km sq (24 sq miles) with an estimated population of about 32,000 with its capital being the City of San Marino. 
+San Marino has two presidents, the Captains Regent, that change every six months. The Parliament (Consiglio Grande e Generale) is composed of 60 counselors.</string>
+                                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="night.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xTe-Lb-hSe">
+                                                <rect key="frame" x="425" y="586" width="115" height="163"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="163" id="acQ-Hj-1bH"/>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="141" id="fWF-Gu-NSA"/>
+                                                </constraints>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10869619_745719478852188_2852983018894253508_o.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zic-Vo-8BJ">
+                                                <rect key="frame" x="208" y="586" width="209" height="163"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="209" id="Pnm-PD-zb0"/>
+                                                    <constraint firstAttribute="height" constant="163" id="nx9-Cp-d8s"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbX-xB-rM2">
+                                                <rect key="frame" x="15" y="764" width="510" height="45"/>
+                                                <string key="text">San Marino has a history of more than 1700 years. An important period in the history of the Republic is the Middle Age, still celebrated every year with the "Medieval Days" in the summer.</string>
+                                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="nbX-xB-rM2" secondAttribute="trailing" constant="15" id="0Oz-m7-foK"/>
+                                            <constraint firstItem="nbX-xB-rM2" firstAttribute="leading" secondItem="54y-cQ-A7b" secondAttribute="leading" constant="15" id="0tR-45-KmJ"/>
+                                            <constraint firstItem="drP-fQ-qiW" firstAttribute="top" secondItem="ywD-NN-L4L" secondAttribute="bottom" constant="15" id="6wQ-Ff-e0f"/>
+                                            <constraint firstItem="34K-nL-7Lf" firstAttribute="leading" secondItem="54y-cQ-A7b" secondAttribute="leading" constant="15" id="8B1-8W-MiT"/>
+                                            <constraint firstItem="xTe-Lb-hSe" firstAttribute="leading" secondItem="zic-Vo-8BJ" secondAttribute="trailing" constant="8" id="9Fr-hp-PGe"/>
+                                            <constraint firstItem="7cn-wT-Wg3" firstAttribute="top" secondItem="54y-cQ-A7b" secondAttribute="top" id="9SE-mu-D5e"/>
+                                            <constraint firstItem="mgJ-Kr-H8M" firstAttribute="leading" secondItem="54y-cQ-A7b" secondAttribute="leading" constant="15" id="C1v-rF-srw"/>
+                                            <constraint firstAttribute="trailing" secondItem="xTe-Lb-hSe" secondAttribute="trailing" id="CiB-Ww-dXP"/>
+                                            <constraint firstItem="zic-Vo-8BJ" firstAttribute="top" secondItem="ywD-NN-L4L" secondAttribute="bottom" constant="15" id="DE1-aI-rRj"/>
+                                            <constraint firstItem="drP-fQ-qiW" firstAttribute="leading" secondItem="54y-cQ-A7b" secondAttribute="leading" id="Dav-lY-jj6"/>
+                                            <constraint firstItem="MWW-Se-H8U" firstAttribute="top" secondItem="54y-cQ-A7b" secondAttribute="top" id="J9O-od-E5j"/>
+                                            <constraint firstItem="xTe-Lb-hSe" firstAttribute="top" secondItem="ywD-NN-L4L" secondAttribute="bottom" constant="15" id="K4e-xm-cmG"/>
+                                            <constraint firstItem="vHh-7e-5mh" firstAttribute="leading" secondItem="54y-cQ-A7b" secondAttribute="leading" id="LXe-vA-VDD"/>
+                                            <constraint firstAttribute="trailing" secondItem="34K-nL-7Lf" secondAttribute="trailing" constant="15" id="Lnb-4X-clL"/>
+                                            <constraint firstItem="drP-fQ-qiW" firstAttribute="leading" secondItem="54y-cQ-A7b" secondAttribute="leading" id="MlV-nI-Ot6"/>
+                                            <constraint firstItem="ywD-NN-L4L" firstAttribute="leading" secondItem="54y-cQ-A7b" secondAttribute="leading" constant="15" id="Qm3-eG-NU2"/>
+                                            <constraint firstAttribute="trailing" secondItem="7cn-wT-Wg3" secondAttribute="trailing" id="RHc-Nq-HUV"/>
+                                            <constraint firstAttribute="trailing" secondItem="Geq-fD-8H4" secondAttribute="trailing" id="Rrt-o0-3zd"/>
+                                            <constraint firstAttribute="trailing" secondItem="ywD-NN-L4L" secondAttribute="trailing" constant="15" id="Tdu-F0-tku"/>
+                                            <constraint firstItem="7cn-wT-Wg3" firstAttribute="leading" secondItem="MWW-Se-H8U" secondAttribute="trailing" constant="8" id="UiG-2s-7Iq"/>
+                                            <constraint firstItem="Geq-fD-8H4" firstAttribute="top" secondItem="34K-nL-7Lf" secondAttribute="bottom" constant="15" id="Vtb-F2-iuC"/>
+                                            <constraint firstAttribute="trailing" secondItem="mgJ-Kr-H8M" secondAttribute="trailing" constant="15" id="WRr-DW-x3y"/>
+                                            <constraint firstItem="nbX-xB-rM2" firstAttribute="top" secondItem="zic-Vo-8BJ" secondAttribute="bottom" constant="15" id="XMa-IT-AYf"/>
+                                            <constraint firstItem="ywD-NN-L4L" firstAttribute="top" secondItem="Geq-fD-8H4" secondAttribute="bottom" constant="15" id="big-hG-Jkt"/>
+                                            <constraint firstItem="Geq-fD-8H4" firstAttribute="leading" secondItem="54y-cQ-A7b" secondAttribute="leading" id="dBE-NQ-IUC"/>
+                                            <constraint firstItem="vHh-7e-5mh" firstAttribute="top" secondItem="54y-cQ-A7b" secondAttribute="top" id="ej7-v9-icz"/>
+                                            <constraint firstItem="MWW-Se-H8U" firstAttribute="leading" secondItem="vHh-7e-5mh" secondAttribute="trailing" constant="8" id="eyx-hr-M3T"/>
+                                            <constraint firstItem="34K-nL-7Lf" firstAttribute="top" secondItem="mgJ-Kr-H8M" secondAttribute="bottom" constant="15" id="iSO-T5-jfA"/>
+                                            <constraint firstItem="mgJ-Kr-H8M" firstAttribute="top" secondItem="7cn-wT-Wg3" secondAttribute="bottom" constant="15" id="klY-ZA-byt"/>
+                                            <constraint firstItem="zic-Vo-8BJ" firstAttribute="leading" secondItem="drP-fQ-qiW" secondAttribute="trailing" constant="8" id="nph-Zg-Pf7"/>
+                                            <constraint firstItem="drP-fQ-qiW" firstAttribute="top" secondItem="ywD-NN-L4L" secondAttribute="bottom" constant="15" id="sLS-KJ-D8E"/>
+                                            <constraint firstAttribute="bottom" secondItem="nbX-xB-rM2" secondAttribute="bottom" constant="15" id="vDE-ac-00q"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="54y-cQ-A7b" secondAttribute="trailing" id="2j3-As-hYT"/>
+                                    <constraint firstItem="54y-cQ-A7b" firstAttribute="top" secondItem="JOa-8q-2Po" secondAttribute="top" id="UKi-LR-9Po"/>
+                                    <constraint firstItem="54y-cQ-A7b" firstAttribute="width" secondItem="JOa-8q-2Po" secondAttribute="width" id="f5D-rf-4af"/>
+                                    <constraint firstItem="54y-cQ-A7b" firstAttribute="leading" secondItem="JOa-8q-2Po" secondAttribute="leading" id="qtl-uj-UNA"/>
+                                    <constraint firstAttribute="bottom" secondItem="54y-cQ-A7b" secondAttribute="bottom" id="wvO-s9-EpO"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.10000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bc2-Ys-eSj" firstAttribute="top" secondItem="JOa-8q-2Po" secondAttribute="bottom" id="4Cn-lc-b4L"/>
+                            <constraint firstAttribute="trailing" secondItem="JOa-8q-2Po" secondAttribute="trailing" id="MGn-AP-5FT"/>
+                            <constraint firstItem="JOa-8q-2Po" firstAttribute="top" secondItem="L6L-jG-WI7" secondAttribute="top" id="dfY-jV-4zd"/>
+                            <constraint firstItem="JOa-8q-2Po" firstAttribute="leading" secondItem="L6L-jG-WI7" secondAttribute="leading" id="uLm-5m-yWb"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Republic of San Marino" id="wIj-R9-5og">
+                        <barButtonItem key="leftBarButtonItem" title="Dismiss" id="iOX-NZ-fmn">
+                            <connections>
+                                <action selector="dismiss:" destination="OxV-1d-7Sf" id="s4A-yc-Egd"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <modalFormSheetSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <connections>
+                        <outlet property="mapView" destination="Geq-fD-8H4" id="l9P-7f-jqW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="adK-PC-T1M" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3236" y="2481"/>
+        </scene>
+        <!--Study View Controller-->
+        <scene sceneID="enB-NT-mKk">
+            <objects>
+                <viewController id="lt7-5B-bfC" customClass="NGStudyViewController" customModule="Nicola_Giancecchi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VsG-8x-TFK"/>
+                        <viewControllerLayoutGuide type="bottom" id="9kA-WI-Fsv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lsy-bB-nQv">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_7322_web.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xSA-hK-4iS">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bqJ-14-nEz">
+                                <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="30" minimumInteritemSpacing="0.0" id="MkO-Uh-VvV">
+                                    <size key="itemSize" width="1024" height="500"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="30" maxX="0.0" maxY="30"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UcZ-pf-MhF">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="1024" height="500"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="lt7-5B-bfC" id="jzb-TK-VgB"/>
+                                    <outlet property="delegate" destination="lt7-5B-bfC" id="fWw-SY-krb"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="9kA-WI-Fsv" firstAttribute="top" secondItem="xSA-hK-4iS" secondAttribute="bottom" id="0Em-sh-g5U"/>
+                            <constraint firstAttribute="trailing" secondItem="xSA-hK-4iS" secondAttribute="trailing" id="8Iy-8t-k5d"/>
+                            <constraint firstItem="bqJ-14-nEz" firstAttribute="top" secondItem="VsG-8x-TFK" secondAttribute="bottom" id="AIY-eH-kgt"/>
+                            <constraint firstItem="9kA-WI-Fsv" firstAttribute="top" secondItem="bqJ-14-nEz" secondAttribute="bottom" id="Uew-wK-hE8"/>
+                            <constraint firstItem="xSA-hK-4iS" firstAttribute="leading" secondItem="Lsy-bB-nQv" secondAttribute="leading" id="WYF-Cn-Z2D"/>
+                            <constraint firstItem="bqJ-14-nEz" firstAttribute="leading" secondItem="Lsy-bB-nQv" secondAttribute="leading" id="bCr-it-Bfy"/>
+                            <constraint firstAttribute="trailing" secondItem="bqJ-14-nEz" secondAttribute="trailing" id="o9E-1d-vPz"/>
+                            <constraint firstItem="xSA-hK-4iS" firstAttribute="top" secondItem="Lsy-bB-nQv" secondAttribute="top" id="ycH-uk-9Xw"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="768"/>
+                    <connections>
+                        <outlet property="collectionView" destination="bqJ-14-nEz" id="7kR-aC-WhZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="K5R-ce-NCU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1200" y="1350"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="A5F-kv-2id">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Yqk-7i-1QT" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="WYW-OV-h36">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="YoP-7a-FW9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jTL-Kc-wJ2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="495" y="434"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BLm-ty-kSQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fwQ-Mq-lTa" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HoJ-nL-5Wa">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="OxV-1d-7Sf" kind="relationship" relationship="rootViewController" id="YD6-xn-TPA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bMi-Et-k5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2260" y="2446"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="10869619_745719478852188_2852983018894253508_o.jpg" width="2048" height="1536"/>
+        <image name="IMG_7322_web.jpg" width="2048" height="1536"/>
+        <image name="Selfie-Tim-Cook-copy.jpg" width="2047" height="1412"/>
+        <image name="bb" width="44" height="44"/>
+        <image name="fb" width="44" height="44"/>
+        <image name="foto-1.jpg" width="1799" height="522"/>
+        <image name="gh" width="44" height="44"/>
+        <image name="ig" width="44" height="44"/>
+        <image name="lin" width="44" height="44"/>
+        <image name="mail" width="44" height="44"/>
+        <image name="nico.jpg" width="960" height="960"/>
+        <image name="night.jpg" width="2048" height="1362"/>
+        <image name="palazzo-pubblico.jpg" width="550" height="412"/>
+        <image name="patricio.jpg" width="720" height="960"/>
+        <image name="sanmarino.jpg" width="2272" height="1315"/>
+        <image name="sm.jpg" width="380" height="219"/>
+        <image name="twt" width="44" height="44"/>
+    </resources>
 </document>
