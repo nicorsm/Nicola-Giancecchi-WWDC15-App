@@ -29,6 +29,17 @@ class DataManager : NSObject {
         return ar
     }
     
+    func getProjects() -> Array<Project>{
+        var ar : Array = Array<Project>()
+        let data : Array<Dictionary<String,AnyObject>> = self.parseFile("Projects") as! Array<Dictionary<String,AnyObject>>
+        
+        for v in data as [Dictionary<String,AnyObject>]{
+            let school : Project = Project.init(dict: v)
+            ar.append(school)
+        }
+        return ar
+    }
+    
     private func parseFile(fileName : String) -> AnyObject{
         let path : String = NSBundle.mainBundle().pathForResource(fileName, ofType: "json")!
         var parseError: NSError?

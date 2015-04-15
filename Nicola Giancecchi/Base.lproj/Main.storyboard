@@ -79,6 +79,17 @@ WWDC 2015 App</string>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGJ-WM-iUE">
+                                <rect key="frame" x="591" y="542" width="178" height="74"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Projects">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="i0M-Qo-cMX" kind="show" id="nX0-HC-Nb6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -94,6 +105,61 @@ WWDC 2015 App</string>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1594" y="434"/>
+        </scene>
+        <!--Projects View Controller-->
+        <scene sceneID="RzV-vA-apn">
+            <objects>
+                <viewController id="i0M-Qo-cMX" customClass="NGProjectsViewController" customModule="Nicola_Giancecchi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="u1q-Lo-zoK"/>
+                        <viewControllerLayoutGuide type="bottom" id="Gj3-ld-jnd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PIo-9e-Wr9">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WCJ-I2-rWb">
+                                <rect key="frame" x="0.0" y="164" width="1024" height="604"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nlt-gj-cMc">
+                                <rect key="frame" x="0.0" y="64" width="1024" height="100"/>
+                                <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="4ma-7W-6kV">
+                                    <size key="itemSize" width="160" height="100"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="P5K-Lb-jsK">
+                                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="160" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </collectionViewCell>
+                                </cells>
+                                <connections>
+                                    <outlet property="dataSource" destination="i0M-Qo-cMX" id="teQ-3n-tlC"/>
+                                    <outlet property="delegate" destination="i0M-Qo-cMX" id="SIb-fr-la5"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="collectionView" destination="nlt-gj-cMc" id="SfY-VU-1tL"/>
+                        <outlet property="pageContainerView" destination="WCJ-I2-rWb" id="pk1-5F-JVX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1xD-9y-24g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2747" y="434"/>
         </scene>
         <!--About Me View Controller-->
         <scene sceneID="lh5-I8-ehI">
@@ -522,7 +588,7 @@ San Marino has two presidents, the Captains Regent, that change every six months
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adK-PC-T1M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3236" y="2481"/>
+            <point key="canvasLocation" x="2883" y="2192"/>
         </scene>
         <!--Study View Controller-->
         <scene sceneID="enB-NT-mKk">
@@ -624,7 +690,7 @@ San Marino has two presidents, the Captains Regent, that change every six months
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bMi-Et-k5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2260" y="2446"/>
+            <point key="canvasLocation" x="2260" y="2192"/>
         </scene>
     </scenes>
     <resources>

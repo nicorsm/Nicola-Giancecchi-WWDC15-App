@@ -1,0 +1,38 @@
+[
+  {
+    "title": "San Marino News24",
+    "subtitle": "The flipping board for San Marino",
+    "appIcon": "icn_smn24.png",
+    "appColor": "#4eb3e7",
+    "textColor": "#ffffff",
+    "appLink": "itms://itunes.apple.com/us/app/san-marino-news24/id938086912?mt=8",
+    "firstImage": "iphone_modello.png",
+    "secondImage": "ipad_modello.png",
+    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! "
+  },
+  {
+    "title": "That's Music",
+    "subtitle": "Your best friend for live music around you.",
+    "appIcon": "icn_tm.png",
+ "appColor": "#ffe083",
+ "textColor": "#000000",
+    "appLink": "itms://itunes.apple.com/it/app/thats-music/id876420230?mt=8",
+    "firstImage": "iphone_modello.png",
+    "secondImage": "ipad_modello.png",
+    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! "
+  },
+  {
+    "title": "More In Italy",
+    "subtitle": "Revamp your house today. It's easy!",
+    "appIcon": "icn_mii.png",
+ "appColor": "#5a9bd5",
+ "textColor": "#ffffff",
+    "appLink": "itms://itunes.apple.com/it/app/more-in-italy/id804714522?mt=8",
+    "firstImage": "iphone_modello.png",
+    "secondImage": "ipad_modello.png",
+    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! "
+  }
+]

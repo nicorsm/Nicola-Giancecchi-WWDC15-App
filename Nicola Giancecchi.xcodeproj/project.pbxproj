@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C16E9821ADEF209004A551A /* NGProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9811ADEF209004A551A /* NGProjectsViewController.swift */; };
+		7C16E9851ADEF3D3004A551A /* NGProjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9831ADEF3D3004A551A /* NGProjectDetailViewController.swift */; };
+		7C16E9861ADEF3D3004A551A /* NGProjectDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9841ADEF3D3004A551A /* NGProjectDetailViewController.xib */; };
+		7C16E9891ADEF4BE004A551A /* NGProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9871ADEF4BE004A551A /* NGProjectCell.swift */; };
+		7C16E98A1ADEF4BE004A551A /* NGProjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9881ADEF4BE004A551A /* NGProjectCell.xib */; };
+		7C16E98E1ADEFB25004A551A /* icn_mii.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E98D1ADEFB25004A551A /* icn_mii.png */; };
+		7C16E9901ADEFFA8004A551A /* ipad_modello.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E98F1ADEFFA8004A551A /* ipad_modello.png */; };
+		7C16E9921ADEFFB1004A551A /* iphone_modello.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9911ADEFFB1004A551A /* iphone_modello.png */; };
+		7C16E9941ADF0E2F004A551A /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9931ADF0E2F004A551A /* Project.swift */; };
+		7C16E9961ADF1518004A551A /* Projects.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9951ADF1518004A551A /* Projects.json */; };
+		7C16E99A1ADF1592004A551A /* icn_smn24.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9991ADF1592004A551A /* icn_smn24.png */; };
+		7C16E99C1ADF15B6004A551A /* icn_tm.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E99B1ADF15B6004A551A /* icn_tm.png */; };
+		7C16E99E1ADF1A40004A551A /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */; };
 		7C6C04C01ADD84CC00C61B0B /* Study.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04BF1ADD84CC00C61B0B /* Study.json */; };
 		7C6C04C41ADD866200C61B0B /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04C31ADD866200C61B0B /* School.swift */; };
 		7C6C04C61ADD867700C61B0B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04C51ADD867700C61B0B /* DataManager.swift */; };
@@ -71,6 +84,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C16E9811ADEF209004A551A /* NGProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGProjectsViewController.swift; path = ViewControllers/NGProjectsViewController.swift; sourceTree = "<group>"; };
+		7C16E9831ADEF3D3004A551A /* NGProjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGProjectDetailViewController.swift; path = ViewControllers/NGProjectDetailViewController.swift; sourceTree = "<group>"; };
+		7C16E9841ADEF3D3004A551A /* NGProjectDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGProjectDetailViewController.xib; path = ViewControllers/NGProjectDetailViewController.xib; sourceTree = "<group>"; };
+		7C16E9871ADEF4BE004A551A /* NGProjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGProjectCell.swift; path = ViewControllers/NGProjectCell.swift; sourceTree = "<group>"; };
+		7C16E9881ADEF4BE004A551A /* NGProjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGProjectCell.xib; path = ViewControllers/NGProjectCell.xib; sourceTree = "<group>"; };
+		7C16E98D1ADEFB25004A551A /* icn_mii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_mii.png; sourceTree = "<group>"; };
+		7C16E98F1ADEFFA8004A551A /* ipad_modello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_modello.png; sourceTree = "<group>"; };
+		7C16E9911ADEFFB1004A551A /* iphone_modello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_modello.png; sourceTree = "<group>"; };
+		7C16E9931ADF0E2F004A551A /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Project.swift; path = Model/Project.swift; sourceTree = "<group>"; };
+		7C16E9951ADF1518004A551A /* Projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Projects.json; path = Datasource/Projects.json; sourceTree = "<group>"; };
+		7C16E9991ADF1592004A551A /* icn_smn24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_smn24.png; sourceTree = "<group>"; };
+		7C16E99B1ADF15B6004A551A /* icn_tm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_tm.png; sourceTree = "<group>"; };
+		7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+HexString.swift"; path = "Nicola Giancecchi/Libs/UIColor+HexString.swift"; sourceTree = SOURCE_ROOT; };
 		7C6C04BF1ADD84CC00C61B0B /* Study.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Study.json; path = Datasource/Study.json; sourceTree = "<group>"; };
 		7C6C04C31ADD866200C61B0B /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = School.swift; path = Model/School.swift; sourceTree = "<group>"; };
 		7C6C04C51ADD867700C61B0B /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = Controller/DataManager.swift; sourceTree = "<group>"; };
@@ -146,10 +172,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C16E97B1ADEF0D3004A551A /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				7C16E9811ADEF209004A551A /* NGProjectsViewController.swift */,
+				7C16E9831ADEF3D3004A551A /* NGProjectDetailViewController.swift */,
+				7C16E9841ADEF3D3004A551A /* NGProjectDetailViewController.xib */,
+				7C16E9871ADEF4BE004A551A /* NGProjectCell.swift */,
+				7C16E9881ADEF4BE004A551A /* NGProjectCell.xib */,
+			);
+			name = Projects;
+			sourceTree = "<group>";
+		};
 		7C6C04BE1ADD849400C61B0B /* Datasource */ = {
 			isa = PBXGroup;
 			children = (
 				7C6C04BF1ADD84CC00C61B0B /* Study.json */,
+				7C16E9951ADF1518004A551A /* Projects.json */,
 			);
 			name = Datasource;
 			sourceTree = "<group>";
@@ -158,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				7C6C04C31ADD866200C61B0B /* School.swift */,
+				7C16E9931ADF0E2F004A551A /* Project.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -218,6 +258,7 @@
 			isa = PBXGroup;
 			children = (
 				7C6C04E61ADDBEA600C61B0B /* MRSocial.swift */,
+				7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */,
 			);
 			path = MRSocial;
 			sourceTree = "<group>";
@@ -243,6 +284,11 @@
 		7CFC9B8C1ADD4EB20017DD5B /* Nicola Giancecchi */ = {
 			isa = PBXGroup;
 			children = (
+				7C16E98D1ADEFB25004A551A /* icn_mii.png */,
+				7C16E9991ADF1592004A551A /* icn_smn24.png */,
+				7C16E99B1ADF15B6004A551A /* icn_tm.png */,
+				7C16E9911ADEFFB1004A551A /* iphone_modello.png */,
+				7C16E98F1ADEFFA8004A551A /* ipad_modello.png */,
 				7C6C04E11ADDBE7500C61B0B /* Libs */,
 				7C6C04C21ADD864C00C61B0B /* Controller */,
 				7C6C04C11ADD864800C61B0B /* Model */,
@@ -287,6 +333,7 @@
 		7CFC9BB11ADD4F1F0017DD5B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7C16E97B1ADEF0D3004A551A /* Projects */,
 				7C6C04D81ADD9FBD00C61B0B /* About Me */,
 				7CFC9BB31ADD4F3A0017DD5B /* ViewController.swift */,
 				7CFC9BFB1ADD72140017DD5B /* Study */,
@@ -414,25 +461,31 @@
 				7CFC9BF21ADD51850017DD5B /* Gotham-LightItalic.otf in Resources */,
 				7C6C04ED1ADDC8B400C61B0B /* sm.jpg in Resources */,
 				7C6C04E91ADDC85D00C61B0B /* foto-1.jpg in Resources */,
+				7C16E98A1ADEF4BE004A551A /* NGProjectCell.xib in Resources */,
 				7CFC9B951ADD4EB20017DD5B /* Main.storyboard in Resources */,
+				7C16E9961ADF1518004A551A /* Projects.json in Resources */,
 				7CFC9BF91ADD51850017DD5B /* Gotham-XLight.otf in Resources */,
 				7CFC9C091ADD7D600017DD5B /* uni_laptop.jpg in Resources */,
 				7C6C04DA1ADDA22B00C61B0B /* nico.jpg in Resources */,
 				7C6C04DC1ADDA24100C61B0B /* sanmarino.jpg in Resources */,
 				7CFC9BEC1ADD51850017DD5B /* Gotham-BlackItalic.otf in Resources */,
 				7CFC9BEE1ADD51850017DD5B /* Gotham-BoldItalic.otf in Resources */,
+				7C16E9901ADEFFA8004A551A /* ipad_modello.png in Resources */,
 				7CFC9BFF1ADD73910017DD5B /* NGStudyCell.xib in Resources */,
 				7C6C04D51ADD98FE00C61B0B /* sup_03.jpg in Resources */,
 				7CFC9BF11ADD51850017DD5B /* Gotham-Light.otf in Resources */,
 				7CFC9BFA1ADD51850017DD5B /* Gotham-XLightItalic.otf in Resources */,
 				7CFC9BF31ADD51850017DD5B /* Gotham-Medium.otf in Resources */,
 				7CFC9BF41ADD51850017DD5B /* Gotham-MediumItalic.otf in Resources */,
+				7C16E9861ADEF3D3004A551A /* NGProjectDetailViewController.xib in Resources */,
 				7CFC9BF51ADD51850017DD5B /* Gotham-Thin.otf in Resources */,
 				7CFC9BEB1ADD51850017DD5B /* Gotham-Black.otf in Resources */,
+				7C16E99C1ADF15B6004A551A /* icn_tm.png in Resources */,
 				7CFC9C071ADD7CE60017DD5B /* uni_place.jpg in Resources */,
 				7C6C04CD1ADD966700C61B0B /* iti_sat.jpg in Resources */,
 				7CFC9C0B1ADD7D670017DD5B /* uni_people.jpg in Resources */,
 				7C6C04C01ADD84CC00C61B0B /* Study.json in Resources */,
+				7C16E98E1ADEFB25004A551A /* icn_mii.png in Resources */,
 				7CFC9BF81ADD51850017DD5B /* Gotham-UltraItalic.otf in Resources */,
 				7C6C04F31ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg in Resources */,
 				7C6C04CB1ADD965B00C61B0B /* iti_institute.jpg in Resources */,
@@ -446,9 +499,11 @@
 				7C6C04EB1ADDC88200C61B0B /* palazzo-pubblico.jpg in Resources */,
 				7CFC9BF01ADD51850017DD5B /* Gotham-BookItalic.otf in Resources */,
 				7CFC9BEF1ADD51850017DD5B /* Gotham-Book.otf in Resources */,
+				7C16E9921ADEFFB1004A551A /* iphone_modello.png in Resources */,
 				7C6C04C91ADD965100C61B0B /* iti_class.png in Resources */,
 				7C6C04EF1ADDCC2700C61B0B /* patricio.jpg in Resources */,
 				7CFC9B971ADD4EB20017DD5B /* Images.xcassets in Resources */,
+				7C16E99A1ADF1592004A551A /* icn_smn24.png in Resources */,
 				7C6C04DE1ADDA2D000C61B0B /* sanmarino_snow.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -472,9 +527,14 @@
 				7C6C04C61ADD867700C61B0B /* DataManager.swift in Sources */,
 				7CFC9BB91ADD50260017DD5B /* NGStudyViewController.swift in Sources */,
 				7C6C04E01ADDB04C00C61B0B /* NGAboutMeViewController.swift in Sources */,
+				7C16E9941ADF0E2F004A551A /* Project.swift in Sources */,
+				7C16E99E1ADF1A40004A551A /* UIColor+HexString.swift in Sources */,
+				7C16E9821ADEF209004A551A /* NGProjectsViewController.swift in Sources */,
 				7C6C04F51ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift in Sources */,
 				7CFC9BFD1ADD728F0017DD5B /* NGStudyCell.swift in Sources */,
 				7C6C04C41ADD866200C61B0B /* School.swift in Sources */,
+				7C16E9851ADEF3D3004A551A /* NGProjectDetailViewController.swift in Sources */,
+				7C16E9891ADEF4BE004A551A /* NGProjectCell.swift in Sources */,
 				7CFC9BB51ADD4F3A0017DD5B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -602,12 +662,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = "Nicola Giancecchi/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9179f6cb-039d-4d54-99c5-25c08ee9bf97";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
@@ -616,6 +678,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				INFOPLIST_FILE = "Nicola Giancecchi/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;

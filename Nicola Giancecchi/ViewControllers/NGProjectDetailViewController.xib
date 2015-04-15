@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham-Bold.otf">
+            <string>Gotham-Bold</string>
+        </mutableArray>
+        <mutableArray key="Gotham-LightItalic.otf">
+            <string>Gotham-LightItalic</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NGProjectDetailViewController" customModule="Nicola_Giancecchi" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="xDO-U5-eXW" id="TBc-OH-SDi"/>
+                <outlet property="imgFirst" destination="cnf-Rx-rqS" id="mcL-GS-dIP"/>
+                <outlet property="imgIcon" destination="uNc-P3-1kz" id="BOc-eI-HFY"/>
+                <outlet property="imgSecond" destination="hYs-1s-95G" id="wZN-ZG-QVu"/>
+                <outlet property="lblAppName" destination="0wW-qa-a2x" id="Ojh-yR-d6F"/>
+                <outlet property="lblAppSubtitle" destination="g6f-n8-QjG" id="jBB-QH-oRG"/>
+                <outlet property="lblFirstColumnText" destination="Psw-lT-ehg" id="PEi-c0-pHJ"/>
+                <outlet property="lblSecondColumnText" destination="xIX-fs-alm" id="QTB-r0-iEu"/>
+                <outlet property="scrollView" destination="4G6-N0-Dsq" id="L1G-4l-3Mf"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="1984"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4G6-N0-Dsq">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="1984"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xDO-U5-eXW">
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="2013"/>
+                            <subviews>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="AppIcon60x60.png" translatesAutoresizingMaskIntoConstraints="NO" id="uNc-P3-1kz">
+                                    <rect key="frame" x="467" y="32" width="90" height="90"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="90" id="7Jx-9d-9C3"/>
+                                        <constraint firstAttribute="height" constant="90" id="yI0-2z-goL"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SAN MARINO NEWS24" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0wW-qa-a2x">
+                                    <rect key="frame" x="343" y="157" width="339" height="30"/>
+                                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="29"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Flipping board for San Marino." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6f-n8-QjG">
+                                    <rect key="frame" x="368" y="207" width="288" height="17"/>
+                                    <fontDescription key="fontDescription" name="Gotham-LightItalic" family="Gotham" pointSize="17"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="iphone_modello.png" translatesAutoresizingMaskIntoConstraints="NO" id="cnf-Rx-rqS">
+                                    <rect key="frame" x="226" y="282" width="572" height="353"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="572" id="X15-ke-IPt"/>
+                                        <constraint firstAttribute="height" constant="353" id="sVA-m2-Uma"/>
+                                    </constraints>
+                                </imageView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KK7-iW-XFj">
+                                    <rect key="frame" x="0.0" y="695" width="1024" height="266"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psw-lT-ehg">
+                                            <rect key="frame" x="161" y="48" width="320" height="169"/>
+                                            <string key="text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </string>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIX-fs-alm">
+                                            <rect key="frame" x="543" y="48" width="320" height="169"/>
+                                            <string key="text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </string>
+                                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="266" id="KNI-3I-3Eq"/>
+                                    </constraints>
+                                </view>
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="ipad_modello.png" translatesAutoresizingMaskIntoConstraints="NO" id="hYs-1s-95G">
+                                    <rect key="frame" x="325" y="1027" width="375" height="530"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="530" id="Vyx-Ur-NQQ"/>
+                                        <constraint firstAttribute="width" constant="375" id="bmN-dh-Mln"/>
+                                    </constraints>
+                                </imageView>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sY0-bx-Ht8">
+                                    <rect key="frame" x="0.0" y="1626" width="1024" height="387"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="haa-6c-Wt9">
+                                            <rect key="frame" x="41" y="67" width="100" height="100"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-cV-zLv">
+                                            <rect key="frame" x="209" y="67" width="100" height="100"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gPh-bF-Hfx">
+                                            <rect key="frame" x="377" y="67" width="100" height="100"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ICy-Rk-FTJ">
+                                            <rect key="frame" x="545" y="67" width="100" height="100"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kjO-FA-OlI">
+                                            <rect key="frame" x="716" y="67" width="100" height="100"/>
+                                        </imageView>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2At-Gz-CJj">
+                                            <rect key="frame" x="884" y="67" width="100" height="100"/>
+                                        </imageView>
+                                    </subviews>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="387" id="dTd-cd-aVP"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstItem="hYs-1s-95G" firstAttribute="top" secondItem="KK7-iW-XFj" secondAttribute="bottom" constant="66" id="0fS-lb-SBS"/>
+                                <constraint firstItem="cnf-Rx-rqS" firstAttribute="top" secondItem="g6f-n8-QjG" secondAttribute="bottom" constant="58" id="50T-Oq-fIj"/>
+                                <constraint firstAttribute="trailing" secondItem="sY0-bx-Ht8" secondAttribute="trailing" id="7mm-c5-a2U"/>
+                                <constraint firstAttribute="bottom" secondItem="sY0-bx-Ht8" secondAttribute="bottom" id="GxG-ab-ArA"/>
+                                <constraint firstAttribute="centerX" secondItem="uNc-P3-1kz" secondAttribute="centerX" id="I5n-ZP-vKv"/>
+                                <constraint firstItem="sY0-bx-Ht8" firstAttribute="top" secondItem="hYs-1s-95G" secondAttribute="bottom" constant="69" id="IbN-aj-lkb"/>
+                                <constraint firstItem="sY0-bx-Ht8" firstAttribute="leading" secondItem="xDO-U5-eXW" secondAttribute="leading" id="Sob-mM-BeA"/>
+                                <constraint firstItem="0wW-qa-a2x" firstAttribute="top" secondItem="uNc-P3-1kz" secondAttribute="bottom" constant="35" id="VMC-K7-jIo"/>
+                                <constraint firstAttribute="centerX" secondItem="0wW-qa-a2x" secondAttribute="centerX" id="ZxX-6T-yJt"/>
+                                <constraint firstItem="g6f-n8-QjG" firstAttribute="top" secondItem="0wW-qa-a2x" secondAttribute="bottom" constant="20" id="bfx-ZB-2e5"/>
+                                <constraint firstItem="uNc-P3-1kz" firstAttribute="top" secondItem="xDO-U5-eXW" secondAttribute="top" constant="32" id="cCO-NW-kDL"/>
+                                <constraint firstItem="KK7-iW-XFj" firstAttribute="top" secondItem="cnf-Rx-rqS" secondAttribute="bottom" constant="60" id="cXT-Xq-Srd"/>
+                                <constraint firstAttribute="centerX" secondItem="hYs-1s-95G" secondAttribute="centerX" id="ccT-bf-xoj"/>
+                                <constraint firstItem="KK7-iW-XFj" firstAttribute="leading" secondItem="xDO-U5-eXW" secondAttribute="leading" id="on1-rM-Bvl"/>
+                                <constraint firstAttribute="centerX" secondItem="cnf-Rx-rqS" secondAttribute="centerX" id="ozb-Xa-ZH2"/>
+                                <constraint firstAttribute="trailing" secondItem="KK7-iW-XFj" secondAttribute="trailing" id="rw2-kR-XNM"/>
+                                <constraint firstAttribute="centerX" secondItem="g6f-n8-QjG" secondAttribute="centerX" id="xIc-mT-bsQ"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="xDO-U5-eXW" firstAttribute="top" secondItem="4G6-N0-Dsq" secondAttribute="top" id="8tR-8R-Arg"/>
+                        <constraint firstItem="xDO-U5-eXW" firstAttribute="width" secondItem="4G6-N0-Dsq" secondAttribute="width" id="TT7-hK-YHf"/>
+                        <constraint firstAttribute="bottom" secondItem="xDO-U5-eXW" secondAttribute="bottom" id="TsH-lj-pqD"/>
+                        <constraint firstItem="xDO-U5-eXW" firstAttribute="leading" secondItem="4G6-N0-Dsq" secondAttribute="leading" id="fIn-af-c2B"/>
+                        <constraint firstAttribute="trailing" secondItem="xDO-U5-eXW" secondAttribute="trailing" id="sm0-H9-Tbj"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <color key="backgroundColor" red="0.29411764709999999" green="0.69803921570000005" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="4G6-N0-Dsq" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="cyy-LW-0n9"/>
+                <constraint firstItem="4G6-N0-Dsq" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="jmo-IZ-L7z"/>
+                <constraint firstAttribute="bottom" secondItem="4G6-N0-Dsq" secondAttribute="bottom" id="pfk-9U-R07"/>
+                <constraint firstAttribute="trailing" secondItem="4G6-N0-Dsq" secondAttribute="trailing" id="ql6-EJ-xdG"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="433" y="1178"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="AppIcon60x60.png" width="800" height="311"/>
+        <image name="ipad_modello.png" width="750" height="1060"/>
+        <image name="iphone_modello.png" width="1145" height="706"/>
+    </resources>
+</document>
