@@ -6,14 +6,24 @@
     <customFonts key="customFonts">
         <mutableArray key="Gotham-Bold.otf">
             <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
         </mutableArray>
         <mutableArray key="Gotham-LightItalic.otf">
             <string>Gotham-LightItalic</string>
+        </mutableArray>
+        <mutableArray key="Gotham-Medium.otf">
+            <string>Gotham-Medium</string>
         </mutableArray>
     </customFonts>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NGProjectDetailViewController" customModule="Nicola_Giancecchi" customModuleProvider="target">
             <connections>
+                <outlet property="btnLink" destination="GU2-RY-vQN" id="dA0-vT-xHS"/>
                 <outlet property="contentView" destination="xDO-U5-eXW" id="TBc-OH-SDi"/>
                 <outlet property="imgFirst" destination="cnf-Rx-rqS" id="mcL-GS-dIP"/>
                 <outlet property="imgIcon" destination="uNc-P3-1kz" id="BOc-eI-HFY"/>
@@ -24,18 +34,24 @@
                 <outlet property="lblSecondColumnText" destination="xIX-fs-alm" id="QTB-r0-iEu"/>
                 <outlet property="scrollView" destination="4G6-N0-Dsq" id="L1G-4l-3Mf"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="viewBox1" destination="96z-zj-MZj" id="nMk-9V-Hj6"/>
+                <outlet property="viewBox2" destination="J51-51-e9H" id="P5z-qo-yK6"/>
+                <outlet property="viewBox3" destination="cOV-3z-UQF" id="cBM-AU-JQb"/>
+                <outlet property="viewBox4" destination="DKN-NW-C76" id="LQF-Fc-Dq1"/>
+                <outlet property="viewBox5" destination="XMM-QK-DUm" id="Afe-uc-rhv"/>
+                <outlet property="viewBox6" destination="L3Z-3y-Iih" id="76Z-Bh-hJZ"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
-            <rect key="frame" x="0.0" y="0.0" width="1024" height="1984"/>
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="2208"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
                 <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4G6-N0-Dsq">
-                    <rect key="frame" x="0.0" y="0.0" width="1024" height="1984"/>
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="2208"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xDO-U5-eXW">
-                            <rect key="frame" x="0.0" y="0.0" width="1024" height="2013"/>
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="2208"/>
                             <subviews>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="AppIcon60x60.png" translatesAutoresizingMaskIntoConstraints="NO" id="uNc-P3-1kz">
                                     <rect key="frame" x="467" y="32" width="90" height="90"/>
@@ -81,7 +97,7 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="266" id="KNI-3I-3Eq"/>
                                     </constraints>
@@ -94,30 +110,178 @@
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sY0-bx-Ht8">
-                                    <rect key="frame" x="0.0" y="1626" width="1024" height="387"/>
+                                    <rect key="frame" x="0.0" y="1626" width="1024" height="582"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="haa-6c-Wt9">
-                                            <rect key="frame" x="41" y="67" width="100" height="100"/>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cHD-cV-zLv">
-                                            <rect key="frame" x="209" y="67" width="100" height="100"/>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gPh-bF-Hfx">
-                                            <rect key="frame" x="377" y="67" width="100" height="100"/>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ICy-Rk-FTJ">
-                                            <rect key="frame" x="545" y="67" width="100" height="100"/>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kjO-FA-OlI">
-                                            <rect key="frame" x="716" y="67" width="100" height="100"/>
-                                        </imageView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2At-Gz-CJj">
-                                            <rect key="frame" x="884" y="67" width="100" height="100"/>
-                                        </imageView>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96z-zj-MZj">
+                                            <rect key="frame" x="50" y="50" width="445" height="100"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="haa-6c-Wt9">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAN MARINO NEWS24" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h1x-nx-jFO">
+                                                    <rect key="frame" x="120" y="0.0" width="317" height="27"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTz-yi-KcG">
+                                                    <rect key="frame" x="120" y="27" width="317" height="65"/>
+                                                    <string key="text">SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="v76-Ft-GHE"/>
+                                                <constraint firstAttribute="width" constant="445" id="wWV-ax-E8F"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J51-51-e9H">
+                                            <rect key="frame" x="50" y="200" width="445" height="100"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OKr-Ml-Odh">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAN MARINO NEWS24" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WVb-b5-NPx">
+                                                    <rect key="frame" x="120" y="0.0" width="317" height="27"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gzS-zh-9Wc">
+                                                    <rect key="frame" x="120" y="30" width="317" height="22"/>
+                                                    <string key="text">SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GU2-RY-vQN">
+                                                    <rect key="frame" x="120" y="60" width="317" height="40"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Medium" family="Gotham" pointSize="15"/>
+                                                    <state key="normal" title="Find out in the App Store!">
+                                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </state>
+                                                    <connections>
+                                                        <action selector="didTapOpenAppLink:" destination="-1" eventType="touchUpInside" id="uvd-9V-94L"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="445" id="HF6-rE-A8f"/>
+                                                <constraint firstAttribute="height" constant="100" id="MTa-yn-aRQ"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cOV-3z-UQF">
+                                            <rect key="frame" x="50" y="350" width="445" height="100"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WIb-79-4C1">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAN MARINO NEWS24" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQA-BX-B5c">
+                                                    <rect key="frame" x="120" y="0.0" width="317" height="27"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FW2-8J-mzk">
+                                                    <rect key="frame" x="120" y="27" width="317" height="65"/>
+                                                    <string key="text">SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="BE6-gb-YCw"/>
+                                                <constraint firstAttribute="width" constant="445" id="YCL-0h-tE4"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DKN-NW-C76">
+                                            <rect key="frame" x="529" y="50" width="445" height="100"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xAy-qG-VkY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAN MARINO NEWS24" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DCN-xy-qMl">
+                                                    <rect key="frame" x="120" y="0.0" width="317" height="27"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W2i-zX-99J">
+                                                    <rect key="frame" x="120" y="27" width="317" height="65"/>
+                                                    <string key="text">SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="445" id="3fm-IF-ILA"/>
+                                                <constraint firstAttribute="height" constant="100" id="Mau-Xi-4lt"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XMM-QK-DUm">
+                                            <rect key="frame" x="529" y="200" width="445" height="100"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oyh-Oe-mGk">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAN MARINO NEWS24" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Me8-mm-gP0">
+                                                    <rect key="frame" x="120" y="0.0" width="317" height="27"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tJd-PD-vjY">
+                                                    <rect key="frame" x="120" y="27" width="317" height="65"/>
+                                                    <string key="text">SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="100" id="OzU-Dx-pPi"/>
+                                                <constraint firstAttribute="width" constant="445" id="YaV-AY-I51"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L3Z-3y-Iih">
+                                            <rect key="frame" x="529" y="350" width="445" height="100"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" tag="1" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nep-wm-Y0e">
+                                                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SAN MARINO NEWS24" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O9C-gY-Chb">
+                                                    <rect key="frame" x="120" y="0.0" width="317" height="27"/>
+                                                    <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YNi-T6-FwY">
+                                                    <rect key="frame" x="120" y="27" width="317" height="65"/>
+                                                    <string key="text">SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24 SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24SAN MARINO  NEWS24</string>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="445" id="YIv-23-MiX"/>
+                                                <constraint firstAttribute="height" constant="100" id="rzk-BX-wpV"/>
+                                            </constraints>
+                                        </view>
                                     </subviews>
-                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="387" id="dTd-cd-aVP"/>
+                                        <constraint firstItem="J51-51-e9H" firstAttribute="leading" secondItem="sY0-bx-Ht8" secondAttribute="leading" constant="50" id="2Tm-er-aN5"/>
+                                        <constraint firstAttribute="trailing" secondItem="L3Z-3y-Iih" secondAttribute="trailing" constant="50" id="FFw-m0-XOp"/>
+                                        <constraint firstItem="L3Z-3y-Iih" firstAttribute="top" secondItem="XMM-QK-DUm" secondAttribute="bottom" constant="50" id="KS0-9J-8AY"/>
+                                        <constraint firstItem="DKN-NW-C76" firstAttribute="top" secondItem="sY0-bx-Ht8" secondAttribute="top" constant="50" id="MH4-dr-l60"/>
+                                        <constraint firstItem="XMM-QK-DUm" firstAttribute="top" secondItem="DKN-NW-C76" secondAttribute="bottom" constant="50" id="SPc-kQ-BOb"/>
+                                        <constraint firstItem="cOV-3z-UQF" firstAttribute="top" secondItem="J51-51-e9H" secondAttribute="bottom" constant="50" id="WSr-64-eSg"/>
+                                        <constraint firstAttribute="trailing" secondItem="XMM-QK-DUm" secondAttribute="trailing" constant="50" id="WTu-vX-A79"/>
+                                        <constraint firstAttribute="trailing" secondItem="DKN-NW-C76" secondAttribute="trailing" constant="50" id="ZNq-CO-cgS"/>
+                                        <constraint firstItem="96z-zj-MZj" firstAttribute="leading" secondItem="sY0-bx-Ht8" secondAttribute="leading" constant="50" id="Zpl-sr-ceB"/>
+                                        <constraint firstItem="96z-zj-MZj" firstAttribute="top" secondItem="sY0-bx-Ht8" secondAttribute="top" constant="50" id="bEs-aR-DFb"/>
+                                        <constraint firstAttribute="height" constant="582" id="dTd-cd-aVP"/>
+                                        <constraint firstItem="J51-51-e9H" firstAttribute="top" secondItem="96z-zj-MZj" secondAttribute="bottom" constant="50" id="egp-0G-QOO"/>
+                                        <constraint firstItem="cOV-3z-UQF" firstAttribute="leading" secondItem="sY0-bx-Ht8" secondAttribute="leading" constant="50" id="nmd-EV-WFW"/>
                                     </constraints>
                                 </view>
                             </subviews>
@@ -162,7 +326,7 @@
             </constraints>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="433" y="1178"/>
+            <point key="canvasLocation" x="433" y="1290"/>
         </view>
     </objects>
     <resources>

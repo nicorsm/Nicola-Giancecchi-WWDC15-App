@@ -11,12 +11,15 @@ import UIKit
 class NGAboutMeViewController: UIViewController {
     
     @IBOutlet weak var imgProfile: UIImageView!
-    @IBOutlet weak var bubblesView: UIView!
     
+    @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var btnFindOutRSM: UIButton!
     @IBOutlet weak var viewBorn: UIView!
     @IBOutlet weak var viewAge: UIView!
     @IBOutlet weak var viewCountry: UIView!
+    
+    @IBOutlet weak var viewiOSExperience: UIView!
+    
     
     
     override func viewDidLoad() {
@@ -26,8 +29,8 @@ class NGAboutMeViewController: UIViewController {
         self.imgProfile.layer.cornerRadius = self.imgProfile.frame.size.width/2
         self.imgProfile.layer.masksToBounds = true
         
-        for v : UIView in self.bubblesView.subviews as! [UIView] {
-            if !v.isKindOfClass(UILabel) {
+        for v : UIView in self.contentView.subviews as! [UIView] {
+            if !v.isKindOfClass(UILabel) && v.tag==5 {
                 v.layer.cornerRadius = v.frame.size.width/2
                 v.layer.masksToBounds = true
             }
@@ -47,23 +50,23 @@ class NGAboutMeViewController: UIViewController {
         self.viewAge.transform = CGAffineTransformMakeScale(0.0, 0.0)
         self.viewCountry.transform = CGAffineTransformMakeScale(0.0, 0.0)
         self.btnFindOutRSM.transform = CGAffineTransformMakeScale(0.0, 0.0)
+        self.viewiOSExperience.transform = CGAffineTransformMakeScale(0.0, 0.0)
         
         
-        UIView.animateWithDuration(0.75, delay: 0.00, usingSpringWithDamping: 0.60, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
+        UIView.animateWithDuration(1.00, delay: 0.00, usingSpringWithDamping: 0.60, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
             self.viewBorn.transform = CGAffineTransformMakeScale(1.0, 1.0)
-            }, completion: { (Bool) -> Void in
-                
-                UIView.animateWithDuration(0.75, delay: 0.00, usingSpringWithDamping: 0.60, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
-                    self.viewAge.transform = CGAffineTransformMakeScale(1.0, 1.0)
-                    }, completion: { (Bool) -> Void in
-                        UIView.animateWithDuration(0.75, delay: 0.00, usingSpringWithDamping: 0.60, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
-                            self.viewCountry.transform = CGAffineTransformMakeScale(1.0, 1.0)
-                            self.btnFindOutRSM.transform = CGAffineTransformMakeScale(1.0, 1.0)
-                            }, completion: { (Bool) -> Void in
-                                
-                        })
-                })
-        })
+            }, completion: nil)
+        UIView.animateWithDuration(1.00, delay: 0.75, usingSpringWithDamping: 0.60, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
+            self.viewAge.transform = CGAffineTransformMakeScale(1.0, 1.0)
+            }, completion: nil)
+        UIView.animateWithDuration(1.00, delay: 1.75, usingSpringWithDamping: 0.60, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
+            self.viewCountry.transform = CGAffineTransformMakeScale(1.0, 1.0)
+            self.btnFindOutRSM.transform = CGAffineTransformMakeScale(1.0, 1.0)
+            }, completion: nil)
+        UIView.animateWithDuration(1.00, delay: 2.75, usingSpringWithDamping: 0.60, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
+            self.viewiOSExperience.transform = CGAffineTransformMakeScale(1.0, 1.0)
+            }, completion: nil)
+
     }
     
     override func didReceiveMemoryWarning() {

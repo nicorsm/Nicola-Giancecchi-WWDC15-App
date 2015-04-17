@@ -34,8 +34,41 @@ class DataManager : NSObject {
         let data : Array<Dictionary<String,AnyObject>> = self.parseFile("Projects") as! Array<Dictionary<String,AnyObject>>
         
         for v in data as [Dictionary<String,AnyObject>]{
-            let school : Project = Project.init(dict: v)
-            ar.append(school)
+            let project : Project = Project.init(dict: v)
+            ar.append(project)
+        }
+        return ar
+    }
+    
+    func getWWDCData() -> Array<WWDCDescriptor>{
+        var ar : Array = Array<WWDCDescriptor>()
+        let data : Array<Dictionary<String,AnyObject>> = self.parseFile("WWDCDescriptor") as! Array<Dictionary<String,AnyObject>>
+        
+        for v in data as [Dictionary<String,AnyObject>]{
+            let wwdc : WWDCDescriptor = WWDCDescriptor.init(dict: v)
+            ar.append(wwdc)
+        }
+        return ar
+    }
+    
+    func getWork() -> Array<Work>{
+        var ar : Array = Array<Work>()
+        let data : Array<Dictionary<String,AnyObject>> = self.parseFile("Work") as! Array<Dictionary<String,AnyObject>>
+        
+        for v in data as [Dictionary<String,AnyObject>]{
+            let work : Work = Work.init(dict: v)
+            ar.append(work)
+        }
+        return ar
+    }
+    
+    func getAwards() -> Array<Award>{
+        var ar : Array = Array<Award>()
+        let data : Array<Dictionary<String,AnyObject>> = self.parseFile("Awards") as! Array<Dictionary<String,AnyObject>>
+        
+        for v in data as [Dictionary<String,AnyObject>]{
+            let award : Award = Award.init(dict: v)
+            ar.append(award)
         }
         return ar
     }

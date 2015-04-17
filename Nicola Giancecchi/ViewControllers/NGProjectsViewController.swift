@@ -79,8 +79,16 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell : NGProjectCell = collectionView.dequeueReusableCellWithReuseIdentifier(identifier, forIndexPath: indexPath) as! NGProjectCell
         let project : Project = self.projects[indexPath.item]
-        cell.imgIcon.image = UIImage(named:project.appIcon)
-        cell.lblAppName.text = project.title
+        cell.populate(project)
+        
+        let idx : Int = self.viewControllers.indexOfObject(currentViewController)
+        if(indexPath.item == idx){
+            cell.backgroundColor = UIColor().hexStringToUIColor(project.appColor)
+            cell.lblAppName.textColor = UIColor().hexStringToUIColor(project.textColor)
+        } else {
+            cell.backgroundColor = UIColor.clearColor()
+            cell.lblAppName.textColor = UIColor.whiteColor()
+        }
         return cell
         
     }
@@ -91,14 +99,17 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         
         let idx : Int = self.viewControllers.indexOfObject(currentViewController)
         currentViewController = self.viewControllers[indexPath.item] as! NGProjectDetailViewController
-        self.pageController!.setViewControllers([currentViewController], direction: idx>indexPath.row ? .Reverse : .Forward, animated: true, completion: nil)
+        self.pageController!.setViewControllers([currentViewController], direction: idx>indexPath.row ? .Reverse : .Forward, animated: true) { (Bool) -> Void in
+            collectionView.reloadData()
+        }
         
     }
     
     func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
         if finished{
+            collectionView.reloadData()
             let idx : Int = self.viewControllers.indexOfObject(previousViewControllers.last!)
-            self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: idx+1, inSection: 0), atScrollPosition: .Left, animated: true)
+            //self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: idx+1, inSection: 0), atScrollPosition: .Left, animated: true)
             //MARK: CONTROLLARE FUNZIONAMENTO
         }
         

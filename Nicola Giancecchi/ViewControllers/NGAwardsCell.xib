@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham-Bold.otf">
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+        </mutableArray>
+        <mutableArray key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NGAwardsCell" customModule="Nicola_Giancecchi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                <subviews>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="meritamente.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fkN-JT-Mfb">
+                        <rect key="frame" x="0.0" y="64" width="1024" height="319"/>
+                    </imageView>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="sums.png" translatesAutoresizingMaskIntoConstraints="NO" id="C0l-6q-D91">
+                        <rect key="frame" x="30" y="335" width="200" height="200"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NUOVE IDEE NUOVE IMPRESE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WFm-vP-LKO">
+                        <rect key="frame" x="259" y="413" width="681" height="44"/>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="44"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1st Place for 4th Grade Classes" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUG-cf-dCH">
+                        <rect key="frame" x="260" y="475" width="580" height="28"/>
+                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="26"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="€ 3,000 for a school trip in Miami (FL)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Mf-cb-Azk">
+                        <rect key="frame" x="260" y="507" width="580" height="28"/>
+                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="26"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Iu5-U9-mog">
+                        <rect key="frame" x="0.0" y="565" width="1024" height="203"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Acquaviva Rep Sm" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nfJ-yv-sac">
+                                <rect key="frame" x="30" y="30" width="467" height="20"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Acquaviva Rep Sm" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcC-ak-DBO">
+                                <rect key="frame" x="527" y="30" width="467" height="20"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lcC-ak-DBO" firstAttribute="top" secondItem="Iu5-U9-mog" secondAttribute="top" constant="30" id="1bW-5T-9jt"/>
+                            <constraint firstItem="lcC-ak-DBO" firstAttribute="width" secondItem="nfJ-yv-sac" secondAttribute="width" id="5O9-gx-Ux9"/>
+                            <constraint firstAttribute="trailing" secondItem="lcC-ak-DBO" secondAttribute="trailing" constant="30" id="QDj-OZ-gKJ"/>
+                            <constraint firstItem="nfJ-yv-sac" firstAttribute="top" secondItem="Iu5-U9-mog" secondAttribute="top" constant="30" id="TLT-hn-FUs"/>
+                            <constraint firstAttribute="height" constant="203" id="cki-XJ-2gh"/>
+                            <constraint firstItem="nfJ-yv-sac" firstAttribute="leading" secondItem="Iu5-U9-mog" secondAttribute="leading" constant="30" id="hWO-8E-AqJ"/>
+                            <constraint firstAttribute="bottom" secondItem="nfJ-yv-sac" secondAttribute="bottom" constant="30" id="m30-fN-uZW"/>
+                            <constraint firstAttribute="bottom" secondItem="lcC-ak-DBO" secondAttribute="bottom" constant="30" id="u96-0T-fSq"/>
+                            <constraint firstItem="lcC-ak-DBO" firstAttribute="leading" secondItem="nfJ-yv-sac" secondAttribute="trailing" constant="30" id="xOV-t8-0OB"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZWf-gX-kmW">
+                        <rect key="frame" x="836" y="503" width="158" height="32"/>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="16"/>
+                        <state key="normal" title="Talking about...">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="1" green="0.45618182917943118" blue="0.46172393686336011" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Iu5-U9-mog" secondAttribute="trailing" id="5Ll-sH-YhR"/>
+                <constraint firstAttribute="bottom" secondItem="Iu5-U9-mog" secondAttribute="bottom" id="VeK-LI-Hsf"/>
+                <constraint firstItem="Iu5-U9-mog" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="wJ9-cJ-vkR"/>
+            </constraints>
+            <connections>
+                <outlet property="btnTalkingAbout" destination="ZWf-gX-kmW" id="aGQ-qS-8ue"/>
+                <outlet property="imgBackground" destination="fkN-JT-Mfb" id="bbq-uF-5oc"/>
+                <outlet property="imgLogo" destination="C0l-6q-D91" id="qOZ-EZ-HeM"/>
+                <outlet property="lblSubtitle1" destination="MUG-cf-dCH" id="Rmg-SV-Rf5"/>
+                <outlet property="lblSubtitle2" destination="2Mf-cb-Azk" id="Giz-O2-fA6"/>
+                <outlet property="lblTitle" destination="WFm-vP-LKO" id="2Jl-kb-mF7"/>
+                <outlet property="textArea1" destination="nfJ-yv-sac" id="HZn-9L-DMd"/>
+                <outlet property="textArea2" destination="lcC-ak-DBO" id="NY8-ZS-M7R"/>
+            </connections>
+            <point key="canvasLocation" x="433" y="428"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="meritamente.jpg" width="1000" height="666"/>
+        <image name="sums.png" width="1132" height="1128"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

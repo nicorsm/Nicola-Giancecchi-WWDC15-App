@@ -1,38 +1,471 @@
 [
   {
+    "title": "MyDaylife",
+    "subtitle": "Placeholder",
+    "appIcon": "app_mdl",
+    "appColor": "#85cb8c",
+    "textColor": "#ffffff",
+    "appLink": "itms://itunes.apple.com/it/app/mydaylife/id493882586?mt=8",
+    "firstImage": "iphone_modello.png",
+    "secondImage": "ipad_modello.png",
+    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "features": [
+      {
+        "title": "Client",
+        "subtitle": "Mr. APPs srl",
+        "icon": "logo_mrapps.png"
+      },
+      {
+        "title": "Current status",
+        "subtitle": "Published",
+        "icon": "icn_appstore"
+      },
+      {
+        "title": "Available for",
+        "subtitle": "iPhone",
+        "icon": "icn_mobile"
+      },
+      {
+        "title": "Stats",
+        "subtitle": "- 500.000 downloads",
+        "icon": "icn_trophy"
+      },
+      {
+        "title": "Pubblication date",
+        "subtitle": "April 2013",
+        "icon": "icn_calendar"
+      }
+    ]
+  },
+  {
+    "title": "Blurred Life",
+    "subtitle": "Placeholder",
+    "appIcon": "app_blurred",
+    "appColor": "#90d8ca",
+    "textColor": "#000000",
+    "appLink": "itms://itunes.apple.com/it/app/blurred-life/id816485262?mt=8",
+    "firstImage": "iphone_modello.png",
+    "secondImage": "ipad_modello.png",
+    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "features": [
+      {
+        "title": "Client",
+        "subtitle": "Mr. APPs srl",
+        "icon": "logo_mrapps.png"
+      },
+      {
+        "title": "Current status",
+        "subtitle": "Published",
+        "icon": "icn_appstore"
+      },
+      {
+        "title": "Available for",
+        "subtitle": "iPhone",
+        "icon": "icn_mobile"
+      },
+      {
+        "title": "Stats",
+        "subtitle": "- 40.000 downloads",
+        "icon": "icn_trophy"
+      },
+      {
+        "title": "Pubblication date",
+        "subtitle": "March 2014",
+        "icon": "icn_calendar"
+      }
+    ]
+  },
+  {
     "title": "San Marino News24",
     "subtitle": "The flipping board for San Marino",
-    "appIcon": "icn_smn24.png",
+    "appIcon": "app_smn24",
     "appColor": "#4eb3e7",
     "textColor": "#ffffff",
     "appLink": "itms://itunes.apple.com/us/app/san-marino-news24/id938086912?mt=8",
     "firstImage": "iphone_modello.png",
     "secondImage": "ipad_modello.png",
     "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
-    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! "
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "features": [
+      {
+        "title": "Client",
+        "subtitle": "Mr. APPs srl",
+        "icon": "logo_mrapps.png"
+      },
+      {
+        "title": "Current status",
+        "subtitle": "Published",
+        "icon": "icn_appstore"
+      },
+      {
+        "title": "Available for",
+        "subtitle": "iPhone and iPad",
+        "icon": "icn_universal"
+      },
+      {
+        "title": "Stats",
+        "subtitle": "- Top 100 in News Category\n- \"Popular near me\" in San Marino",
+        "icon": "icn_trophy"
+      },
+      {
+        "title": "Pubblication date",
+        "subtitle": "February 2015",
+        "icon": "icn_calendar"
+      }
+    ]
+  },
+  {
+    "title": "San Marino Differenzia",
+    "subtitle": "Placeholder",
+    "appIcon": "app_differenzia",
+    "appColor": "#e5d8c5",
+    "textColor": "#000000",
+    "appLink": "itms://itunes.apple.com/it/app/san-marino-differenzia/id907426312?mt=8",
+    "firstImage": "iphone_modello.png",
+    "secondImage": "ipad_modello.png",
+    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "features": [
+      {
+        "title": "Client",
+        "subtitle": "Mr. APPs srl",
+        "icon": "logo_mrapps.png"
+      },
+      {
+        "title": "Current status",
+        "subtitle": "Published",
+        "icon": "icn_appstore"
+      },
+      {
+        "title": "Available for",
+        "subtitle": "iPhone",
+        "icon": "icn_mobile"
+      },
+      {
+        "title": "Stats",
+        "subtitle": "Placeholder",
+        "icon": "icn_trophy"
+      },
+      {
+        "title": "Pubblication date",
+        "subtitle": "June 2014",
+        "icon": "icn_calendar"
+      }
+    ]
   },
   {
     "title": "That's Music",
     "subtitle": "Your best friend for live music around you.",
-    "appIcon": "icn_tm.png",
- "appColor": "#ffe083",
- "textColor": "#000000",
+    "appIcon": "app_thats",
+    "appColor": "#ffe083",
+    "textColor": "#000000",
     "appLink": "itms://itunes.apple.com/it/app/thats-music/id876420230?mt=8",
     "firstImage": "iphone_modello.png",
     "secondImage": "ipad_modello.png",
     "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
-    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! "
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "features": [
+      {
+        "title": "Client",
+        "subtitle": "That's Music S.r.l.s.",
+        "icon": "logo_mrapps.png"
+      },
+      {
+        "title": "Current status",
+        "subtitle": "Published",
+        "icon": "icn_appstore"
+      },
+      {
+        "title": "Available for",
+        "subtitle": "iPhone and iPad",
+        "icon": "icn_universal"
+      },
+      {
+        "title": "Stats",
+        "subtitle": "Placeholder",
+        "icon": "icn_trophy"
+      },
+      {
+        "title": "Pubblication date",
+        "subtitle": "Placeholder",
+        "icon": "icn_calendar"
+      }
+    ]
+  },
+  {
+    "title": "Comparyson",
+    "subtitle": "Compare and enjoy.",
+    "appIcon": "app_comparyson",
+    "appColor": "#60a6c0",
+    "textColor": "#000000",
+    "appLink": "itms://itunes.apple.com/it/app/comparyson/id914925518?mt=8",
+    "firstImage": "iphone_modello.png",
+    "secondImage": "ipad_modello.png",
+    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "features": [
+      {
+        "title": "Client",
+        "subtitle": "Comparyson S.r.l.",
+        "icon": "logo_mrapps.png"
+      },
+      {
+        "title": "Current status",
+        "subtitle": "Published",
+        "icon": "icn_appstore"
+      },
+      {
+        "title": "Available for",
+        "subtitle": "iPhone and iPad",
+        "icon": "icn_universal"
+      },
+      {
+        "title": "Stats",
+        "subtitle": "Placeholder",
+        "icon": "icn_trophy"
+      },
+      {
+        "title": "Pubblication date",
+        "subtitle": "October 2014",
+        "icon": "icn_calendar"
+      }
+    ]
   },
   {
     "title": "More In Italy",
     "subtitle": "Revamp your house today. It's easy!",
-    "appIcon": "icn_mii.png",
- "appColor": "#5a9bd5",
- "textColor": "#ffffff",
+    "appIcon": "app_mii",
+    "appColor": "#5a9bd5",
+    "textColor": "#ffffff",
     "appLink": "itms://itunes.apple.com/it/app/more-in-italy/id804714522?mt=8",
     "firstImage": "iphone_modello.png",
     "secondImage": "ipad_modello.png",
     "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
-    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! "
-  }
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "features": [
+      {
+        "title": "Client",
+        "subtitle": "Mr. APPs srl",
+        "icon": "logo_mrapps.png"
+      },
+      {
+        "title": "Current status",
+        "subtitle": "Published",
+        "icon": "icn_appstore"
+      },
+      {
+        "title": "Available for",
+        "subtitle": "iPhone",
+        "icon": "icn_mobile"
+      },
+      {
+        "title": "Stats",
+        "subtitle": "- Top 100 in News Category\n- \"Popular near me\" in San Marino",
+        "icon": "icn_trophy"
+      },
+      {
+        "title": "Pubblication date",
+        "subtitle": "Februrary 2015",
+        "icon": "icn_calendar"
+      }
+    ]
+  },
+  {
+    "title": "Tempo di Sconti",
+    "subtitle": "Placeholder",
+    "appIcon": "app_tds",
+    "appColor": "#8ec96f",
+    "textColor": "#000000",
+    "appLink": "itms://itunes.apple.com/it/app/tempo-di-sconti/id698198881?mt=8",
+    "firstImage": "iphone_modello.png",
+    "secondImage": "ipad_modello.png",
+    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "features": [
+      {
+        "title": "Client",
+        "subtitle": "Tempo di Sconti",
+        "icon": "logo_mrapps.png"
+      },
+      {
+        "title": "Current status",
+        "subtitle": "Published",
+        "icon": "icn_appstore"
+      },
+      {
+        "title": "Available for",
+        "subtitle": "iPhone and iPad",
+        "icon": "icn_mobile"
+      },
+      {
+        "title": "Stats",
+        "subtitle": "Placeholder",
+        "icon": "icn_trophy"
+      },
+      {
+        "title": "Pubblication date",
+        "subtitle": "February 2015",
+        "icon": "icn_calendar"
+      }
+    ]
+  },
+  {
+    "title": "iNews",
+    "subtitle": "Placeholder",
+    "appIcon": "app_inews",
+    "appColor": "#91c3f2",
+    "textColor": "#ffffff",
+    "appLink": "itms://itunes.apple.com/it/app/inews-resta-informato-in-mobilita/id694124834?mt=8",
+    "firstImage": "iphone_modello.png",
+    "secondImage": "ipad_modello.png",
+    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "features": [
+      {
+        "title": "Client",
+        "subtitle": "Mobinext S.r.l.s. di Daniele Leone",
+        "icon": "logo_mrapps.png"
+      },
+      {
+        "title": "Current status",
+        "subtitle": "Published",
+        "icon": "icn_appstore"
+      },
+      {
+        "title": "Available for",
+        "subtitle": "iPhone and iPad",
+        "icon": "icn_mobile"
+      },
+      {
+        "title": "Stats",
+        "subtitle": "Placeholder",
+        "icon": "icn_trophy"
+      },
+      {
+        "title": "Pubblication date",
+        "subtitle": "February 2015",
+        "icon": "icn_calendar"
+      }
+    ]
+ },
+ {
+ "title": "Reggini Auto",
+ "subtitle": "Placeholder",
+ "appIcon": "app_reggini",
+ "appColor": "#cfcfcf",
+ "textColor": "#000000",
+ "appLink": "itms://itunes.apple.com/us/app/reggini-auto/id896617342?mt=8",
+ "firstImage": "iphone_modello.png",
+ "secondImage": "ipad_modello.png",
+ "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+ "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+ "features": [
+              {
+              "title": "Client",
+              "subtitle": "Reggini S.p.A.",
+              "icon": "logo_mrapps.png"
+              },
+              {
+              "title": "Current status",
+              "subtitle": "Published",
+              "icon": "icn_appstore"
+              },
+              {
+              "title": "Available for",
+              "subtitle": "iPhone",
+              "icon": "icn_mobile"
+              },
+              {
+              "title": "Stats",
+              "subtitle": "Placeholder",
+              "icon": "icn_trophy"
+              },
+              {
+              "title": "Pubblication date",
+              "subtitle": "August 2014",
+              "icon": "icn_calendar"
+              }
+              ]
+ },
+ {
+ "title": "SEAMan",
+ "subtitle": "Placeholder",
+ "appIcon": "app_seaman",
+ "appColor": "#b8bbcc",
+ "textColor": "#ffffff",
+ "appLink": "",
+ "firstImage": "iphone_modello.png",
+ "secondImage": "ipad_modello.png",
+ "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+ "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+ "features": [
+              {
+              "title": "Client",
+              "subtitle": "Engynya S.r.l. for Guardia di Finanza",
+              "icon": "logo_mrapps.png"
+              },
+              {
+              "title": "Current status",
+              "subtitle": "Published, Enterprise",
+              "icon": "icn_appstore"
+              },
+              {
+              "title": "Available for",
+              "subtitle": "iPad",
+              "icon": "icn_mobile"
+              },
+              {
+              "title": "Stats",
+              "subtitle": "Placeholder",
+              "icon": "icn_trophy"
+              },
+              {
+              "title": "Pubblication date",
+              "subtitle": "January 2014",
+              "icon": "icn_calendar"
+              }
+              ]
+ },
+ {
+ "title": "Marlù Agenti",
+ "subtitle": "Placeholder",
+ "appIcon": "app_marlu",
+ "appColor": "#dadada",
+ "textColor": "#000000",
+ "appLink": "itms://itunes.apple.com/it/app/marlu-agenti/id795772448?mt=8",
+ "firstImage": "iphone_modello.png",
+ "secondImage": "ipad_modello.png",
+ "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+ "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+ "features": [
+              {
+              "title": "Client",
+              "subtitle": "Marlù S.r.l.",
+              "icon": "logo_mrapps.png"
+              },
+              {
+              "title": "Current status",
+              "subtitle": "Published",
+              "icon": "icn_appstore"
+              },
+              {
+              "title": "Available for",
+              "subtitle": "iPad",
+              "icon": "icn_mobile"
+              },
+              {
+              "title": "Stats",
+              "subtitle": "Placeholder",
+              "icon": "icn_trophy"
+              },
+              {
+              "title": "Pubblication date",
+              "subtitle": "January 2014",
+              "icon": "icn_calendar"
+              }
+              ]
+ }
+
 ]

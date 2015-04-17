@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Gotham-Bold.otf">
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+        </mutableArray>
+        <mutableArray key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="NGWorkCell" customModule="Nicola_Giancecchi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fotovoltaico.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S3C-FV-6O7">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="768"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="400" id="t7t-o8-A3X"/>
+                        </constraints>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mrapps.png" translatesAutoresizingMaskIntoConstraints="NO" id="o8E-O5-qGT">
+                        <rect key="frame" x="300" y="110" width="200" height="200"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="2Ze-OM-7p8"/>
+                            <constraint firstAttribute="width" constant="200" id="byy-D7-dlP"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4oq-NN-FtR">
+                        <rect key="frame" x="400" y="356" width="624" height="412"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Whm-Lx-2RB">
+                                <rect key="frame" x="132" y="0.0" width="1" height="412"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.69803921570000005" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="1" id="wMS-jC-OXo"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHAT IS?" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFr-uP-UsT">
+                                <rect key="frame" x="0.0" y="65" width="102" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="agF-Ge-o15"/>
+                                    <constraint firstAttribute="width" constant="102" id="iHG-jV-fLX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="15"/>
+                                <color key="textColor" red="0.29411764709999999" green="0.69803921570000005" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mr. Apps test" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wiu-WR-Uql">
+                                <rect key="frame" x="163" y="66" width="431" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="431" id="Ctk-YJ-I1I"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHERE?" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YzP-rl-1cV">
+                                <rect key="frame" x="0.0" y="30" width="102" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="102" id="CO8-JK-aCF"/>
+                                    <constraint firstAttribute="height" constant="22" id="R85-Ho-BHG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="15"/>
+                                <color key="textColor" red="0.29411764709999999" green="0.69803921570000005" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acquaviva, Republic of San Marino (SMR)" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ztB-Wj-1aI">
+                                <rect key="frame" x="163" y="30" width="431" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="431" id="ot5-da-vsR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="WHY?" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHs-OH-muA">
+                                <rect key="frame" x="0.0" y="101" width="102" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="79a-jR-Roi"/>
+                                    <constraint firstAttribute="width" constant="102" id="WVe-U6-rFv"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="15"/>
+                                <color key="textColor" red="0.29411764709999999" green="0.69803921570000005" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Acquaviva Rep Sm" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dxD-OG-5Dz">
+                                <rect key="frame" x="163" y="102" width="431" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="431" id="MZe-hr-iHc"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="17"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="ztB-Wj-1aI" secondAttribute="trailing" constant="30" id="AaI-qy-shQ"/>
+                            <constraint firstItem="aFr-uP-UsT" firstAttribute="leading" secondItem="4oq-NN-FtR" secondAttribute="leading" id="HHB-P6-kSU"/>
+                            <constraint firstItem="YzP-rl-1cV" firstAttribute="leading" secondItem="4oq-NN-FtR" secondAttribute="leading" id="Hf4-Vh-RLi"/>
+                            <constraint firstAttribute="height" constant="412" id="HrH-zD-X5Y"/>
+                            <constraint firstItem="Whm-Lx-2RB" firstAttribute="leading" secondItem="4oq-NN-FtR" secondAttribute="leading" constant="132" id="OxU-RA-Ta0"/>
+                            <constraint firstItem="eHs-OH-muA" firstAttribute="leading" secondItem="4oq-NN-FtR" secondAttribute="leading" id="Qcq-7g-53H"/>
+                            <constraint firstItem="Whm-Lx-2RB" firstAttribute="top" secondItem="4oq-NN-FtR" secondAttribute="top" id="WwU-ME-v3a"/>
+                            <constraint firstAttribute="trailing" secondItem="wiu-WR-Uql" secondAttribute="trailing" constant="30" id="ZMk-qt-Un3"/>
+                            <constraint firstItem="YzP-rl-1cV" firstAttribute="top" secondItem="4oq-NN-FtR" secondAttribute="top" constant="30" id="Zwd-Xg-WaY"/>
+                            <constraint firstItem="aFr-uP-UsT" firstAttribute="top" secondItem="ztB-Wj-1aI" secondAttribute="bottom" constant="15" id="aNq-eZ-Pc4"/>
+                            <constraint firstItem="dxD-OG-5Dz" firstAttribute="top" secondItem="eHs-OH-muA" secondAttribute="top" constant="1" id="cOU-Wf-eUI"/>
+                            <constraint firstItem="eHs-OH-muA" firstAttribute="top" secondItem="wiu-WR-Uql" secondAttribute="bottom" constant="15" id="hX7-uI-YfG"/>
+                            <constraint firstItem="ztB-Wj-1aI" firstAttribute="top" secondItem="YzP-rl-1cV" secondAttribute="top" id="l3P-Uy-t2P"/>
+                            <constraint firstItem="aFr-uP-UsT" firstAttribute="top" secondItem="wiu-WR-Uql" secondAttribute="top" constant="-1" id="uMX-Xn-Sg0"/>
+                            <constraint firstItem="ztB-Wj-1aI" firstAttribute="top" secondItem="4oq-NN-FtR" secondAttribute="top" constant="30" id="vTf-Ef-VTA"/>
+                            <constraint firstAttribute="trailing" secondItem="dxD-OG-5Dz" secondAttribute="trailing" constant="30" id="xqn-5i-e7o"/>
+                            <constraint firstAttribute="bottom" secondItem="Whm-Lx-2RB" secondAttribute="bottom" id="yVh-c6-aWH"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MR. APPS S.R.L." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOd-qZ-MSf">
+                        <rect key="frame" x="564" y="132" width="430" height="37"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="37" id="B3z-Yh-wBV"/>
+                            <constraint firstAttribute="width" constant="430" id="LS6-x8-fsR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="44"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2013 - Currently working" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nND-Q8-4DC">
+                        <rect key="frame" x="566" y="177" width="432" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="432" id="bwJ-fP-Uks"/>
+                            <constraint firstAttribute="height" constant="28" id="on2-fv-6hK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="26"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile Software Developer" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eq8-ej-IgQ">
+                        <rect key="frame" x="566" y="209" width="432" height="28"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="28" id="i9m-6W-JNY"/>
+                            <constraint firstAttribute="width" constant="432" id="wOW-Zd-SVa"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="26"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8uH-kc-baQ">
+                        <rect key="frame" x="567" y="254" width="124" height="32"/>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="16"/>
+                        <state key="normal" title="Website">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="39e-ze-m1X">
+                        <rect key="frame" x="708" y="254" width="124" height="32"/>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="16"/>
+                        <state key="normal" title="Projects">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" red="0.29411764709999999" green="0.69803921570000005" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="EOd-qZ-MSf" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="132" id="1n5-Nx-JjP"/>
+                <constraint firstItem="S3C-FV-6O7" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="EEm-zp-Yre"/>
+                <constraint firstAttribute="bottom" secondItem="S3C-FV-6O7" secondAttribute="bottom" id="EHs-i6-tNU"/>
+                <constraint firstItem="4oq-NN-FtR" firstAttribute="top" secondItem="o8E-O5-qGT" secondAttribute="bottom" constant="46" id="FBo-OQ-hao"/>
+                <constraint firstAttribute="trailing" secondItem="4oq-NN-FtR" secondAttribute="trailing" id="LY2-By-Bwg"/>
+                <constraint firstItem="S3C-FV-6O7" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="LfH-A3-a8R"/>
+                <constraint firstAttribute="trailing" secondItem="EOd-qZ-MSf" secondAttribute="trailing" constant="30" id="M1z-4a-QVr"/>
+                <constraint firstItem="o8E-O5-qGT" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="110" id="NyO-Ba-rvL"/>
+                <constraint firstAttribute="bottom" secondItem="4oq-NN-FtR" secondAttribute="bottom" id="UeW-Ys-cHH"/>
+                <constraint firstItem="nND-Q8-4DC" firstAttribute="top" secondItem="EOd-qZ-MSf" secondAttribute="bottom" constant="8" id="dPJ-o5-xbU"/>
+                <constraint firstItem="4oq-NN-FtR" firstAttribute="leading" secondItem="S3C-FV-6O7" secondAttribute="trailing" id="kCt-iL-ivd"/>
+                <constraint firstItem="o8E-O5-qGT" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="300" id="qkp-es-WIL"/>
+                <constraint firstAttribute="trailing" secondItem="nND-Q8-4DC" secondAttribute="trailing" constant="26" id="uz3-bh-lzL"/>
+                <constraint firstItem="Eq8-ej-IgQ" firstAttribute="top" secondItem="nND-Q8-4DC" secondAttribute="bottom" constant="4" id="vnn-Wv-jDw"/>
+                <constraint firstAttribute="trailing" secondItem="Eq8-ej-IgQ" secondAttribute="trailing" constant="26" id="xad-15-ZTe"/>
+            </constraints>
+            <connections>
+                <outlet property="btnProjects" destination="39e-ze-m1X" id="Hqn-0B-Alg"/>
+                <outlet property="btnWebsite" destination="8uH-kc-baQ" id="7kW-uG-GY3"/>
+                <outlet property="imgBackground" destination="S3C-FV-6O7" id="hT4-1D-r8r"/>
+                <outlet property="imgCompany" destination="o8E-O5-qGT" id="9O5-GJ-sET"/>
+                <outlet property="lblBrief" destination="wiu-WR-Uql" id="9X5-0B-A2D"/>
+                <outlet property="lblLocation" destination="ztB-Wj-1aI" id="J2h-WY-ZmF"/>
+                <outlet property="lblPosition" destination="Eq8-ej-IgQ" id="Mrx-A5-b8V"/>
+                <outlet property="lblTime" destination="nND-Q8-4DC" id="FwA-za-4eT"/>
+                <outlet property="lblTitle" destination="EOd-qZ-MSf" id="Uad-qw-mBY"/>
+                <outlet property="lblWhy" destination="dxD-OG-5Dz" id="2j1-ws-P1Z"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="fotovoltaico.jpg" width="960" height="676"/>
+        <image name="mrapps.png" width="200" height="200"/>
+    </resources>
+</document>

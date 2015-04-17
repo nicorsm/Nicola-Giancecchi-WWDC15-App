@@ -8,7 +8,7 @@
 
 import UIKit
 
-class School {
+class School : JSONObject {
     var school : String = ""
     var institution : String = ""
     var course : String = ""
@@ -19,7 +19,7 @@ class School {
     var img3 : String = ""
     var projects : Array<String> = []
     
-    init(dict : Dictionary<String,AnyObject>){
+    required init(dict : Dictionary<String,AnyObject>){
         school = dict["school"]! as! String
         institution = dict["institution"] as! String
         course = dict["course"] as! String

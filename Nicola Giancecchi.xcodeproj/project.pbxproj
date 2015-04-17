@@ -7,19 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C07403F1AE189780092C591 /* NGWorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C07403D1AE189780092C591 /* NGWorkCell.swift */; };
+		7C0740401AE189780092C591 /* NGWorkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C07403E1AE189780092C591 /* NGWorkCell.xib */; };
+		7C0740421AE18D120092C591 /* mrapps.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740411AE18D120092C591 /* mrapps.png */; };
+		7C0740441AE18DFA0092C591 /* skylimit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740431AE18DFA0092C591 /* skylimit.jpg */; };
+		7C0740461AE18EDF0092C591 /* fotovoltaico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740451AE18EDF0092C591 /* fotovoltaico.jpg */; };
+		7C0740481AE18F540092C591 /* NGWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740471AE18F540092C591 /* NGWorkViewController.swift */; };
+		7C07404A1AE1926D0092C591 /* Work.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740491AE1926D0092C591 /* Work.json */; };
+		7C07404C1AE192840092C591 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C07404B1AE192840092C591 /* Work.swift */; };
+		7C07404E1AE196C20092C591 /* datatrade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C07404D1AE196C20092C591 /* datatrade.jpg */; };
+		7C0740501AE197070092C591 /* dt21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C07404F1AE197070092C591 /* dt21.jpg */; };
+		7C0740521AE1977B0092C591 /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740511AE1977B0092C591 /* JSONObject.swift */; };
+		7C0740551AE1A6130092C591 /* NGAwardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740541AE1A6130092C591 /* NGAwardsViewController.swift */; };
+		7C0740581AE1A6A60092C591 /* NGAwardsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740561AE1A6A60092C591 /* NGAwardsCell.swift */; };
+		7C0740591AE1A6A60092C591 /* NGAwardsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740571AE1A6A60092C591 /* NGAwardsCell.xib */; };
+		7C07405B1AE1A8F80092C591 /* meritamente.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C07405A1AE1A8F80092C591 /* meritamente.jpg */; };
+		7C07405D1AE1A9790092C591 /* nini13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C07405C1AE1A9790092C591 /* nini13.jpg */; };
+		7C07405F1AE1A9980092C591 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C07405E1AE1A9980092C591 /* Awards.json */; };
+		7C0740611AE1AAAA0092C591 /* sums.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740601AE1AAAA0092C591 /* sums.png */; };
+		7C0740631AE1B1F40092C591 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740621AE1B1F40092C591 /* Award.swift */; };
+		7C0740651AE1B47B0092C591 /* nini13logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740641AE1B47B0092C591 /* nini13logo.png */; };
+		7C0740671AE1BBE00092C591 /* confindustria_talenti.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740661AE1BBE00092C591 /* confindustria_talenti.png */; };
+		7C0740691AE1BC4C0092C591 /* logo_confindustria.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740681AE1BC4C0092C591 /* logo_confindustria.png */; };
 		7C16E9821ADEF209004A551A /* NGProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9811ADEF209004A551A /* NGProjectsViewController.swift */; };
 		7C16E9851ADEF3D3004A551A /* NGProjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9831ADEF3D3004A551A /* NGProjectDetailViewController.swift */; };
 		7C16E9861ADEF3D3004A551A /* NGProjectDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9841ADEF3D3004A551A /* NGProjectDetailViewController.xib */; };
 		7C16E9891ADEF4BE004A551A /* NGProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9871ADEF4BE004A551A /* NGProjectCell.swift */; };
 		7C16E98A1ADEF4BE004A551A /* NGProjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9881ADEF4BE004A551A /* NGProjectCell.xib */; };
-		7C16E98E1ADEFB25004A551A /* icn_mii.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E98D1ADEFB25004A551A /* icn_mii.png */; };
 		7C16E9901ADEFFA8004A551A /* ipad_modello.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E98F1ADEFFA8004A551A /* ipad_modello.png */; };
 		7C16E9921ADEFFB1004A551A /* iphone_modello.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9911ADEFFB1004A551A /* iphone_modello.png */; };
 		7C16E9941ADF0E2F004A551A /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9931ADF0E2F004A551A /* Project.swift */; };
 		7C16E9961ADF1518004A551A /* Projects.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9951ADF1518004A551A /* Projects.json */; };
-		7C16E99A1ADF1592004A551A /* icn_smn24.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9991ADF1592004A551A /* icn_smn24.png */; };
-		7C16E99C1ADF15B6004A551A /* icn_tm.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E99B1ADF15B6004A551A /* icn_tm.png */; };
 		7C16E99E1ADF1A40004A551A /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */; };
+		7C64760D1ADFABDE003CB5ED /* UIImage+ColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64760C1ADFABDE003CB5ED /* UIImage+ColorChange.swift */; };
 		7C6C04C01ADD84CC00C61B0B /* Study.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04BF1ADD84CC00C61B0B /* Study.json */; };
 		7C6C04C41ADD866200C61B0B /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04C31ADD866200C61B0B /* School.swift */; };
 		7C6C04C61ADD867700C61B0B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04C51ADD867700C61B0B /* DataManager.swift */; };
@@ -42,6 +62,14 @@
 		7C6C04F11ADDCC4100C61B0B /* night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04F01ADDCC4100C61B0B /* night.jpg */; };
 		7C6C04F31ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04F21ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg */; };
 		7C6C04F51ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04F41ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift */; };
+		7CC8A9711ADFF00C00F1FCE7 /* NGWWDCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC8A9701ADFF00C00F1FCE7 /* NGWWDCViewController.swift */; };
+		7CC8A9741AE0204900F1FCE7 /* NGConferenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC8A9721AE0204900F1FCE7 /* NGConferenceCell.swift */; };
+		7CC8A9751AE0204900F1FCE7 /* NGConferenceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A9731AE0204900F1FCE7 /* NGConferenceCell.xib */; };
+		7CC8A9771AE021A000F1FCE7 /* nico_ticket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A9761AE021A000F1FCE7 /* nico_ticket.jpg */; };
+		7CC8A9791AE021A800F1FCE7 /* nico_infinite_loop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A9781AE021A800F1FCE7 /* nico_infinite_loop.jpg */; };
+		7CC8A97B1AE0255900F1FCE7 /* WWDCDescriptor.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A97A1AE0255900F1FCE7 /* WWDCDescriptor.json */; };
+		7CC8A97D1AE0266200F1FCE7 /* nico_moscone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A97C1AE0266200F1FCE7 /* nico_moscone.jpg */; };
+		7CC8A97F1AE026B400F1FCE7 /* WWDCDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC8A97E1AE026B400F1FCE7 /* WWDCDescriptor.swift */; };
 		7CFC9B951ADD4EB20017DD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9B931ADD4EB20017DD5B /* Main.storyboard */; };
 		7CFC9B971ADD4EB20017DD5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9B961ADD4EB20017DD5B /* Images.xcassets */; };
 		7CFC9B9A1ADD4EB20017DD5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9B981ADD4EB20017DD5B /* LaunchScreen.xib */; };
@@ -84,19 +112,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C07403D1AE189780092C591 /* NGWorkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGWorkCell.swift; path = ViewControllers/NGWorkCell.swift; sourceTree = "<group>"; };
+		7C07403E1AE189780092C591 /* NGWorkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGWorkCell.xib; path = ViewControllers/NGWorkCell.xib; sourceTree = "<group>"; };
+		7C0740411AE18D120092C591 /* mrapps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mrapps.png; sourceTree = "<group>"; };
+		7C0740431AE18DFA0092C591 /* skylimit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skylimit.jpg; sourceTree = "<group>"; };
+		7C0740451AE18EDF0092C591 /* fotovoltaico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fotovoltaico.jpg; sourceTree = "<group>"; };
+		7C0740471AE18F540092C591 /* NGWorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGWorkViewController.swift; path = ViewControllers/NGWorkViewController.swift; sourceTree = "<group>"; };
+		7C0740491AE1926D0092C591 /* Work.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Work.json; sourceTree = "<group>"; };
+		7C07404B1AE192840092C591 /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Work.swift; path = Model/Work.swift; sourceTree = "<group>"; };
+		7C07404D1AE196C20092C591 /* datatrade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = datatrade.jpg; sourceTree = "<group>"; };
+		7C07404F1AE197070092C591 /* dt21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dt21.jpg; sourceTree = "<group>"; };
+		7C0740511AE1977B0092C591 /* JSONObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONObject.swift; path = Model/JSONObject.swift; sourceTree = "<group>"; };
+		7C0740541AE1A6130092C591 /* NGAwardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGAwardsViewController.swift; path = ViewControllers/NGAwardsViewController.swift; sourceTree = "<group>"; };
+		7C0740561AE1A6A60092C591 /* NGAwardsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGAwardsCell.swift; path = ViewControllers/NGAwardsCell.swift; sourceTree = "<group>"; };
+		7C0740571AE1A6A60092C591 /* NGAwardsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGAwardsCell.xib; path = ViewControllers/NGAwardsCell.xib; sourceTree = "<group>"; };
+		7C07405A1AE1A8F80092C591 /* meritamente.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meritamente.jpg; sourceTree = "<group>"; };
+		7C07405C1AE1A9790092C591 /* nini13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nini13.jpg; sourceTree = "<group>"; };
+		7C07405E1AE1A9980092C591 /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Awards.json; path = Datasource/Awards.json; sourceTree = "<group>"; };
+		7C0740601AE1AAAA0092C591 /* sums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sums.png; sourceTree = "<group>"; };
+		7C0740621AE1B1F40092C591 /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Award.swift; path = Model/Award.swift; sourceTree = "<group>"; };
+		7C0740641AE1B47B0092C591 /* nini13logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nini13logo.png; sourceTree = "<group>"; };
+		7C0740661AE1BBE00092C591 /* confindustria_talenti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confindustria_talenti.png; sourceTree = "<group>"; };
+		7C0740681AE1BC4C0092C591 /* logo_confindustria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_confindustria.png; sourceTree = "<group>"; };
 		7C16E9811ADEF209004A551A /* NGProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGProjectsViewController.swift; path = ViewControllers/NGProjectsViewController.swift; sourceTree = "<group>"; };
 		7C16E9831ADEF3D3004A551A /* NGProjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGProjectDetailViewController.swift; path = ViewControllers/NGProjectDetailViewController.swift; sourceTree = "<group>"; };
 		7C16E9841ADEF3D3004A551A /* NGProjectDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGProjectDetailViewController.xib; path = ViewControllers/NGProjectDetailViewController.xib; sourceTree = "<group>"; };
 		7C16E9871ADEF4BE004A551A /* NGProjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGProjectCell.swift; path = ViewControllers/NGProjectCell.swift; sourceTree = "<group>"; };
 		7C16E9881ADEF4BE004A551A /* NGProjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGProjectCell.xib; path = ViewControllers/NGProjectCell.xib; sourceTree = "<group>"; };
-		7C16E98D1ADEFB25004A551A /* icn_mii.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_mii.png; sourceTree = "<group>"; };
 		7C16E98F1ADEFFA8004A551A /* ipad_modello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_modello.png; sourceTree = "<group>"; };
 		7C16E9911ADEFFB1004A551A /* iphone_modello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_modello.png; sourceTree = "<group>"; };
 		7C16E9931ADF0E2F004A551A /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Project.swift; path = Model/Project.swift; sourceTree = "<group>"; };
 		7C16E9951ADF1518004A551A /* Projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Projects.json; path = Datasource/Projects.json; sourceTree = "<group>"; };
-		7C16E9991ADF1592004A551A /* icn_smn24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_smn24.png; sourceTree = "<group>"; };
-		7C16E99B1ADF15B6004A551A /* icn_tm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icn_tm.png; sourceTree = "<group>"; };
 		7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+HexString.swift"; path = "Nicola Giancecchi/Libs/UIColor+HexString.swift"; sourceTree = SOURCE_ROOT; };
+		7C64760C1ADFABDE003CB5ED /* UIImage+ColorChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+ColorChange.swift"; path = "Nicola Giancecchi/Libs/UIImage+ColorChange.swift"; sourceTree = SOURCE_ROOT; };
 		7C6C04BF1ADD84CC00C61B0B /* Study.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Study.json; path = Datasource/Study.json; sourceTree = "<group>"; };
 		7C6C04C31ADD866200C61B0B /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = School.swift; path = Model/School.swift; sourceTree = "<group>"; };
 		7C6C04C51ADD867700C61B0B /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = Controller/DataManager.swift; sourceTree = "<group>"; };
@@ -119,6 +167,14 @@
 		7C6C04F01ADDCC4100C61B0B /* night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = night.jpg; sourceTree = "<group>"; };
 		7C6C04F21ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10869619_745719478852188_2852983018894253508_o.jpg; sourceTree = "<group>"; };
 		7C6C04F41ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGSanMarinoInfoViewController.swift; path = ViewControllers/NGSanMarinoInfoViewController.swift; sourceTree = "<group>"; };
+		7CC8A9701ADFF00C00F1FCE7 /* NGWWDCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGWWDCViewController.swift; path = ViewControllers/NGWWDCViewController.swift; sourceTree = "<group>"; };
+		7CC8A9721AE0204900F1FCE7 /* NGConferenceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGConferenceCell.swift; path = ViewControllers/NGConferenceCell.swift; sourceTree = "<group>"; };
+		7CC8A9731AE0204900F1FCE7 /* NGConferenceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGConferenceCell.xib; path = ViewControllers/NGConferenceCell.xib; sourceTree = "<group>"; };
+		7CC8A9761AE021A000F1FCE7 /* nico_ticket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nico_ticket.jpg; sourceTree = "<group>"; };
+		7CC8A9781AE021A800F1FCE7 /* nico_infinite_loop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nico_infinite_loop.jpg; sourceTree = "<group>"; };
+		7CC8A97A1AE0255900F1FCE7 /* WWDCDescriptor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WWDCDescriptor.json; path = Datasource/WWDCDescriptor.json; sourceTree = "<group>"; };
+		7CC8A97C1AE0266200F1FCE7 /* nico_moscone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nico_moscone.jpg; sourceTree = "<group>"; };
+		7CC8A97E1AE026B400F1FCE7 /* WWDCDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WWDCDescriptor.swift; path = Model/WWDCDescriptor.swift; sourceTree = "<group>"; };
 		7CFC9B8A1ADD4EB20017DD5B /* Nicola Giancecchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nicola Giancecchi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFC9B8E1ADD4EB20017DD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CFC9B941ADD4EB20017DD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -172,6 +228,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C0740381AE189250092C591 /* Work */ = {
+			isa = PBXGroup;
+			children = (
+				7C07403D1AE189780092C591 /* NGWorkCell.swift */,
+				7C07403E1AE189780092C591 /* NGWorkCell.xib */,
+				7C0740471AE18F540092C591 /* NGWorkViewController.swift */,
+			);
+			name = Work;
+			sourceTree = "<group>";
+		};
+		7C0740531AE1A5F60092C591 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				7C0740541AE1A6130092C591 /* NGAwardsViewController.swift */,
+				7C0740561AE1A6A60092C591 /* NGAwardsCell.swift */,
+				7C0740571AE1A6A60092C591 /* NGAwardsCell.xib */,
+			);
+			name = Awards;
+			sourceTree = "<group>";
+		};
 		7C16E97B1ADEF0D3004A551A /* Projects */ = {
 			isa = PBXGroup;
 			children = (
@@ -187,8 +263,11 @@
 		7C6C04BE1ADD849400C61B0B /* Datasource */ = {
 			isa = PBXGroup;
 			children = (
+				7C0740491AE1926D0092C591 /* Work.json */,
 				7C6C04BF1ADD84CC00C61B0B /* Study.json */,
 				7C16E9951ADF1518004A551A /* Projects.json */,
+				7CC8A97A1AE0255900F1FCE7 /* WWDCDescriptor.json */,
+				7C07405E1AE1A9980092C591 /* Awards.json */,
 			);
 			name = Datasource;
 			sourceTree = "<group>";
@@ -198,6 +277,10 @@
 			children = (
 				7C6C04C31ADD866200C61B0B /* School.swift */,
 				7C16E9931ADF0E2F004A551A /* Project.swift */,
+				7CC8A97E1AE026B400F1FCE7 /* WWDCDescriptor.swift */,
+				7C07404B1AE192840092C591 /* Work.swift */,
+				7C0740511AE1977B0092C591 /* JSONObject.swift */,
+				7C0740621AE1B1F40092C591 /* Award.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -259,8 +342,19 @@
 			children = (
 				7C6C04E61ADDBEA600C61B0B /* MRSocial.swift */,
 				7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */,
+				7C64760C1ADFABDE003CB5ED /* UIImage+ColorChange.swift */,
 			);
 			path = MRSocial;
+			sourceTree = "<group>";
+		};
+		7CC8A96F1ADFED7100F1FCE7 /* WWDC2014 */ = {
+			isa = PBXGroup;
+			children = (
+				7CC8A9701ADFF00C00F1FCE7 /* NGWWDCViewController.swift */,
+				7CC8A9721AE0204900F1FCE7 /* NGConferenceCell.swift */,
+				7CC8A9731AE0204900F1FCE7 /* NGConferenceCell.xib */,
+			);
+			name = WWDC2014;
 			sourceTree = "<group>";
 		};
 		7CFC9B811ADD4EB20017DD5B = {
@@ -284,10 +378,21 @@
 		7CFC9B8C1ADD4EB20017DD5B /* Nicola Giancecchi */ = {
 			isa = PBXGroup;
 			children = (
-				7C16E98D1ADEFB25004A551A /* icn_mii.png */,
-				7C16E9991ADF1592004A551A /* icn_smn24.png */,
-				7C16E99B1ADF15B6004A551A /* icn_tm.png */,
 				7C16E9911ADEFFB1004A551A /* iphone_modello.png */,
+				7C0740411AE18D120092C591 /* mrapps.png */,
+				7C0740431AE18DFA0092C591 /* skylimit.jpg */,
+				7CC8A97C1AE0266200F1FCE7 /* nico_moscone.jpg */,
+				7C07404D1AE196C20092C591 /* datatrade.jpg */,
+				7C07404F1AE197070092C591 /* dt21.jpg */,
+				7C0740451AE18EDF0092C591 /* fotovoltaico.jpg */,
+				7C07405C1AE1A9790092C591 /* nini13.jpg */,
+				7C0740641AE1B47B0092C591 /* nini13logo.png */,
+				7C07405A1AE1A8F80092C591 /* meritamente.jpg */,
+				7C0740601AE1AAAA0092C591 /* sums.png */,
+				7C0740681AE1BC4C0092C591 /* logo_confindustria.png */,
+				7C0740661AE1BBE00092C591 /* confindustria_talenti.png */,
+				7CC8A9761AE021A000F1FCE7 /* nico_ticket.jpg */,
+				7CC8A9781AE021A800F1FCE7 /* nico_infinite_loop.jpg */,
 				7C16E98F1ADEFFA8004A551A /* ipad_modello.png */,
 				7C6C04E11ADDBE7500C61B0B /* Libs */,
 				7C6C04C21ADD864C00C61B0B /* Controller */,
@@ -333,6 +438,9 @@
 		7CFC9BB11ADD4F1F0017DD5B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7C0740531AE1A5F60092C591 /* Awards */,
+				7C0740381AE189250092C591 /* Work */,
+				7CC8A96F1ADFED7100F1FCE7 /* WWDC2014 */,
 				7C16E97B1ADEF0D3004A551A /* Projects */,
 				7C6C04D81ADD9FBD00C61B0B /* About Me */,
 				7CFC9BB31ADD4F3A0017DD5B /* ViewController.swift */,
@@ -460,6 +568,9 @@
 				7C6C04CF1ADD987000C61B0B /* sup_01.jpg in Resources */,
 				7CFC9BF21ADD51850017DD5B /* Gotham-LightItalic.otf in Resources */,
 				7C6C04ED1ADDC8B400C61B0B /* sm.jpg in Resources */,
+				7C0740651AE1B47B0092C591 /* nini13logo.png in Resources */,
+				7C0740501AE197070092C591 /* dt21.jpg in Resources */,
+				7C0740401AE189780092C591 /* NGWorkCell.xib in Resources */,
 				7C6C04E91ADDC85D00C61B0B /* foto-1.jpg in Resources */,
 				7C16E98A1ADEF4BE004A551A /* NGProjectCell.xib in Resources */,
 				7CFC9B951ADD4EB20017DD5B /* Main.storyboard in Resources */,
@@ -470,22 +581,26 @@
 				7C6C04DC1ADDA24100C61B0B /* sanmarino.jpg in Resources */,
 				7CFC9BEC1ADD51850017DD5B /* Gotham-BlackItalic.otf in Resources */,
 				7CFC9BEE1ADD51850017DD5B /* Gotham-BoldItalic.otf in Resources */,
+				7C0740421AE18D120092C591 /* mrapps.png in Resources */,
 				7C16E9901ADEFFA8004A551A /* ipad_modello.png in Resources */,
+				7C0740591AE1A6A60092C591 /* NGAwardsCell.xib in Resources */,
 				7CFC9BFF1ADD73910017DD5B /* NGStudyCell.xib in Resources */,
+				7C07405B1AE1A8F80092C591 /* meritamente.jpg in Resources */,
 				7C6C04D51ADD98FE00C61B0B /* sup_03.jpg in Resources */,
 				7CFC9BF11ADD51850017DD5B /* Gotham-Light.otf in Resources */,
 				7CFC9BFA1ADD51850017DD5B /* Gotham-XLightItalic.otf in Resources */,
+				7CC8A9791AE021A800F1FCE7 /* nico_infinite_loop.jpg in Resources */,
+				7CC8A9751AE0204900F1FCE7 /* NGConferenceCell.xib in Resources */,
 				7CFC9BF31ADD51850017DD5B /* Gotham-Medium.otf in Resources */,
 				7CFC9BF41ADD51850017DD5B /* Gotham-MediumItalic.otf in Resources */,
 				7C16E9861ADEF3D3004A551A /* NGProjectDetailViewController.xib in Resources */,
 				7CFC9BF51ADD51850017DD5B /* Gotham-Thin.otf in Resources */,
 				7CFC9BEB1ADD51850017DD5B /* Gotham-Black.otf in Resources */,
-				7C16E99C1ADF15B6004A551A /* icn_tm.png in Resources */,
 				7CFC9C071ADD7CE60017DD5B /* uni_place.jpg in Resources */,
 				7C6C04CD1ADD966700C61B0B /* iti_sat.jpg in Resources */,
 				7CFC9C0B1ADD7D670017DD5B /* uni_people.jpg in Resources */,
+				7CC8A97B1AE0255900F1FCE7 /* WWDCDescriptor.json in Resources */,
 				7C6C04C01ADD84CC00C61B0B /* Study.json in Resources */,
-				7C16E98E1ADEFB25004A551A /* icn_mii.png in Resources */,
 				7CFC9BF81ADD51850017DD5B /* Gotham-UltraItalic.otf in Resources */,
 				7C6C04F31ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg in Resources */,
 				7C6C04CB1ADD965B00C61B0B /* iti_institute.jpg in Resources */,
@@ -493,18 +608,28 @@
 				7C6C04D71ADD9D9E00C61B0B /* Selfie-Tim-Cook-copy.jpg in Resources */,
 				7C6C04D31ADD98BC00C61B0B /* sup_02.jpg in Resources */,
 				7CFC9B9A1ADD4EB20017DD5B /* LaunchScreen.xib in Resources */,
+				7C07405F1AE1A9980092C591 /* Awards.json in Resources */,
 				7CFC9C051ADD7CDE0017DD5B /* IMG_7322_web.jpg in Resources */,
+				7CC8A9771AE021A000F1FCE7 /* nico_ticket.jpg in Resources */,
 				7C6C04F11ADDCC4100C61B0B /* night.jpg in Resources */,
+				7C0740611AE1AAAA0092C591 /* sums.png in Resources */,
+				7C0740441AE18DFA0092C591 /* skylimit.jpg in Resources */,
+				7C07404A1AE1926D0092C591 /* Work.json in Resources */,
 				7CFC9BF71ADD51850017DD5B /* Gotham-Ultra.otf in Resources */,
 				7C6C04EB1ADDC88200C61B0B /* palazzo-pubblico.jpg in Resources */,
 				7CFC9BF01ADD51850017DD5B /* Gotham-BookItalic.otf in Resources */,
+				7CC8A97D1AE0266200F1FCE7 /* nico_moscone.jpg in Resources */,
 				7CFC9BEF1ADD51850017DD5B /* Gotham-Book.otf in Resources */,
 				7C16E9921ADEFFB1004A551A /* iphone_modello.png in Resources */,
+				7C0740461AE18EDF0092C591 /* fotovoltaico.jpg in Resources */,
 				7C6C04C91ADD965100C61B0B /* iti_class.png in Resources */,
 				7C6C04EF1ADDCC2700C61B0B /* patricio.jpg in Resources */,
 				7CFC9B971ADD4EB20017DD5B /* Images.xcassets in Resources */,
-				7C16E99A1ADF1592004A551A /* icn_smn24.png in Resources */,
+				7C07404E1AE196C20092C591 /* datatrade.jpg in Resources */,
+				7C0740691AE1BC4C0092C591 /* logo_confindustria.png in Resources */,
 				7C6C04DE1ADDA2D000C61B0B /* sanmarino_snow.jpg in Resources */,
+				7C07405D1AE1A9790092C591 /* nini13.jpg in Resources */,
+				7C0740671AE1BBE00092C591 /* confindustria_talenti.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,19 +647,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C0740481AE18F540092C591 /* NGWorkViewController.swift in Sources */,
+				7C07403F1AE189780092C591 /* NGWorkCell.swift in Sources */,
 				7C6C04E71ADDBEA600C61B0B /* MRSocial.swift in Sources */,
 				7CFC9BB71ADD4F510017DD5B /* AppDelegate.swift in Sources */,
 				7C6C04C61ADD867700C61B0B /* DataManager.swift in Sources */,
+				7C0740551AE1A6130092C591 /* NGAwardsViewController.swift in Sources */,
 				7CFC9BB91ADD50260017DD5B /* NGStudyViewController.swift in Sources */,
 				7C6C04E01ADDB04C00C61B0B /* NGAboutMeViewController.swift in Sources */,
 				7C16E9941ADF0E2F004A551A /* Project.swift in Sources */,
+				7C07404C1AE192840092C591 /* Work.swift in Sources */,
+				7C64760D1ADFABDE003CB5ED /* UIImage+ColorChange.swift in Sources */,
+				7CC8A97F1AE026B400F1FCE7 /* WWDCDescriptor.swift in Sources */,
+				7C0740581AE1A6A60092C591 /* NGAwardsCell.swift in Sources */,
 				7C16E99E1ADF1A40004A551A /* UIColor+HexString.swift in Sources */,
+				7CC8A9741AE0204900F1FCE7 /* NGConferenceCell.swift in Sources */,
 				7C16E9821ADEF209004A551A /* NGProjectsViewController.swift in Sources */,
+				7C0740521AE1977B0092C591 /* JSONObject.swift in Sources */,
 				7C6C04F51ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift in Sources */,
 				7CFC9BFD1ADD728F0017DD5B /* NGStudyCell.swift in Sources */,
 				7C6C04C41ADD866200C61B0B /* School.swift in Sources */,
 				7C16E9851ADEF3D3004A551A /* NGProjectDetailViewController.swift in Sources */,
 				7C16E9891ADEF4BE004A551A /* NGProjectCell.swift in Sources */,
+				7CC8A9711ADFF00C00F1FCE7 /* NGWWDCViewController.swift in Sources */,
+				7C0740631AE1B1F40092C591 /* Award.swift in Sources */,
 				7CFC9BB51ADD4F3A0017DD5B /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class Project: NSObject {
+class Project: JSONObject {
     var title : String = ""
     var subtitle : String = ""
     var appIcon : String = ""
@@ -19,12 +19,13 @@ class Project: NSObject {
     var secondImage : String = ""
     var firstColumnText : String = ""
     var secondColumnText : String = ""
+    var features : Array<Dictionary<String,String>> = Array<Dictionary<String,String>>()
     
-    override init(){
+    init(){
         
     }
     
-    init(dict : Dictionary<String,AnyObject>){
+    required init(dict : Dictionary<String,AnyObject>){
         title = dict["title"] as! String
         subtitle = dict["subtitle"] as! String
         appIcon = dict["appIcon"] as! String
@@ -35,5 +36,6 @@ class Project: NSObject {
         secondImage = dict["secondImage"] as! String
         firstColumnText = dict["firstColumnText"] as! String
         secondColumnText = dict["secondColumnText"] as! String
+        features = dict["features"] as! Array<Dictionary<String,String>>
     }
 }

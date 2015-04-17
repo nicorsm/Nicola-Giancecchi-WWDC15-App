@@ -19,5 +19,10 @@ class NGProjectCell: UICollectionViewCell {
         self.imgIcon.layer.cornerRadius = 15
         self.imgIcon.layer.masksToBounds = true
     }
+    
+    func populate(project : Project){
+        self.imgIcon.image = UIImage(named:project.appIcon)
+        self.lblAppName.text = project.title
+    }
 
 }
