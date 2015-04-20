@@ -10,73 +10,43 @@ import UIKit
 
 class NGStudyCell: UICollectionViewCell {
     
-    /*
-    
-    var school : String = ""
-    var institution : String = ""
-    var course : String = ""
-    var type : String = ""
-    var vote : String = ""
-    var projects : Array<String> = []
-    */
-    
-    @IBOutlet weak var imgView1: UIImageView!
-    @IBOutlet weak var imgView2: UIImageView!
-    @IBOutlet weak var imgView3: UIImageView!
-    
-    @IBOutlet weak private var lblSchool: UILabel!
-    @IBOutlet weak private var lblInstitution: UILabel!
-    @IBOutlet weak private var lblCourse: UILabel!
-    @IBOutlet weak private var lblType: UILabel!
-    @IBOutlet weak private var lblVote: UILabel!
+    @IBOutlet private weak var lblSchool: UILabel!
+    @IBOutlet private weak var lblInstitution: UILabel!
+    @IBOutlet private weak var lblCourse: UILabel!
+    @IBOutlet private weak var btnWebsite: UIButton!
+    @IBOutlet private weak var btnProjects: UIButton!
+    @IBOutlet private weak var lblTitle: UILabel!
+    @IBOutlet private weak var lblVote: UILabel!
+    @IBOutlet private weak var lblText: UILabel!
+    @IBOutlet private weak var imgLogo: UIImageView!
+    @IBOutlet private weak var imgBackground: UIImageView!
     
     override func awakeFromNib() {
         
-        for v in self.contentView.subviews as! [UIView] {
-            if let img = v as? UIImageView {
-                img.layer.cornerRadius = img.frame.size.width/2
-                img.layer.masksToBounds = true
-            }
-        }
+        imgLogo.layer.cornerRadius = imgLogo.frame.size.width/2
+        imgLogo.layer.masksToBounds = true
+        
+        btnWebsite.layer.cornerRadius = 5.0
+        btnWebsite.layer.masksToBounds = true
+        btnWebsite.layer.borderColor = UIColor.whiteColor().CGColor
+        btnWebsite.layer.borderWidth = 1.0
+        
+        btnProjects.layer.cornerRadius = 5.0
+        btnProjects.layer.masksToBounds = true
+        btnProjects.layer.borderColor = UIColor.whiteColor().CGColor
+        btnProjects.layer.borderWidth = 1.0
     }
     
     func populateSchool(school : School){
         self.lblSchool.text = school.school
         self.lblInstitution.text = school.institution
         self.lblCourse.text = school.course
-        self.lblType.text = school.type
+        self.lblTitle.text = school.title
         self.lblVote.text = school.vote
-        self.imgView1.image = UIImage(named: school.img1)
-        self.imgView2.image = UIImage(named: school.img2)
-        self.imgView3.image = UIImage(named: school.img3)
-        
+        self.lblText.text = school.text
+        self.imgLogo.image = UIImage(named: school.logo)
+        self.imgBackground.image = UIImage(named: school.background)
     }
-    
-    func animate(){
-        self.alpha = 0.0
-        self.imgView1.alpha = 0.0
-        self.imgView2.alpha = 0.0
-        self.imgView3.alpha = 0.0
-        UIView.animateWithDuration(0.50, delay: 0.00, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
-            self.alpha = 1.0
-            }, completion: { (Bool) -> Void in
-                
-                UIView.animateWithDuration(0.50, delay: 0.00, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
-                    self.imgView1.alpha = 1.0
-                    }, completion: { (Bool) -> Void in
-                        
-                        UIView.animateWithDuration(0.50, delay: 0.00, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
-                            self.imgView3.alpha = 1.0
-                            }, completion: { (Bool) -> Void in
-                                UIView.animateWithDuration(0.50, delay: 0.00, usingSpringWithDamping: 1.0, initialSpringVelocity: 0.0, options: nil, animations: { () -> Void in
-                                    self.imgView2.alpha = 1.0
-                                    }, completion: { (Bool) -> Void in
-                                        
-                                })
-                        })
-                })
-        })
-    }
-    
-    
+
+
 }

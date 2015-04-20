@@ -3,36 +3,34 @@
     "school": "UNIVERSITY (2012-current)",
     "institution": "Alma Mater Studiorum\nUniversity of Bologna - Campus of Cesena",
     "course": "COMPUTER SCIENCE AND ENGINEERING",
-    "type": "ENGINEERING CURRICULUM\nBachelor of Science Degree (Laurea Triennale)",
-    "vote": "Expected degree in Late 2015",
-    "img1": "uni_place.jpg",
-    "img2": "uni_people.jpg",
-    "img3": "uni_laptop.jpg",
-    "projects": [
-    ]
+    "website":"http://isi.polocesena.unibo.it",
+    "title": "Bachelor of Science Degree (Laurea triennale)\nComputer Engineering Curriculum",
+    "vote": "NSNull() (...expected degree in Late 2015)",
+    "text":"Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ",
+    "logo": "stemma_unibo.png",
+    "background":"uni_place.jpg"
   },
-  {
-    "school": "HIGH SCHOOL (2009-2012)",
-    "institution": "Istituto Tecnico Industriale Statale\nLeonardo da Vinci - Rimini, Italy",
-    "course": "INFORMATION TECHNOLOGY ADDRESS",
-    "type": "COMPUTER EXPERT",
-    "vote": "Graduation Final Result: 100/100",
-    "img1": "iti_institute.jpg",
-    "img2": "iti_sat.jpg",
-    "img3": "iti_class.png",
-    "projects": [
-    ]
+ {
+ "school": "HIGH SCHOOL (2009-2012)",
+ "institution": "Istituto Tecnico Industriale Statale\nLeonardo da Vinci - Rimini, Italy",
+ "course": "INFORMATION TECHNOLOGY",
+ "website":"http://www.itigrimini.it",
+ "title": "Computer Expert (Perito Industriale)",
+ "vote": "100 / 100",
+ "text":"Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ",
+ "logo": "stemma_davinci.png",
+ "background":"iti_institute.jpg"
   },
-  {
-    "school": "HIGH SCHOOL (2007-2009)",
-    "institution": "Scuola Secondaria Superiore\ndella Repubblica di San Marino",
-    "course": "TECHNICAL INSTITUTE",
-    "type": "Biennium",
-    "vote": "",
-    "img1": "sup_01.jpg",
-    "img2": "sup_03.jpg",
-    "img3": "sup_02.jpg",
-    "projects": [
-    ]
-  }
+ 
+ {
+ "school": "HIGH SCHOOL (2007-2009)",
+ "institution": "Scuola Secondaria Superiore\ndella Repubblica di San Marino",
+ "course": "TECHNICAL INSTITUTE",
+ "website":"http://www.educazione.sm/scuolasup",
+ "title": "Biennium ITI",
+ "vote": "No final vote",
+ "text":"Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ",
+ "logo": "stemma_sm.png",
+ "background":"sup_01.jpg"
+ }
 ]

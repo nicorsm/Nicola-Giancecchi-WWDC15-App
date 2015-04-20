@@ -22,14 +22,13 @@ class NGStudyViewController: UIViewController {
         
         self.navigationItem.title = "Study".uppercaseString
         
-    }
-    
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
         data = DataManager.shared.getStudy()
         self.collectionView.reloadData()
+        
+        self.automaticallyAdjustsScrollViewInsets = false
+        
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
@@ -48,12 +47,8 @@ class NGStudyViewController: UIViewController {
         
         let current : School = data[indexPath.row]
         
-        cell.backgroundColor = UIColor.clearColor()
-        cell.backgroundView = nil
         cell.populateSchool(current)
-        cell.animate()
         
-    
         return cell
     }
 

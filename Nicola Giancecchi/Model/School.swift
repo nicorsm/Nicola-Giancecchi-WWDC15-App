@@ -12,23 +12,22 @@ class School : JSONObject {
     var school : String = ""
     var institution : String = ""
     var course : String = ""
-    var type : String = ""
+    var website : String = ""
+    var title : String = ""
     var vote : String = ""
-    var img1 : String = ""
-    var img2 : String = ""
-    var img3 : String = ""
-    var projects : Array<String> = []
+    var text : String = ""
+    var logo : String = ""
+    var background : String = ""
     
     required init(dict : Dictionary<String,AnyObject>){
         school = dict["school"]! as! String
         institution = dict["institution"] as! String
         course = dict["course"] as! String
-        type = dict["type"] as! String
+        website = dict["website"] as! String
+        title = dict["title"] as! String
         vote = dict["vote"] as! String
-        img1 = dict["img1"] as! String
-        img2 = dict["img2"] as! String
-        img3 = dict["img3"] as! String
-        projects = dict["projects"] as! Array<String>
+        text = dict["text"] as! String
+        logo = dict["logo"] as! String
+        background = dict["background"] as! String
     }
 }
-

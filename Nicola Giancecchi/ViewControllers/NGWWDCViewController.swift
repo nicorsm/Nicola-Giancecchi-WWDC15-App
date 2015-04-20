@@ -10,21 +10,21 @@ import UIKit
 
 class NGWWDCViewController: UIViewController {
     
-    @IBOutlet weak var collectionView: UICollectionView!
+    //@IBOutlet weak var collectionView: UICollectionView!
     
-    var data : Array<WWDCDescriptor> = []
+    //var data : Array<WWDCDescriptor> = []
     
     override func viewDidAppear(animated: Bool) {
         super.viewDidAppear(animated)
-        data = DataManager.shared.getWWDCData()
-        self.collectionView.reloadData()
+        //data = DataManager.shared.getWWDCData()
+        //self.collectionView.reloadData()
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-        self.collectionView?.registerNib(UINib(nibName: "NGConferenceCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
+        //self.collectionView?.registerNib(UINib(nibName: "NGConferenceCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
         
         self.navigationItem.title = "WWDC 2014".uppercaseString
         
@@ -37,7 +37,7 @@ class NGWWDCViewController: UIViewController {
     }
 
     
-    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
+/*    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1;
     }
     
@@ -55,7 +55,7 @@ class NGWWDCViewController: UIViewController {
         
         return cell
     }
-    
+  */  
 
     /*
     // MARK: - Navigation

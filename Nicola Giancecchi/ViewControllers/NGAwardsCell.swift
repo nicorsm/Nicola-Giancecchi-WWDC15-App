@@ -33,6 +33,7 @@ class NGAwardsCell: UICollectionViewCell {
         btnTalkingAbout.layer.masksToBounds = true
         btnTalkingAbout.layer.borderColor = UIColor.whiteColor().CGColor
         btnTalkingAbout.layer.borderWidth = 1.0
+        
     }
     
     func populate(award : Award){
