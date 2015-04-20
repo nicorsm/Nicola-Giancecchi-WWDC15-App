@@ -46,6 +46,9 @@
 		7C5158831AE588840087E9BE /* IMG_2913.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C5158821AE588840087E9BE /* IMG_2913.jpg */; };
 		7C5158851AE58B840087E9BE /* IMG_2867.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C5158841AE58B840087E9BE /* IMG_2867.jpg */; };
 		7C5158891AE594E80087E9BE /* newspapers.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C5158881AE594E80087E9BE /* newspapers.png */; };
+		7C51588C1AE59E1B0087E9BE /* NGSkillsHobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C51588B1AE59E1B0087E9BE /* NGSkillsHobbiesViewController.swift */; };
+		7C51588E1AE5A1630087E9BE /* IMG_7494.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7C51588D1AE5A1630087E9BE /* IMG_7494.JPG */; };
+		7C5158901AE5AE0F0087E9BE /* goldengate_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C51588F1AE5AE0F0087E9BE /* goldengate_bg.jpg */; };
 		7C64760D1ADFABDE003CB5ED /* UIImage+ColorChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C64760C1ADFABDE003CB5ED /* UIImage+ColorChange.swift */; };
 		7C6C04C01ADD84CC00C61B0B /* Study.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04BF1ADD84CC00C61B0B /* Study.json */; };
 		7C6C04C41ADD866200C61B0B /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04C31ADD866200C61B0B /* School.swift */; };
@@ -162,6 +165,9 @@
 		7C5158821AE588840087E9BE /* IMG_2913.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2913.jpg; sourceTree = "<group>"; };
 		7C5158841AE58B840087E9BE /* IMG_2867.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2867.jpg; sourceTree = "<group>"; };
 		7C5158881AE594E80087E9BE /* newspapers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = newspapers.png; sourceTree = "<group>"; };
+		7C51588B1AE59E1B0087E9BE /* NGSkillsHobbiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGSkillsHobbiesViewController.swift; path = ViewControllers/NGSkillsHobbiesViewController.swift; sourceTree = "<group>"; };
+		7C51588D1AE5A1630087E9BE /* IMG_7494.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_7494.JPG; sourceTree = "<group>"; };
+		7C51588F1AE5AE0F0087E9BE /* goldengate_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = goldengate_bg.jpg; sourceTree = "<group>"; };
 		7C64760C1ADFABDE003CB5ED /* UIImage+ColorChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+ColorChange.swift"; path = "Nicola Giancecchi/Libs/UIImage+ColorChange.swift"; sourceTree = SOURCE_ROOT; };
 		7C6C04BF1ADD84CC00C61B0B /* Study.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Study.json; path = Datasource/Study.json; sourceTree = "<group>"; };
 		7C6C04C31ADD866200C61B0B /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = School.swift; path = Model/School.swift; sourceTree = "<group>"; };
@@ -280,6 +286,22 @@
 				7C16E9881ADEF4BE004A551A /* NGProjectCell.xib */,
 			);
 			name = Projects;
+			sourceTree = "<group>";
+		};
+		7C51588A1AE59E030087E9BE /* SkillsHobbies */ = {
+			isa = PBXGroup;
+			children = (
+				7C51588B1AE59E1B0087E9BE /* NGSkillsHobbiesViewController.swift */,
+			);
+			name = SkillsHobbies;
+			sourceTree = "<group>";
+		};
+		7C5158911AE5B04D0087E9BE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7CFC9BB31ADD4F3A0017DD5B /* ViewController.swift */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 		7C6C04BE1ADD849400C61B0B /* Datasource */ = {
@@ -416,6 +438,8 @@
 				7CC8A9761AE021A000F1FCE7 /* nico_ticket.jpg */,
 				7CC8A9781AE021A800F1FCE7 /* nico_infinite_loop.jpg */,
 				7C5158881AE594E80087E9BE /* newspapers.png */,
+				7C51588D1AE5A1630087E9BE /* IMG_7494.JPG */,
+				7C51588F1AE5AE0F0087E9BE /* goldengate_bg.jpg */,
 				7C5158781AE56A660087E9BE /* IMG_2874.jpg */,
 				7C5158841AE58B840087E9BE /* IMG_2867.jpg */,
 				7C5158801AE5849C0087E9BE /* IMG_2839.JPG */,
@@ -471,12 +495,13 @@
 		7CFC9BB11ADD4F1F0017DD5B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7C51588A1AE59E030087E9BE /* SkillsHobbies */,
 				7C0740531AE1A5F60092C591 /* Awards */,
 				7C0740381AE189250092C591 /* Work */,
 				7CC8A96F1ADFED7100F1FCE7 /* WWDC2014 */,
 				7C16E97B1ADEF0D3004A551A /* Projects */,
 				7C6C04D81ADD9FBD00C61B0B /* About Me */,
-				7CFC9BB31ADD4F3A0017DD5B /* ViewController.swift */,
+				7C5158911AE5B04D0087E9BE /* Home */,
 				7CFC9BFB1ADD72140017DD5B /* Study */,
 			);
 			name = ViewControllers;
@@ -604,6 +629,7 @@
 				7C0740651AE1B47B0092C591 /* nini13logo.png in Resources */,
 				7C0740501AE197070092C591 /* dt21.jpg in Resources */,
 				7C0740401AE189780092C591 /* NGWorkCell.xib in Resources */,
+				7C51588E1AE5A1630087E9BE /* IMG_7494.JPG in Resources */,
 				7C6C04E91ADDC85D00C61B0B /* foto-1.jpg in Resources */,
 				7C16E98A1ADEF4BE004A551A /* NGProjectCell.xib in Resources */,
 				7CFC9B951ADD4EB20017DD5B /* Main.storyboard in Resources */,
@@ -663,6 +689,7 @@
 				7CFC9BF01ADD51850017DD5B /* Gotham-BookItalic.otf in Resources */,
 				7C5158811AE5849C0087E9BE /* IMG_2839.JPG in Resources */,
 				7CC8A97D1AE0266200F1FCE7 /* nico_moscone.jpg in Resources */,
+				7C5158901AE5AE0F0087E9BE /* goldengate_bg.jpg in Resources */,
 				7CFC9BEF1ADD51850017DD5B /* Gotham-Book.otf in Resources */,
 				7C16E9921ADEFFB1004A551A /* iphone_modello.png in Resources */,
 				7C0740461AE18EDF0092C591 /* fotovoltaico.jpg in Resources */,
@@ -703,6 +730,7 @@
 				7C07404C1AE192840092C591 /* Work.swift in Sources */,
 				7C64760D1ADFABDE003CB5ED /* UIImage+ColorChange.swift in Sources */,
 				7CC8A97F1AE026B400F1FCE7 /* WWDCDescriptor.swift in Sources */,
+				7C51588C1AE59E1B0087E9BE /* NGSkillsHobbiesViewController.swift in Sources */,
 				7C0740581AE1A6A60092C591 /* NGAwardsCell.swift in Sources */,
 				7C16E99E1ADF1A40004A551A /* UIColor+HexString.swift in Sources */,
 				7CC8A9741AE0204900F1FCE7 /* NGConferenceCell.swift in Sources */,

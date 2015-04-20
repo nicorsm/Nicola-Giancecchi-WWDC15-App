@@ -13,6 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
+        for v : UIView in self.view.subviews as! [UIView] {
+            if v.tag != 1 {
+                v.layer.cornerRadius = v.frame.size.width/2
+                v.layer.masksToBounds = true
+            }
+        }
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
     

@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Yqk-7i-1QT">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
         <mutableArray key="Gotham-Bold.otf">
@@ -20,8 +21,40 @@
             <string>Gotham-Bold</string>
             <string>Gotham-Bold</string>
             <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
         </mutableArray>
         <mutableArray key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
             <string>Gotham-Light</string>
             <string>Gotham-Light</string>
             <string>Gotham-Light</string>
@@ -327,7 +360,7 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="48Y-Cy-7K6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1851" y="1391"/>
+            <point key="canvasLocation" x="1611" y="-577"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -341,13 +374,14 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Selfie-Tim-Cook-copy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dQ7-Ju-CoT">
+                            <imageView userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goldengate_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="dQ7-Ju-CoT">
                                 <rect key="frame" x="0.0" y="64" width="1024" height="704"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajG-iz-AGJ">
-                                <rect key="frame" x="156" y="619" width="178" height="74"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Study">
+                                <rect key="frame" x="335" y="613" width="110" height="110"/>
+                                <color key="backgroundColor" red="0.39648137179999998" green="0.66666666669999997" blue="0.38788344299999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="18"/>
+                                <state key="normal" title="STUDY">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -356,9 +390,10 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFS-Xq-1kz">
-                                <rect key="frame" x="811" y="611" width="178" height="74"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="About me">
+                                <rect key="frame" x="55" y="560" width="122" height="122"/>
+                                <color key="backgroundColor" red="0.20990804699999999" green="0.50528987420000004" blue="0.65816115399999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="18"/>
+                                <state key="normal" title="ABOUT ME">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -366,18 +401,11 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                                     <segue destination="Bjv-MY-c8G" kind="show" id="nMi-vw-9L1"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpt-bm-7hT">
-                                <rect key="frame" x="16" y="72" width="534" height="151"/>
-                                <string key="text">Nicola Giancecchi 
-WWDC 2015 App</string>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="57"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sGJ-WM-iUE">
-                                <rect key="frame" x="591" y="542" width="178" height="74"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Projects">
+                                <rect key="frame" x="511" y="580" width="132" height="132"/>
+                                <color key="backgroundColor" red="0.81020375844594594" green="0.16997660813295015" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="18"/>
+                                <state key="normal" title="PROJECTS">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -385,29 +413,25 @@ WWDC 2015 App</string>
                                     <segue destination="i0M-Qo-cMX" kind="show" id="nX0-HC-Nb6"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgv-YS-tko">
-                                <rect key="frame" x="69" y="537" width="178" height="74"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="WWDC14">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAx-0h-tC5">
+                                <rect key="frame" x="844" y="484" width="120" height="120"/>
+                                <color key="backgroundColor" red="1" green="0.67786627710000003" blue="0.096910750300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="18"/>
+                                <state key="normal">
+                                    <string key="title">SKILLS &amp;
+HOBBIES</string>
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Qze-tf-PYe" kind="show" id="zXS-fx-ZbY"/>
+                                    <segue destination="EQ1-Rx-Pmp" kind="show" id="poO-wL-ryH"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DAx-0h-tC5">
-                                <rect key="frame" x="549" y="663" width="178" height="74"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Skills&amp;Hobby">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="roS-ma-9f9">
-                                <rect key="frame" x="0.0" y="651" width="178" height="74"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Awards">
+                                <rect key="frame" x="707" y="431" width="110" height="110"/>
+                                <color key="backgroundColor" red="1" green="0.4561818292" blue="0.46172393690000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="18"/>
+                                <state key="normal" title="AWARDS">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -416,9 +440,10 @@ WWDC 2015 App</string>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYf-32-Yj9">
-                                <rect key="frame" x="811" y="504" width="178" height="74"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="Work">
+                                <rect key="frame" x="724" y="596" width="100" height="100"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.69803921570000005" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="18"/>
+                                <state key="normal" title="WORK">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -426,8 +451,29 @@ WWDC 2015 App</string>
                                     <segue destination="DWf-Q0-mpf" kind="show" id="wBp-ea-nbX"/>
                                 </connections>
                             </button>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="nico.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Dx8-Oo-iGs">
+                                <rect key="frame" x="412" y="284" width="200" height="200"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NICOLA GIANCECCHI" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULr-bl-A5M">
+                                <rect key="frame" x="326" y="119" width="372" height="113"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="52"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgv-YS-tko">
+                                <rect key="frame" x="196" y="468" width="120" height="120"/>
+                                <color key="backgroundColor" red="0.38682721858089131" green="0.80139078115877549" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="18"/>
+                                <state key="normal" title="WWDC14">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Qze-tf-PYe" kind="show" id="zXS-fx-ZbY"/>
+                                </connections>
+                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="dQ7-Ju-CoT" secondAttribute="trailing" id="9lR-BQ-rVs"/>
                             <constraint firstItem="dQ7-Ju-CoT" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="KPE-ju-FER"/>
@@ -925,7 +971,7 @@ MORE!</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s5p-ID-nB2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="709" y="1770"/>
+            <point key="canvasLocation" x="1645" y="1770"/>
         </scene>
         <!--Republic of San Marino-->
         <scene sceneID="vLp-0Y-feo">
@@ -1095,7 +1141,7 @@ San Marino has two presidents, the Captains Regent, that change every six months
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="adK-PC-T1M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1483" y="2976"/>
+            <point key="canvasLocation" x="1999" y="3088"/>
         </scene>
         <!--Study View Controller-->
         <scene sceneID="enB-NT-mKk">
@@ -1140,7 +1186,7 @@ San Marino has two presidents, the Captains Regent, that change every six months
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K5R-ce-NCU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-354" y="1350"/>
+            <point key="canvasLocation" x="342" y="-466"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="A5F-kv-2id">
@@ -1162,6 +1208,256 @@ San Marino has two presidents, the Captains Regent, that change every six months
             </objects>
             <point key="canvasLocation" x="495" y="434"/>
         </scene>
+        <!--Skills Hobbies View Controller-->
+        <scene sceneID="hId-Zi-cla">
+            <objects>
+                <viewController id="EQ1-Rx-Pmp" customClass="NGSkillsHobbiesViewController" customModule="Nicola_Giancecchi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4fk-KD-B1s"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tg2-uZ-6iT"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="MwR-wK-qB0">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="3072"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Dj-ia-KaD">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="3072"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DoB-qu-hMm">
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="3072"/>
+                                        <subviews>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="fotovoltaico.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BJ7-Sr-lSD">
+                                                <rect key="frame" x="0.0" y="832" width="1024" height="300"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="INTERESTS" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hjT-Lz-rCq">
+                                                <rect key="frame" x="346" y="920" width="648" height="123"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="54"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="dt21.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="J2i-2O-BJn">
+                                                <rect key="frame" x="0.0" y="1600" width="1024" height="300"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="dt21.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ONW-9c-5pr">
+                                                <rect key="frame" x="197" y="2368" width="1024" height="525"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="IMG_7494.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="ibk-l3-2kI">
+                                                <rect key="frame" x="0.0" y="64" width="1024" height="300"/>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MST-Qq-bcg">
+                                                <rect key="frame" x="346" y="152" width="648" height="123"/>
+                                                <string key="text">CODING
+SKILLS</string>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="54"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PLATFORMS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pU9-IR-MYa">
+                                                <rect key="frame" x="30" y="391" width="301" height="35"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="24"/>
+                                                <color key="textColor" red="1" green="0.67786627710000003" blue="0.096910750300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="LANGUAGES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B96-L9-rCS">
+                                                <rect key="frame" x="362" y="391" width="301" height="35"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="24"/>
+                                                <color key="textColor" red="1" green="0.67786627710000003" blue="0.096910750300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FRAMEWORKS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSy-xP-1qV">
+                                                <rect key="frame" x="693" y="391" width="301" height="35"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="24"/>
+                                                <color key="textColor" red="1" green="0.67786627710000003" blue="0.096910750300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mXm-5Q-g0h">
+                                                <rect key="frame" x="30" y="434" width="284" height="398"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rqE-G3-Xfj">
+                                                        <rect key="frame" x="0.0" y="0.0" width="284" height="29"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ckj-yk-lkv">
+                                                        <rect key="frame" x="0.0" y="37" width="284" height="29"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4bZ-PA-gFi">
+                                                        <rect key="frame" x="0.0" y="74" width="284" height="29"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lp1-9m-m33">
+                                                        <rect key="frame" x="0.0" y="111" width="284" height="29"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ub2-B2-ua7">
+                                                        <rect key="frame" x="0.0" y="148" width="284" height="29"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ooh-qV-0Rh">
+                                                        <rect key="frame" x="0.0" y="185" width="284" height="29"/>
+                                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iOS 90%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfp-G7-3al">
+                                                        <rect key="frame" x="194" y="0.0" width="90" height="29"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iOS 90%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfY-Y1-gez">
+                                                        <rect key="frame" x="194" y="37" width="90" height="29"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iOS 90%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WgW-ob-qqN">
+                                                        <rect key="frame" x="194" y="74" width="90" height="29"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iOS 90%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2vZ-nz-vI1">
+                                                        <rect key="frame" x="194" y="111" width="90" height="29"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iOS 90%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BL1-y9-CEh">
+                                                        <rect key="frame" x="194" y="148" width="90" height="29"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="iOS 90%" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JJp-xH-VCL">
+                                                        <rect key="frame" x="194" y="185" width="90" height="29"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iTb-eT-xLH">
+                                                <rect key="frame" x="344" y="391" width="1" height="440"/>
+                                                <color key="backgroundColor" red="1" green="0.67786627713263803" blue="0.096910750301545168" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fbB-sb-PMf">
+                                                <rect key="frame" x="678" y="391" width="1" height="440"/>
+                                                <color key="backgroundColor" red="1" green="0.67786627710000003" blue="0.096910750300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yvo-3F-qBA">
+                                                <rect key="frame" x="362" y="434" width="301" height="398"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Objective-C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQJ-Ra-kBJ">
+                                                        <rect key="frame" x="78" y="56" width="190" height="46"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="30"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgs-Oh-ew3">
+                                                        <rect key="frame" x="34" y="98" width="71" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="25"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Java" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85p-I9-WK7">
+                                                        <rect key="frame" x="186" y="110" width="71" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="25"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPN-ce-Xmq">
+                                                        <rect key="frame" x="50" y="151" width="71" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C++ / C#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SI-Ss-IuM">
+                                                        <rect key="frame" x="154" y="163" width="91" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wiring" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYg-Oi-vGT">
+                                                        <rect key="frame" x="162" y="214" width="75" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SQL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zlj-EA-GTA">
+                                                        <rect key="frame" x="99" y="126" width="91" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PHP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FS1-SX-HB5">
+                                                        <rect key="frame" x="34" y="197" width="75" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HTML" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wO-uW-Rfp">
+                                                        <rect key="frame" x="67" y="233" width="75" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="18"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CSS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdM-Oi-n1x">
+                                                        <rect key="frame" x="22" y="270" width="75" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="18"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JavaScript" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ijy-Au-3nl">
+                                                        <rect key="frame" x="107" y="278" width="93" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="15"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="mettere teamwork, bitbucket. altro" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6LU-sO-sLH">
+                                                <rect key="frame" x="699" y="456" width="341" height="194"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhH-i8-OlF">
+                                                <rect key="frame" x="346" y="1688" width="648" height="123"/>
+                                                <string key="text">HUMAN
+AFTER ALL</string>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="54"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" red="1" green="0.87411127300740843" blue="0.72430275044247505" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="DoB-qu-hMm" firstAttribute="leading" secondItem="4Dj-ia-KaD" secondAttribute="leading" id="Can-me-mTs"/>
+                                    <constraint firstAttribute="trailing" secondItem="DoB-qu-hMm" secondAttribute="trailing" id="HN6-Dw-ojF"/>
+                                    <constraint firstAttribute="bottom" secondItem="DoB-qu-hMm" secondAttribute="bottom" id="fVW-Os-jNI"/>
+                                    <constraint firstItem="DoB-qu-hMm" firstAttribute="top" secondItem="4Dj-ia-KaD" secondAttribute="top" id="vDE-av-pyG"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="4Dj-ia-KaD" secondAttribute="trailing" id="7Vb-Kl-eiA"/>
+                            <constraint firstItem="4Dj-ia-KaD" firstAttribute="leading" secondItem="MwR-wK-qB0" secondAttribute="leading" id="Qn4-bt-FF5"/>
+                            <constraint firstItem="4Dj-ia-KaD" firstAttribute="top" secondItem="MwR-wK-qB0" secondAttribute="topMargin" id="WQS-Qg-SVx"/>
+                            <constraint firstItem="Tg2-uZ-6iT" firstAttribute="top" secondItem="4Dj-ia-KaD" secondAttribute="bottom" id="hYa-qd-UUY"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="1024" height="3072"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uwm-hv-4mo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="598" y="2513"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="BLm-ty-kSQ">
             <objects>
@@ -1178,7 +1474,7 @@ San Marino has two presidents, the Captains Regent, that change every six months
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bMi-Et-k5b" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="836" y="2976"/>
+            <point key="canvasLocation" x="1352" y="3088"/>
         </scene>
     </scenes>
     <resources>
@@ -1190,11 +1486,15 @@ San Marino has two presidents, the Captains Regent, that change every six months
         <image name="IMG_3022.JPG" width="1280" height="960"/>
         <image name="IMG_3081.jpg" width="2448" height="3264"/>
         <image name="IMG_3210.jpg" width="3264" height="2448"/>
+        <image name="IMG_7494.JPG" width="3264" height="2448"/>
         <image name="Selfie-Tim-Cook-copy.jpg" width="2047" height="1412"/>
         <image name="bb" width="44" height="44"/>
+        <image name="dt21.jpg" width="785" height="525"/>
         <image name="fb" width="44" height="44"/>
         <image name="foto-1.jpg" width="1799" height="522"/>
+        <image name="fotovoltaico.jpg" width="960" height="676"/>
         <image name="gh" width="44" height="44"/>
+        <image name="goldengate_bg.jpg" width="2048" height="1365"/>
         <image name="ig" width="44" height="44"/>
         <image name="lin" width="44" height="44"/>
         <image name="mail" width="44" height="44"/>
