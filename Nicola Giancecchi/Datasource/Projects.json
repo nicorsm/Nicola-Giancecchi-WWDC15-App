@@ -2,7 +2,7 @@
   {
     "ownership_group": "1",
     "title": "MyDaylife",
-    "subtitle": "Placeholder",
+    "subtitle": "Give a score to your life!",
     "appIcon": "app_mdl",
     "appColor": "#85cb8c",
     "textColor": "#ffffff",
@@ -42,14 +42,14 @@
   {
     "ownership_group": "1",
     "title": "Blurred Life",
-    "subtitle": "Placeholder",
+    "subtitle": "Mainstream filters for your iPhone. In a tap.",
     "appIcon": "app_blurred",
     "appColor": "#90d8ca",
     "textColor": "#000000",
     "appLink": "itms://itunes.apple.com/it/app/blurred-life/id816485262?mt=8",
     "firstImage": "iphone_modello.png",
     "secondImage": "ipad_modello.png",
-    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
+    "firstColumnText": "Create magnificent iOS 7-ready wallpapers with Blurred Life! Impress your friends with a gorgeous wallpaper for your iPhone made by yourself with Blurred Life.\nWith this app you can pick a photo from Camera Roll or from your Camera, add effects like \"Blur\", \"Brightness\", \"Saturation\" and \"Text\" and create the wallpaper optimized for iOS parallax effect.",
     "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
     "features": [
       {
@@ -82,15 +82,15 @@
   {
     "ownership_group": "1",
     "title": "San Marino News24",
-    "subtitle": "The flipping board for San Marino",
+    "subtitle": "The great news collector about San Marino",
     "appIcon": "app_smn24",
     "appColor": "#4eb3e7",
     "textColor": "#ffffff",
     "appLink": "itms://itunes.apple.com/us/app/san-marino-news24/id938086912?mt=8",
     "firstImage": "iphone_modello.png",
     "secondImage": "ipad_modello.png",
-    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
-    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "firstColumnText": "San Marino News24 is your starting point for updates on the news of the Republic of San Marino. SM News24 aggregates in one app all news about San Marino and surroundings. You can filter news by providers or categories and you can add them to your favourites, so you can read them offline later.",
+    "secondColumnText": "SM News24 was born from my idea, because reading online news sites with unrensponsive layout was uncomfortable.  The mission of the app is to inform sammarinese people in realtime on the events that are happening and making them part of the discussion.",
     "features": [
       {
         "title": "Client",
@@ -122,15 +122,15 @@
   {
     "ownership_group": "1",
     "title": "San Marino Differenzia",
-    "subtitle": "Placeholder",
+    "subtitle": "Your assistant for curbside collection in San Marino.",
     "appIcon": "app_differenzia",
     "appColor": "#e5d8c5",
     "textColor": "#000000",
     "appLink": "itms://itunes.apple.com/it/app/san-marino-differenzia/id907426312?mt=8",
     "firstImage": "iphone_modello.png",
     "secondImage": "ipad_modello.png",
-    "firstColumnText": "The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. The quick brown fox jumps over the lazy dog. ",
-    "secondColumnText": "Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! Lorem ipsum dolor sit amet! ",
+    "firstColumnText": "Separate waste in San Marino has never been so quick and easy with San Marino Differenzia!\nThe app is designed to help San Marino citizens in the curbside garbage collection and for separate waste into different recycle bins, so they can increase their ecological footprint and help the environment.",
+    "secondColumnText": "The app is a great success among the citizen who are currently served from curbside garbage collection service.\nThe app received the support of the National Company for Public Services (AASS) and Cooperativa Trasforma.",
     "features": [
       {
         "title": "Client",
