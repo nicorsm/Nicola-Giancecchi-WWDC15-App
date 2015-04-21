@@ -10,7 +10,7 @@ import UIKit
 
 let reuseIdentifier = "Cell"
 
-class NGStudyViewController: UIViewController {
+class NGStudyViewController: UIViewController, WebBrowserDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
     var data : Array<School> = []
@@ -46,11 +46,18 @@ class NGStudyViewController: UIViewController {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! NGStudyCell
         
         let current : School = data[indexPath.row]
-        
+        cell.delegate = self
         cell.populateSchool(current)
         
         return cell
     }
+    
+    func openURL(url: String) {
+        let browser : NGBrowserViewController = NGBrowserViewController(url: url)
+        self.navigationController?.pushViewController(browser, animated: true)
+    }
+    
+    
 
     // MARK: UICollectionViewDelegate
 

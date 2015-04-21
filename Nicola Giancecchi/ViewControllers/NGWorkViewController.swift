@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NGWorkViewController: UIViewController {
+class NGWorkViewController: UIViewController, WebBrowserDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -47,8 +47,14 @@ class NGWorkViewController: UIViewController {
         let work : Work = self.works[indexPath.row]
         
         cell.populate(work)
+        cell.delegate = self
         
         return cell
+    }
+    
+    func openURL(url: String) {
+        let browser : NGBrowserViewController = NGBrowserViewController(url:url)
+        self.navigationController?.pushViewController(browser, animated: true)
     }
     
 

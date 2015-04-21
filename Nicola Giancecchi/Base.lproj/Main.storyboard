@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D131" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Yqk-7i-1QT">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Yqk-7i-1QT">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
@@ -35,8 +35,26 @@
             <string>Gotham-Bold</string>
             <string>Gotham-Bold</string>
             <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
+            <string>Gotham-Bold</string>
         </mutableArray>
         <mutableArray key="Gotham-Light.otf">
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
+            <string>Gotham-Light</string>
             <string>Gotham-Light</string>
             <string>Gotham-Light</string>
             <string>Gotham-Light</string>
@@ -231,8 +249,8 @@ The next day I took my WWDC pass and visited, with a pilgrimage, the headquarter
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DA-RQ-bGb">
                                                 <rect key="frame" x="533" y="2182" width="467" height="128"/>
-                                                <mutableString key="text">The keynote was incredible and I commented live in Italian with my friends.
-After the keynote I had the honor of knowing personally Tim Cook, to shake his hand and take a picture with him - the famous "Selfie" that has made the rounds of San Marino and Romagna. P.S.: I hate selfie sticks 😄</mutableString>
+                                                <string key="text">The keynote was incredible and I commented live in Italian with my friends.
+After the keynote I had the honor of knowing personally Tim Cook, to shake his hand and take a picture with him - the famous "Selfie" that has made the rounds of San Marino and Romagna. P.S.: I hate selfie sticks 😄</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -262,7 +280,7 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9X-k0-8un">
                                                 <rect key="frame" x="527" y="3782" width="467" height="128"/>
-                                                <mutableString key="text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </mutableString>
+                                                <string key="text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -452,10 +470,10 @@ HOBBIES</string>
                                 </connections>
                             </button>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="nico.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Dx8-Oo-iGs">
-                                <rect key="frame" x="412" y="284" width="200" height="200"/>
+                                <rect key="frame" x="412" y="319" width="200" height="200"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="NICOLA GIANCECCHI" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ULr-bl-A5M">
-                                <rect key="frame" x="326" y="119" width="372" height="113"/>
+                                <rect key="frame" x="326" y="102" width="372" height="113"/>
                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="52"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
@@ -472,6 +490,12 @@ HOBBIES</string>
                                     <segue destination="Qze-tf-PYe" kind="show" id="zXS-fx-ZbY"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WWDC 2015 Student Scholarship App" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l7G-P1-ycx">
+                                <rect key="frame" x="339" y="223" width="347" height="32"/>
+                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1118,7 +1142,7 @@ San Marino has two presidents, the Captains Regent, that change every six months
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" white="0.10000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.29411764709999999" green="0.69803921570000005" blue="0.8980392157" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="bc2-Ys-eSj" firstAttribute="top" secondItem="JOa-8q-2Po" secondAttribute="bottom" id="4Cn-lc-b4L"/>
                             <constraint firstAttribute="trailing" secondItem="JOa-8q-2Po" secondAttribute="trailing" id="MGn-AP-5FT"/>
@@ -1217,14 +1241,14 @@ San Marino has two presidents, the Captains Regent, that change every six months
                         <viewControllerLayoutGuide type="bottom" id="Tg2-uZ-6iT"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="MwR-wK-qB0">
-                        <rect key="frame" x="0.0" y="0.0" width="1024" height="3072"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="2368"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Dj-ia-KaD">
-                                <rect key="frame" x="0.0" y="0.0" width="1024" height="3072"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="2368"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DoB-qu-hMm">
-                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="3072"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="1024" height="2368"/>
                                         <subviews>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="fotovoltaico.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BJ7-Sr-lSD">
                                                 <rect key="frame" x="0.0" y="832" width="1024" height="300"/>
@@ -1235,11 +1259,8 @@ San Marino has two presidents, the Captains Regent, that change every six months
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="dt21.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="J2i-2O-BJn">
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="nerdies.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="J2i-2O-BJn">
                                                 <rect key="frame" x="0.0" y="1600" width="1024" height="300"/>
-                                            </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="dt21.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ONW-9c-5pr">
-                                                <rect key="frame" x="197" y="2368" width="1024" height="525"/>
                                             </imageView>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="IMG_7494.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="ibk-l3-2kI">
                                                 <rect key="frame" x="0.0" y="64" width="1024" height="300"/>
@@ -1265,14 +1286,14 @@ SKILLS</string>
                                                 <color key="textColor" red="1" green="0.67786627710000003" blue="0.096910750300000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FRAMEWORKS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSy-xP-1qV">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="OTHER NERD THINGS" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSy-xP-1qV">
                                                 <rect key="frame" x="693" y="391" width="301" height="35"/>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="24"/>
                                                 <color key="textColor" red="1" green="0.67786627710000003" blue="0.096910750300000001" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mXm-5Q-g0h">
-                                                <rect key="frame" x="30" y="434" width="284" height="398"/>
+                                                <rect key="frame" x="30" y="434" width="284" height="334"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rqE-G3-Xfj">
                                                         <rect key="frame" x="0.0" y="0.0" width="284" height="29"/>
@@ -1346,71 +1367,89 @@ SKILLS</string>
                                                 <color key="backgroundColor" red="1" green="0.67786627710000003" blue="0.096910750300000001" alpha="1" colorSpace="calibratedRGB"/>
                                             </view>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yvo-3F-qBA">
-                                                <rect key="frame" x="362" y="434" width="301" height="398"/>
+                                                <rect key="frame" x="362" y="434" width="301" height="334"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Objective-C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQJ-Ra-kBJ">
-                                                        <rect key="frame" x="78" y="56" width="190" height="46"/>
+                                                        <rect key="frame" x="78" y="37" width="190" height="46"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="30"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swift" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xgs-Oh-ew3">
-                                                        <rect key="frame" x="34" y="98" width="71" height="37"/>
+                                                        <rect key="frame" x="34" y="79" width="71" height="37"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="25"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Java" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85p-I9-WK7">
-                                                        <rect key="frame" x="186" y="110" width="71" height="37"/>
+                                                        <rect key="frame" x="186" y="91" width="71" height="37"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="25"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPN-ce-Xmq">
-                                                        <rect key="frame" x="50" y="151" width="71" height="37"/>
+                                                        <rect key="frame" x="50" y="132" width="71" height="37"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C++ / C#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SI-Ss-IuM">
-                                                        <rect key="frame" x="154" y="163" width="91" height="37"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C++" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0SI-Ss-IuM">
+                                                        <rect key="frame" x="99" y="161" width="91" height="37"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wiring" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eYg-Oi-vGT">
-                                                        <rect key="frame" x="162" y="214" width="75" height="37"/>
+                                                        <rect key="frame" x="162" y="195" width="75" height="37"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SQL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zlj-EA-GTA">
-                                                        <rect key="frame" x="99" y="126" width="91" height="37"/>
+                                                        <rect key="frame" x="99" y="107" width="91" height="37"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PHP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FS1-SX-HB5">
-                                                        <rect key="frame" x="34" y="197" width="75" height="37"/>
+                                                        <rect key="frame" x="34" y="178" width="75" height="37"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HTML" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wO-uW-Rfp">
-                                                        <rect key="frame" x="67" y="233" width="75" height="37"/>
+                                                        <rect key="frame" x="67" y="214" width="75" height="37"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="18"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CSS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SdM-Oi-n1x">
-                                                        <rect key="frame" x="22" y="270" width="75" height="37"/>
+                                                        <rect key="frame" x="22" y="251" width="75" height="37"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="18"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JavaScript" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ijy-Au-3nl">
-                                                        <rect key="frame" x="107" y="278" width="93" height="37"/>
+                                                        <rect key="frame" x="107" y="259" width="93" height="37"/>
                                                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="15"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="C#" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCD-9D-grb">
+                                                        <rect key="frame" x="191" y="144" width="91" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JSON" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZO-wb-bdq">
+                                                        <rect key="frame" x="191" y="240" width="91" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="16"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="XML" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zH-Ad-nB6">
+                                                        <rect key="frame" x="67" y="296" width="91" height="37"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="16"/>
                                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1426,11 +1465,219 @@ SKILLS</string>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhH-i8-OlF">
                                                 <rect key="frame" x="346" y="1688" width="648" height="123"/>
                                                 <string key="text">HUMAN
-AFTER ALL</string>
+... AFTER ALL</string>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="54"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cf3-UV-EJ7">
+                                                <rect key="frame" x="30" y="1930" width="482" height="119"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="XnC-rb-I34">
+                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="119"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Human languages" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rM-2b-2Es">
+                                                        <rect key="frame" x="144" y="0.0" width="338" height="33"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Italian is my mothertongue. I also love speaking english - I've got a CEFR B1 certificate from University of Bologna" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSO-Z4-WcA">
+                                                        <rect key="frame" x="144" y="41" width="338" height="78"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dv3-Bb-t8o">
+                                                <rect key="frame" x="30" y="2219" width="482" height="119"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="Oxv-Zs-fAx">
+                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="119"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x3c-DI-c0p">
+                                                        <rect key="frame" x="144" y="41" width="338" height="78"/>
+                                                        <string key="text">I'm an .... in the medieval association "I Fanciulli e la Corte di Onlano"
+adlkasjdad</string>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Middle age actor" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TKs-WF-OPT">
+                                                        <rect key="frame" x="144" y="0.0" width="338" height="33"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qnV-dh-G52">
+                                                <rect key="frame" x="30" y="2077" width="482" height="119"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="lmJ-Sp-uWt">
+                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="119"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Metal music lover" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CME-uu-ITg">
+                                                        <rect key="frame" x="144" y="0.0" width="338" height="33"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oTe-JW-Vrg">
+                                                        <rect key="frame" x="144" y="41" width="338" height="78"/>
+                                                        <string key="text">I'm an .... in the medieval association "I Fanciulli e la Corte di Onlano"
+adlkasjdad</string>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b6L-Ie-om3">
+                                                <rect key="frame" x="512" y="1930" width="482" height="119"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="Ppt-8S-g2c">
+                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="119"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Catholic Action" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wrv-qy-TFy">
+                                                        <rect key="frame" x="144" y="0.0" width="338" height="33"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7x3-ki-CUt">
+                                                        <rect key="frame" x="144" y="41" width="338" height="78"/>
+                                                        <string key="text">I'm an .... in the medieval association "I Fanciulli e la Corte di Onlano"
+adlkasjdad</string>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gyB-Up-Fu8">
+                                                <rect key="frame" x="512" y="2219" width="482" height="119"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="4ab-8p-dSc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="119"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Historical reconstructions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3H8-9p-tuq">
+                                                        <rect key="frame" x="144" y="0.0" width="338" height="33"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BcM-ft-gOI">
+                                                        <rect key="frame" x="144" y="41" width="338" height="78"/>
+                                                        <string key="text">I'm an .... in the medieval association "I Fanciulli e la Corte di Onlano"
+adlkasjdad</string>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rWN-8O-O5u">
+                                                <rect key="frame" x="512" y="2077" width="482" height="119"/>
+                                                <subviews>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="t1L-uu-P18">
+                                                        <rect key="frame" x="0.0" y="0.0" width="119" height="119"/>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Historical reconstructions" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ra6-o4-zc7">
+                                                        <rect key="frame" x="144" y="0.0" width="338" height="33"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="skJ-37-Epw">
+                                                        <rect key="frame" x="144" y="41" width="338" height="78"/>
+                                                        <string key="text">I'm an .... in the medieval association "I Fanciulli e la Corte di Onlano"
+adlkasjdad</string>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="18"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wearable Devices" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8R-XZ-lNu">
+                                                <rect key="frame" x="118" y="1247" width="365" height="80"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mobile Development" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r86-5k-mbR">
+                                                <rect key="frame" x="118" y="1162" width="365" height="80"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UX &amp; UI Design" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSy-UZ-J5J">
+                                                <rect key="frame" x="118" y="1332" width="365" height="80"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Proximity (iBeacons)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghg-G7-Yof">
+                                                <rect key="frame" x="118" y="1417" width="365" height="80"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Identification technologies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qJ-da-LOr">
+                                                <rect key="frame" x="594" y="1162" width="400" height="80"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pervasive devices" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyp-jp-qQq">
+                                                <rect key="frame" x="594" y="1332" width="400" height="80"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Embedded systems" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4A-G4-uBA">
+                                                <rect key="frame" x="594" y="1247" width="400" height="80"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Graphics, Adobe Suite" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvB-rQ-wxR">
+                                                <rect key="frame" x="594" y="1417" width="400" height="80"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="25"/>
+                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="mTE-qT-8wH">
+                                                <rect key="frame" x="30" y="1162" width="80" height="80"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="4RR-pb-FyA">
+                                                <rect key="frame" x="30" y="1247" width="80" height="80"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="qfP-hx-0Id">
+                                                <rect key="frame" x="30" y="1332" width="80" height="80"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="yIW-j3-Ajp">
+                                                <rect key="frame" x="30" y="1417" width="80" height="80"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="k6A-cO-U0t">
+                                                <rect key="frame" x="506" y="1162" width="80" height="80"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="7V1-lK-WPD">
+                                                <rect key="frame" x="506" y="1247" width="80" height="80"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="Uvl-8B-a0C">
+                                                <rect key="frame" x="506" y="1332" width="80" height="80"/>
+                                            </imageView>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="pXS-Ho-6VI">
+                                                <rect key="frame" x="506" y="1417" width="80" height="80"/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="1" green="0.87411127300740843" blue="0.72430275044247505" alpha="1" colorSpace="calibratedRGB"/>
                                     </view>
@@ -1452,7 +1699,7 @@ AFTER ALL</string>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="1024" height="3072"/>
+                    <size key="freeformSize" width="1024" height="2368"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uwm-hv-4mo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -1488,8 +1735,8 @@ AFTER ALL</string>
         <image name="IMG_3210.jpg" width="3264" height="2448"/>
         <image name="IMG_7494.JPG" width="3264" height="2448"/>
         <image name="Selfie-Tim-Cook-copy.jpg" width="2047" height="1412"/>
+        <image name="app_thats" width="60" height="60"/>
         <image name="bb" width="44" height="44"/>
-        <image name="dt21.jpg" width="785" height="525"/>
         <image name="fb" width="44" height="44"/>
         <image name="foto-1.jpg" width="1799" height="522"/>
         <image name="fotovoltaico.jpg" width="960" height="676"/>
@@ -1498,6 +1745,7 @@ AFTER ALL</string>
         <image name="ig" width="44" height="44"/>
         <image name="lin" width="44" height="44"/>
         <image name="mail" width="44" height="44"/>
+        <image name="nerdies.jpg" width="640" height="260"/>
         <image name="newspapers.png" width="2048" height="810"/>
         <image name="nico.jpg" width="960" height="960"/>
         <image name="night.jpg" width="2048" height="1362"/>

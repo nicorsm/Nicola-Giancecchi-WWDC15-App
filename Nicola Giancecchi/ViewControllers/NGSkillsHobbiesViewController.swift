@@ -14,6 +14,17 @@ class NGSkillsHobbiesViewController: UIViewController {
         super.viewDidLoad()
         self.automaticallyAdjustsScrollViewInsets=false
         // Do any additional setup after loading the view.
+        
+        
+        for v : UIImageView in self.view.subviews as! [UIImageView] {
+            if v.tag != 1 {
+                v.layer.cornerRadius = v.frame.size.width/2
+                v.layer.masksToBounds = true
+                v.layer.borderColor = UIColor().hexStringToUIColor("#ffad19").CGColor
+                v.layer.borderWidth = 2.0
+            }
+        }
+        
     }
 
     override func didReceiveMemoryWarning() {

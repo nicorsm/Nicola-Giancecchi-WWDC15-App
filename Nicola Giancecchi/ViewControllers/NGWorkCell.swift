@@ -8,6 +8,11 @@
 
 import UIKit
 
+
+protocol WebBrowserDelegate{
+    func openURL(url:String)
+}
+
 class NGWorkCell: UICollectionViewCell {
 
     @IBOutlet private weak var imgCompany: UIImageView!
@@ -22,6 +27,8 @@ class NGWorkCell: UICollectionViewCell {
     @IBOutlet private weak var lblTitle: UILabel!
     @IBOutlet private weak var btnProjects: UIButton!
     @IBOutlet private weak var btnWebsite: UIButton!
+    var delegate : WebBrowserDelegate! = nil
+    var myWork : Work! = nil
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -48,6 +55,13 @@ class NGWorkCell: UICollectionViewCell {
         lblLocation.text = work.location
         lblWhy.text = work.why
         lblBrief.text = work.brief
+        
+        myWork = work
     }
 
+    @IBAction func didOpenWebsite(sender: AnyObject) {
+        if self.delegate != nil {
+            self.delegate.openURL(myWork.website)
+        }
+    }
 }

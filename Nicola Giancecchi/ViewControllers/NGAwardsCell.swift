@@ -23,6 +23,9 @@ class NGAwardsCell: UICollectionViewCell {
     @IBOutlet private weak var textArea2: UILabel!
     
     @IBOutlet weak var btnTalkingAbout: UIButton!
+    var delegate : WebBrowserDelegate! = nil
+    
+    private var myAward : Award! = nil
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -33,7 +36,7 @@ class NGAwardsCell: UICollectionViewCell {
         btnTalkingAbout.layer.masksToBounds = true
         btnTalkingAbout.layer.borderColor = UIColor.whiteColor().CGColor
         btnTalkingAbout.layer.borderWidth = 1.0
-        
+    
     }
     
     func populate(award : Award){
@@ -44,7 +47,14 @@ class NGAwardsCell: UICollectionViewCell {
         lblSubtitle2.text = award.subtitle2
         textArea1.text = award.text1
         textArea2.text = award.text2
+        
+        myAward = award
     }
 
+    @IBAction func didOpenTalkingAbout(sender: AnyObject) {
+        if self.delegate != nil {
+            self.delegate.openURL(myAward.link)
+        }
+    }
 }
 

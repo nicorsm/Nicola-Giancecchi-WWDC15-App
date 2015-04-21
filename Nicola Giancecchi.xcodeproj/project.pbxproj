@@ -39,6 +39,8 @@
 		7C16E9941ADF0E2F004A551A /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9931ADF0E2F004A551A /* Project.swift */; };
 		7C16E9961ADF1518004A551A /* Projects.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9951ADF1518004A551A /* Projects.json */; };
 		7C16E99E1ADF1A40004A551A /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */; };
+		7C47E8451AE67E45004260F2 /* NGBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C47E8431AE67E45004260F2 /* NGBrowserViewController.swift */; };
+		7C47E8461AE67E45004260F2 /* NGBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C47E8441AE67E45004260F2 /* NGBrowserViewController.xib */; };
 		7C5158791AE56A660087E9BE /* IMG_2874.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C5158781AE56A660087E9BE /* IMG_2874.jpg */; };
 		7C51587B1AE56DAD0087E9BE /* IMG_3022.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7C51587A1AE56DAD0087E9BE /* IMG_3022.JPG */; };
 		7C51587D1AE571090087E9BE /* IMG_3210.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C51587C1AE571090087E9BE /* IMG_3210.jpg */; };
@@ -84,6 +86,8 @@
 		7CE437D51AE3DADB005C16B6 /* stemma_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE437D41AE3DADB005C16B6 /* stemma_sm.png */; };
 		7CE437D71AE3DB93005C16B6 /* stemma_unibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE437D61AE3DB93005C16B6 /* stemma_unibo.png */; };
 		7CE437D91AE3E1C1005C16B6 /* IMG_3081.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CE437D81AE3E1C1005C16B6 /* IMG_3081.jpg */; };
+		7CF9051A1AE6AE3500FAD49A /* nerdies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF905191AE6AE3500FAD49A /* nerdies.jpg */; };
+		7CF9051C1AE6B01100FAD49A /* coding_wwdc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF9051B1AE6B01100FAD49A /* coding_wwdc.jpg */; };
 		7CFC9B951ADD4EB20017DD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9B931ADD4EB20017DD5B /* Main.storyboard */; };
 		7CFC9B971ADD4EB20017DD5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9B961ADD4EB20017DD5B /* Images.xcassets */; };
 		7CFC9B9A1ADD4EB20017DD5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9B981ADD4EB20017DD5B /* LaunchScreen.xib */; };
@@ -158,6 +162,8 @@
 		7C16E9931ADF0E2F004A551A /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Project.swift; path = Model/Project.swift; sourceTree = "<group>"; };
 		7C16E9951ADF1518004A551A /* Projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Projects.json; path = Datasource/Projects.json; sourceTree = "<group>"; };
 		7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+HexString.swift"; path = "Nicola Giancecchi/Libs/UIColor+HexString.swift"; sourceTree = SOURCE_ROOT; };
+		7C47E8431AE67E45004260F2 /* NGBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGBrowserViewController.swift; path = ViewControllers/NGBrowserViewController.swift; sourceTree = "<group>"; };
+		7C47E8441AE67E45004260F2 /* NGBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGBrowserViewController.xib; path = ViewControllers/NGBrowserViewController.xib; sourceTree = "<group>"; };
 		7C5158781AE56A660087E9BE /* IMG_2874.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2874.jpg; sourceTree = "<group>"; };
 		7C51587A1AE56DAD0087E9BE /* IMG_3022.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3022.JPG; sourceTree = "<group>"; };
 		7C51587C1AE571090087E9BE /* IMG_3210.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3210.jpg; sourceTree = "<group>"; };
@@ -203,6 +209,8 @@
 		7CE437D41AE3DADB005C16B6 /* stemma_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stemma_sm.png; sourceTree = "<group>"; };
 		7CE437D61AE3DB93005C16B6 /* stemma_unibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stemma_unibo.png; sourceTree = "<group>"; };
 		7CE437D81AE3E1C1005C16B6 /* IMG_3081.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3081.jpg; sourceTree = "<group>"; };
+		7CF905191AE6AE3500FAD49A /* nerdies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nerdies.jpg; sourceTree = "<group>"; };
+		7CF9051B1AE6B01100FAD49A /* coding_wwdc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coding_wwdc.jpg; sourceTree = "<group>"; };
 		7CFC9B8A1ADD4EB20017DD5B /* Nicola Giancecchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nicola Giancecchi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFC9B8E1ADD4EB20017DD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CFC9B941ADD4EB20017DD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -286,6 +294,15 @@
 				7C16E9881ADEF4BE004A551A /* NGProjectCell.xib */,
 			);
 			name = Projects;
+			sourceTree = "<group>";
+		};
+		7C47E8421AE67E0B004260F2 /* InternalBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				7C47E8431AE67E45004260F2 /* NGBrowserViewController.swift */,
+				7C47E8441AE67E45004260F2 /* NGBrowserViewController.xib */,
+			);
+			name = InternalBrowser;
 			sourceTree = "<group>";
 		};
 		7C51588A1AE59E030087E9BE /* SkillsHobbies */ = {
@@ -440,6 +457,7 @@
 				7C5158881AE594E80087E9BE /* newspapers.png */,
 				7C51588D1AE5A1630087E9BE /* IMG_7494.JPG */,
 				7C51588F1AE5AE0F0087E9BE /* goldengate_bg.jpg */,
+				7CF9051B1AE6B01100FAD49A /* coding_wwdc.jpg */,
 				7C5158781AE56A660087E9BE /* IMG_2874.jpg */,
 				7C5158841AE58B840087E9BE /* IMG_2867.jpg */,
 				7C5158801AE5849C0087E9BE /* IMG_2839.JPG */,
@@ -447,6 +465,7 @@
 				7C5158821AE588840087E9BE /* IMG_2913.jpg */,
 				7C51587A1AE56DAD0087E9BE /* IMG_3022.JPG */,
 				7C51587C1AE571090087E9BE /* IMG_3210.jpg */,
+				7CF905191AE6AE3500FAD49A /* nerdies.jpg */,
 				7CE437D21AE3DA50005C16B6 /* stemma_davinci.png */,
 				7CE437D61AE3DB93005C16B6 /* stemma_unibo.png */,
 				7CE437D41AE3DADB005C16B6 /* stemma_sm.png */,
@@ -495,6 +514,7 @@
 		7CFC9BB11ADD4F1F0017DD5B /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				7C47E8421AE67E0B004260F2 /* InternalBrowser */,
 				7C51588A1AE59E030087E9BE /* SkillsHobbies */,
 				7C0740531AE1A5F60092C591 /* Awards */,
 				7C0740381AE189250092C591 /* Work */,
@@ -628,6 +648,7 @@
 				7C6C04ED1ADDC8B400C61B0B /* sm.jpg in Resources */,
 				7C0740651AE1B47B0092C591 /* nini13logo.png in Resources */,
 				7C0740501AE197070092C591 /* dt21.jpg in Resources */,
+				7CF9051C1AE6B01100FAD49A /* coding_wwdc.jpg in Resources */,
 				7C0740401AE189780092C591 /* NGWorkCell.xib in Resources */,
 				7C51588E1AE5A1630087E9BE /* IMG_7494.JPG in Resources */,
 				7C6C04E91ADDC85D00C61B0B /* foto-1.jpg in Resources */,
@@ -642,6 +663,7 @@
 				7CFC9BEE1ADD51850017DD5B /* Gotham-BoldItalic.otf in Resources */,
 				7C0740421AE18D120092C591 /* mrapps.png in Resources */,
 				7C5158851AE58B840087E9BE /* IMG_2867.jpg in Resources */,
+				7C47E8461AE67E45004260F2 /* NGBrowserViewController.xib in Resources */,
 				7C16E9901ADEFFA8004A551A /* ipad_modello.png in Resources */,
 				7C0740591AE1A6A60092C591 /* NGAwardsCell.xib in Resources */,
 				7CFC9BFF1ADD73910017DD5B /* NGStudyCell.xib in Resources */,
@@ -652,6 +674,7 @@
 				7C5158891AE594E80087E9BE /* newspapers.png in Resources */,
 				7CFC9BFA1ADD51850017DD5B /* Gotham-XLightItalic.otf in Resources */,
 				7CC8A9791AE021A800F1FCE7 /* nico_infinite_loop.jpg in Resources */,
+				7CF9051A1AE6AE3500FAD49A /* nerdies.jpg in Resources */,
 				7CE437D51AE3DADB005C16B6 /* stemma_sm.png in Resources */,
 				7CC8A9751AE0204900F1FCE7 /* NGConferenceCell.xib in Resources */,
 				7CFC9BF31ADD51850017DD5B /* Gotham-Medium.otf in Resources */,
@@ -741,6 +764,7 @@
 				7C6C04C41ADD866200C61B0B /* School.swift in Sources */,
 				7C16E9851ADEF3D3004A551A /* NGProjectDetailViewController.swift in Sources */,
 				7C16E9891ADEF4BE004A551A /* NGProjectCell.swift in Sources */,
+				7C47E8451AE67E45004260F2 /* NGBrowserViewController.swift in Sources */,
 				7CC8A9711ADFF00C00F1FCE7 /* NGWWDCViewController.swift in Sources */,
 				7C0740631AE1B1F40092C591 /* Award.swift in Sources */,
 				7CFC9BB51ADD4F3A0017DD5B /* ViewController.swift in Sources */,

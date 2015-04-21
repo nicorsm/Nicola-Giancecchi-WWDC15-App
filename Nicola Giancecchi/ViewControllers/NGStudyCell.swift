@@ -20,6 +20,8 @@ class NGStudyCell: UICollectionViewCell {
     @IBOutlet private weak var lblText: UILabel!
     @IBOutlet private weak var imgLogo: UIImageView!
     @IBOutlet private weak var imgBackground: UIImageView!
+    private var mySchool : School!
+    var delegate : WebBrowserDelegate! = nil
     
     override func awakeFromNib() {
         
@@ -46,6 +48,15 @@ class NGStudyCell: UICollectionViewCell {
         self.lblText.text = school.text
         self.imgLogo.image = UIImage(named: school.logo)
         self.imgBackground.image = UIImage(named: school.background)
+        
+        mySchool = school
+    }
+    
+    
+    @IBAction func didOpenWebsite(sender: AnyObject) {
+        if (self.delegate != nil){
+            self.delegate.openURL(mySchool.website)
+        }
     }
 
 

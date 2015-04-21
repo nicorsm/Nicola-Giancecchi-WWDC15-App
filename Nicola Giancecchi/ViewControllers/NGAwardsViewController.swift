@@ -9,7 +9,7 @@
 import UIKit
 
 
-class NGAwardsViewController: UICollectionViewController {
+class NGAwardsViewController: UICollectionViewController , WebBrowserDelegate{
 
     var awards : Array<Award> = Array<Award>()
     
@@ -57,9 +57,17 @@ class NGAwardsViewController: UICollectionViewController {
     
         let award : Award = self.awards[indexPath.row]
         cell.populate(award)
+        cell.delegate = self
         
         return cell
     }
+    
+    func openURL(url: String) {
+        let browser : NGBrowserViewController = NGBrowserViewController(url: url)
+        self.navigationController?.pushViewController(browser, animated: true)
+    }
+    
+    
     
 
     // MARK: UICollectionViewDelegate
