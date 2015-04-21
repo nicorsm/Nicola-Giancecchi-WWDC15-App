@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        self.navigationController?.navigationBarHidden = true
+        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
         
         for v : UIView in self.view.subviews as! [UIView] {
             if v.tag != 1 {
@@ -24,10 +26,16 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func viewWillAppear(animated: Bool) {
+    override func viewDidAppear(animated: Bool) {
         self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0, green: 190.0/255.0, blue: 250.0/255.0, alpha: 1.0)
         
         self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
+        
+        self.navigationController?.navigationBarHidden = true
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        self.navigationController?.navigationBarHidden = false
     }
 
     override func didReceiveMemoryWarning() {

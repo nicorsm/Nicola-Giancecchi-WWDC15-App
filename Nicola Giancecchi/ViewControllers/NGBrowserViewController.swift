@@ -26,6 +26,9 @@ class NGBrowserViewController: UIViewController, UIWebViewDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let bbi : UIBarButtonItem = UIBarButtonItem(title: "Open in Safari", style: .Plain, target: self, action: "openInSafari")
+        self.navigationItem.rightBarButtonItem = bbi
+        
         if(self.urlToOpen != ""){
             var websiteUrl : NSURL
             
@@ -40,6 +43,10 @@ class NGBrowserViewController: UIViewController, UIWebViewDelegate {
         }
         
 
+    }
+    
+    func openInSafari(){
+        UIApplication.sharedApplication().openURL(NSURL(string:self.urlToOpen)!)
     }
     
     override func viewWillDisappear(animated: Bool) {

@@ -10,21 +10,41 @@ import UIKit
 
 class NGSkillsHobbiesViewController: UIViewController {
 
+    @IBOutlet private weak var contentView: UIView!
+    @IBOutlet private weak var humanView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.automaticallyAdjustsScrollViewInsets=false
         // Do any additional setup after loading the view.
         
+        let color : UIColor = UIColor().hexStringToUIColor("#ffad19")
         
-        for v : UIImageView in self.view.subviews as! [UIImageView] {
-            if v.tag != 1 {
-                v.layer.cornerRadius = v.frame.size.width/2
-                v.layer.masksToBounds = true
-                v.layer.borderColor = UIColor().hexStringToUIColor("#ffad19").CGColor
-                v.layer.borderWidth = 2.0
+        for v : UIView in self.contentView.subviews as! [UIView] {
+            if v.isKindOfClass(UIImageView) && v.tag == 1010 {
+                let img : UIImageView = v as! UIImageView
+                img.image = img.image?.imageWithColor(color)
+                img.layer.cornerRadius = v.frame.size.width/2
+                img.layer.masksToBounds = true
+                img.layer.borderColor = color.CGColor
+                img.layer.borderWidth = 2.0
+                
             }
         }
         
+        
+        for v : UIView in self.humanView.subviews as! [UIView] {
+            for vw : UIView in v.subviews as! [UIView] {
+                if(vw.isKindOfClass(UIImageView)){
+                    let img : UIImageView = vw as! UIImageView
+                    img.image = img.image?.imageWithColor(color)
+                    img.layer.cornerRadius = vw.frame.size.width/2
+                    img.layer.masksToBounds = true
+                    img.layer.borderColor = color.CGColor
+                    img.layer.borderWidth = 2.0
+                }
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
