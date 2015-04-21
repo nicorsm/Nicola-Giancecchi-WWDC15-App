@@ -19,6 +19,7 @@ class Project: JSONObject {
     var secondImage : String = ""
     var firstColumnText : String = ""
     var secondColumnText : String = ""
+    var ownershipGroup : String = ""
     var features : Array<Dictionary<String,String>> = Array<Dictionary<String,String>>()
     
     init(){
@@ -36,6 +37,7 @@ class Project: JSONObject {
         secondImage = dict["secondImage"] as! String
         firstColumnText = dict["firstColumnText"] as! String
         secondColumnText = dict["secondColumnText"] as! String
+        ownershipGroup = dict["ownership_group"] as! String
         features = dict["features"] as! Array<Dictionary<String,String>>
     }
 }

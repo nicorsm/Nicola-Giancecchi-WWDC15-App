@@ -18,6 +18,7 @@ class School : JSONObject {
     var text : String = ""
     var logo : String = ""
     var background : String = ""
+    var ownershipGroup : String = ""
     
     required init(dict : Dictionary<String,AnyObject>){
         school = dict["school"]! as! String
@@ -29,5 +30,6 @@ class School : JSONObject {
         text = dict["text"] as! String
         logo = dict["logo"] as! String
         background = dict["background"] as! String
+        ownershipGroup = dict["ownership_group"] as! String
     }
 }

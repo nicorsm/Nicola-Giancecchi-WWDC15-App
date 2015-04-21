@@ -338,6 +338,10 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                                     <outlet property="delegate" destination="DWf-Q0-mpf" id="Wqf-Wu-7qY"/>
                                 </connections>
                             </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="Hg1-5M-iEW">
+                                <rect key="frame" x="952" y="248" width="82" height="37"/>
+                                <color key="pageIndicatorTintColor" red="0.38682721860000002" green="0.80139078119999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -350,6 +354,7 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
                         <outlet property="collectionView" destination="4bk-N3-jc4" id="Zcq-tF-JvL"/>
+                        <outlet property="pageControl" destination="Hg1-5M-iEW" id="KhQ-eZ-wf7"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="E20-dO-FIP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -357,28 +362,52 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
             <point key="canvasLocation" x="2907" y="-74"/>
         </scene>
         <!--Awards View Controller-->
-        <scene sceneID="Ivy-Wp-6mk">
+        <scene sceneID="g2o-AS-LFT">
             <objects>
-                <collectionViewController id="V0j-v6-bwd" customClass="NGAwardsViewController" customModule="Nicola_Giancecchi" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="nW2-cy-L13">
+                <viewController id="MN6-lF-wGc" customClass="NGAwardsViewController" customModule="Nicola_Giancecchi" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TOh-93-EXH"/>
+                        <viewControllerLayoutGuide type="bottom" id="RSz-Vi-33D"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dlE-Zm-Z0o">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="ceO-hx-9UF">
-                            <size key="itemSize" width="1024" height="768"/>
-                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
-                        </collectionViewFlowLayout>
-                        <cells/>
-                        <connections>
-                            <outlet property="dataSource" destination="V0j-v6-bwd" id="vPF-m5-Iha"/>
-                            <outlet property="delegate" destination="V0j-v6-bwd" id="1fs-v8-FwC"/>
-                        </connections>
-                    </collectionView>
-                </collectionViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="48Y-Cy-7K6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="WWR-L4-Xaa">
+                                <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="1rY-Fs-n6C">
+                                    <size key="itemSize" width="1024" height="768"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="MN6-lF-wGc" id="bdj-O6-X25"/>
+                                    <outlet property="delegate" destination="MN6-lF-wGc" id="GIL-ZE-Cza"/>
+                                </connections>
+                            </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="t12-ZB-x7C">
+                                <rect key="frame" x="942" y="452" width="104" height="37"/>
+                                <color key="pageIndicatorTintColor" red="1" green="0.61683683357274832" blue="0.60091670927023677" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="WWR-L4-Xaa" firstAttribute="top" secondItem="dlE-Zm-Z0o" secondAttribute="top" id="5dL-lI-PxD"/>
+                            <constraint firstItem="RSz-Vi-33D" firstAttribute="top" secondItem="WWR-L4-Xaa" secondAttribute="bottom" id="A3t-cB-5Jk"/>
+                            <constraint firstAttribute="trailing" secondItem="WWR-L4-Xaa" secondAttribute="trailing" id="hdh-zu-CMD"/>
+                            <constraint firstItem="WWR-L4-Xaa" firstAttribute="leading" secondItem="dlE-Zm-Z0o" secondAttribute="leading" id="wHc-sn-Bxe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="WWR-L4-Xaa" id="6E6-Zg-ekK"/>
+                        <outlet property="pageControl" destination="t12-ZB-x7C" id="UMl-Uk-9j0"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rmR-k7-bSM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1611" y="-577"/>
+            <point key="canvasLocation" x="1628" y="-534"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
@@ -454,7 +483,7 @@ HOBBIES</string>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="V0j-v6-bwd" kind="show" id="Zyo-tG-C0z"/>
+                                    <segue destination="MN6-lF-wGc" kind="show" id="o7e-9n-myp"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYf-32-Yj9">
@@ -515,7 +544,7 @@ HOBBIES</string>
         <!--Projects View Controller-->
         <scene sceneID="RzV-vA-apn">
             <objects>
-                <viewController id="i0M-Qo-cMX" customClass="NGProjectsViewController" customModule="Nicola_Giancecchi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="projects" id="i0M-Qo-cMX" customClass="NGProjectsViewController" customModule="Nicola_Giancecchi" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="u1q-Lo-zoK"/>
                         <viewControllerLayoutGuide type="bottom" id="Gj3-ld-jnd"/>
@@ -1193,6 +1222,10 @@ San Marino has two presidents, the Captains Regent, that change every six months
                                     <outlet property="delegate" destination="lt7-5B-bfC" id="HmT-ra-2jZ"/>
                                 </connections>
                             </collectionView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" currentPage="1" translatesAutoresizingMaskIntoConstraints="NO" id="Isw-e3-xci">
+                                <rect key="frame" x="953" y="349" width="82" height="37"/>
+                                <color key="pageIndicatorTintColor" red="0.52145845185594142" green="0.87801326720675676" blue="0.5149624183251319" alpha="1" colorSpace="calibratedRGB"/>
+                            </pageControl>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -1206,6 +1239,7 @@ San Marino has two presidents, the Captains Regent, that change every six months
                     <size key="freeformSize" width="1024" height="768"/>
                     <connections>
                         <outlet property="collectionView" destination="WIY-3H-pJv" id="9gB-6e-ZKv"/>
+                        <outlet property="pageControl" destination="Isw-e3-xci" id="TGf-Pl-h6B"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K5R-ce-NCU" userLabel="First Responder" sceneMemberID="firstResponder"/>

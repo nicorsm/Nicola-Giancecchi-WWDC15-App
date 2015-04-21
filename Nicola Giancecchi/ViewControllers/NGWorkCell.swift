@@ -13,6 +13,10 @@ protocol WebBrowserDelegate{
     func openURL(url:String)
 }
 
+protocol ProjectsDelegate{
+    func openProjects(ownershipGroup:String)
+}
+
 class NGWorkCell: UICollectionViewCell {
 
     @IBOutlet private weak var imgCompany: UIImageView!
@@ -28,6 +32,7 @@ class NGWorkCell: UICollectionViewCell {
     @IBOutlet private weak var btnProjects: UIButton!
     @IBOutlet private weak var btnWebsite: UIButton!
     var delegate : WebBrowserDelegate! = nil
+    var projects_delegate : ProjectsDelegate! = nil
     var myWork : Work! = nil
     
     override func awakeFromNib() {
@@ -56,9 +61,17 @@ class NGWorkCell: UICollectionViewCell {
         lblWhy.text = work.why
         lblBrief.text = work.brief
         
+        btnProjects.hidden = (work.ownershipGroup == "")
+        
         myWork = work
     }
 
+    @IBAction func didOpenProjects(sender: AnyObject) {
+        if self.projects_delegate != nil {
+            self.projects_delegate.openProjects(myWork.ownershipGroup)
+        }
+    }
+    
     @IBAction func didOpenWebsite(sender: AnyObject) {
         if self.delegate != nil {
             self.delegate.openURL(myWork.website)

@@ -18,6 +18,8 @@ class Work: JSONObject {
     var logo : String = ""
     var img : String = ""
     var website : String = ""
+    var ownershipGroup : String = ""
+    
     
     
     required init(dict : Dictionary<String,AnyObject>){
@@ -30,6 +32,7 @@ class Work: JSONObject {
         logo = dict["logo"] as! String
         img = dict["img"] as! String
         website = dict["website"] as! String
+        ownershipGroup = dict["ownership_group"] as! String
     }
 
 }

@@ -8,11 +8,12 @@
 
 import UIKit
 
-class NGWorkViewController: UIViewController, WebBrowserDelegate {
+class NGWorkViewController: UIViewController, WebBrowserDelegate, ProjectsDelegate, UIScrollViewDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
     private var works : Array<Work> = Array<Work>()
+    @IBOutlet weak var pageControl: UIPageControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,7 +25,10 @@ class NGWorkViewController: UIViewController, WebBrowserDelegate {
         self.works = DataManager.shared.getWork()
         self.collectionView.reloadData()
         
-        // Do any additional setup after loading the view.
+        self.pageControl.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_2))
+        self.pageControl.numberOfPages = self.works.count
+        self.pageControl.currentPage = 0
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -36,6 +40,9 @@ class NGWorkViewController: UIViewController, WebBrowserDelegate {
         return 1
     }
     
+    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+        self.pageControl.currentPage = Int(scrollView.contentOffset.y/self.view.frame.size.height)
+    }
     
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.works.count
@@ -48,6 +55,7 @@ class NGWorkViewController: UIViewController, WebBrowserDelegate {
         
         cell.populate(work)
         cell.delegate = self
+        cell.projects_delegate = self
         
         return cell
     }
@@ -57,15 +65,12 @@ class NGWorkViewController: UIViewController, WebBrowserDelegate {
         self.navigationController?.pushViewController(browser, animated: true)
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func openProjects(ownershipGroup: String) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let projects : NGProjectsViewController = storyboard.instantiateViewControllerWithIdentifier("projects") as! NGProjectsViewController
+        projects.ownership = ownershipGroup
+        self.navigationController?.pushViewController(projects, animated: true)
     }
-    */
+
 
 }

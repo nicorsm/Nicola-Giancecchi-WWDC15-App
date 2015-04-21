@@ -69,8 +69,11 @@ class NGProjectDetailViewController: UIViewController {
         btnLink.layer.cornerRadius = 5.0
         btnLink.layer.masksToBounds = true
         btnLink.layer.borderColor = appColor.CGColor
-        btnLink.layer.borderWidth = 1.0
+        btnLink.layer.borderWidth = 2.0
         
+        if proj.appLink == "" {
+            btnLink.hidden = true
+        }
         
         lblFirstColumnText.text = proj.firstColumnText;
         lblSecondColumnText.text = proj.secondColumnText;

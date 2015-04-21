@@ -51,9 +51,9 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="2208"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xDO-U5-eXW">
-                            <rect key="frame" x="0.0" y="0.0" width="1024" height="2208"/>
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="2199"/>
                             <subviews>
-                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="AppIcon60x60.png" translatesAutoresizingMaskIntoConstraints="NO" id="uNc-P3-1kz">
+                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="app_differenzia" translatesAutoresizingMaskIntoConstraints="NO" id="uNc-P3-1kz">
                                     <rect key="frame" x="467" y="32" width="90" height="90"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="90" id="7Jx-9d-9C3"/>
@@ -67,20 +67,20 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Flipping board for San Marino." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g6f-n8-QjG">
-                                    <rect key="frame" x="368" y="207" width="288" height="17"/>
+                                    <rect key="frame" x="368" y="198" width="288" height="17"/>
                                     <fontDescription key="fontDescription" name="Gotham-LightItalic" family="Gotham" pointSize="17"/>
                                     <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="iphone_modello.png" translatesAutoresizingMaskIntoConstraints="NO" id="cnf-Rx-rqS">
-                                    <rect key="frame" x="226" y="282" width="572" height="353"/>
+                                    <rect key="frame" x="226" y="273" width="572" height="353"/>
                                     <constraints>
                                         <constraint firstAttribute="width" constant="572" id="X15-ke-IPt"/>
                                         <constraint firstAttribute="height" constant="353" id="sVA-m2-Uma"/>
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KK7-iW-XFj">
-                                    <rect key="frame" x="0.0" y="695" width="1024" height="266"/>
+                                    <rect key="frame" x="0.0" y="686" width="1024" height="266"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psw-lT-ehg">
                                             <rect key="frame" x="161" y="48" width="320" height="169"/>
@@ -103,14 +103,14 @@
                                     </constraints>
                                 </view>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="ipad_modello.png" translatesAutoresizingMaskIntoConstraints="NO" id="hYs-1s-95G">
-                                    <rect key="frame" x="325" y="1027" width="375" height="530"/>
+                                    <rect key="frame" x="325" y="1018" width="375" height="530"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="530" id="Vyx-Ur-NQQ"/>
                                         <constraint firstAttribute="width" constant="375" id="bmN-dh-Mln"/>
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sY0-bx-Ht8">
-                                    <rect key="frame" x="0.0" y="1626" width="1024" height="582"/>
+                                    <rect key="frame" x="0.0" y="1617" width="1024" height="582"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96z-zj-MZj">
                                             <rect key="frame" x="50" y="50" width="445" height="100"/>
@@ -296,7 +296,7 @@
                                 <constraint firstItem="sY0-bx-Ht8" firstAttribute="leading" secondItem="xDO-U5-eXW" secondAttribute="leading" id="Sob-mM-BeA"/>
                                 <constraint firstItem="0wW-qa-a2x" firstAttribute="top" secondItem="uNc-P3-1kz" secondAttribute="bottom" constant="35" id="VMC-K7-jIo"/>
                                 <constraint firstAttribute="centerX" secondItem="0wW-qa-a2x" secondAttribute="centerX" id="ZxX-6T-yJt"/>
-                                <constraint firstItem="g6f-n8-QjG" firstAttribute="top" secondItem="0wW-qa-a2x" secondAttribute="bottom" constant="20" id="bfx-ZB-2e5"/>
+                                <constraint firstItem="g6f-n8-QjG" firstAttribute="top" secondItem="0wW-qa-a2x" secondAttribute="bottom" constant="11" id="bfx-ZB-2e5"/>
                                 <constraint firstItem="uNc-P3-1kz" firstAttribute="top" secondItem="xDO-U5-eXW" secondAttribute="top" constant="32" id="cCO-NW-kDL"/>
                                 <constraint firstItem="KK7-iW-XFj" firstAttribute="top" secondItem="cnf-Rx-rqS" secondAttribute="bottom" constant="60" id="cXT-Xq-Srd"/>
                                 <constraint firstAttribute="centerX" secondItem="hYs-1s-95G" secondAttribute="centerX" id="ccT-bf-xoj"/>
@@ -330,7 +330,7 @@
         </view>
     </objects>
     <resources>
-        <image name="AppIcon60x60.png" width="960" height="676"/>
+        <image name="app_differenzia" width="76" height="76"/>
         <image name="ipad_modello.png" width="750" height="1060"/>
         <image name="iphone_modello.png" width="1145" height="706"/>
     </resources>

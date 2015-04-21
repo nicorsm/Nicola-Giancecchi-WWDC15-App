@@ -3,34 +3,36 @@
     "school": "UNIVERSITY (2012-current)",
     "institution": "Alma Mater Studiorum\nUniversity of Bologna - Campus of Cesena",
     "course": "COMPUTER SCIENCE AND ENGINEERING",
-    "website":"http://www.isi.polocesena.unibo.it",
+    "website": "http://www.isi.polocesena.unibo.it",
     "title": "Bachelor of Science Degree (Laurea triennale)\nComputer Engineering Curriculum",
     "vote": "NSNull() (...expected degree in Late 2015)",
-    "text":"Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ",
+    "text": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ",
     "logo": "stemma_unibo.png",
-    "background":"uni_place.jpg"
+    "ownership_group": "3",
+    "background": "uni_place.jpg"
   },
- {
- "school": "HIGH SCHOOL (2009-2012)",
- "institution": "Istituto Tecnico Industriale Statale\nLeonardo da Vinci - Rimini, Italy",
- "course": "INFORMATION TECHNOLOGY",
- "website":"http://www.itigrimini.it",
- "title": "Computer Expert (Perito Industriale)",
- "vote": "100 / 100",
- "text":"Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ",
- "logo": "stemma_davinci.png",
- "background":"iti_institute.jpg"
+  {
+    "school": "HIGH SCHOOL (2009-2012)",
+    "institution": "Istituto Tecnico Industriale Statale\nLeonardo da Vinci - Rimini, Italy",
+    "course": "INFORMATION TECHNOLOGY",
+    "website": "http://www.itigrimini.it",
+    "title": "Computer Expert (Perito Industriale)",
+    "vote": "100 / 100",
+    "text": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ",
+    "logo": "stemma_davinci.png",
+    "ownership_group": "2",
+    "background": "iti_institute.jpg"
   },
- 
- {
- "school": "HIGH SCHOOL (2007-2009)",
- "institution": "Scuola Secondaria Superiore\ndella Repubblica di San Marino",
- "course": "TECHNICAL INSTITUTE",
- "website":"http://www.educazione.sm/scuolasup",
- "title": "Biennium ITI",
- "vote": "No final vote",
- "text":"Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ",
- "logo": "stemma_sm.png",
- "background":"sup_01.jpg"
- }
+  {
+    "school": "HIGH SCHOOL (2007-2009)",
+    "institution": "Scuola Secondaria Superiore\ndella Repubblica di San Marino",
+    "course": "TECHNICAL INSTITUTE",
+    "website": "http://www.educazione.sm/scuolasup",
+    "title": "Biennium ITI",
+    "vote": "No final vote",
+    "text": "Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. ",
+    "logo": "stemma_sm.png",
+    "ownership_group": "",
+    "background": "sup_01.jpg"
+  }
 ]

@@ -20,6 +20,7 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     var projects : Array<Project>
     var currentViewController : NGProjectDetailViewController
     var startingIndex : Int
+    var ownership : String?
     var rtl : Bool = false
     @IBOutlet weak var pageContainerView: UIView!
     
@@ -29,7 +30,6 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         self.startingIndex = 0
         self.projects = Array<Project>()
         super.init(coder: aDecoder)
-        //fatalError("init(coder:) has not been implemented")
     }
     
     
@@ -51,6 +51,11 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         
         self.projects = DataManager.shared.getProjects()
         
+        if ownership != nil && ownership != "" {
+            self.projects = self.projects.filter() { $0.ownershipGroup == self.ownership }
+        }
+        
+        
         for var i = 0; i < projects.count; i++ {
             let vc : NGProjectDetailViewController = NGProjectDetailViewController(project:self.projects[i])
             self.viewControllers.addObject(vc)
@@ -59,8 +64,6 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         currentViewController = self.viewControllers[self.startingIndex] as! NGProjectDetailViewController
         self.pageController!.setViewControllers([currentViewController], direction:UIPageViewControllerNavigationDirection.Forward, animated: false, completion: nil)
         
-        
-
     }
 
     override func didReceiveMemoryWarning() {

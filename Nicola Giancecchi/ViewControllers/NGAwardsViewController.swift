@@ -9,10 +9,12 @@
 import UIKit
 
 
-class NGAwardsViewController: UICollectionViewController , WebBrowserDelegate{
+class NGAwardsViewController: UIViewController , WebBrowserDelegate, UIScrollViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate{
 
     var awards : Array<Award> = Array<Award>()
     
+    @IBOutlet weak var pageControl: UIPageControl!
+    @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,7 +23,14 @@ class NGAwardsViewController: UICollectionViewController , WebBrowserDelegate{
         self.automaticallyAdjustsScrollViewInsets = false
         
         self.awards = DataManager.shared.getAwards()
+        
+        self.pageControl.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_2))
+        self.pageControl.numberOfPages = self.awards.count
+        self.pageControl.currentPage = 0
+        
         self.collectionView?.reloadData()
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,30 +38,22 @@ class NGAwardsViewController: UICollectionViewController , WebBrowserDelegate{
         // Dispose of any resources that can be recreated.
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
+    
+    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+        self.pageControl.currentPage = Int(scrollView.contentOffset.y/self.view.frame.size.height)
     }
-    */
 
-    // MARK: UICollectionViewDataSource
 
-    override func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-        //#warning Incomplete method implementation -- Return the number of sections
+    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
     }
 
 
-    override func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        //#warning Incomplete method implementation -- Return the number of items in the section
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.awards.count
     }
 
-    override func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! NGAwardsCell
     
         let award : Award = self.awards[indexPath.row]
@@ -67,38 +68,5 @@ class NGAwardsViewController: UICollectionViewController , WebBrowserDelegate{
         self.navigationController?.pushViewController(browser, animated: true)
     }
     
-    
-    
-
-    // MARK: UICollectionViewDelegate
-
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    override func collectionView(collectionView: UICollectionView, shouldHighlightItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment this method to specify if the specified item should be selected
-    override func collectionView(collectionView: UICollectionView, shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    override func collectionView(collectionView: UICollectionView, shouldShowMenuForItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return false
-    }
-
-    override func collectionView(collectionView: UICollectionView, canPerformAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) -> Bool {
-        return false
-    }
-
-    override func collectionView(collectionView: UICollectionView, performAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) {
-    
-    }
-    */
 
 }

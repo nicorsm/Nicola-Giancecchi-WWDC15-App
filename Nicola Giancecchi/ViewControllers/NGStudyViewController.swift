@@ -10,20 +10,26 @@ import UIKit
 
 let reuseIdentifier = "Cell"
 
-class NGStudyViewController: UIViewController, WebBrowserDelegate {
+class NGStudyViewController: UIViewController, WebBrowserDelegate, ProjectsDelegate, UIScrollViewDelegate {
 
     @IBOutlet weak var collectionView: UICollectionView!
     var data : Array<School> = []
+    
+    @IBOutlet weak var pageControl: UIPageControl!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.collectionView?.registerNib(UINib(nibName: "NGStudyCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
         
+        
         self.navigationItem.title = "Study".uppercaseString
         
         data = DataManager.shared.getStudy()
         self.collectionView.reloadData()
+        self.pageControl.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_2))
+        self.pageControl.numberOfPages = data.count
+        self.pageControl.currentPage = 0
         
         self.automaticallyAdjustsScrollViewInsets = false
         
@@ -37,6 +43,9 @@ class NGStudyViewController: UIViewController, WebBrowserDelegate {
         return 1;
     }
 
+    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+        self.pageControl.currentPage = Int(scrollView.contentOffset.y/self.view.frame.size.height)
+    }
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return data.count
@@ -48,7 +57,7 @@ class NGStudyViewController: UIViewController, WebBrowserDelegate {
         let current : School = data[indexPath.row]
         cell.delegate = self
         cell.populateSchool(current)
-        
+        cell.projects_delegate = self
         return cell
     }
     
@@ -57,37 +66,11 @@ class NGStudyViewController: UIViewController, WebBrowserDelegate {
         self.navigationController?.pushViewController(browser, animated: true)
     }
     
-    
-
-    // MARK: UICollectionViewDelegate
-
-    /*
-    // Uncomment this method to specify if the specified item should be highlighted during tracking
-    override func collectionView(collectionView: UICollectionView, shouldHighlightItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return true
+    func openProjects(ownershipGroup: String) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let projects : NGProjectsViewController = storyboard.instantiateViewControllerWithIdentifier("projects") as! NGProjectsViewController
+        projects.ownership = ownershipGroup
+        self.navigationController?.pushViewController(projects, animated: true)
     }
-    */
-
-    /*
-    // Uncomment this method to specify if the specified item should be selected
-    override func collectionView(collectionView: UICollectionView, shouldSelectItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return true
-    }
-    */
-
-    /*
-    // Uncomment these methods to specify if an action menu should be displayed for the specified item, and react to actions performed on the item
-    override func collectionView(collectionView: UICollectionView, shouldShowMenuForItemAtIndexPath indexPath: NSIndexPath) -> Bool {
-        return false
-    }
-
-    override func collectionView(collectionView: UICollectionView, canPerformAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) -> Bool {
-        return false
-    }
-
-    override func collectionView(collectionView: UICollectionView, performAction action: Selector, forItemAtIndexPath indexPath: NSIndexPath, withSender sender: AnyObject?) {
-    
-    }
-    */
 
 }

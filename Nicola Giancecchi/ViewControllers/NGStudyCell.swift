@@ -22,6 +22,9 @@ class NGStudyCell: UICollectionViewCell {
     @IBOutlet private weak var imgBackground: UIImageView!
     private var mySchool : School!
     var delegate : WebBrowserDelegate! = nil
+    var projects_delegate : ProjectsDelegate! = nil
+    
+    
     
     override func awakeFromNib() {
         
@@ -49,6 +52,8 @@ class NGStudyCell: UICollectionViewCell {
         self.imgLogo.image = UIImage(named: school.logo)
         self.imgBackground.image = UIImage(named: school.background)
         
+        btnProjects.hidden = (school.ownershipGroup == "")
+        
         mySchool = school
     }
     
@@ -56,6 +61,13 @@ class NGStudyCell: UICollectionViewCell {
     @IBAction func didOpenWebsite(sender: AnyObject) {
         if (self.delegate != nil){
             self.delegate.openURL(mySchool.website)
+        }
+    }
+    
+    
+    @IBAction func didOpenProjects(sender: AnyObject) {
+        if self.projects_delegate != nil {
+            self.projects_delegate.openProjects(mySchool.ownershipGroup)
         }
     }
 

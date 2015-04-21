@@ -157,6 +157,9 @@ Università di Bologna - Campus di Cesena</string>
                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                         </state>
+                        <connections>
+                            <action selector="didOpenProjects:" destination="VEu-5c-LDg" eventType="touchUpInside" id="Yue-p8-yH9"/>
+                        </connections>
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNIVERSITY (2012 - current)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFL-W0-xeu">
                         <rect key="frame" x="566" y="130" width="430" height="20"/>

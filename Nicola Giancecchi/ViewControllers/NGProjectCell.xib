@@ -17,7 +17,7 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="160" height="100"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AppIcon60x60.png" translatesAutoresizingMaskIntoConstraints="NO" id="QJp-vj-RtK">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="app_differenzia" translatesAutoresizingMaskIntoConstraints="NO" id="QJp-vj-RtK">
                         <rect key="frame" x="53" y="14" width="54" height="54"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="San Marino Differenzia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VTi-OC-Fx2">
@@ -39,6 +39,6 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="AppIcon60x60.png" width="960" height="676"/>
+        <image name="app_differenzia" width="76" height="76"/>
     </resources>
 </document>
