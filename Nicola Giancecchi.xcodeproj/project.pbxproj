@@ -75,13 +75,9 @@
 		7C6C04F31ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04F21ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg */; };
 		7C6C04F51ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04F41ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift */; };
 		7CC8A9711ADFF00C00F1FCE7 /* NGWWDCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC8A9701ADFF00C00F1FCE7 /* NGWWDCViewController.swift */; };
-		7CC8A9741AE0204900F1FCE7 /* NGConferenceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC8A9721AE0204900F1FCE7 /* NGConferenceCell.swift */; };
-		7CC8A9751AE0204900F1FCE7 /* NGConferenceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A9731AE0204900F1FCE7 /* NGConferenceCell.xib */; };
 		7CC8A9771AE021A000F1FCE7 /* nico_ticket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A9761AE021A000F1FCE7 /* nico_ticket.jpg */; };
 		7CC8A9791AE021A800F1FCE7 /* nico_infinite_loop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A9781AE021A800F1FCE7 /* nico_infinite_loop.jpg */; };
-		7CC8A97B1AE0255900F1FCE7 /* WWDCDescriptor.json in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A97A1AE0255900F1FCE7 /* WWDCDescriptor.json */; };
 		7CC8A97D1AE0266200F1FCE7 /* nico_moscone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A97C1AE0266200F1FCE7 /* nico_moscone.jpg */; };
-		7CC8A97F1AE026B400F1FCE7 /* WWDCDescriptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CC8A97E1AE026B400F1FCE7 /* WWDCDescriptor.swift */; };
 		7CE437D31AE3DA50005C16B6 /* stemma_davinci.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE437D21AE3DA50005C16B6 /* stemma_davinci.png */; };
 		7CE437D51AE3DADB005C16B6 /* stemma_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE437D41AE3DADB005C16B6 /* stemma_sm.png */; };
 		7CE437D71AE3DB93005C16B6 /* stemma_unibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE437D61AE3DB93005C16B6 /* stemma_unibo.png */; };
@@ -198,13 +194,9 @@
 		7C6C04F21ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 10869619_745719478852188_2852983018894253508_o.jpg; sourceTree = "<group>"; };
 		7C6C04F41ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGSanMarinoInfoViewController.swift; path = ViewControllers/NGSanMarinoInfoViewController.swift; sourceTree = "<group>"; };
 		7CC8A9701ADFF00C00F1FCE7 /* NGWWDCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGWWDCViewController.swift; path = ViewControllers/NGWWDCViewController.swift; sourceTree = "<group>"; };
-		7CC8A9721AE0204900F1FCE7 /* NGConferenceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGConferenceCell.swift; path = ViewControllers/NGConferenceCell.swift; sourceTree = "<group>"; };
-		7CC8A9731AE0204900F1FCE7 /* NGConferenceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGConferenceCell.xib; path = ViewControllers/NGConferenceCell.xib; sourceTree = "<group>"; };
 		7CC8A9761AE021A000F1FCE7 /* nico_ticket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nico_ticket.jpg; sourceTree = "<group>"; };
 		7CC8A9781AE021A800F1FCE7 /* nico_infinite_loop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nico_infinite_loop.jpg; sourceTree = "<group>"; };
-		7CC8A97A1AE0255900F1FCE7 /* WWDCDescriptor.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = WWDCDescriptor.json; path = Datasource/WWDCDescriptor.json; sourceTree = "<group>"; };
 		7CC8A97C1AE0266200F1FCE7 /* nico_moscone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nico_moscone.jpg; sourceTree = "<group>"; };
-		7CC8A97E1AE026B400F1FCE7 /* WWDCDescriptor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WWDCDescriptor.swift; path = Model/WWDCDescriptor.swift; sourceTree = "<group>"; };
 		7CE437D21AE3DA50005C16B6 /* stemma_davinci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stemma_davinci.png; sourceTree = "<group>"; };
 		7CE437D41AE3DADB005C16B6 /* stemma_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stemma_sm.png; sourceTree = "<group>"; };
 		7CE437D61AE3DB93005C16B6 /* stemma_unibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stemma_unibo.png; sourceTree = "<group>"; };
@@ -327,7 +319,6 @@
 				7C0740491AE1926D0092C591 /* Work.json */,
 				7C6C04BF1ADD84CC00C61B0B /* Study.json */,
 				7C16E9951ADF1518004A551A /* Projects.json */,
-				7CC8A97A1AE0255900F1FCE7 /* WWDCDescriptor.json */,
 				7C07405E1AE1A9980092C591 /* Awards.json */,
 			);
 			name = Datasource;
@@ -338,7 +329,6 @@
 			children = (
 				7C6C04C31ADD866200C61B0B /* School.swift */,
 				7C16E9931ADF0E2F004A551A /* Project.swift */,
-				7CC8A97E1AE026B400F1FCE7 /* WWDCDescriptor.swift */,
 				7C07404B1AE192840092C591 /* Work.swift */,
 				7C0740511AE1977B0092C591 /* JSONObject.swift */,
 				7C0740621AE1B1F40092C591 /* Award.swift */,
@@ -412,8 +402,6 @@
 			isa = PBXGroup;
 			children = (
 				7CC8A9701ADFF00C00F1FCE7 /* NGWWDCViewController.swift */,
-				7CC8A9721AE0204900F1FCE7 /* NGConferenceCell.swift */,
-				7CC8A9731AE0204900F1FCE7 /* NGConferenceCell.xib */,
 			);
 			name = WWDC2014;
 			sourceTree = "<group>";
@@ -676,7 +664,6 @@
 				7CC8A9791AE021A800F1FCE7 /* nico_infinite_loop.jpg in Resources */,
 				7CF9051A1AE6AE3500FAD49A /* nerdies.jpg in Resources */,
 				7CE437D51AE3DADB005C16B6 /* stemma_sm.png in Resources */,
-				7CC8A9751AE0204900F1FCE7 /* NGConferenceCell.xib in Resources */,
 				7CFC9BF31ADD51850017DD5B /* Gotham-Medium.otf in Resources */,
 				7C5158831AE588840087E9BE /* IMG_2913.jpg in Resources */,
 				7CFC9BF41ADD51850017DD5B /* Gotham-MediumItalic.otf in Resources */,
@@ -689,7 +676,6 @@
 				7CFC9C0B1ADD7D670017DD5B /* uni_people.jpg in Resources */,
 				7C51587D1AE571090087E9BE /* IMG_3210.jpg in Resources */,
 				7C51587B1AE56DAD0087E9BE /* IMG_3022.JPG in Resources */,
-				7CC8A97B1AE0255900F1FCE7 /* WWDCDescriptor.json in Resources */,
 				7C6C04C01ADD84CC00C61B0B /* Study.json in Resources */,
 				7CFC9BF81ADD51850017DD5B /* Gotham-UltraItalic.otf in Resources */,
 				7C6C04F31ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg in Resources */,
@@ -752,11 +738,9 @@
 				7C16E9941ADF0E2F004A551A /* Project.swift in Sources */,
 				7C07404C1AE192840092C591 /* Work.swift in Sources */,
 				7C64760D1ADFABDE003CB5ED /* UIImage+ColorChange.swift in Sources */,
-				7CC8A97F1AE026B400F1FCE7 /* WWDCDescriptor.swift in Sources */,
 				7C51588C1AE59E1B0087E9BE /* NGSkillsHobbiesViewController.swift in Sources */,
 				7C0740581AE1A6A60092C591 /* NGAwardsCell.swift in Sources */,
 				7C16E99E1ADF1A40004A551A /* UIColor+HexString.swift in Sources */,
-				7CC8A9741AE0204900F1FCE7 /* NGConferenceCell.swift in Sources */,
 				7C16E9821ADEF209004A551A /* NGProjectsViewController.swift in Sources */,
 				7C0740521AE1977B0092C591 /* JSONObject.swift in Sources */,
 				7C6C04F51ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift in Sources */,

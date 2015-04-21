@@ -40,16 +40,6 @@ class DataManager : NSObject {
         return ar
     }
     
-    func getWWDCData() -> Array<WWDCDescriptor>{
-        var ar : Array = Array<WWDCDescriptor>()
-        let data : Array<Dictionary<String,AnyObject>> = self.parseFile("WWDCDescriptor") as! Array<Dictionary<String,AnyObject>>
-        
-        for v in data as [Dictionary<String,AnyObject>]{
-            let wwdc : WWDCDescriptor = WWDCDescriptor.init(dict: v)
-            ar.append(wwdc)
-        }
-        return ar
-    }
     
     func getWork() -> Array<Work>{
         var ar : Array = Array<Work>()

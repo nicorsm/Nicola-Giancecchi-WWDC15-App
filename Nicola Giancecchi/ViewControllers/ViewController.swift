@@ -15,6 +15,7 @@ class ViewController: UIViewController {
         
         self.navigationController?.navigationBarHidden = true
         self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
+        self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont(name: "Gotham-Bold", size: 20)!]
         
         for v : UIView in self.view.subviews as! [UIView] {
             if v.tag != 1 {

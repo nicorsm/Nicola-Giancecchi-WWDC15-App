@@ -83,6 +83,9 @@
             <string>Gotham-Light</string>
             <string>Gotham-Light</string>
         </mutableArray>
+        <mutableArray key="Gotham-LightItalic.otf">
+            <string>Gotham-LightItalic</string>
+        </mutableArray>
         <mutableArray key="Gotham-Medium.otf">
             <string>Gotham-Medium</string>
             <string>Gotham-Medium</string>
@@ -116,31 +119,33 @@
                                                 <rect key="frame" x="0.0" y="-135" width="1024" height="713"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                             </imageView>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H6G-SP-Kpr">
+                                                <rect key="frame" x="0.0" y="355" width="1024" height="221"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="WWDC 2014" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bBL-0B-9wI">
-                                                <rect key="frame" x="30" y="505" width="970" height="68"/>
+                                                <rect key="frame" x="27" y="455" width="970" height="68"/>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="55"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sro-KC-eW4">
-                                                <rect key="frame" x="226" y="593" width="572" height="64"/>
-                                                <string key="text">Write the code change the world.
-San Francisco, June 2nd - 6th, 2014</string>
-                                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="25"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Write the code, change the world." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sro-KC-eW4">
+                                                <rect key="frame" x="340" y="516" width="345" height="31"/>
+                                                <fontDescription key="fontDescription" name="Gotham-LightItalic" family="Gotham" pointSize="19"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_2874.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jS8-o8-80C">
-                                                <rect key="frame" x="30" y="711" width="467" height="300"/>
+                                                <rect key="frame" x="30" y="671" width="467" height="300"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The amazing week of code." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ck9-Vf-9Qf">
-                                                <rect key="frame" x="527" y="757" width="467" height="43"/>
+                                                <rect key="frame" x="527" y="717" width="467" height="43"/>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="26"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbn-e0-Yoa">
-                                                <rect key="frame" x="527" y="808" width="467" height="157"/>
+                                                <rect key="frame" x="527" y="768" width="467" height="157"/>
                                                 <string key="text">Last year I was awarded by Apple of a WWDC 2014 Student Scholarship Ticket for the conference. That week was probably the best of my life.
 It was an opportunity to meet a lot of devs and talented guys from all over the world and make new friendships.
 I learned so many things, so many new aspects of iOS Development that I didn't know before.</string>
@@ -149,16 +154,16 @@ I learned so many things, so many new aspects of iOS Development that I didn't k
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_2867.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="8fQ-XV-Ecr">
-                                                <rect key="frame" x="527" y="1049" width="467" height="300"/>
+                                                <rect key="frame" x="527" y="1009" width="467" height="300"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="&quot;Nicola, you won a Scholarship!&quot;" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LAP-Sn-STG">
-                                                <rect key="frame" x="30" y="1095" width="467" height="43"/>
+                                                <rect key="frame" x="30" y="1055" width="467" height="43"/>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="26"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yS8-BE-cdo">
-                                                <rect key="frame" x="30" y="1152" width="467" height="151"/>
+                                                <rect key="frame" x="30" y="1112" width="467" height="151"/>
                                                 <string key="text">I received the news of winning at 2:15 AM (italian time).
 Can’t sleep that night! 
 The day after the news was in newspapers and radio and a lot of people have congratulated with me. The news has gone around the whole Republic of San Marino.
@@ -168,16 +173,16 @@ The days before departure I was interviewed by San Marino National TV and severa
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3022.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="p9c-eL-iZq">
-                                                <rect key="frame" x="0.0" y="1738" width="1024" height="350"/>
+                                                <rect key="frame" x="0.0" y="1698" width="1024" height="350"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Keynote day: it's selfie time!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HK9-rE-Uyd">
-                                                <rect key="frame" x="36" y="2113" width="958" height="47"/>
+                                                <rect key="frame" x="36" y="2073" width="958" height="47"/>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="33"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCW-Bv-CQM">
-                                                <rect key="frame" x="36" y="2182" width="467" height="128"/>
+                                                <rect key="frame" x="36" y="2142" width="467" height="128"/>
                                                 <string key="text">The day of keynote I was in line at the Moscone Center at 5AM. In the line I met a guy from Rimini - a city 20 km from my - that now works in Montreal (the world is so small!).
 The minutes before the keynote were full of emotions: thinking that just a year before I watched it live from my desk made me goosebumps.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -185,26 +190,26 @@ The minutes before the keynote were full of emotions: thinking that just a year 
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3081.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="hMh-cG-Wva">
-                                                <rect key="frame" x="527" y="2350" width="467" height="300"/>
+                                                <rect key="frame" x="527" y="2310" width="467" height="300"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A life lesson." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e77-1S-dYO">
-                                                <rect key="frame" x="36" y="2350" width="467" height="43"/>
+                                                <rect key="frame" x="36" y="2310" width="467" height="43"/>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="26"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRT-CJ-GJy">
-                                                <rect key="frame" x="36" y="2407" width="467" height="209"/>
+                                                <rect key="frame" x="36" y="2367" width="467" height="209"/>
                                                 <string key="text">Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_3210.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="i4x-p9-ygh">
-                                                <rect key="frame" x="527" y="3011" width="467" height="300"/>
+                                                <rect key="frame" x="527" y="2971" width="467" height="300"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5cn-o4-sqh">
-                                                <rect key="frame" x="30" y="3052" width="467" height="89"/>
+                                                <rect key="frame" x="30" y="3012" width="467" height="89"/>
                                                 <string key="text">"...and if you close your eyes,
 does it almost feel like
 you've been here before?"</string>
@@ -213,7 +218,7 @@ you've been here before?"</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvG-5p-iTy">
-                                                <rect key="frame" x="30" y="3159" width="467" height="110"/>
+                                                <rect key="frame" x="30" y="3119" width="467" height="110"/>
                                                 <string key="text">After a week of sessions, tutorials, meetings, long walks from Moscone to my hotel, little spare time for shopping, the Bash was the most relaxing and amusing moment of the conference.
 Bastille really deserved the stage with a unique show.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -221,25 +226,25 @@ Bastille really deserved the stage with a unique show.</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="newspapers.png" translatesAutoresizingMaskIntoConstraints="NO" id="8Ht-8i-Dw1">
-                                                <rect key="frame" x="0.0" y="3352" width="1024" height="350"/>
+                                                <rect key="frame" x="0.0" y="3312" width="1024" height="350"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Time to pack and get back to normal life." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eR4-LP-rnq">
-                                                <rect key="frame" x="36" y="3727" width="958" height="47"/>
+                                                <rect key="frame" x="36" y="3687" width="958" height="47"/>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="33"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_2839.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="4bL-4h-ijV">
-                                                <rect key="frame" x="30" y="1383" width="467" height="300"/>
+                                                <rect key="frame" x="30" y="1343" width="467" height="300"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="An endless - but terrific - trip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5Z-y0-s66">
-                                                <rect key="frame" x="527" y="1431" width="467" height="43"/>
+                                                <rect key="frame" x="527" y="1391" width="467" height="43"/>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="26"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="958-Vl-YOM">
-                                                <rect key="frame" x="527" y="1488" width="467" height="147"/>
+                                                <rect key="frame" x="527" y="1448" width="467" height="147"/>
                                                 <string key="text">I took a flight from Venice, Italy airport (VCE) on May 31st with exchange at Toronto, Canada (YYZ). 
 It took around 16 hours, but I liked it, expecially for the never-ending sunset of three hours over the skies of United States.
 The next day I took my WWDC pass and visited, with a pilgrimage, the headquarters at One Infinite Loop.</string>
@@ -248,7 +253,7 @@ The next day I took my WWDC pass and visited, with a pilgrimage, the headquarter
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DA-RQ-bGb">
-                                                <rect key="frame" x="533" y="2182" width="467" height="128"/>
+                                                <rect key="frame" x="533" y="2142" width="467" height="128"/>
                                                 <string key="text">The keynote was incredible and I commented live in Italian with my friends.
 After the keynote I had the honor of knowing personally Tim Cook, to shake his hand and take a picture with him - the famous "Selfie" that has made the rounds of San Marino and Romagna. P.S.: I hate selfie sticks 😄</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -256,33 +261,39 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_2913.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fA4-Hg-ncf">
-                                                <rect key="frame" x="30" y="2680" width="467" height="300"/>
+                                                <rect key="frame" x="30" y="2640" width="467" height="300"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Young devs from around the world." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EgO-oR-h4g">
-                                                <rect key="frame" x="527" y="2736" width="467" height="43"/>
+                                                <rect key="frame" x="527" y="2696" width="467" height="43"/>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="26"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4Z-hl-Vlm">
-                                                <rect key="frame" x="527" y="2793" width="467" height="130"/>
+                                                <rect key="frame" x="527" y="2753" width="467" height="130"/>
                                                 <string key="text">I was amazed to see so many guys younger than me (from 13 years old) attending the conference. In that week I met many of my peers from around the world (USA, UK, Germany, Lebanon, etc.), including Italian speakers: Patrick from Switzerland, Gabriele and Davide from Bologna (they also attend University of Bologna like me).</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bou-pS-66s">
-                                                <rect key="frame" x="30" y="3782" width="467" height="128"/>
+                                                <rect key="frame" x="30" y="3742" width="467" height="128"/>
                                                 <string key="text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9X-k0-8un">
-                                                <rect key="frame" x="527" y="3782" width="467" height="128"/>
+                                                <rect key="frame" x="527" y="3742" width="467" height="128"/>
                                                 <string key="text">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="San Francisco, June 2nd - 6th, 2014" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBZ-nR-fxd">
+                                                <rect key="frame" x="286" y="575" width="452" height="36"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="25"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -307,6 +318,10 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="1024" height="4000"/>
+                    <connections>
+                        <outlet property="contentView" destination="vga-x5-shD" id="z5d-RQ-oXN"/>
+                        <outlet property="gradientView" destination="H6G-SP-Kpr" id="9Ei-Yq-WOI"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bpq-ci-c71" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

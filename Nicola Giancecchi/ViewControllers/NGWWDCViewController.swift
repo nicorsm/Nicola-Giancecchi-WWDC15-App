@@ -12,6 +12,8 @@ class NGWWDCViewController: UIViewController {
     
     //@IBOutlet weak var collectionView: UICollectionView!
     
+    @IBOutlet weak var contentView: UIView!
+    @IBOutlet weak var gradientView: UIView!
     //var data : Array<WWDCDescriptor> = []
     
     override func viewDidAppear(animated: Bool) {
@@ -23,6 +25,14 @@ class NGWWDCViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        var gradient: CAGradientLayer = CAGradientLayer()
+        gradient.frame = gradientView.bounds
+        
+        let cor1 = UIColor.clearColor().CGColor
+        let cor2 = contentView.backgroundColor?.CGColor
+        
+        gradient.colors = [cor1 as AnyObject, cor2 as AnyObject!]
+        gradientView.layer.insertSublayer(gradient, atIndex: 0)
         
         //self.collectionView?.registerNib(UINib(nibName: "NGConferenceCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
         
@@ -35,36 +45,5 @@ class NGWWDCViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    
-/*    func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
-        return 1;
-    }
-    
-    
-    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return data.count
-    }
-    
-    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! NGConferenceCell
-        
-        let current : WWDCDescriptor = data[indexPath.row]
-        
-        cell.populate(current)
-        
-        return cell
-    }
-  */  
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
