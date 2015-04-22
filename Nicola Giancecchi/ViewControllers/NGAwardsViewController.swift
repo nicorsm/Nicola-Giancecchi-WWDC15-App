@@ -8,6 +8,7 @@
 
 import UIKit
 
+let anotherIdentifier : String = "anotherIdentifier"
 
 class NGAwardsViewController: UIViewController , WebBrowserDelegate, UIScrollViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate{
 
@@ -17,15 +18,17 @@ class NGAwardsViewController: UIViewController , WebBrowserDelegate, UIScrollVie
     @IBOutlet weak var collectionView: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
+        self.collectionView!.registerNib(UINib(nibName: "NGWWDCAwardCell", bundle: nil), forCellWithReuseIdentifier: anotherIdentifier)
         self.collectionView!.registerNib(UINib(nibName: "NGAwardsCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
+        
+        
         self.automaticallyAdjustsScrollViewInsets = false
         
         self.awards = DataManager.shared.getAwards()
         
         self.pageControl.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_2))
-        self.pageControl.numberOfPages = self.awards.count
+        self.pageControl.numberOfPages = self.awards.count+1
         self.pageControl.currentPage = 0
         
         self.collectionView?.reloadData()
@@ -50,17 +53,31 @@ class NGAwardsViewController: UIViewController , WebBrowserDelegate, UIScrollVie
 
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.awards.count
+        return self.awards.count+1
     }
 
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! NGAwardsCell
+        if(indexPath.row==0){
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(anotherIdentifier, forIndexPath: indexPath) as! NGWWDCAwardCell
+            return cell
+        } else {
+            let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! NGAwardsCell
+            
+            let award : Award = self.awards[indexPath.row-1]
+            cell.populate(award)
+            cell.delegate = self
+            
+            return cell
+        }
+    }
     
-        let award : Award = self.awards[indexPath.row]
-        cell.populate(award)
-        cell.delegate = self
-        
-        return cell
+    
+    func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
+        if indexPath.row==0 {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let wwdc : NGWWDCViewController = storyboard.instantiateViewControllerWithIdentifier("wwdc") as! NGWWDCViewController
+            self.navigationController?.pushViewController(wwdc, animated: true)
+        }
     }
     
     func openURL(url: String) {

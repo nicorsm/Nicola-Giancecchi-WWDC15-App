@@ -51,7 +51,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="2208"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xDO-U5-eXW">
-                            <rect key="frame" x="0.0" y="0.0" width="1024" height="2199"/>
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="2116"/>
                             <subviews>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="app_differenzia" translatesAutoresizingMaskIntoConstraints="NO" id="uNc-P3-1kz">
                                     <rect key="frame" x="467" y="32" width="90" height="90"/>
@@ -73,14 +73,14 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="iphone_modello.png" translatesAutoresizingMaskIntoConstraints="NO" id="cnf-Rx-rqS">
-                                    <rect key="frame" x="226" y="273" width="572" height="353"/>
+                                    <rect key="frame" x="212" y="273" width="600" height="380"/>
                                     <constraints>
-                                        <constraint firstAttribute="width" constant="572" id="X15-ke-IPt"/>
-                                        <constraint firstAttribute="height" constant="353" id="sVA-m2-Uma"/>
+                                        <constraint firstAttribute="width" constant="600" id="X15-ke-IPt"/>
+                                        <constraint firstAttribute="height" constant="380" id="sVA-m2-Uma"/>
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KK7-iW-XFj">
-                                    <rect key="frame" x="0.0" y="686" width="1024" height="266"/>
+                                    <rect key="frame" x="0.0" y="713" width="1024" height="266"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Psw-lT-ehg">
                                             <rect key="frame" x="161" y="48" width="320" height="169"/>
@@ -103,14 +103,14 @@
                                     </constraints>
                                 </view>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="ipad_modello.png" translatesAutoresizingMaskIntoConstraints="NO" id="hYs-1s-95G">
-                                    <rect key="frame" x="325" y="1018" width="375" height="530"/>
+                                    <rect key="frame" x="287" y="1045" width="450" height="420"/>
                                     <constraints>
-                                        <constraint firstAttribute="height" constant="530" id="Vyx-Ur-NQQ"/>
-                                        <constraint firstAttribute="width" constant="375" id="bmN-dh-Mln"/>
+                                        <constraint firstAttribute="height" constant="420" id="Vyx-Ur-NQQ"/>
+                                        <constraint firstAttribute="width" constant="450" id="bmN-dh-Mln"/>
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sY0-bx-Ht8">
-                                    <rect key="frame" x="0.0" y="1617" width="1024" height="582"/>
+                                    <rect key="frame" x="0.0" y="1534" width="1024" height="582"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96z-zj-MZj">
                                             <rect key="frame" x="50" y="50" width="445" height="100"/>
