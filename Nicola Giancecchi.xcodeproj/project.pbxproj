@@ -11,31 +11,24 @@
 		7C0740401AE189780092C591 /* NGWorkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C07403E1AE189780092C591 /* NGWorkCell.xib */; };
 		7C0740421AE18D120092C591 /* mrapps.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740411AE18D120092C591 /* mrapps.png */; };
 		7C0740441AE18DFA0092C591 /* skylimit.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740431AE18DFA0092C591 /* skylimit.jpg */; };
-		7C0740461AE18EDF0092C591 /* fotovoltaico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740451AE18EDF0092C591 /* fotovoltaico.jpg */; };
 		7C0740481AE18F540092C591 /* NGWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740471AE18F540092C591 /* NGWorkViewController.swift */; };
 		7C07404A1AE1926D0092C591 /* Work.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740491AE1926D0092C591 /* Work.json */; };
 		7C07404C1AE192840092C591 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C07404B1AE192840092C591 /* Work.swift */; };
 		7C07404E1AE196C20092C591 /* datatrade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C07404D1AE196C20092C591 /* datatrade.jpg */; };
-		7C0740501AE197070092C591 /* dt21.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C07404F1AE197070092C591 /* dt21.jpg */; };
 		7C0740521AE1977B0092C591 /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740511AE1977B0092C591 /* JSONObject.swift */; };
 		7C0740551AE1A6130092C591 /* NGAwardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740541AE1A6130092C591 /* NGAwardsViewController.swift */; };
 		7C0740581AE1A6A60092C591 /* NGAwardsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740561AE1A6A60092C591 /* NGAwardsCell.swift */; };
 		7C0740591AE1A6A60092C591 /* NGAwardsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740571AE1A6A60092C591 /* NGAwardsCell.xib */; };
-		7C07405B1AE1A8F80092C591 /* meritamente.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C07405A1AE1A8F80092C591 /* meritamente.jpg */; };
-		7C07405D1AE1A9790092C591 /* nini13.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C07405C1AE1A9790092C591 /* nini13.jpg */; };
 		7C07405F1AE1A9980092C591 /* Awards.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C07405E1AE1A9980092C591 /* Awards.json */; };
 		7C0740611AE1AAAA0092C591 /* sums.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740601AE1AAAA0092C591 /* sums.png */; };
 		7C0740631AE1B1F40092C591 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740621AE1B1F40092C591 /* Award.swift */; };
 		7C0740651AE1B47B0092C591 /* nini13logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740641AE1B47B0092C591 /* nini13logo.png */; };
-		7C0740671AE1BBE00092C591 /* confindustria_talenti.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740661AE1BBE00092C591 /* confindustria_talenti.png */; };
 		7C0740691AE1BC4C0092C591 /* logo_confindustria.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740681AE1BC4C0092C591 /* logo_confindustria.png */; };
 		7C16E9821ADEF209004A551A /* NGProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9811ADEF209004A551A /* NGProjectsViewController.swift */; };
 		7C16E9851ADEF3D3004A551A /* NGProjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9831ADEF3D3004A551A /* NGProjectDetailViewController.swift */; };
 		7C16E9861ADEF3D3004A551A /* NGProjectDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9841ADEF3D3004A551A /* NGProjectDetailViewController.xib */; };
 		7C16E9891ADEF4BE004A551A /* NGProjectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9871ADEF4BE004A551A /* NGProjectCell.swift */; };
 		7C16E98A1ADEF4BE004A551A /* NGProjectCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9881ADEF4BE004A551A /* NGProjectCell.xib */; };
-		7C16E9901ADEFFA8004A551A /* ipad_modello.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E98F1ADEFFA8004A551A /* ipad_modello.png */; };
-		7C16E9921ADEFFB1004A551A /* iphone_modello.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9911ADEFFB1004A551A /* iphone_modello.png */; };
 		7C16E9941ADF0E2F004A551A /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9931ADF0E2F004A551A /* Project.swift */; };
 		7C16E9961ADF1518004A551A /* Projects.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9951ADF1518004A551A /* Projects.json */; };
 		7C16E99E1ADF1A40004A551A /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */; };
@@ -55,16 +48,8 @@
 		7C6C04C01ADD84CC00C61B0B /* Study.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04BF1ADD84CC00C61B0B /* Study.json */; };
 		7C6C04C41ADD866200C61B0B /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04C31ADD866200C61B0B /* School.swift */; };
 		7C6C04C61ADD867700C61B0B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04C51ADD867700C61B0B /* DataManager.swift */; };
-		7C6C04C91ADD965100C61B0B /* iti_class.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04C81ADD965100C61B0B /* iti_class.png */; };
-		7C6C04CB1ADD965B00C61B0B /* iti_institute.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04CA1ADD965B00C61B0B /* iti_institute.jpg */; };
-		7C6C04CD1ADD966700C61B0B /* iti_sat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04CC1ADD966700C61B0B /* iti_sat.jpg */; };
-		7C6C04CF1ADD987000C61B0B /* sup_01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04CE1ADD987000C61B0B /* sup_01.jpg */; };
-		7C6C04D31ADD98BC00C61B0B /* sup_02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04D21ADD98BC00C61B0B /* sup_02.jpg */; };
-		7C6C04D51ADD98FE00C61B0B /* sup_03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04D41ADD98FE00C61B0B /* sup_03.jpg */; };
 		7C6C04D71ADD9D9E00C61B0B /* Selfie-Tim-Cook-copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04D61ADD9D9E00C61B0B /* Selfie-Tim-Cook-copy.jpg */; };
 		7C6C04DA1ADDA22B00C61B0B /* nico.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04D91ADDA22B00C61B0B /* nico.jpg */; };
-		7C6C04DC1ADDA24100C61B0B /* sanmarino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04DB1ADDA24100C61B0B /* sanmarino.jpg */; };
-		7C6C04DE1ADDA2D000C61B0B /* sanmarino_snow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04DD1ADDA2D000C61B0B /* sanmarino_snow.jpg */; };
 		7C6C04E01ADDB04C00C61B0B /* NGAboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04DF1ADDB04C00C61B0B /* NGAboutMeViewController.swift */; };
 		7C6C04E71ADDBEA600C61B0B /* MRSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04E61ADDBEA600C61B0B /* MRSocial.swift */; };
 		7C6C04E91ADDC85D00C61B0B /* foto-1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C6C04E81ADDC85D00C61B0B /* foto-1.jpg */; };
@@ -93,6 +78,8 @@
 		7CC8A9771AE021A000F1FCE7 /* nico_ticket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A9761AE021A000F1FCE7 /* nico_ticket.jpg */; };
 		7CC8A9791AE021A800F1FCE7 /* nico_infinite_loop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A9781AE021A800F1FCE7 /* nico_infinite_loop.jpg */; };
 		7CC8A97D1AE0266200F1FCE7 /* nico_moscone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CC8A97C1AE0266200F1FCE7 /* nico_moscone.jpg */; };
+		7CE38A461AE9468A00F6C5F7 /* fido1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE38A451AE9468A00F6C5F7 /* fido1.png */; };
+		7CE38A481AE946AC00F6C5F7 /* fido2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE38A471AE946AC00F6C5F7 /* fido2.png */; };
 		7CE437D31AE3DA50005C16B6 /* stemma_davinci.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE437D21AE3DA50005C16B6 /* stemma_davinci.png */; };
 		7CE437D51AE3DADB005C16B6 /* stemma_sm.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE437D41AE3DADB005C16B6 /* stemma_sm.png */; };
 		7CE437D71AE3DB93005C16B6 /* stemma_unibo.png in Resources */ = {isa = PBXBuildFile; fileRef = 7CE437D61AE3DB93005C16B6 /* stemma_unibo.png */; };
@@ -117,9 +104,7 @@
 		7CF9051A1AE6AE3500FAD49A /* nerdies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF905191AE6AE3500FAD49A /* nerdies.jpg */; };
 		7CF9051C1AE6B01100FAD49A /* coding_wwdc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF9051B1AE6B01100FAD49A /* coding_wwdc.jpg */; };
 		7CFC9B951ADD4EB20017DD5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9B931ADD4EB20017DD5B /* Main.storyboard */; };
-		7CFC9B971ADD4EB20017DD5B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9B961ADD4EB20017DD5B /* Images.xcassets */; };
 		7CFC9B9A1ADD4EB20017DD5B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9B981ADD4EB20017DD5B /* LaunchScreen.xib */; };
-		7CFC9BA61ADD4EB30017DD5B /* Nicola_GiancecchiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC9BA51ADD4EB30017DD5B /* Nicola_GiancecchiTests.swift */; };
 		7CFC9BB51ADD4F3A0017DD5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC9BB31ADD4F3A0017DD5B /* ViewController.swift */; };
 		7CFC9BB71ADD4F510017DD5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC9BB61ADD4F510017DD5B /* AppDelegate.swift */; };
 		7CFC9BB91ADD50260017DD5B /* NGStudyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC9BB81ADD50260017DD5B /* NGStudyViewController.swift */; };
@@ -141,52 +126,41 @@
 		7CFC9BFA1ADD51850017DD5B /* Gotham-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9BEA1ADD51850017DD5B /* Gotham-XLightItalic.otf */; };
 		7CFC9BFD1ADD728F0017DD5B /* NGStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC9BFC1ADD728F0017DD5B /* NGStudyCell.swift */; };
 		7CFC9BFF1ADD73910017DD5B /* NGStudyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9BFE1ADD73910017DD5B /* NGStudyCell.xib */; };
-		7CFC9C051ADD7CDE0017DD5B /* IMG_7322_web.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9C041ADD7CDE0017DD5B /* IMG_7322_web.jpg */; };
-		7CFC9C071ADD7CE60017DD5B /* uni_place.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9C061ADD7CE60017DD5B /* uni_place.jpg */; };
-		7CFC9C091ADD7D600017DD5B /* uni_laptop.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9C081ADD7D600017DD5B /* uni_laptop.jpg */; };
-		7CFC9C0B1ADD7D670017DD5B /* uni_people.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9C0A1ADD7D670017DD5B /* uni_people.jpg */; };
+		7CFD02B11AE8DC7200588EF6 /* sanmarino_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02B01AE8DC7200588EF6 /* sanmarino_sized.jpg */; };
+		7CFD02B31AE8DE6300588EF6 /* meritamente_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02B21AE8DE6300588EF6 /* meritamente_sized.jpg */; };
+		7CFD02B51AE8DED600588EF6 /* confindustria_talenti_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02B41AE8DED600588EF6 /* confindustria_talenti_sized.jpg */; };
+		7CFD02B71AE8E0CC00588EF6 /* nini_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02B61AE8E0CC00588EF6 /* nini_sized.jpg */; };
+		7CFD02BD1AE8E61200588EF6 /* uni_place_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02BA1AE8E61200588EF6 /* uni_place_sized.jpg */; };
+		7CFD02C11AE8E6ED00588EF6 /* scuolasup_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02BF1AE8E6ED00588EF6 /* scuolasup_sized.jpg */; };
+		7CFD02C31AE8E84000588EF6 /* dtsized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02C21AE8E84000588EF6 /* dtsized.jpg */; };
+		7CFD02C51AE8E98F00588EF6 /* itisrn_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02C41AE8E98F00588EF6 /* itisrn_sized.jpg */; };
+		7CFD02C91AE8EAA700588EF6 /* mrapps_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02C81AE8EAA700588EF6 /* mrapps_sized.jpg */; };
+		7CFD02CB1AE8EBB800588EF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02CA1AE8EBB800588EF6 /* Images.xcassets */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		7CFC9BA01ADD4EB20017DD5B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7CFC9B821ADD4EB20017DD5B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7CFC9B891ADD4EB20017DD5B;
-			remoteInfo = "Nicola Giancecchi";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		7C07403D1AE189780092C591 /* NGWorkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGWorkCell.swift; path = ViewControllers/NGWorkCell.swift; sourceTree = "<group>"; };
 		7C07403E1AE189780092C591 /* NGWorkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGWorkCell.xib; path = ViewControllers/NGWorkCell.xib; sourceTree = "<group>"; };
 		7C0740411AE18D120092C591 /* mrapps.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mrapps.png; sourceTree = "<group>"; };
 		7C0740431AE18DFA0092C591 /* skylimit.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skylimit.jpg; sourceTree = "<group>"; };
-		7C0740451AE18EDF0092C591 /* fotovoltaico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = fotovoltaico.jpg; sourceTree = "<group>"; };
 		7C0740471AE18F540092C591 /* NGWorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGWorkViewController.swift; path = ViewControllers/NGWorkViewController.swift; sourceTree = "<group>"; };
 		7C0740491AE1926D0092C591 /* Work.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Work.json; sourceTree = "<group>"; };
 		7C07404B1AE192840092C591 /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Work.swift; path = Model/Work.swift; sourceTree = "<group>"; };
 		7C07404D1AE196C20092C591 /* datatrade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = datatrade.jpg; sourceTree = "<group>"; };
-		7C07404F1AE197070092C591 /* dt21.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dt21.jpg; sourceTree = "<group>"; };
 		7C0740511AE1977B0092C591 /* JSONObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONObject.swift; path = Model/JSONObject.swift; sourceTree = "<group>"; };
 		7C0740541AE1A6130092C591 /* NGAwardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGAwardsViewController.swift; path = ViewControllers/NGAwardsViewController.swift; sourceTree = "<group>"; };
 		7C0740561AE1A6A60092C591 /* NGAwardsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGAwardsCell.swift; path = ViewControllers/NGAwardsCell.swift; sourceTree = "<group>"; };
 		7C0740571AE1A6A60092C591 /* NGAwardsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGAwardsCell.xib; path = ViewControllers/NGAwardsCell.xib; sourceTree = "<group>"; };
-		7C07405A1AE1A8F80092C591 /* meritamente.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meritamente.jpg; sourceTree = "<group>"; };
-		7C07405C1AE1A9790092C591 /* nini13.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nini13.jpg; sourceTree = "<group>"; };
 		7C07405E1AE1A9980092C591 /* Awards.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Awards.json; path = Datasource/Awards.json; sourceTree = "<group>"; };
 		7C0740601AE1AAAA0092C591 /* sums.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sums.png; sourceTree = "<group>"; };
 		7C0740621AE1B1F40092C591 /* Award.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Award.swift; path = Model/Award.swift; sourceTree = "<group>"; };
 		7C0740641AE1B47B0092C591 /* nini13logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nini13logo.png; sourceTree = "<group>"; };
-		7C0740661AE1BBE00092C591 /* confindustria_talenti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = confindustria_talenti.png; sourceTree = "<group>"; };
 		7C0740681AE1BC4C0092C591 /* logo_confindustria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_confindustria.png; sourceTree = "<group>"; };
 		7C16E9811ADEF209004A551A /* NGProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGProjectsViewController.swift; path = ViewControllers/NGProjectsViewController.swift; sourceTree = "<group>"; };
 		7C16E9831ADEF3D3004A551A /* NGProjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGProjectDetailViewController.swift; path = ViewControllers/NGProjectDetailViewController.swift; sourceTree = "<group>"; };
 		7C16E9841ADEF3D3004A551A /* NGProjectDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGProjectDetailViewController.xib; path = ViewControllers/NGProjectDetailViewController.xib; sourceTree = "<group>"; };
 		7C16E9871ADEF4BE004A551A /* NGProjectCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGProjectCell.swift; path = ViewControllers/NGProjectCell.swift; sourceTree = "<group>"; };
 		7C16E9881ADEF4BE004A551A /* NGProjectCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGProjectCell.xib; path = ViewControllers/NGProjectCell.xib; sourceTree = "<group>"; };
-		7C16E98F1ADEFFA8004A551A /* ipad_modello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad_modello.png; sourceTree = "<group>"; };
-		7C16E9911ADEFFB1004A551A /* iphone_modello.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iphone_modello.png; sourceTree = "<group>"; };
 		7C16E9931ADF0E2F004A551A /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Project.swift; path = Model/Project.swift; sourceTree = "<group>"; };
 		7C16E9951ADF1518004A551A /* Projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Projects.json; path = Datasource/Projects.json; sourceTree = "<group>"; };
 		7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+HexString.swift"; path = "Nicola Giancecchi/Libs/UIColor+HexString.swift"; sourceTree = SOURCE_ROOT; };
@@ -206,16 +180,8 @@
 		7C6C04BF1ADD84CC00C61B0B /* Study.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Study.json; path = Datasource/Study.json; sourceTree = "<group>"; };
 		7C6C04C31ADD866200C61B0B /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = School.swift; path = Model/School.swift; sourceTree = "<group>"; };
 		7C6C04C51ADD867700C61B0B /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataManager.swift; path = Controller/DataManager.swift; sourceTree = "<group>"; };
-		7C6C04C81ADD965100C61B0B /* iti_class.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iti_class.png; sourceTree = "<group>"; };
-		7C6C04CA1ADD965B00C61B0B /* iti_institute.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iti_institute.jpg; sourceTree = "<group>"; };
-		7C6C04CC1ADD966700C61B0B /* iti_sat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = iti_sat.jpg; sourceTree = "<group>"; };
-		7C6C04CE1ADD987000C61B0B /* sup_01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sup_01.jpg; sourceTree = "<group>"; };
-		7C6C04D21ADD98BC00C61B0B /* sup_02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sup_02.jpg; sourceTree = "<group>"; };
-		7C6C04D41ADD98FE00C61B0B /* sup_03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sup_03.jpg; sourceTree = "<group>"; };
 		7C6C04D61ADD9D9E00C61B0B /* Selfie-Tim-Cook-copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Selfie-Tim-Cook-copy.jpg"; sourceTree = "<group>"; };
 		7C6C04D91ADDA22B00C61B0B /* nico.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nico.jpg; sourceTree = "<group>"; };
-		7C6C04DB1ADDA24100C61B0B /* sanmarino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanmarino.jpg; sourceTree = "<group>"; };
-		7C6C04DD1ADDA2D000C61B0B /* sanmarino_snow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanmarino_snow.jpg; sourceTree = "<group>"; };
 		7C6C04DF1ADDB04C00C61B0B /* NGAboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGAboutMeViewController.swift; path = ViewControllers/NGAboutMeViewController.swift; sourceTree = "<group>"; };
 		7C6C04E61ADDBEA600C61B0B /* MRSocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRSocial.swift; path = "Nicola Giancecchi/Libs/MRSocial.swift"; sourceTree = SOURCE_ROOT; };
 		7C6C04E81ADDC85D00C61B0B /* foto-1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "foto-1.jpg"; sourceTree = "<group>"; };
@@ -244,6 +210,8 @@
 		7CC8A9761AE021A000F1FCE7 /* nico_ticket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nico_ticket.jpg; sourceTree = "<group>"; };
 		7CC8A9781AE021A800F1FCE7 /* nico_infinite_loop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nico_infinite_loop.jpg; sourceTree = "<group>"; };
 		7CC8A97C1AE0266200F1FCE7 /* nico_moscone.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nico_moscone.jpg; sourceTree = "<group>"; };
+		7CE38A451AE9468A00F6C5F7 /* fido1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fido1.png; sourceTree = "<group>"; };
+		7CE38A471AE946AC00F6C5F7 /* fido2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fido2.png; sourceTree = "<group>"; };
 		7CE437D21AE3DA50005C16B6 /* stemma_davinci.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stemma_davinci.png; sourceTree = "<group>"; };
 		7CE437D41AE3DADB005C16B6 /* stemma_sm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stemma_sm.png; sourceTree = "<group>"; };
 		7CE437D61AE3DB93005C16B6 /* stemma_unibo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stemma_unibo.png; sourceTree = "<group>"; };
@@ -270,9 +238,7 @@
 		7CFC9B8A1ADD4EB20017DD5B /* Nicola Giancecchi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nicola Giancecchi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFC9B8E1ADD4EB20017DD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CFC9B941ADD4EB20017DD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7CFC9B961ADD4EB20017DD5B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CFC9B991ADD4EB20017DD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7CFC9B9F1ADD4EB20017DD5B /* Nicola GiancecchiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nicola GiancecchiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CFC9BA41ADD4EB20017DD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CFC9BA51ADD4EB30017DD5B /* Nicola_GiancecchiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nicola_GiancecchiTests.swift; sourceTree = "<group>"; };
 		7CFC9BB31ADD4F3A0017DD5B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewControllers/ViewController.swift; sourceTree = "<group>"; };
@@ -296,21 +262,20 @@
 		7CFC9BEA1ADD51850017DD5B /* Gotham-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-XLightItalic.otf"; path = "Fonts/Gotham-XLightItalic.otf"; sourceTree = "<group>"; };
 		7CFC9BFC1ADD728F0017DD5B /* NGStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGStudyCell.swift; path = ViewControllers/NGStudyCell.swift; sourceTree = "<group>"; };
 		7CFC9BFE1ADD73910017DD5B /* NGStudyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGStudyCell.xib; path = ViewControllers/NGStudyCell.xib; sourceTree = "<group>"; };
-		7CFC9C041ADD7CDE0017DD5B /* IMG_7322_web.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_7322_web.jpg; sourceTree = "<group>"; };
-		7CFC9C061ADD7CE60017DD5B /* uni_place.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uni_place.jpg; sourceTree = "<group>"; };
-		7CFC9C081ADD7D600017DD5B /* uni_laptop.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uni_laptop.jpg; sourceTree = "<group>"; };
-		7CFC9C0A1ADD7D670017DD5B /* uni_people.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uni_people.jpg; sourceTree = "<group>"; };
+		7CFD02B01AE8DC7200588EF6 /* sanmarino_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sanmarino_sized.jpg; sourceTree = "<group>"; };
+		7CFD02B21AE8DE6300588EF6 /* meritamente_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meritamente_sized.jpg; sourceTree = "<group>"; };
+		7CFD02B41AE8DED600588EF6 /* confindustria_talenti_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = confindustria_talenti_sized.jpg; sourceTree = "<group>"; };
+		7CFD02B61AE8E0CC00588EF6 /* nini_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nini_sized.jpg; sourceTree = "<group>"; };
+		7CFD02BA1AE8E61200588EF6 /* uni_place_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uni_place_sized.jpg; sourceTree = "<group>"; };
+		7CFD02BF1AE8E6ED00588EF6 /* scuolasup_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scuolasup_sized.jpg; sourceTree = "<group>"; };
+		7CFD02C21AE8E84000588EF6 /* dtsized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dtsized.jpg; sourceTree = "<group>"; };
+		7CFD02C41AE8E98F00588EF6 /* itisrn_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = itisrn_sized.jpg; sourceTree = "<group>"; };
+		7CFD02C81AE8EAA700588EF6 /* mrapps_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mrapps_sized.jpg; sourceTree = "<group>"; };
+		7CFD02CA1AE8EBB800588EF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		7CFC9B871ADD4EB20017DD5B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CFC9B9C1ADD4EB20017DD5B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -413,26 +378,49 @@
 		7C6C04C71ADD94CC00C61B0B /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				7C0740411AE18D120092C591 /* mrapps.png */,
+				7C0740431AE18DFA0092C591 /* skylimit.jpg */,
+				7CC8A97C1AE0266200F1FCE7 /* nico_moscone.jpg */,
+				7C07404D1AE196C20092C591 /* datatrade.jpg */,
+				7CFD02C21AE8E84000588EF6 /* dtsized.jpg */,
+				7C0740641AE1B47B0092C591 /* nini13logo.png */,
+				7CFD02B21AE8DE6300588EF6 /* meritamente_sized.jpg */,
+				7C0740601AE1AAAA0092C591 /* sums.png */,
+				7C0740681AE1BC4C0092C591 /* logo_confindustria.png */,
+				7CFD02B41AE8DED600588EF6 /* confindustria_talenti_sized.jpg */,
+				7CFD02B61AE8E0CC00588EF6 /* nini_sized.jpg */,
+				7CC8A9761AE021A000F1FCE7 /* nico_ticket.jpg */,
+				7CC8A9781AE021A800F1FCE7 /* nico_infinite_loop.jpg */,
+				7C5158881AE594E80087E9BE /* newspapers.png */,
+				7C51588D1AE5A1630087E9BE /* IMG_7494.JPG */,
+				7C51588F1AE5AE0F0087E9BE /* goldengate_bg.jpg */,
+				7CF9051B1AE6B01100FAD49A /* coding_wwdc.jpg */,
+				7C5158781AE56A660087E9BE /* IMG_2874.jpg */,
+				7C5158841AE58B840087E9BE /* IMG_2867.jpg */,
+				7C5158801AE5849C0087E9BE /* IMG_2839.JPG */,
+				7CE437D81AE3E1C1005C16B6 /* IMG_3081.jpg */,
+				7C5158821AE588840087E9BE /* IMG_2913.jpg */,
+				7C51587A1AE56DAD0087E9BE /* IMG_3022.JPG */,
+				7C51587C1AE571090087E9BE /* IMG_3210.jpg */,
+				7CF6DA661AE80E0700F34098 /* IMG_2968.jpg */,
+				7CF905191AE6AE3500FAD49A /* nerdies.jpg */,
+				7CF6DA681AE8378800F34098 /* nico_mrapps.jpg */,
+				7CE437D21AE3DA50005C16B6 /* stemma_davinci.png */,
+				7CE437D61AE3DB93005C16B6 /* stemma_unibo.png */,
+				7CE437D41AE3DADB005C16B6 /* stemma_sm.png */,
 				7C6C04D91ADDA22B00C61B0B /* nico.jpg */,
-				7C6C04DB1ADDA24100C61B0B /* sanmarino.jpg */,
+				7CFD02B01AE8DC7200588EF6 /* sanmarino_sized.jpg */,
 				7C6C04F21ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg */,
 				7C6C04F01ADDCC4100C61B0B /* night.jpg */,
 				7C6C04EE1ADDCC2600C61B0B /* patricio.jpg */,
 				7C6C04EC1ADDC8B400C61B0B /* sm.jpg */,
-				7C6C04DD1ADDA2D000C61B0B /* sanmarino_snow.jpg */,
+				7CFD02BF1AE8E6ED00588EF6 /* scuolasup_sized.jpg */,
+				7CFD02C81AE8EAA700588EF6 /* mrapps_sized.jpg */,
+				7CFD02C41AE8E98F00588EF6 /* itisrn_sized.jpg */,
+				7CFD02BA1AE8E61200588EF6 /* uni_place_sized.jpg */,
 				7C6C04EA1ADDC88200C61B0B /* palazzo-pubblico.jpg */,
 				7C6C04D61ADD9D9E00C61B0B /* Selfie-Tim-Cook-copy.jpg */,
 				7C6C04E81ADDC85D00C61B0B /* foto-1.jpg */,
-				7CFC9C041ADD7CDE0017DD5B /* IMG_7322_web.jpg */,
-				7C6C04CC1ADD966700C61B0B /* iti_sat.jpg */,
-				7C6C04CA1ADD965B00C61B0B /* iti_institute.jpg */,
-				7C6C04C81ADD965100C61B0B /* iti_class.png */,
-				7C6C04CE1ADD987000C61B0B /* sup_01.jpg */,
-				7C6C04D21ADD98BC00C61B0B /* sup_02.jpg */,
-				7C6C04D41ADD98FE00C61B0B /* sup_03.jpg */,
-				7CFC9C081ADD7D600017DD5B /* uni_laptop.jpg */,
-				7CFC9C0A1ADD7D670017DD5B /* uni_people.jpg */,
-				7CFC9C061ADD7CE60017DD5B /* uni_place.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -475,6 +463,8 @@
 		7CF6DA6A1AE83BEA00F34098 /* Projects Mockup */ = {
 			isa = PBXGroup;
 			children = (
+				7CE38A451AE9468A00F6C5F7 /* fido1.png */,
+				7CE38A471AE946AC00F6C5F7 /* fido2.png */,
 				7CF6DA831AE843D400F34098 /* differenzia1.png */,
 				7CA305531AE8620900CA2248 /* differenzia2.png */,
 				7CA305551AE8645C00CA2248 /* blurred1.png */,
@@ -520,7 +510,6 @@
 			isa = PBXGroup;
 			children = (
 				7CFC9B8A1ADD4EB20017DD5B /* Nicola Giancecchi.app */,
-				7CFC9B9F1ADD4EB20017DD5B /* Nicola GiancecchiTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -528,40 +517,8 @@
 		7CFC9B8C1ADD4EB20017DD5B /* Nicola Giancecchi */ = {
 			isa = PBXGroup;
 			children = (
+				7CFD02CA1AE8EBB800588EF6 /* Images.xcassets */,
 				7CF6DA6A1AE83BEA00F34098 /* Projects Mockup */,
-				7C16E9911ADEFFB1004A551A /* iphone_modello.png */,
-				7C0740411AE18D120092C591 /* mrapps.png */,
-				7C0740431AE18DFA0092C591 /* skylimit.jpg */,
-				7CC8A97C1AE0266200F1FCE7 /* nico_moscone.jpg */,
-				7C07404D1AE196C20092C591 /* datatrade.jpg */,
-				7C07404F1AE197070092C591 /* dt21.jpg */,
-				7C0740451AE18EDF0092C591 /* fotovoltaico.jpg */,
-				7C07405C1AE1A9790092C591 /* nini13.jpg */,
-				7C0740641AE1B47B0092C591 /* nini13logo.png */,
-				7C07405A1AE1A8F80092C591 /* meritamente.jpg */,
-				7C0740601AE1AAAA0092C591 /* sums.png */,
-				7C0740681AE1BC4C0092C591 /* logo_confindustria.png */,
-				7C0740661AE1BBE00092C591 /* confindustria_talenti.png */,
-				7CC8A9761AE021A000F1FCE7 /* nico_ticket.jpg */,
-				7CC8A9781AE021A800F1FCE7 /* nico_infinite_loop.jpg */,
-				7C5158881AE594E80087E9BE /* newspapers.png */,
-				7C51588D1AE5A1630087E9BE /* IMG_7494.JPG */,
-				7C51588F1AE5AE0F0087E9BE /* goldengate_bg.jpg */,
-				7CF9051B1AE6B01100FAD49A /* coding_wwdc.jpg */,
-				7C5158781AE56A660087E9BE /* IMG_2874.jpg */,
-				7C5158841AE58B840087E9BE /* IMG_2867.jpg */,
-				7C5158801AE5849C0087E9BE /* IMG_2839.JPG */,
-				7CE437D81AE3E1C1005C16B6 /* IMG_3081.jpg */,
-				7C5158821AE588840087E9BE /* IMG_2913.jpg */,
-				7C51587A1AE56DAD0087E9BE /* IMG_3022.JPG */,
-				7C51587C1AE571090087E9BE /* IMG_3210.jpg */,
-				7CF6DA661AE80E0700F34098 /* IMG_2968.jpg */,
-				7CF905191AE6AE3500FAD49A /* nerdies.jpg */,
-				7CF6DA681AE8378800F34098 /* nico_mrapps.jpg */,
-				7CE437D21AE3DA50005C16B6 /* stemma_davinci.png */,
-				7CE437D61AE3DB93005C16B6 /* stemma_unibo.png */,
-				7CE437D41AE3DADB005C16B6 /* stemma_sm.png */,
-				7C16E98F1ADEFFA8004A551A /* ipad_modello.png */,
 				7C6C04E11ADDBE7500C61B0B /* Libs */,
 				7C6C04C21ADD864C00C61B0B /* Controller */,
 				7C6C04C11ADD864800C61B0B /* Model */,
@@ -570,7 +527,6 @@
 				7CFC9BB61ADD4F510017DD5B /* AppDelegate.swift */,
 				7CFC9BB11ADD4F1F0017DD5B /* ViewControllers */,
 				7CFC9B931ADD4EB20017DD5B /* Main.storyboard */,
-				7CFC9B961ADD4EB20017DD5B /* Images.xcassets */,
 				7CFC9B981ADD4EB20017DD5B /* LaunchScreen.xib */,
 				7C6C04C71ADD94CC00C61B0B /* Images */,
 				7CFC9B8D1ADD4EB20017DD5B /* Supporting Files */,
@@ -672,24 +628,6 @@
 			productReference = 7CFC9B8A1ADD4EB20017DD5B /* Nicola Giancecchi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7CFC9B9E1ADD4EB20017DD5B /* Nicola GiancecchiTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7CFC9BAC1ADD4EB30017DD5B /* Build configuration list for PBXNativeTarget "Nicola GiancecchiTests" */;
-			buildPhases = (
-				7CFC9B9B1ADD4EB20017DD5B /* Sources */,
-				7CFC9B9C1ADD4EB20017DD5B /* Frameworks */,
-				7CFC9B9D1ADD4EB20017DD5B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7CFC9BA11ADD4EB20017DD5B /* PBXTargetDependency */,
-			);
-			name = "Nicola GiancecchiTests";
-			productName = "Nicola GiancecchiTests";
-			productReference = 7CFC9B9F1ADD4EB20017DD5B /* Nicola GiancecchiTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -703,10 +641,6 @@
 					7CFC9B891ADD4EB20017DD5B = {
 						CreatedOnToolsVersion = 6.3;
 						DevelopmentTeam = NZZZ3V7593;
-					};
-					7CFC9B9E1ADD4EB20017DD5B = {
-						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 7CFC9B891ADD4EB20017DD5B;
 					};
 				};
 			};
@@ -724,7 +658,6 @@
 			projectRoot = "";
 			targets = (
 				7CFC9B891ADD4EB20017DD5B /* Nicola Giancecchi */,
-				7CFC9B9E1ADD4EB20017DD5B /* Nicola GiancecchiTests */,
 			);
 		};
 /* End PBXProject section */
@@ -735,39 +668,35 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CFC9BED1ADD51850017DD5B /* Gotham-Bold.otf in Resources */,
-				7C6C04CF1ADD987000C61B0B /* sup_01.jpg in Resources */,
 				7CA305581AE8645C00CA2248 /* blurred2.png in Resources */,
 				7CA3053F1AE8515C00CA2248 /* comparyson1.png in Resources */,
 				7CFC9BF21ADD51850017DD5B /* Gotham-LightItalic.otf in Resources */,
 				7C6C04ED1ADDC8B400C61B0B /* sm.jpg in Resources */,
 				7C0740651AE1B47B0092C591 /* nini13logo.png in Resources */,
-				7C0740501AE197070092C591 /* dt21.jpg in Resources */,
 				7CF9051C1AE6B01100FAD49A /* coding_wwdc.jpg in Resources */,
+				7CE38A461AE9468A00F6C5F7 /* fido1.png in Resources */,
 				7C0740401AE189780092C591 /* NGWorkCell.xib in Resources */,
 				7CF6DA971AE843D400F34098 /* myitis1.png in Resources */,
 				7CF6DA961AE843D400F34098 /* mydaylife2.png in Resources */,
 				7CA305411AE8515C00CA2248 /* tds1.png in Resources */,
 				7C51588E1AE5A1630087E9BE /* IMG_7494.JPG in Resources */,
 				7C6C04E91ADDC85D00C61B0B /* foto-1.jpg in Resources */,
+				7CFD02C31AE8E84000588EF6 /* dtsized.jpg in Resources */,
 				7C16E98A1ADEF4BE004A551A /* NGProjectCell.xib in Resources */,
 				7CFC9B951ADD4EB20017DD5B /* Main.storyboard in Resources */,
 				7C16E9961ADF1518004A551A /* Projects.json in Resources */,
 				7CFC9BF91ADD51850017DD5B /* Gotham-XLight.otf in Resources */,
-				7CFC9C091ADD7D600017DD5B /* uni_laptop.jpg in Resources */,
 				7C6C04DA1ADDA22B00C61B0B /* nico.jpg in Resources */,
 				7CA305521AE8615900CA2248 /* seaman2.png in Resources */,
-				7C6C04DC1ADDA24100C61B0B /* sanmarino.jpg in Resources */,
 				7CFC9BEC1ADD51850017DD5B /* Gotham-BlackItalic.otf in Resources */,
 				7CFC9BEE1ADD51850017DD5B /* Gotham-BoldItalic.otf in Resources */,
+				7CFD02B51AE8DED600588EF6 /* confindustria_talenti_sized.jpg in Resources */,
 				7C0740421AE18D120092C591 /* mrapps.png in Resources */,
 				7C5158851AE58B840087E9BE /* IMG_2867.jpg in Resources */,
 				7C47E8461AE67E45004260F2 /* NGBrowserViewController.xib in Resources */,
-				7C16E9901ADEFFA8004A551A /* ipad_modello.png in Resources */,
 				7C0740591AE1A6A60092C591 /* NGAwardsCell.xib in Resources */,
 				7CFC9BFF1ADD73910017DD5B /* NGStudyCell.xib in Resources */,
-				7C07405B1AE1A8F80092C591 /* meritamente.jpg in Resources */,
 				7CE437D71AE3DB93005C16B6 /* stemma_unibo.png in Resources */,
-				7C6C04D51ADD98FE00C61B0B /* sup_03.jpg in Resources */,
 				7CFC9BF11ADD51850017DD5B /* Gotham-Light.otf in Resources */,
 				7CF6DA9C1AE843D400F34098 /* smn2.png in Resources */,
 				7C5158891AE594E80087E9BE /* newspapers.png in Resources */,
@@ -779,36 +708,36 @@
 				7CFC9BF31ADD51850017DD5B /* Gotham-Medium.otf in Resources */,
 				7CF6DA9E1AE843D400F34098 /* thatsmusic2.png in Resources */,
 				7C5158831AE588840087E9BE /* IMG_2913.jpg in Resources */,
+				7CFD02CB1AE8EBB800588EF6 /* Images.xcassets in Resources */,
 				7CF6DA671AE80E0700F34098 /* IMG_2968.jpg in Resources */,
 				7CFC9BF41ADD51850017DD5B /* Gotham-MediumItalic.otf in Resources */,
+				7CFD02C91AE8EAA700588EF6 /* mrapps_sized.jpg in Resources */,
 				7C16E9861ADEF3D3004A551A /* NGProjectDetailViewController.xib in Resources */,
 				7CFC9BF51ADD51850017DD5B /* Gotham-Thin.otf in Resources */,
 				7CF6DA9A1AE843D400F34098 /* reggini2.png in Resources */,
 				7CFC9BEB1ADD51850017DD5B /* Gotham-Black.otf in Resources */,
 				7CA305461AE8530D00CA2248 /* inews2.png in Resources */,
-				7CFC9C071ADD7CE60017DD5B /* uni_place.jpg in Resources */,
 				7CE437D91AE3E1C1005C16B6 /* IMG_3081.jpg in Resources */,
-				7C6C04CD1ADD966700C61B0B /* iti_sat.jpg in Resources */,
-				7CFC9C0B1ADD7D670017DD5B /* uni_people.jpg in Resources */,
 				7CF6DA9B1AE843D400F34098 /* smn1.png in Resources */,
+				7CFD02C51AE8E98F00588EF6 /* itisrn_sized.jpg in Resources */,
 				7C51587D1AE571090087E9BE /* IMG_3210.jpg in Resources */,
 				7C51587B1AE56DAD0087E9BE /* IMG_3022.JPG in Resources */,
 				7CA3054A1AE856F400CA2248 /* fridgelist2.png in Resources */,
 				7C6C04C01ADD84CC00C61B0B /* Study.json in Resources */,
 				7CFC9BF81ADD51850017DD5B /* Gotham-UltraItalic.otf in Resources */,
+				7CFD02B71AE8E0CC00588EF6 /* nini_sized.jpg in Resources */,
 				7CA3054D1AE85A6000CA2248 /* marlu1.png in Resources */,
 				7C6C04F31ADDCCCF00C61B0B /* 10869619_745719478852188_2852983018894253508_o.jpg in Resources */,
-				7C6C04CB1ADD965B00C61B0B /* iti_institute.jpg in Resources */,
 				7CA305571AE8645C00CA2248 /* blurred1.png in Resources */,
 				7CF6DA981AE843D400F34098 /* myitis2.png in Resources */,
 				7CFC9BF61ADD51850017DD5B /* Gotham-ThinItalic.otf in Resources */,
 				7C6C04D71ADD9D9E00C61B0B /* Selfie-Tim-Cook-copy.jpg in Resources */,
-				7C6C04D31ADD98BC00C61B0B /* sup_02.jpg in Resources */,
+				7CE38A481AE946AC00F6C5F7 /* fido2.png in Resources */,
 				7CFC9B9A1ADD4EB20017DD5B /* LaunchScreen.xib in Resources */,
 				7C07405F1AE1A9980092C591 /* Awards.json in Resources */,
-				7CFC9C051ADD7CDE0017DD5B /* IMG_7322_web.jpg in Resources */,
 				7C5158791AE56A660087E9BE /* IMG_2874.jpg in Resources */,
 				7CF6DA991AE843D400F34098 /* reggini1.png in Resources */,
+				7CFD02C11AE8E6ED00588EF6 /* scuolasup_sized.jpg in Resources */,
 				7CC8A9771AE021A000F1FCE7 /* nico_ticket.jpg in Resources */,
 				7CF6DA911AE843D400F34098 /* differenzia1.png in Resources */,
 				7C6C04F11ADDCC4100C61B0B /* night.jpg in Resources */,
@@ -827,31 +756,20 @@
 				7CF6DA951AE843D400F34098 /* mydaylife1.png in Resources */,
 				7C5158811AE5849C0087E9BE /* IMG_2839.JPG in Resources */,
 				7CC8A97D1AE0266200F1FCE7 /* nico_moscone.jpg in Resources */,
+				7CFD02B31AE8DE6300588EF6 /* meritamente_sized.jpg in Resources */,
 				7CF6DA651AE80D2300F34098 /* NGWWDCAwardCell.xib in Resources */,
 				7CA305421AE8515C00CA2248 /* tds2.png in Resources */,
 				7C5158901AE5AE0F0087E9BE /* goldengate_bg.jpg in Resources */,
 				7CFC9BEF1ADD51850017DD5B /* Gotham-Book.otf in Resources */,
-				7C16E9921ADEFFB1004A551A /* iphone_modello.png in Resources */,
-				7C0740461AE18EDF0092C591 /* fotovoltaico.jpg in Resources */,
-				7C6C04C91ADD965100C61B0B /* iti_class.png in Resources */,
 				7C6C04EF1ADDCC2700C61B0B /* patricio.jpg in Resources */,
 				7CF6DA9D1AE843D400F34098 /* thatsmusic1.png in Resources */,
-				7CFC9B971ADD4EB20017DD5B /* Images.xcassets in Resources */,
+				7CFD02BD1AE8E61200588EF6 /* uni_place_sized.jpg in Resources */,
 				7CA305401AE8515C00CA2248 /* comparyson2.png in Resources */,
+				7CFD02B11AE8DC7200588EF6 /* sanmarino_sized.jpg in Resources */,
 				7C07404E1AE196C20092C591 /* datatrade.jpg in Resources */,
 				7C0740691AE1BC4C0092C591 /* logo_confindustria.png in Resources */,
-				7C6C04DE1ADDA2D000C61B0B /* sanmarino_snow.jpg in Resources */,
 				7CF6DA931AE843D400F34098 /* mii1.png in Resources */,
-				7C07405D1AE1A9790092C591 /* nini13.jpg in Resources */,
 				7CA305451AE8530D00CA2248 /* inews1.png in Resources */,
-				7C0740671AE1BBE00092C591 /* confindustria_talenti.png in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7CFC9B9D1ADD4EB20017DD5B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -891,23 +809,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CFC9B9B1ADD4EB20017DD5B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				7CFC9BA61ADD4EB30017DD5B /* Nicola_GiancecchiTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7CFC9BA11ADD4EB20017DD5B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7CFC9B891ADD4EB20017DD5B /* Nicola Giancecchi */;
-			targetProxy = 7CFC9BA01ADD4EB20017DD5B /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7CFC9B931ADD4EB20017DD5B /* Main.storyboard */ = {
@@ -1015,7 +917,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nicola Giancecchi (V936798YQZ)";
 				INFOPLIST_FILE = "Nicola Giancecchi/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1031,47 +933,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Mr. APPs s.r.l. (NZZZ3V7593)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mr. APPs s.r.l. (NZZZ3V7593)";
 				INFOPLIST_FILE = "Nicola Giancecchi/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "9179f6cb-039d-4d54-99c5-25c08ee9bf97";
 				TARGETED_DEVICE_FAMILY = 2;
-			};
-			name = Release;
-		};
-		7CFC9BAD1ADD4EB30017DD5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Nicola GiancecchiTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nicola Giancecchi.app/Nicola Giancecchi";
-			};
-			name = Debug;
-		};
-		7CFC9BAE1ADD4EB30017DD5B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Nicola GiancecchiTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nicola Giancecchi.app/Nicola Giancecchi";
 			};
 			name = Release;
 		};
@@ -1092,15 +961,6 @@
 			buildConfigurations = (
 				7CFC9BAA1ADD4EB30017DD5B /* Debug */,
 				7CFC9BAB1ADD4EB30017DD5B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7CFC9BAC1ADD4EB30017DD5B /* Build configuration list for PBXNativeTarget "Nicola GiancecchiTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7CFC9BAD1ADD4EB30017DD5B /* Debug */,
-				7CFC9BAE1ADD4EB30017DD5B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

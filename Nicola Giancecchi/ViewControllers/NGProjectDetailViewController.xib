@@ -51,7 +51,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="2208"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xDO-U5-eXW">
-                            <rect key="frame" x="0.0" y="0.0" width="1024" height="2116"/>
+                            <rect key="frame" x="0.0" y="0.0" width="1024" height="2054"/>
                             <subviews>
                                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="app_differenzia" translatesAutoresizingMaskIntoConstraints="NO" id="uNc-P3-1kz">
                                     <rect key="frame" x="467" y="32" width="90" height="90"/>
@@ -110,7 +110,7 @@
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sY0-bx-Ht8">
-                                    <rect key="frame" x="0.0" y="1534" width="1024" height="582"/>
+                                    <rect key="frame" x="0.0" y="1534" width="1024" height="520"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96z-zj-MZj">
                                             <rect key="frame" x="50" y="50" width="445" height="100"/>
@@ -279,7 +279,7 @@
                                         <constraint firstAttribute="trailing" secondItem="DKN-NW-C76" secondAttribute="trailing" constant="50" id="ZNq-CO-cgS"/>
                                         <constraint firstItem="96z-zj-MZj" firstAttribute="leading" secondItem="sY0-bx-Ht8" secondAttribute="leading" constant="50" id="Zpl-sr-ceB"/>
                                         <constraint firstItem="96z-zj-MZj" firstAttribute="top" secondItem="sY0-bx-Ht8" secondAttribute="top" constant="50" id="bEs-aR-DFb"/>
-                                        <constraint firstAttribute="height" constant="582" id="dTd-cd-aVP"/>
+                                        <constraint firstAttribute="height" constant="520" id="dTd-cd-aVP"/>
                                         <constraint firstItem="J51-51-e9H" firstAttribute="top" secondItem="96z-zj-MZj" secondAttribute="bottom" constant="50" id="egp-0G-QOO"/>
                                         <constraint firstItem="cOV-3z-UQF" firstAttribute="leading" secondItem="sY0-bx-Ht8" secondAttribute="leading" constant="50" id="nmd-EV-WFW"/>
                                     </constraints>

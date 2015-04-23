@@ -22,8 +22,8 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 <subviews>
-                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="meritamente.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fkN-JT-Mfb">
-                        <rect key="frame" x="0.0" y="64" width="1024" height="319"/>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="meritamente_sized.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="fkN-JT-Mfb">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="383"/>
                     </imageView>
                     <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="sums.png" translatesAutoresizingMaskIntoConstraints="NO" id="C0l-6q-D91">
                         <rect key="frame" x="30" y="282" width="200" height="200"/>
@@ -106,7 +106,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="meritamente.jpg" width="1000" height="666"/>
+        <image name="meritamente_sized.jpg" width="2048" height="766"/>
         <image name="sums.png" width="1132" height="1128"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">

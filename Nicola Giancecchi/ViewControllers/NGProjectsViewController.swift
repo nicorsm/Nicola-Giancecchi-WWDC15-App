@@ -19,15 +19,12 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     var viewControllers : NSMutableArray
     var projects : Array<Project>
     var currentViewController : NGProjectDetailViewController
-    var startingIndex : Int
     var ownership : String?
-    var rtl : Bool = false
     @IBOutlet weak var pageContainerView: UIView!
     
     required init(coder aDecoder: NSCoder) {
         self.viewControllers = NSMutableArray()
         self.currentViewController = NGProjectDetailViewController()
-        self.startingIndex = 0
         self.projects = Array<Project>()
         super.init(coder: aDecoder)
     }
@@ -61,7 +58,7 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
             self.viewControllers.addObject(vc)
         }
         
-        currentViewController = self.viewControllers[self.startingIndex] as! NGProjectDetailViewController
+        currentViewController = self.viewControllers[0] as! NGProjectDetailViewController
         self.pageController!.setViewControllers([currentViewController], direction:UIPageViewControllerNavigationDirection.Forward, animated: false, completion: nil)
         
     }
@@ -109,19 +106,31 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     }
     
     func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
+        NSLog("didFinishAnimating")
         if finished{
+            NSLog("finished animating")
             collectionView.reloadData()
             let idx : Int = self.viewControllers.indexOfObject(previousViewControllers.last!)
+            let idx2 : Int = self.viewControllers.indexOfObject(currentViewController)
+            NSLog("index: %d, current: %d", idx, idx2)
             //self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: idx+1, inSection: 0), atScrollPosition: .Left, animated: true)
             //MARK: CONTROLLARE FUNZIONAMENTO
         }
         
     }
     
+    func pageViewController(pageViewController: UIPageViewController, willTransitionToViewControllers pendingViewControllers: [AnyObject]) {
+        
+        let idx : Int = self.viewControllers.indexOfObject(pendingViewControllers.last!)
+        let idx2 : Int = self.viewControllers.indexOfObject(currentViewController)
+        NSLog("WILLY index: %d, current: %d", idx, idx2)
+        
+    }
+    
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
+        NSLog("viewControllerAfter")
         let idx : Int = self.viewControllers.indexOfObject(viewController)
         if idx < self.projects.count-1 {
-            rtl = true
             currentViewController = self.viewControllers[idx+1] as! NGProjectDetailViewController
             return currentViewController
         }
@@ -129,13 +138,18 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     }
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
+        NSLog("viewControllerPrevious")
         let idx : Int = self.viewControllers.indexOfObject(viewController)
         if idx > 0 {
-            rtl = false
             currentViewController = self.viewControllers[idx-1] as! NGProjectDetailViewController
             return currentViewController
         }
         return nil
+    }
+    
+    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
+        
+        
     }
     
     func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int {

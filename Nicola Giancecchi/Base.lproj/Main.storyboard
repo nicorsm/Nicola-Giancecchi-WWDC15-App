@@ -110,6 +110,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="4000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" image="chevron_up" translatesAutoresizingMaskIntoConstraints="NO" id="wiN-pc-TcB">
+                                <rect key="frame" x="476" y="80" width="72" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="72" id="Hgz-Qm-BTf"/>
+                                    <constraint firstAttribute="height" constant="22" id="sEo-wd-gIA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="center" image="chevron_down" translatesAutoresizingMaskIntoConstraints="NO" id="bQ0-c2-nFD">
+                                <rect key="frame" x="476" y="740" width="72" height="22"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="0Yz-Jx-Hog"/>
+                                    <constraint firstAttribute="width" constant="72" id="gcM-u1-vB5"/>
+                                </constraints>
+                            </imageView>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UKr-eM-U12">
                                 <rect key="frame" x="0.0" y="64" width="1024" height="3936"/>
                                 <subviews>
@@ -307,14 +321,21 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                                     <constraint firstItem="vga-x5-shD" firstAttribute="top" secondItem="UKr-eM-U12" secondAttribute="top" id="mAp-ts-SOE"/>
                                     <constraint firstAttribute="bottom" secondItem="vga-x5-shD" secondAttribute="bottom" id="tHp-Yb-65l"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="Qze-tf-PYe" id="I9Y-Jl-Qnc"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstAttribute="centerX" secondItem="bQ0-c2-nFD" secondAttribute="centerX" id="O7Z-rz-qex"/>
                             <constraint firstAttribute="trailing" secondItem="UKr-eM-U12" secondAttribute="trailing" id="X2F-it-sdK"/>
                             <constraint firstItem="UKr-eM-U12" firstAttribute="leading" secondItem="au6-jB-OGl" secondAttribute="leading" id="aOg-Nq-lH6"/>
                             <constraint firstItem="UKr-eM-U12" firstAttribute="top" secondItem="KFI-Di-PJv" secondAttribute="bottom" id="eEo-3O-uBK"/>
+                            <constraint firstItem="bQ0-c2-nFD" firstAttribute="top" secondItem="wiN-pc-TcB" secondAttribute="bottom" constant="638" id="fXH-KU-odF"/>
                             <constraint firstItem="czF-B9-aB8" firstAttribute="top" secondItem="UKr-eM-U12" secondAttribute="bottom" id="j3y-i8-OXE"/>
+                            <constraint firstItem="wiN-pc-TcB" firstAttribute="top" secondItem="KFI-Di-PJv" secondAttribute="bottom" constant="16" id="oT5-e2-9pe"/>
+                            <constraint firstAttribute="centerX" secondItem="wiN-pc-TcB" secondAttribute="centerX" id="znw-KA-Bcm"/>
                         </constraints>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
@@ -322,6 +343,8 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                     <connections>
                         <outlet property="contentView" destination="vga-x5-shD" id="z5d-RQ-oXN"/>
                         <outlet property="gradientView" destination="H6G-SP-Kpr" id="9Ei-Yq-WOI"/>
+                        <outlet property="imgChevronDown" destination="bQ0-c2-nFD" id="tsm-Uo-9KW"/>
+                        <outlet property="imgChevronUp" destination="wiN-pc-TcB" id="hfH-GR-wqF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Bpq-ci-c71" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -642,7 +665,7 @@ HOBBIES</string>
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YlX-Tz-miB">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="1269"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sanmarino.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KkJ-iZ-DJv">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sanmarino_sized.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="KkJ-iZ-DJv">
                                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="300"/>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                 <constraints>
@@ -651,7 +674,7 @@ HOBBIES</string>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FnT-et-AxJ">
-                                                <rect key="frame" x="594" y="62" width="400" height="123"/>
+                                                <rect key="frame" x="594" y="50" width="400" height="123"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="400" id="S0z-8o-iGh"/>
                                                     <constraint firstAttribute="height" constant="123" id="SXs-mB-Rpd"/>
@@ -659,18 +682,18 @@ HOBBIES</string>
                                                 <string key="text">NICOLA
 GIANCECCHI</string>
                                                 <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="54"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <color key="textColor" red="0.20767846200000001" green="0.49892133259999999" blue="0.65816115399999997" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nico_mrapps.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="eKa-uL-DGI">
-                                                <rect key="frame" x="402" y="188" width="220" height="220"/>
+                                                <rect key="frame" x="402" y="191" width="220" height="220"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="220" id="hPZ-t0-VSp"/>
                                                     <constraint firstAttribute="height" constant="220" id="jk2-BT-dLX"/>
                                                 </constraints>
                                             </imageView>
                                             <view tag="5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Snf-VH-2Es">
-                                                <rect key="frame" x="388" y="433" width="225" height="225"/>
+                                                <rect key="frame" x="388" y="436" width="225" height="225"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="FROM" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Rc-Ip-peD">
                                                         <rect key="frame" x="20" y="44" width="184" height="21"/>
@@ -759,7 +782,7 @@ SAN MARINO</string>
                                                 </constraints>
                                             </view>
                                             <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vhb-V7-D3J">
-                                                <rect key="frame" x="605" y="468" width="200" height="200"/>
+                                                <rect key="frame" x="605" y="471" width="200" height="200"/>
                                                 <color key="backgroundColor" red="0.15251551962038601" green="0.87728651500184718" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="200" id="ZnL-VS-0MJ"/>
@@ -972,10 +995,10 @@ iOS DEV EXPERIENCE</string>
                                             <constraint firstAttribute="trailing" secondItem="KkJ-iZ-DJv" secondAttribute="trailing" id="Psh-bR-0sr"/>
                                             <constraint firstItem="KkJ-iZ-DJv" firstAttribute="leading" secondItem="YlX-Tz-miB" secondAttribute="leading" id="Q2z-hO-HPD"/>
                                             <constraint firstItem="vhb-V7-D3J" firstAttribute="leading" secondItem="oJr-0Y-0Wm" secondAttribute="trailing" constant="247" id="SCT-zG-fsU"/>
-                                            <constraint firstItem="eKa-uL-DGI" firstAttribute="top" secondItem="FnT-et-AxJ" secondAttribute="bottom" constant="3" id="Srq-9g-TQj"/>
+                                            <constraint firstItem="eKa-uL-DGI" firstAttribute="top" secondItem="FnT-et-AxJ" secondAttribute="bottom" constant="18" id="Srq-9g-TQj"/>
                                             <constraint firstAttribute="centerX" secondItem="eKa-uL-DGI" secondAttribute="centerX" id="WHl-kn-Jgp"/>
                                             <constraint firstItem="vhb-V7-D3J" firstAttribute="top" secondItem="eKa-uL-DGI" secondAttribute="bottom" constant="60" id="ZL3-B5-96L"/>
-                                            <constraint firstItem="FnT-et-AxJ" firstAttribute="top" secondItem="YlX-Tz-miB" secondAttribute="top" constant="62" id="bHm-Mb-eAi"/>
+                                            <constraint firstItem="FnT-et-AxJ" firstAttribute="top" secondItem="YlX-Tz-miB" secondAttribute="top" constant="50" id="bHm-Mb-eAi"/>
                                             <constraint firstItem="TXW-Br-tKN" firstAttribute="leading" secondItem="eKa-uL-DGI" secondAttribute="trailing" constant="147" id="bwN-Dq-w1y"/>
                                             <constraint firstAttribute="trailing" secondItem="FnT-et-AxJ" secondAttribute="trailing" constant="30" id="e4Q-dI-qUS"/>
                                             <constraint firstItem="hPO-vZ-ZZy" firstAttribute="leading" secondItem="YlX-Tz-miB" secondAttribute="leading" constant="82" id="eyo-c3-4ir"/>
@@ -995,7 +1018,7 @@ iOS DEV EXPERIENCE</string>
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="0.20990804699999999" green="0.50528987420000004" blue="0.65816115399999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.20767846196619952" green="0.49892133258502797" blue="0.65816115399999997" alpha="1" colorSpace="calibratedRGB"/>
                         <color key="tintColor" red="0.0" green="0.76251562500000003" blue="1" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="CkA-he-bDq" firstAttribute="leading" secondItem="TFe-La-yl9" secondAttribute="leading" id="0gV-Wp-b1O"/>
@@ -1796,6 +1819,8 @@ SKILLS }</string>
         <image name="Selfie-Tim-Cook-copy.jpg" width="2047" height="1412"/>
         <image name="app_thats" width="60" height="60"/>
         <image name="bb" width="44" height="44"/>
+        <image name="chevron_down" width="36" height="11"/>
+        <image name="chevron_up" width="36" height="11"/>
         <image name="coding_wwdc.jpg" width="3264" height="980"/>
         <image name="fb" width="44" height="44"/>
         <image name="foto-1.jpg" width="1799" height="522"/>
@@ -1814,7 +1839,7 @@ SKILLS }</string>
         <image name="night.jpg" width="2048" height="1362"/>
         <image name="palazzo-pubblico.jpg" width="550" height="412"/>
         <image name="patricio.jpg" width="720" height="960"/>
-        <image name="sanmarino.jpg" width="2272" height="1315"/>
+        <image name="sanmarino_sized.jpg" width="2048" height="600"/>
         <image name="sm.jpg" width="380" height="219"/>
         <image name="twt" width="44" height="44"/>
     </resources>

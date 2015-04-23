@@ -89,6 +89,7 @@ class NGProjectDetailViewController: UIViewController {
                 case 2: view = self.viewBox3; break;
                 case 3: view = self.viewBox4; break;
                 case 4: view = self.viewBox5; break;
+                case 5: view = self.viewBox6; break;
                 default: break;
             }
             

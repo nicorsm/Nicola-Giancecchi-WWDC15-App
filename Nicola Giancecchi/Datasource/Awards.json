@@ -1,7 +1,7 @@
  [
  {
     "logo":"nini13logo.png",
-    "background":"nini13.jpg",
+    "background":"nini_sized.jpg",
     "title":"Nuove Idee Nuove Imprese '13",
     "subtitle1":"2nd Place. Prize: € 24,000",
     "subtitle2":"Project: Mr. Shop. The app for your shop.",
@@ -11,7 +11,7 @@
   },
   {
   "logo":"sums.png",
-  "background":"meritamente.jpg",
+  "background":"meritamente_sized.jpg",
   "title":"Meritamente 3rd Ed. 2011",
   "subtitle1":"1st Place for 4th Grade Classes",
   "subtitle2":"Prize: € 3,000 for a school trip in Miami (FL)",
@@ -21,7 +21,7 @@
   },
   {
   "logo":"logo_confindustria.png",
-  "background":"confindustria_talenti.png",
+  "background":"confindustria_talenti_sized.jpg",
   "title":"Ricerca Talenti 2012",
   "subtitle1":"Check for best technical students",
   "subtitle2":"Prize: € 200",

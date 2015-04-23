@@ -8,19 +8,12 @@
 
 import UIKit
 
-class NGWWDCViewController: UIViewController {
+class NGWWDCViewController: UIViewController, UIScrollViewDelegate {
     
-    //@IBOutlet weak var collectionView: UICollectionView!
-    
+    @IBOutlet weak var imgChevronUp: UIImageView!
+    @IBOutlet weak var imgChevronDown: UIImageView!
     @IBOutlet weak var contentView: UIView!
     @IBOutlet weak var gradientView: UIView!
-    //var data : Array<WWDCDescriptor> = []
-    
-    override func viewDidAppear(animated: Bool) {
-        super.viewDidAppear(animated)
-        //data = DataManager.shared.getWWDCData()
-        //self.collectionView.reloadData()
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,12 +27,50 @@ class NGWWDCViewController: UIViewController {
         gradient.colors = [cor1 as AnyObject, cor2 as AnyObject!]
         gradientView.layer.insertSublayer(gradient, atIndex: 0)
         
-        //self.collectionView?.registerNib(UINib(nibName: "NGConferenceCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
-        
         self.navigationItem.title = "WWDC 2014".uppercaseString
-        
-        // Do any additional setup after loading the view.
+        self.view.bringSubviewToFront(imgChevronUp)
+        self.view.bringSubviewToFront(imgChevronDown)
     }
+    
+    func scrollViewDidScroll(scrollView: UIScrollView) {
+        
+        if(scrollView.contentOffset.y <= 0.0){
+            if(!imgChevronUp.hidden){
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    self.imgChevronUp.alpha = 0.0
+                    self.imgChevronUp.hidden = true
+                })
+            }
+        } else {
+            if(imgChevronUp.hidden){
+                self.imgChevronUp.hidden = false
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    self.imgChevronUp.alpha = 0.8
+                })
+            }
+        }
+        
+        if(scrollView.contentOffset.y + 704.0 >= scrollView.contentSize.height){
+            if(!imgChevronDown.hidden){
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    self.imgChevronDown.alpha = 0.0
+                    self.imgChevronDown.hidden = true
+                })
+            }
+        } else {
+            if(imgChevronDown.hidden){
+                self.imgChevronDown.hidden = false
+                UIView.animateWithDuration(0.5, animations: { () -> Void in
+                    self.imgChevronDown.alpha = 0.8
+                })
+            }
+        }
+    }
+    
+    func scrollViewWillEndDragging(scrollView: UIScrollView, withVelocity velocity: CGPoint, targetContentOffset: UnsafeMutablePointer<CGPoint>) {
+        
+    }
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
