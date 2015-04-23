@@ -41,6 +41,8 @@ class NGAboutMeViewController: UIViewController {
         
         self.animate()
         
+        self.navigationItem.title = "ABOUT ME"
+        self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#255979")
         
     }
     

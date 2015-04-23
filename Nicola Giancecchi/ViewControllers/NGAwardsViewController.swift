@@ -33,7 +33,13 @@ class NGAwardsViewController: UIViewController , WebBrowserDelegate, UIScrollVie
         
         self.collectionView?.reloadData()
         
+        self.navigationItem.title = "AWARDS"
         
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        
+        self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#ff5253")
     }
 
     override func didReceiveMemoryWarning() {

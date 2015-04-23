@@ -96,7 +96,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="j7q-Hi-un2" firstAttribute="top" secondItem="xxS-MP-4oR" secondAttribute="top" id="1YU-ez-p9U"/>
                             <constraint firstItem="Drn-JO-qi8" firstAttribute="top" secondItem="lGi-Ve-BPb" secondAttribute="top" id="31Q-tY-pcG"/>
@@ -121,22 +121,22 @@
                             <constraint firstItem="lGi-Ve-BPb" firstAttribute="leading" secondItem="Te0-qd-tJZ" secondAttribute="leading" id="unC-yb-Ogx"/>
                         </constraints>
                     </view>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COMPUTER SCIENCE &amp; ENGINEERING" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDO-Zn-S8L">
-                        <rect key="frame" x="566" y="251" width="430" height="76"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="COMPUTER SCIENCE &amp; ENGINEERING" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gDO-Zn-S8L">
+                        <rect key="frame" x="566" y="262" width="430" height="89"/>
                         <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="38"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMH-Gs-bPf">
-                        <rect key="frame" x="566" y="186" width="430" height="40"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oMH-Gs-bPf">
+                        <rect key="frame" x="566" y="190" width="430" height="47"/>
                         <string key="text">Alma Mater Studiorum
 Università di Bologna - Campus di Cesena</string>
                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POb-18-eLg">
-                        <rect key="frame" x="566" y="352" width="124" height="32"/>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="POb-18-eLg">
+                        <rect key="frame" x="566" y="376" width="124" height="32"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="32" id="aJv-rt-eFP"/>
                             <constraint firstAttribute="width" constant="124" id="djr-dS-7j2"/>
@@ -150,8 +150,8 @@ Università di Bologna - Campus di Cesena</string>
                             <action selector="didOpenWebsite:" destination="VEu-5c-LDg" eventType="touchUpInside" id="S5n-a8-w32"/>
                         </connections>
                     </button>
-                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XI5-4Q-MqH">
-                        <rect key="frame" x="707" y="352" width="124" height="32"/>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XI5-4Q-MqH">
+                        <rect key="frame" x="707" y="376" width="124" height="32"/>
                         <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="16"/>
                         <state key="normal" title="Projects">
                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -161,8 +161,8 @@ Università di Bologna - Campus di Cesena</string>
                             <action selector="didOpenProjects:" destination="VEu-5c-LDg" eventType="touchUpInside" id="Yue-p8-yH9"/>
                         </connections>
                     </button>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNIVERSITY (2012 - current)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFL-W0-xeu">
-                        <rect key="frame" x="566" y="130" width="430" height="20"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="UNIVERSITY (2012 - current)" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GFL-W0-xeu">
+                        <rect key="frame" x="566" y="130" width="430" height="24"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="430" id="3aA-bT-uxr"/>
                         </constraints>
@@ -170,8 +170,8 @@ Università di Bologna - Campus di Cesena</string>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s6r-ha-i0N">
-                        <rect key="frame" x="566" y="165" width="458" height="1"/>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="s6r-ha-i0N">
+                        <rect key="frame" x="566" y="169" width="458" height="1"/>
                         <color key="backgroundColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="1" id="uNg-iM-X0L"/>
@@ -227,7 +227,7 @@ Università di Bologna - Campus di Cesena</string>
     </objects>
     <resources>
         <image name="itisrn_sized.jpg" width="800" height="1536"/>
-        <image name="mrapps.png" width="200" height="200"/>
+        <image name="mrapps.png" width="400" height="400"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>

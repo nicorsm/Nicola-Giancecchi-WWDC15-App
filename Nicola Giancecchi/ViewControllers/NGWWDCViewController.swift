@@ -22,14 +22,16 @@ class NGWWDCViewController: UIViewController, UIScrollViewDelegate {
         gradient.frame = gradientView.bounds
         
         let cor1 = UIColor.clearColor().CGColor
-        let cor2 = contentView.backgroundColor?.CGColor
+        let cor2 = self.view.backgroundColor?.CGColor
         
         gradient.colors = [cor1 as AnyObject, cor2 as AnyObject!]
         gradientView.layer.insertSublayer(gradient, atIndex: 0)
         
-        self.navigationItem.title = "WWDC 2014".uppercaseString
         self.view.bringSubviewToFront(imgChevronUp)
         self.view.bringSubviewToFront(imgChevronDown)
+        
+        self.navigationItem.title = "WWDC 2014"
+        self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#469cff")
     }
     
     func scrollViewDidScroll(scrollView: UIScrollView) {

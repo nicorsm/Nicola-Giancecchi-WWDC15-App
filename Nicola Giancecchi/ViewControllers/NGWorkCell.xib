@@ -26,7 +26,7 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 <subviews>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fotovoltaico.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S3C-FV-6O7">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mrapps_sized.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="S3C-FV-6O7">
                         <rect key="frame" x="0.0" y="0.0" width="400" height="768"/>
                         <constraints>
                             <constraint firstAttribute="width" constant="400" id="t7t-o8-A3X"/>
@@ -104,7 +104,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="ztB-Wj-1aI" secondAttribute="trailing" constant="30" id="AaI-qy-shQ"/>
                             <constraint firstItem="aFr-uP-UsT" firstAttribute="leading" secondItem="4oq-NN-FtR" secondAttribute="leading" id="HHB-P6-kSU"/>
@@ -131,7 +131,7 @@
                             <constraint firstAttribute="height" constant="37" id="B3z-Yh-wBV"/>
                             <constraint firstAttribute="width" constant="430" id="LS6-x8-fsR"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="44"/>
+                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="38"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -141,7 +141,7 @@
                             <constraint firstAttribute="width" constant="432" id="bwJ-fP-Uks"/>
                             <constraint firstAttribute="height" constant="28" id="on2-fv-6hK"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="26"/>
+                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -151,7 +151,7 @@
                             <constraint firstAttribute="height" constant="28" id="i9m-6W-JNY"/>
                             <constraint firstAttribute="width" constant="432" id="wOW-Zd-SVa"/>
                         </constraints>
-                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="26"/>
+                        <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
@@ -213,7 +213,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="fotovoltaico.jpg" width="960" height="676"/>
-        <image name="mrapps.png" width="200" height="200"/>
+        <image name="mrapps.png" width="400" height="400"/>
+        <image name="mrapps_sized.jpg" width="800" height="1536"/>
     </resources>
 </document>

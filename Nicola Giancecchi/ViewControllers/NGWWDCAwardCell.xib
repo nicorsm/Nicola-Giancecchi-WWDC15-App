@@ -21,27 +21,30 @@
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                 <subviews>
-                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="IMG_2968.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="u8k-oH-KOr">
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="wwdc_keynote_scholarship.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="u8k-oH-KOr">
                         <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     </imageView>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="APPLE WWDC 2014 SCHOLARSHIP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXq-mN-j6p">
-                        <rect key="frame" x="145" y="117" width="735" height="44"/>
+                        <rect key="frame" x="145" y="116" width="735" height="44"/>
                         <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="35"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="There is an entire section of the app about this amazing award." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edW-Ar-tNN">
-                        <rect key="frame" x="143" y="174" width="739" height="28"/>
+                        <rect key="frame" x="143" y="173" width="739" height="28"/>
                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tap here to go directly or scroll down to see other awards." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WWl-lC-rwY">
-                        <rect key="frame" x="143" y="206" width="739" height="28"/>
+                        <rect key="frame" x="143" y="205" width="739" height="28"/>
                         <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="20"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="center" fixedFrame="YES" image="chevron_down" translatesAutoresizingMaskIntoConstraints="NO" id="Ny7-ER-x9t">
+                        <rect key="frame" x="494" y="257" width="36" height="11"/>
+                    </imageView>
                 </subviews>
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
@@ -50,6 +53,7 @@
         </collectionViewCell>
     </objects>
     <resources>
-        <image name="IMG_2968.jpg" width="3264" height="2448"/>
+        <image name="chevron_down" width="36" height="11"/>
+        <image name="wwdc_keynote_scholarship.jpg" width="2048" height="1536"/>
     </resources>
 </document>

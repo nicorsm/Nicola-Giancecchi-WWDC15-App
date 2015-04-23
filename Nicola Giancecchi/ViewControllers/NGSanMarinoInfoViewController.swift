@@ -21,7 +21,10 @@ class NGSanMarinoInfoViewController: UIViewController {
         let region = MKCoordinateRegionMake(coord, span)
         
         self.mapView.setRegion(region, animated: true)
-        // Do any additional setup after loading the view.
+        
+        self.navigationItem.title = "REPUBLIC OF SAN MARINO"
+        self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#255979")
+        
     }
 
     override func didReceiveMemoryWarning() {

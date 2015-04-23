@@ -29,6 +29,9 @@ class NGWorkViewController: UIViewController, WebBrowserDelegate, ProjectsDelega
         self.pageControl.numberOfPages = self.works.count
         self.pageControl.currentPage = 0
         
+        self.navigationItem.title = "WORK"
+        self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#4082bd")
+        
     }
 
     override func didReceiveMemoryWarning() {

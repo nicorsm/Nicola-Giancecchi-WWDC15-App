@@ -29,8 +29,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         self.navigationController?.navigationBarHidden = true
-        self.navigationController?.navigationBar.tintColor = UIColor.whiteColor()
-        self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont(name: "Gotham-Bold", size: 20)!]
         
         btnSkills.titleLabel?.numberOfLines=2
         
@@ -100,16 +98,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
     
-    override func viewDidAppear(animated: Bool) {
-        self.navigationController?.navigationBar.barTintColor = UIColor(red: 0.0, green: 190.0/255.0, blue: 250.0/255.0, alpha: 1.0)
+    override func viewWillAppear(animated: Bool) {
         
-        self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName: UIColor.whiteColor()]
-        
-        self.navigationController?.navigationBarHidden = true
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
     }
-    
     override func viewWillDisappear(animated: Bool) {
-        self.navigationController?.navigationBarHidden = false
+        self.navigationController?.setNavigationBarHidden(false, animated: true)
     }
 
     override func didReceiveMemoryWarning() {

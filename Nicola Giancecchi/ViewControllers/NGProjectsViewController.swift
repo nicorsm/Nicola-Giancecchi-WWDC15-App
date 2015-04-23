@@ -61,6 +61,8 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         currentViewController = self.viewControllers[0] as! NGProjectDetailViewController
         self.pageController!.setViewControllers([currentViewController], direction:UIPageViewControllerNavigationDirection.Forward, animated: false, completion: nil)
         
+        self.navigationItem.title = "PROJECTS"
+        self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#a01e00")
     }
 
     override func didReceiveMemoryWarning() {
