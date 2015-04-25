@@ -13,6 +13,7 @@ let anotherIdentifier : String = "anotherIdentifier"
 class NGAwardsViewController: UIViewController , WebBrowserDelegate, UIScrollViewDelegate, UICollectionViewDataSource, UICollectionViewDelegate{
 
     var awards : Array<Award> = Array<Award>()
+    private var wwdcAwardsReaded : Bool = false
     
     @IBOutlet weak var pageControl: UIPageControl!
     @IBOutlet weak var collectionView: UICollectionView!
@@ -65,6 +66,10 @@ class NGAwardsViewController: UIViewController , WebBrowserDelegate, UIScrollVie
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         if(indexPath.row==0){
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier(anotherIdentifier, forIndexPath: indexPath) as! NGWWDCAwardCell
+            if(!self.wwdcAwardsReaded){
+                cell.animate()
+                self.wwdcAwardsReaded = true
+            }
             return cell
         } else {
             let cell = collectionView.dequeueReusableCellWithReuseIdentifier(reuseIdentifier, forIndexPath: indexPath) as! NGAwardsCell
@@ -72,6 +77,12 @@ class NGAwardsViewController: UIViewController , WebBrowserDelegate, UIScrollVie
             let award : Award = self.awards[indexPath.row-1]
             cell.populate(award)
             cell.delegate = self
+            
+            if !award.animation_visited {
+                award.animation_visited = true
+                cell.animate()
+            }
+            
             
             return cell
         }

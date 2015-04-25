@@ -49,6 +49,11 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <color key="backgroundColor" red="1" green="0.4561818292" blue="0.46172393690000002" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="lblDesc1" destination="edW-Ar-tNN" id="mYH-MV-OrG"/>
+                <outlet property="lblDesc2" destination="WWl-lC-rwY" id="0Jt-mE-fHn"/>
+                <outlet property="lblWWDC" destination="RXq-mN-j6p" id="A4o-oo-89s"/>
+            </connections>
             <point key="canvasLocation" x="433" y="428"/>
         </collectionViewCell>
     </objects>

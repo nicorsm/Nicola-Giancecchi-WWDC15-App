@@ -60,6 +60,11 @@ class NGWorkViewController: UIViewController, WebBrowserDelegate, ProjectsDelega
         cell.delegate = self
         cell.projects_delegate = self
         
+        if !work.animation_visited {
+            work.animation_visited = true
+            cell.animate()
+        }
+        
         return cell
     }
     

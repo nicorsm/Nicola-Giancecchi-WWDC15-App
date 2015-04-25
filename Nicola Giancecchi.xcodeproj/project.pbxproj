@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0540951AEB068600440CC3 /* human_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C0540941AEB068600440CC3 /* human_sized.jpg */; };
 		7C07403F1AE189780092C591 /* NGWorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C07403D1AE189780092C591 /* NGWorkCell.swift */; };
 		7C0740401AE189780092C591 /* NGWorkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C07403E1AE189780092C591 /* NGWorkCell.xib */; };
 		7C0740481AE18F540092C591 /* NGWorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740471AE18F540092C591 /* NGWorkViewController.swift */; };
-		7C07404A1AE1926D0092C591 /* Work.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C0740491AE1926D0092C591 /* Work.json */; };
 		7C07404C1AE192840092C591 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C07404B1AE192840092C591 /* Work.swift */; };
 		7C07404E1AE196C20092C591 /* datatrade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C07404D1AE196C20092C591 /* datatrade.jpg */; };
 		7C0740521AE1977B0092C591 /* JSONObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0740511AE1977B0092C591 /* JSONObject.swift */; };
@@ -30,6 +30,8 @@
 		7C16E9941ADF0E2F004A551A /* Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E9931ADF0E2F004A551A /* Project.swift */; };
 		7C16E9961ADF1518004A551A /* Projects.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C16E9951ADF1518004A551A /* Projects.json */; };
 		7C16E99E1ADF1A40004A551A /* UIColor+HexString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */; };
+		7C25B0C71AEA305200134D02 /* Work.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C25B0C51AEA305200134D02 /* Work.json */; };
+		7C25B0C81AEA305200134D02 /* WWDC storyboard.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C25B0C61AEA305200134D02 /* WWDC storyboard.txt */; };
 		7C47E8451AE67E45004260F2 /* NGBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C47E8431AE67E45004260F2 /* NGBrowserViewController.swift */; };
 		7C47E8461AE67E45004260F2 /* NGBrowserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C47E8441AE67E45004260F2 /* NGBrowserViewController.xib */; };
 		7C51588C1AE59E1B0087E9BE /* NGSkillsHobbiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C51588B1AE59E1B0087E9BE /* NGSkillsHobbiesViewController.swift */; };
@@ -134,10 +136,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C0540941AEB068600440CC3 /* human_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = human_sized.jpg; sourceTree = "<group>"; };
 		7C07403D1AE189780092C591 /* NGWorkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGWorkCell.swift; path = ViewControllers/NGWorkCell.swift; sourceTree = "<group>"; };
 		7C07403E1AE189780092C591 /* NGWorkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGWorkCell.xib; path = ViewControllers/NGWorkCell.xib; sourceTree = "<group>"; };
 		7C0740471AE18F540092C591 /* NGWorkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGWorkViewController.swift; path = ViewControllers/NGWorkViewController.swift; sourceTree = "<group>"; };
-		7C0740491AE1926D0092C591 /* Work.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Work.json; sourceTree = "<group>"; };
 		7C07404B1AE192840092C591 /* Work.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Work.swift; path = Model/Work.swift; sourceTree = "<group>"; };
 		7C07404D1AE196C20092C591 /* datatrade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = datatrade.jpg; sourceTree = "<group>"; };
 		7C0740511AE1977B0092C591 /* JSONObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JSONObject.swift; path = Model/JSONObject.swift; sourceTree = "<group>"; };
@@ -157,6 +159,8 @@
 		7C16E9931ADF0E2F004A551A /* Project.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Project.swift; path = Model/Project.swift; sourceTree = "<group>"; };
 		7C16E9951ADF1518004A551A /* Projects.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Projects.json; path = Datasource/Projects.json; sourceTree = "<group>"; };
 		7C16E99D1ADF1A40004A551A /* UIColor+HexString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIColor+HexString.swift"; path = "Nicola Giancecchi/Libs/UIColor+HexString.swift"; sourceTree = SOURCE_ROOT; };
+		7C25B0C51AEA305200134D02 /* Work.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Work.json; path = Datasource/Work.json; sourceTree = "<group>"; };
+		7C25B0C61AEA305200134D02 /* WWDC storyboard.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "WWDC storyboard.txt"; path = "Datasource/WWDC storyboard.txt"; sourceTree = "<group>"; };
 		7C47E8431AE67E45004260F2 /* NGBrowserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGBrowserViewController.swift; path = ViewControllers/NGBrowserViewController.swift; sourceTree = "<group>"; };
 		7C47E8441AE67E45004260F2 /* NGBrowserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGBrowserViewController.xib; path = ViewControllers/NGBrowserViewController.xib; sourceTree = "<group>"; };
 		7C51588B1AE59E1B0087E9BE /* NGSkillsHobbiesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGSkillsHobbiesViewController.swift; path = ViewControllers/NGSkillsHobbiesViewController.swift; sourceTree = "<group>"; };
@@ -337,7 +341,8 @@
 		7C6C04BE1ADD849400C61B0B /* Datasource */ = {
 			isa = PBXGroup;
 			children = (
-				7C0740491AE1926D0092C591 /* Work.json */,
+				7C25B0C51AEA305200134D02 /* Work.json */,
+				7C25B0C61AEA305200134D02 /* WWDC storyboard.txt */,
 				7C6C04BF1ADD84CC00C61B0B /* Study.json */,
 				7C16E9951ADF1518004A551A /* Projects.json */,
 				7C07405E1AE1A9980092C591 /* Awards.json */,
@@ -380,6 +385,7 @@
 				7CFD02C21AE8E84000588EF6 /* dtsized.jpg */,
 				7C0740641AE1B47B0092C591 /* nini13logo.png */,
 				7CFD02B21AE8DE6300588EF6 /* meritamente_sized.jpg */,
+				7C0540941AEB068600440CC3 /* human_sized.jpg */,
 				7CD0C29A1AE9926E001F980D /* newspapers.jpg */,
 				7C0740601AE1AAAA0092C591 /* sums.png */,
 				7C0740681AE1BC4C0092C591 /* logo_confindustria.png */,
@@ -603,6 +609,7 @@
 				7CFC9B861ADD4EB20017DD5B /* Sources */,
 				7CFC9B871ADD4EB20017DD5B /* Frameworks */,
 				7CFC9B881ADD4EB20017DD5B /* Resources */,
+				7C25B0BE1AEA2BD100134D02 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -661,6 +668,7 @@
 				7CE38A461AE9468A00F6C5F7 /* fido1.png in Resources */,
 				7C0740401AE189780092C591 /* NGWorkCell.xib in Resources */,
 				7CF6DA971AE843D400F34098 /* myitis1.png in Resources */,
+				7C0540951AEB068600440CC3 /* human_sized.jpg in Resources */,
 				7CF6DA961AE843D400F34098 /* mydaylife2.png in Resources */,
 				7CA305411AE8515C00CA2248 /* tds1.png in Resources */,
 				7C6C04E91ADDC85D00C61B0B /* foto-1.jpg in Resources */,
@@ -724,7 +732,6 @@
 				7CA305541AE8620900CA2248 /* differenzia2.png in Resources */,
 				7CE437D31AE3DA50005C16B6 /* stemma_davinci.png in Resources */,
 				7CD0C29B1AE9926E001F980D /* newspapers.jpg in Resources */,
-				7C07404A1AE1926D0092C591 /* Work.json in Resources */,
 				7CD0C2A81AE9A212001F980D /* wwdc_moscone.jpg in Resources */,
 				7CF6DA941AE843D400F34098 /* mii2.png in Resources */,
 				7CA3054E1AE85A6000CA2248 /* marlu2.png in Resources */,
@@ -739,7 +746,9 @@
 				7CF6DA651AE80D2300F34098 /* NGWWDCAwardCell.xib in Resources */,
 				7CA305421AE8515C00CA2248 /* tds2.png in Resources */,
 				7C5158901AE5AE0F0087E9BE /* goldengate_bg.jpg in Resources */,
+				7C25B0C71AEA305200134D02 /* Work.json in Resources */,
 				7CFC9BEF1ADD51850017DD5B /* Gotham-Book.otf in Resources */,
+				7C25B0C81AEA305200134D02 /* WWDC storyboard.txt in Resources */,
 				7CD0C2AA1AE9A212001F980D /* wwdc_students.jpg in Resources */,
 				7C6C04EF1ADDCC2700C61B0B /* patricio.jpg in Resources */,
 				7CF6DA9D1AE843D400F34098 /* thatsmusic1.png in Resources */,
@@ -754,6 +763,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7C25B0BE1AEA2BD100134D02 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Fabric.framework/run 5722d6c3208e7c9cf9fb8c6525665a09f3398aac 30b960655f33495d0c33f9d5e9612282da864f12b3fc71efae4019467a6b421c";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7CFC9B861ADD4EB20017DD5B /* Sources */ = {
@@ -898,6 +923,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Nicola Giancecchi (V936798YQZ)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Nicola",
+					Giancecchi,
+				);
 				INFOPLIST_FILE = "Nicola Giancecchi/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -915,6 +945,11 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Mr. APPs s.r.l. (NZZZ3V7593)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mr. APPs s.r.l. (NZZZ3V7593)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Nicola",
+					Giancecchi,
+				);
 				INFOPLIST_FILE = "Nicola Giancecchi/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

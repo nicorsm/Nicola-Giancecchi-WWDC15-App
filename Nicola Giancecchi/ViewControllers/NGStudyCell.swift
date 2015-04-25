@@ -57,6 +57,19 @@ class NGStudyCell: UICollectionViewCell {
         mySchool = school
     }
     
+    func animate(){
+        self.imgBackground.alpha = 0.0
+        self.imgLogo.alpha = 0.5
+        self.imgLogo.transform = CGAffineTransformMakeScale(0.5, 0.5)
+        
+        UIView.animateWithDuration(1.25, delay: 0.25, usingSpringWithDamping: 1.2, initialSpringVelocity: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
+            self.imgLogo.alpha = 1.0
+            self.imgBackground.alpha = 1.0
+            self.imgLogo.transform = CGAffineTransformMakeScale(1.0, 1.0)
+            
+            }, completion:nil)
+    }
+    
     
     @IBAction func didOpenWebsite(sender: AnyObject) {
         if (self.delegate != nil){
@@ -70,6 +83,6 @@ class NGStudyCell: UICollectionViewCell {
             self.projects_delegate.openProjects(mySchool.ownershipGroup)
         }
     }
-
-
+    
+    
 }

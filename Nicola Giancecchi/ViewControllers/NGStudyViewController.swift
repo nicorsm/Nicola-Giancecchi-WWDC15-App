@@ -61,6 +61,11 @@ class NGStudyViewController: UIViewController, WebBrowserDelegate, ProjectsDeleg
         cell.delegate = self
         cell.populateSchool(current)
         cell.projects_delegate = self
+        
+        if !current.animation_visited{
+            current.animation_visited = true
+            cell.animate()
+        }
         return cell
     }
     

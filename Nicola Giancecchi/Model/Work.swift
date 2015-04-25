@@ -20,6 +20,7 @@ class Work: JSONObject {
     var website : String = ""
     var ownershipGroup : String = ""
     
+    var animation_visited : Bool = false
     
     
     required init(dict : Dictionary<String,AnyObject>){

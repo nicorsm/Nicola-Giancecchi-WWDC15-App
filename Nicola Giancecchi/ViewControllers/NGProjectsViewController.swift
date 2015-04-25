@@ -20,12 +20,16 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     var projects : Array<Project>
     var currentViewController : NGProjectDetailViewController
     var ownership : String?
+    var currentIndex : Int
+    var nextIndex : Int
     @IBOutlet weak var pageContainerView: UIView!
     
     required init(coder aDecoder: NSCoder) {
         self.viewControllers = NSMutableArray()
         self.currentViewController = NGProjectDetailViewController()
         self.projects = Array<Project>()
+        self.currentIndex = 0
+        self.nextIndex = 0
         super.init(coder: aDecoder)
     }
     
@@ -58,7 +62,7 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
             self.viewControllers.addObject(vc)
         }
         
-        currentViewController = self.viewControllers[0] as! NGProjectDetailViewController
+        currentViewController = self.viewControllers[self.currentIndex] as! NGProjectDetailViewController
         self.pageController!.setViewControllers([currentViewController], direction:UIPageViewControllerNavigationDirection.Forward, animated: false, completion: nil)
         
         self.navigationItem.title = "PROJECTS"
@@ -83,7 +87,7 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         let project : Project = self.projects[indexPath.item]
         cell.populate(project)
         
-        let idx : Int = self.viewControllers.indexOfObject(currentViewController)
+        let idx : Int = self.currentIndex;
         if(indexPath.item == idx){
             cell.backgroundColor = UIColor().hexStringToUIColor(project.appColor)
             cell.lblAppName.textColor = UIColor().hexStringToUIColor(project.textColor)
@@ -99,9 +103,9 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         
-        let idx : Int = self.viewControllers.indexOfObject(currentViewController)
-        currentViewController = self.viewControllers[indexPath.item] as! NGProjectDetailViewController
-        self.pageController!.setViewControllers([currentViewController], direction: idx>indexPath.row ? .Reverse : .Forward, animated: true) { (Bool) -> Void in
+        self.currentIndex = indexPath.item
+        currentViewController = self.viewControllers[self.currentIndex] as! NGProjectDetailViewController
+        self.pageController!.setViewControllers([currentViewController], direction: self.currentIndex>indexPath.row ? .Reverse : .Forward, animated: true) { (Bool) -> Void in
             collectionView.reloadData()
         }
         
@@ -109,23 +113,32 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     
     func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
         NSLog("didFinishAnimating")
-        if finished{
-            NSLog("finished animating")
+        if completed{
+            NSLog("current idx: %d", self.currentIndex)
+            
+            self.currentIndex = self.viewControllers.indexOfObject(previousViewControllers.last!)
             collectionView.reloadData()
+            //self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: self.currentIndex, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.Left, animated: true)
+            //collectionView.reloadData()
+            
+            //collectionView.reloadData()
+            /*
             let idx : Int = self.viewControllers.indexOfObject(previousViewControllers.last!)
             let idx2 : Int = self.viewControllers.indexOfObject(currentViewController)
             NSLog("index: %d, current: %d", idx, idx2)
             //self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: idx+1, inSection: 0), atScrollPosition: .Left, animated: true)
-            //MARK: CONTROLLARE FUNZIONAMENTO
+            //MARK: CONTROLLARE FUNZIONAMENTO*/
         }
         
     }
     
+    
     func pageViewController(pageViewController: UIPageViewController, willTransitionToViewControllers pendingViewControllers: [AnyObject]) {
-        
-        let idx : Int = self.viewControllers.indexOfObject(pendingViewControllers.last!)
-        let idx2 : Int = self.viewControllers.indexOfObject(currentViewController)
-        NSLog("WILLY index: %d, current: %d", idx, idx2)
+        //self.currentIndex = self.viewControllers.indexOfObject(pendingViewControllers.last!)
+        //collectionView.reloadData()
+        //let idx : Int = self.viewControllers.indexOfObject(pendingViewControllers.last!)
+        //let idx2 : Int = self.viewControllers.indexOfObject(currentViewController)
+        //NSLog("WILLY index: %d, current: %d", idx, idx2) //WILLY is ok!
         
     }
     
@@ -133,7 +146,8 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         NSLog("viewControllerAfter")
         let idx : Int = self.viewControllers.indexOfObject(viewController)
         if idx < self.projects.count-1 {
-            currentViewController = self.viewControllers[idx+1] as! NGProjectDetailViewController
+            self.currentIndex = idx+1
+            currentViewController = self.viewControllers[self.currentIndex] as! NGProjectDetailViewController
             return currentViewController
         }
         return nil
@@ -143,7 +157,8 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         NSLog("viewControllerPrevious")
         let idx : Int = self.viewControllers.indexOfObject(viewController)
         if idx > 0 {
-            currentViewController = self.viewControllers[idx-1] as! NGProjectDetailViewController
+            self.currentIndex = idx-1
+            currentViewController = self.viewControllers[self.currentIndex] as! NGProjectDetailViewController
             return currentViewController
         }
         return nil

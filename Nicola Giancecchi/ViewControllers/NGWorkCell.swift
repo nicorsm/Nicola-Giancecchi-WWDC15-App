@@ -65,6 +65,20 @@ class NGWorkCell: UICollectionViewCell {
         
         myWork = work
     }
+    
+    
+    func animate(){
+        self.imgBackground.alpha = 0.0
+        self.imgCompany.alpha = 0.5
+        self.imgCompany.transform = CGAffineTransformMakeScale(0.5, 0.5)
+        
+        UIView.animateWithDuration(1.25, delay: 0.25, usingSpringWithDamping: 1.2, initialSpringVelocity: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
+            self.imgCompany.alpha = 1.0
+            self.imgBackground.alpha = 1.0
+            self.imgCompany.transform = CGAffineTransformMakeScale(1.0, 1.0)
+            
+            }, completion:nil)
+    }
 
     @IBAction func didOpenProjects(sender: AnyObject) {
         if self.projects_delegate != nil {

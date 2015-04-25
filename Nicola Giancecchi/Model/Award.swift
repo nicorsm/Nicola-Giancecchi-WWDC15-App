@@ -18,6 +18,8 @@ class Award: JSONObject {
     var text1 : String = ""
     var text2 : String = ""
     
+    var animation_visited : Bool = false
+    
     required init(dict : Dictionary<String,AnyObject>){
         logo = dict["logo"]! as! String
         background = dict["background"] as! String

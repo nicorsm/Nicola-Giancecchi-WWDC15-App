@@ -9,8 +9,8 @@
     "appLink": "itms://itunes.apple.com/it/app/mydaylife/id493882586?mt=8",
     "firstImage": "mydaylife1.png",
     "secondImage": "mydaylife2.png",
-    "firstColumnText": "How many times did you feel like flying and touching the sky? How many times did you think of giving up with everything and starting a new life? MyDaylife is the first multimedia diary for iPhone that lets you give votes to your days, generating a graphic representation of your life. It records your thoughts, emotions and images from the day you just experienced so that you can find and explore them any time you want to.",
-    "secondColumnText": "MyDaylife was the first project I worked on at Mr. APPs. Early versions of MyDaylife were companions of life of their users; with this new version we wanted to take a big step renewing GUI and structure.\nThe app was very successful in national and international scale, ending up on the front pages of many newspapers.\n",
+    "firstColumnText": "How many times did you feel like flying and touching the sky? How many times did you think about leaving everything behind and starting over? MyDaylife is the first multimedia diary for iPhone that lets you mark your days, generating a graphic representation of your life. It records your thoughts, emotions and images of the day you just experienced so that you can find and explore them any time you want to.",
+    "secondColumnText": "MyDaylife was the first project I worked on at Mr. APPs. Early versions of MyDaylife were companions of life of their users; with this new version we wanted to take a big step renewing GUI and structure.\nThe app was very successful both nationally and internationally, ending up on the front pages of many newspapers.\n",
     "features": [
       {
         "title": "Client",
@@ -54,8 +54,8 @@
     "appLink": "itms://itunes.apple.com/it/app/blurred-life/id816485262?mt=8",
     "firstImage": "blurred1.png",
     "secondImage": "blurred2.png",
-    "firstColumnText": "Create magnificent iOS 7-ready wallpapers with Blurred Life! Impress your friends with a gorgeous wallpaper for your iPhone made by yourself with Blurred Life.\nWith this app you can pick a photo from Camera Roll or from your Camera, add effects like \"Blur\", \"Brightness\", \"Saturation\" and \"Text\" and create the wallpaper optimized for iOS parallax effect.",
-    "secondColumnText": "Blurred Life is a project very dear to me. It was a challenge for me to use components and instruments for image adjustments I had seen in Photoshop but I had not used before in programming.\nBlurred Life was the first app that I tried to porting in Swift at the WWDC 2014.",
+    "firstColumnText": "Create magnificent iOS 7-ready wallpapers with Blurred Life! Impress your friends with a gorgeous wallpaper for your iPhone made by yourself with Blurred Life. With this app you can pick a photo from Camera Roll or take one with your Camera, add effects like \"Blur\", \"Brightness\", \"Saturation\" and \"Text\" and create wallpapers optimized for iOS parallax effect.",
+    "secondColumnText": "Blurred Life is a very dear project to me. Using components and instruments for image adjustments that I had only seen on Photoshop was a challenge for me, but in the end it was a great success and I learn a lot.\nBlurred Life was the first app that I tried to porting in Swift at the WWDC 2014.",
     "features": [
       {
         "title": "Client",
@@ -99,8 +99,8 @@
     "appLink": "itms://itunes.apple.com/us/app/san-marino-news24/id938086912?mt=8",
     "firstImage": "smn1.png",
     "secondImage": "smn2.png",
-    "firstColumnText": "San Marino News24 is your starting point for updates on the news of the Republic of San Marino. SM News24 aggregates in one app all news about San Marino and surroundings. You can filter news by providers or categories and you can add them to your favourites, so you can read them offline later.",
-    "secondColumnText": "SM News24 was born from my idea, because reading online news sites with unrensponsive layout was uncomfortable.\nThe mission of the app is to inform sammarinese people in realtime on the events that are happening and making them part of the discussion.",
+    "firstColumnText": "San Marino News24 is your starting point for the news of the Republic of San Marino. SM News24 aggregates in one app all the news regarding San Marino and the surroundings areas. You can filter them by providers or categories and add them to your favourites, so you can read them offline later.",
+    "secondColumnText": "Tired of reading online news sites with unrensponsive layout, I wanted to fix it: that's how SM News24 came to life.\nThe goal of the app is to inform citizens in realtime on current events and making them part of the discussion.",
     "features": [
       {
         "title": "Client",
@@ -137,15 +137,15 @@
   {
     "ownership_group": "1",
     "title": "San Marino Differenzia",
-    "subtitle": "Your assistant for curbside collection in San Marino.",
+    "subtitle": "Your assistant for recycling in San Marino.",
     "appIcon": "app_differenzia",
     "appColor": "#e5d8c5",
     "textColor": "#000000",
     "appLink": "itms://itunes.apple.com/it/app/san-marino-differenzia/id907426312?mt=8",
     "firstImage": "differenzia1.png",
     "secondImage": "differenzia2.png",
-    "firstColumnText": "Separate waste in San Marino has never been so quick and easy with San Marino Differenzia!\nThe app is designed to help San Marino citizens in the curbside garbage collection and for separate waste into different recycle bins, so they can increase their ecological footprint and help the environment.",
-    "secondColumnText": "The app is a great success among the citizen who are currently served from curbside garbage collection service.\nThe app received the support of the National Company for Public Services (AASS) and Cooperativa Trasforma.\n",
+    "firstColumnText": "Recycling in San Marino has never been so quick and easy with San Marino Differenzia!\nThe app is designed to help San Marino citizens in the curbside garbage collection and for separate waste into different recycle bins, so they can increase their ecological footprint and help the environment.",
+    "secondColumnText": "The app is having a great success among the citizens who are currently using the curbside garbage collection service.\nThe app received the support of the National Company for Public Services (AASS) and Cooperativa Trasforma.\n",
     "features": [
       {
         "title": "Client",
@@ -189,8 +189,8 @@
     "appLink": "itms://itunes.apple.com/it/app/thats-music/id876420230?mt=8",
     "firstImage": "thatsmusic1.png",
     "secondImage": "thatsmusic2.png",
-    "firstColumnText": "That's Music is a new service totally free for discover the most interesting live music events in your city from your iPhone or iPad.\nWith That's Music you can find live music and emerging bands categorized by genre, bookmark scheduled concerts into your calendar and share them with your friends on social networks.",
-    "secondColumnText": "Since I love music - especially the world of live music, That's Music is a very promising project in which I had the pleasure of working, even giving tips and advices of design to my colleagues. The guys of That's Music are our friends who have invested in this area and opened a startup in Umbria (Italy).",
+    "firstColumnText": "That's Music is a new service totally free for discovering the most interesting live music events in your city right from your iPhone or iPad.\nWith That's Music you can find live music and emerging bands categorized by genre. You can also bookmark scheduled concerts into your calendar and share them with your friends on social networks.",
+    "secondColumnText": "Since I love music - especially the world of live music - That's Music is a very promising project in which I had the pleasure of working on, even giving tips and advices of design to my colleagues. The guys of That's Music are our friends who have invested in this area and opened a startup in Umbria (Italy).\n",
     "features": [
       {
         "title": "Client",
@@ -234,8 +234,8 @@
     "appLink": "itms://itunes.apple.com/it/app/comparyson/id914925518?mt=8",
     "firstImage": "comparyson1.png",
     "secondImage": "comparyson2.png",
-    "firstColumnText": "Who is the best football player, Messi or Ronaldo? Do you prefer Katy Perry or Rihanna? \nComparyson is the first comparative social network in the world where you can create comparysons and surveys of any kind on any topic. Every comparyson has a time limit that will determine the conclusion; the option which has received most votes will be the winner of the comparyson.",
-    "secondColumnText": "Building Comparyson was a big challenge because it was the first app for a Social Network that I have ever created.\nA challenge that proved to be successful, given the recent success of the social network and the app in Italy.\nComparyson is a project entirely conceived and designed in the Republic of San Marino with the precious collaboration of Mr. APPs.",
+    "firstColumnText": "Who is the best football player, Messi or Ronaldo? Do you prefer Katy Perry or Rihanna? \nComparyson is the first comparative social network in the world, with which you can create comparysons and surveys of any kind on any topic. Each comparyson has a time limit that will determine its conclusion; the option which has received most votes will be the winner of the comparyson.",
+    "secondColumnText": "Building Comparyson was a big challenge because it was the first Social Network app that I have ever created.\nA challenge that proved to be successful, given the recent results of the social network and the app in Italy.\nComparyson is a project entirely conceived and designed in the Republic of San Marino with the precious collaboration of Mr. APPs.",
     "features": [
       {
         "title": "Client",
@@ -279,8 +279,8 @@
     "appLink": "itms://itunes.apple.com/it/app/more-in-italy/id804714522?mt=8",
     "firstImage": "mii1.png",
     "secondImage": "mii2.png",
-    "firstColumnText": "More In Italy is the app of the consortium of Italian companies that gravitate around the home sector: construction, lighting, appliances, kitchens, furniture, accessories. More In Italy was born in 2013 from an idea of Eusebio Gualino, CEO of Gessi: to unite under a single brand great Italian names to promote the restructuring of our homes, the center of the life of each of us.",
-    "secondColumnText": "The consortium is sponsored by Banca Mediolanum, the financial arm of the Fininvest group, that promoted the app on Italian TV.\nWith the app you can find out about the companies in the consortium, news, technical information on the restructuring and events around Italy.\n",
+    "firstColumnText": "More In Italy is the app of the consortium of Italian companies that gravitate around the home sector: construction, lighting, appliances, kitchens, furniture, accessories. More In Italy was created in 2013 from an idea of Eusebio Gualino, CEO of Gessi: to unite under one single brand great Italian names and to promote the restructuring of our homes, the center of the life in each of us.",
+    "secondColumnText": "The consortium is sponsored by Banca Mediolanum, the financial arm of the Fininvest group, that promoted the app on the Italian TV.\nWith the app you can find out about the companies in the consortium, news, technical information on the restructuring and events around Italy.\n\n",
     "features": [
       {
         "title": "Client",
@@ -324,8 +324,8 @@
     "appLink": "itms://itunes.apple.com/it/app/tempo-di-sconti/id698198881?mt=8",
     "firstImage": "tds1.png",
     "secondImage": "tds2.png",
-    "firstColumnText": "Tempo di Sconti is an Italian shopping site focused on discounts and coupons. \nWith the official app you can view all offers, sorted by category, and see photos of the products. Once you have added products to your cart, you can order with a quick and simple procedure. The app also includes bundled products and travels. ",
-    "secondColumnText": "Tempo di Sconti is the first app we entirely designed for iPhone 6 and iPhone 6 Plus after their release. It has a very simple flat design yet functional and able to provide all the features of the app to the users. I tried to insert new navigational elements, such as the sidebar or scrolling between bundled products.\n",
+    "firstColumnText": "Tempo di Sconti is an Italian shopping site focused on discounts and coupons. \nWith the official app you can access all the offers sorted by category, and see photos of the products. Once you have added products to your cart, you can order with a quick and simple procedure. The app also includes bundled products and travels. ",
+    "secondColumnText": "Tempo di Sconti is the first app that we designed entirely for iPhone 6 and iPhone 6 Plus after their release. It has a very simple flat design yet functional and able to provide all the features of the app to the users. I then added new navigational elements, such as the sidebar or scrolling between bundled products.\n",
     "features": [
       {
         "title": "Client",
@@ -369,8 +369,8 @@
     "appLink": "itms://itunes.apple.com/it/app/inews-resta-informato-in-mobilita/id694124834?mt=8",
     "firstImage": "inews1.png",
     "secondImage": "inews2.png",
-    "firstColumnText": "iNews is a simple and fast app to be constantly updated on national and international facts.\nThe app is divided into several categories: Entertainment, Games&Apps, Chronicles, Technology, Science and Medicine, Gossip. The app sends push notifications when the team publish the most important news.",
-    "secondColumnText": "iNews keeps you informed about what's happening in the world in real time! The project is a collaboration of Mr. APPs with Mobinext di Daniele Leone, a startup company based in Matera (Italy). The application has been designed to have a simple layout but direct, highly customizable thanks to the color and font picker.",
+    "firstColumnText": "iNews is a simple and fast app whose goal is to be constantly updated on national and international facts.\nThe app is divided into several categories: Entertainment, Games&Apps, Chronicles, Technology, Science and Medicine, Gossip. The app sends push notifications when the team publishes the most important news.",
+    "secondColumnText": "iNews keeps you informed about what's happening in the world in real time! The project is a partnership between Mr. APPs and Daniele Leone, the CEO of Mobinext, a startup company based in Matera (Italy). The application has been designed to have a simple layout but direct and highly customizable thanks to the color and font picker.",
     "features": [
       {
         "title": "Client",
@@ -414,8 +414,8 @@
     "appLink": "itms://itunes.apple.com/us/app/reggini-auto/id896617342?mt=8",
     "firstImage": "reggini1.png",
     "secondImage": "reggini2.png",
-    "firstColumnText": "Reggini Auto is the app of the Volkswagen-Audi-Skoda dealer of the Republic of San Marino.\nWith Reggini Auto you an discover opportunities, news and the team of dealership, but mostly is useful for all motorists with the Diary Deadlines for cars (taxes, insurance, audit, etc...), Service Direct Contact and SOS Call in case of emergency. ",
-    "secondColumnText": "The GUI of Reggini Auto is custom designed and is ispired by the unique design of the cars of Volkswagen Group. The hap has been a hit among customers and supporters of Romagna and surroundings.\nReggini is leader in the industry and has been awarded the Volkswagen Award Italy 2014 for customer care.",
+    "firstColumnText": "Reggini Auto is the app of the Volkswagen-Audi-Skoda car dealer of the Republic of San Marino.\nReggini Auto allows you to discover opportunities, news and the team of dealership. But mostly it is useful for all motorists thanks to the Diary Deadlines (taxes, car insurance, inspections, etc...), the Service Direct Contact and SOS Call in case of emergency. ",
+    "secondColumnText": "The GUI of Reggini Auto is custom-designed and is ispired by the unique design of the cars of the Volkswagen Group. The app has been a hit among customers and supporters of Romagna and surroundings.\nReggini is leader in the industry and has been awarded with the Volkswagen Award Italy 2014 for customer care.",
     "features": [
       {
         "title": "Client",
@@ -459,8 +459,8 @@
     "appLink": "",
     "firstImage": "seaman1.png",
     "secondImage": "seaman2.png",
-    "firstColumnText": "SEAMan® is a software for the board maintenance, the result of a process of improvement done side by side with ship owners, crew, builders and designers, designed to greatly simplify the complex management of a naval unit. SEAMan includes many features, all accessible by web interface, tablet, smartphone or touch screen placed on board.",
-    "secondColumnText": "SEAMan is an hub that collects handbooks, maintenance tasks, spare parts requests and documents. It's used by italian Guardia di Finanza (Financial Police), Garde Nationale Tunisienne and Marine Nationale Tunisienne.\n",
+    "firstColumnText": "SEAMan® is a software for the board maintenance, the result of a process of improvement done side by side with ship owners, crew and builders, designed to greatly simplify the complex management of a naval unit. SEAMan includes many features, all accessible by web interface, tablet, smartphone or touch screen placed on board.",
+    "secondColumnText": "SEAMan is an hub that collects handbooks, maintenance tasks, spare parts requests and documents. It's used by the italian Guardia di Finanza (Financial Police), the Garde Nationale Tunisienne and the Marine Nationale Tunisienne. The scope of the app and the use by Italian police makes the project of great value and very helpful.",
     "features": [
       {
         "title": "Client",
@@ -504,8 +504,8 @@
     "appLink": "itms://itunes.apple.com/it/app/marlu-agenti/id795772448?mt=8",
     "firstImage": "marlu1.png",
     "secondImage": "marlu2.png",
- "firstColumnText": "Marlù Agenti is the official application for the agents to the economic realities of dealing with the Marlù Jewels products. This app brings all the catalogs of Marlù products even in offline mode, execute a new order, manage the master data of its customers, consult the history of the orders executed",
-    "secondColumnText": "Marlù is an app tailored for agents, allowing them to save paper, calculations, checks availability in stock, and other controls. It's characterized by an elegant and understated design. ",
+ "firstColumnText": "Marlù Agenti is the official application for the agents that deal with the Marlù Jewels products. This app contains all the catalogs of Marlù products even in offline mode and it can execute a new order, manage the master data of its customers and consult the history of the orders executed",
+    "secondColumnText": "Marlù is an app made exclusively for agents, allowing them to save paper, make calculations, check availability in stock and other controls. It's characterized by an elegant and veiled design.",
     "features": [
       {
         "title": "Client",
@@ -549,8 +549,8 @@
     "appLink": "",
     "firstImage": "myitis1.png",
     "secondImage": "myitis2.png",
-    "firstColumnText": "myITIS is the first Italian app to access the electronic registry of the High School. It is designed for students of ITIS \"Leonardo da Vinci\" of Rimini, my high school. With myITIS you can consult grades, absences, disciplinary notes, communications from the school and access to e-learning, so as to have under control throughout the student's school career.",
-    "secondColumnText": "myITIS was a real innovation for the school. It's the first time in Italy that a student publishes a useful application to their classmates.\nmyITIS was born as my idea and was developed for the graduation exam of 2012 with Stefano Belli (Android) under the supervision of professors Maurizio Conti and Riccardo Bianchi.\n",
+    "firstColumnText": "myITIS is the first Italian app to access the electronic registry of the High School. It is designed for students of ITIS \"Leonardo da Vinci\" of Rimini, my high school. With myITIS you can consult grades, absences, disciplinary notes, communications from the school and access to e-learning. The app allows users to have under control every aspects of their school career.",
+    "secondColumnText": "myITIS was a real innovation for the school. It's the first time in Italy that a student publishes a useful application for his classmates.\nmyITIS is a project I developed for the graduation exam of 2012 with Stefano Belli (Android) under the supervision of professors Maurizio Conti and Riccardo Bianchi.\n",
     "features": [
       {
         "title": "Client",
@@ -594,8 +594,8 @@
     "appLink": "",
     "firstImage": "fridgelist1.png",
     "secondImage": "fridgelist2.png",
-    "firstColumnText": "FridgeList is a quick and easy way to write up a grocery list without writing anything.\nApproaching an NFC tag - representing a food - the \"Cart\" (built with Arduino) to add the food to the grocery list. The Cart will send it to the webservice which will update the list on all devices. ",
-    "secondColumnText": "FridgeList is an original idea of my friend, Thomas Righi, evolved for submission as project of the course \"Embedded System Programming\" of prof. Alessandro Ricci. The project is based on Arduino with NFC Breakout Board and WiFi Shield and leans on a sketch written by me and libraries written by the producer.",
+    "firstColumnText": "FridgeList is a quick and easy way to write a grocery list without actually having to write anything.\nApproaching an NFC tag - representing a food - the \"Cart\" (built with Arduino) adds the food to the grocery list and it will send it to the webservice which will update the list on all devices. ",
+    "secondColumnText": "FridgeList is an original idea of my friend, Thomas Righi, evolved for submission as project of the course \"Embedded System Programming\" of prof. Alessandro Ricci. The project is based on Arduino with NFC Breakout Board and WiFi Shield and is based on a sketch written by me and libraries written by the producer.\n",
     "features": [
       {
         "title": "Client",
@@ -639,8 +639,8 @@
     "appLink": "",
     "firstImage": "fido1.png",
     "secondImage": "fido2.png",
-    "firstColumnText": "FiDO is the best companion of your pets (right after the owner, of course 😉). With FiDO you can track the animals' weight, diet, visits, events, competitions and reminders, so you can devote more to life and health of your pet and let the app guide you in everyday life. It also includes some graphs to visually see the progress.",
-    "secondColumnText": "FiDO is an academic project made by me and Michele Sapignoli for the course of \"Object-Oriented Programming\" held by prof. Mirko Viroli at Computer Science & Engineering.\nHe's complimented for the high level design, both graphic and structural, of the app.\n",
+    "firstColumnText": "FiDO is the best companion of your pets (right after the owner, of course 😉). With FiDO you can track the animals' weight, diet, visits, events and competitions, so you can always check the health of your pet and let the app guide you in the everyday life. It also includes some charts to visually see the progress.",
+    "secondColumnText": "FiDO is an academic project made by me and Michele Sapignoli for the course of \"Object-Oriented Programming\" held by prof. Mirko Viroli at Computer Science & Engineering.\nHe's complimented us for the high level design, both graphical and structural, of the app.\n",
     "features": [
       {
         "title": "Client",

@@ -61,8 +61,6 @@
             <string>Gotham-Bold</string>
             <string>Gotham-Bold</string>
             <string>Gotham-Bold</string>
-            <string>Gotham-Bold</string>
-            <string>Gotham-Bold</string>
         </mutableArray>
         <mutableArray key="Gotham-Light.otf">
             <string>Gotham-Light</string>
@@ -161,9 +159,9 @@
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lbn-e0-Yoa">
                                                 <rect key="frame" x="527" y="768" width="467" height="157"/>
-                                                <string key="text">Last year I was awarded by Apple of a WWDC 2014 Student Scholarship Ticket for the conference. That week was probably the best of my life.
-It was an opportunity to meet a lot of devs and talented guys from all over the world and make new friendships.
-I learned so many things, so many new aspects of iOS Development that I didn't know before.</string>
+                                                <string key="text">Last year Apple awarded me with a Student Scholarship ticket for the WWDC 2014. That week was probably the best one of my life.
+It was an opportunity to meet lots of devs and talented guys from all over the world and to make new friendships.
+I learned so many things and so many new aspects of iOS Development that I didn't know before.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -179,10 +177,10 @@ I learned so many things, so many new aspects of iOS Development that I didn't k
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yS8-BE-cdo">
                                                 <rect key="frame" x="30" y="1112" width="467" height="151"/>
-                                                <string key="text">I received the news of winning at 2:15 AM (italian time).
-Can’t sleep that night! 
-The day after the news was in newspapers and radio and a lot of people have congratulated with me. The news has gone around the whole Republic of San Marino.
-The days before departure I was interviewed by San Marino National TV and several newspapers.</string>
+                                                <string key="text">I received the news of winning at 2:15 AM.
+I couldn’t sleep anymore that night! 
+The next day, the big news was already in the newspapers and on the radio and lots of people congratulated me. The news went viral in the whole Republic of San Marino.
+Before departing, the San Marino National TV and several newspapers interviewed me.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -198,8 +196,7 @@ The days before departure I was interviewed by San Marino National TV and severa
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fCW-Bv-CQM">
                                                 <rect key="frame" x="36" y="2142" width="467" height="128"/>
-                                                <string key="text">The day of keynote I was in line at the Moscone Center at 5AM. In the line I met a guy from Rimini - a city 20 km from my - that now works in Montreal (the world is so small!).
-The minutes before the keynote were full of emotions: thinking that just a year before I watched it live from my desk made me goosebumps.</string>
+                                                <string key="text">The day of the keynote, I was standing in line at the Moscone Center at 5AM and there, I met a guy from Rimini - a city 20 km from mine (what a small world!). He now works in Montreal. The minutes heading up to the keynote were full of emotions: thinking about the fact that the previous year I watched it at home gave me goosebumps.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -215,10 +212,10 @@ The minutes before the keynote were full of emotions: thinking that just a year 
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XRT-CJ-GJy">
                                                 <rect key="frame" x="36" y="2367" width="467" height="209"/>
-                                                <string key="text">During the sessions I was able to understand deeper aspects and features of the framework of iOS that I didn't know enough.
-Apple engineers available in the labs were very kind and helpful in answering my questions about Swift. It was a highly formative experience!
+                                                <mutableString key="text">During the sessions, I learned the deeper aspects and features of the framework of iOS that were not I didn't know enough.
+Apple engineers were very kind and helpful in answering all my questions about Swift. It was a highly formative experience!
 
-... and the WWDC14 jacket, walking around San Francisco, made you look like a superhero! 😄</string>
+... and the WWDC14 jacket! Walking around San Francisco wearing it, made you look like a superhero! 😄</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -237,8 +234,8 @@ you've been here before?"</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QvG-5p-iTy">
                                                 <rect key="frame" x="30" y="3119" width="467" height="110"/>
-                                                <string key="text">After a week of sessions, tutorials, meetings, long walks from Moscone to my hotel, little spare time for shopping, the Bash was the most relaxing and amusing moment of the conference.
-Bastille really deserved the stage with a unique show.</string>
+                                                <string key="text">After a week of sessions, tutorials, meetings, long walks from Moscone to my hotel and the little spare time for shopping, the Bash was the most relaxing and amusing moment of the conference.
+Bastille really deserved the stage with their unique show.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -255,25 +252,10 @@ Bastille really deserved the stage with a unique show.</string>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wwdc_flight.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="4bL-4h-ijV">
                                                 <rect key="frame" x="30" y="1343" width="467" height="300"/>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="An endless - but terrific - trip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5Z-y0-s66">
-                                                <rect key="frame" x="527" y="1391" width="467" height="43"/>
-                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="26"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="958-Vl-YOM">
-                                                <rect key="frame" x="527" y="1448" width="467" height="147"/>
-                                                <string key="text">I took a flight from Venice, Italy airport (VCE) on May 31st with exchange at Toronto, Canada (YYZ). 
-It took around 16 hours, but I liked it, expecially for the never-ending sunset of three hours over the skies of United States.
-The next day I took my WWDC pass and visited, with a pilgrimage, the headquarters at One Infinite Loop.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1DA-RQ-bGb">
                                                 <rect key="frame" x="533" y="2142" width="467" height="128"/>
-                                                <string key="text">The keynote was incredible and I commented live in Italian with my friends.
-After the keynote I had the honor of knowing personally Tim Cook, to shake his hand and take a picture with him - the famous "Selfie" that has made the rounds of San Marino and Romagna. P.S.: I hate selfie sticks 😄</string>
+                                                <mutableString key="text">The keynote was incredible and I had to comment it live with my friends back home.
+After the keynote, I had the honor of meeting personally Tim Cook, to shake his hand and to take a picture with him - the famous "selfie" that went viral in San Marino and in Romagna. P.S. I hate selfie sticks 😄</mutableString>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -289,23 +271,24 @@ After the keynote I had the honor of knowing personally Tim Cook, to shake his h
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4Z-hl-Vlm">
                                                 <rect key="frame" x="527" y="2753" width="467" height="130"/>
-                                                <string key="text">I was amazed to see so many guys younger than me (from 13 years old) attending the conference. In that week I met many of my peers from around the world (USA, UK, Germany, Lebanon, etc.), including Italian speakers: Patrick from Switzerland, Gabriele and Davide from Bologna (they also attend University of Bologna like me).</string>
+                                                <string key="text">I was amazed to see so many guys younger than me (from 13 years old) attending the conference. I got the chance to meet many of my peers from all around the world (USA, UK, Germany, Lebanon, etc.), including Italian speakers: Patrick from Switzerland, Gabriele and Davide from Bologna (they also attend the University of Bologna like me).</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bou-pS-66s">
                                                 <rect key="frame" x="30" y="3742" width="467" height="128"/>
-                                                <string key="text">I wanted to stay longer in San Francisco to visit it all ... but the university and the study were calling.
-After my return many people have complimented me for the experience, including professors Luciano Margara (President of University of Bologna - Campus of Cesena) and Mirko Viroli. It was really a nice way to start the summer!</string>
+                                                <string key="text">I wanted to stay longer in San Francisco, to visit the city better... but the university and the study were calling me.
+After my return, many people complimented me for the experience, including professors Luciano Margara (President of University of Bologna - Campus of Cesena) and Mirko Viroli. It was a really nice way to kick off the summer!</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u9X-k0-8un">
                                                 <rect key="frame" x="527" y="3742" width="467" height="128"/>
-                                                <string key="text">Many newspapers have spoken about my participation at WWDC on a national scale, including Corriere della Sera, Panorama This is Italy, Yahoo! Finance, Il Resto del Carlino and San Marino RTV.
-Dozens of local newspapers, then, have taken over the news.</string>
+                                                <string key="text">Many newspapers wrote about my participation at the WWDC on a national scale, including Corriere della Sera, Panorama This is Italy, Yahoo! Finance, Il Resto del Carlino and San Marino RTV.
+Dozens of local newspapers, then, took over the news.
+</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
@@ -314,6 +297,21 @@ Dozens of local newspapers, then, have taken over the news.</string>
                                                 <rect key="frame" x="286" y="575" width="452" height="36"/>
                                                 <fontDescription key="fontDescription" name="Gotham-Light" family="Gotham" pointSize="25"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="An endless - but terrific - trip" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5Z-y0-s66">
+                                                <rect key="frame" x="527" y="1381" width="467" height="43"/>
+                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="26"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="958-Vl-YOM">
+                                                <rect key="frame" x="527" y="1438" width="467" height="167"/>
+                                                <string key="text">I took a flight with my brother Andrea - who accompanied me - from Venice, Italy airport (VCE) on May 31st with a stopover in Toronto, Canada (YYZ). 
+It took about 16 hours, but I liked it because of the never-ending sunset over the sky of the United States.
+The following day, I took my WWDC pass and visited the headquarters at One Infinite Loop with the other participants.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -1311,8 +1309,86 @@ San Marino has two presidents, the Captains Regent, that change every six months
                                     <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DoB-qu-hMm">
                                         <rect key="frame" x="0.0" y="0.0" width="1024" height="2304"/>
                                         <subviews>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="nerdies.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="J2i-2O-BJn">
-                                                <rect key="frame" x="0.0" y="1600" width="1024" height="300"/>
+                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="loQ-lD-Jdi">
+                                                <rect key="frame" x="8" y="1140" width="1008" height="452"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wearable Devices" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8R-XZ-lNu">
+                                                        <rect key="frame" x="127" y="108" width="365" height="80"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mobile Development" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r86-5k-mbR">
+                                                        <rect key="frame" x="127" y="18" width="365" height="80"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="6" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UX &amp; UI Design" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSy-UZ-J5J">
+                                                        <rect key="frame" x="127" y="198" width="365" height="80"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="8" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Proximity (iBeacons)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghg-G7-Yof">
+                                                        <rect key="frame" x="127" y="288" width="365" height="80"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="10" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Identification technologies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qJ-da-LOr">
+                                                        <rect key="frame" x="603" y="18" width="400" height="80"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="14" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pervasive technologies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyp-jp-qQq">
+                                                        <rect key="frame" x="603" y="198" width="400" height="80"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Embedded systems" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4A-G4-uBA">
+                                                        <rect key="frame" x="603" y="108" width="400" height="80"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" tag="16" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Graphics, Adobe Suite" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvB-rQ-wxR">
+                                                        <rect key="frame" x="603" y="288" width="400" height="80"/>
+                                                        <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
+                                                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1" contentMode="center" fixedFrame="YES" image="icn_mobile" translatesAutoresizingMaskIntoConstraints="NO" id="mTE-qT-8wH">
+                                                        <rect key="frame" x="24" y="23" width="70" height="70"/>
+                                                    </imageView>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="3" contentMode="center" fixedFrame="YES" image="icn_wearable" translatesAutoresizingMaskIntoConstraints="NO" id="4RR-pb-FyA">
+                                                        <rect key="frame" x="24" y="113" width="70" height="70"/>
+                                                    </imageView>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="5" contentMode="center" fixedFrame="YES" image="icn_uiux" translatesAutoresizingMaskIntoConstraints="NO" id="qfP-hx-0Id">
+                                                        <rect key="frame" x="24" y="203" width="70" height="70"/>
+                                                    </imageView>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="7" contentMode="center" fixedFrame="YES" image="icn_pin" translatesAutoresizingMaskIntoConstraints="NO" id="yIW-j3-Ajp">
+                                                        <rect key="frame" x="24" y="293" width="70" height="70"/>
+                                                    </imageView>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="9" contentMode="center" fixedFrame="YES" image="icn_id" translatesAutoresizingMaskIntoConstraints="NO" id="k6A-cO-U0t">
+                                                        <rect key="frame" x="500" y="23" width="70" height="70"/>
+                                                    </imageView>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="11" contentMode="center" fixedFrame="YES" image="icn_embedded" translatesAutoresizingMaskIntoConstraints="NO" id="7V1-lK-WPD">
+                                                        <rect key="frame" x="500" y="113" width="70" height="70"/>
+                                                    </imageView>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="13" contentMode="center" fixedFrame="YES" image="icn_pervasive" translatesAutoresizingMaskIntoConstraints="NO" id="Uvl-8B-a0C">
+                                                        <rect key="frame" x="500" y="203" width="70" height="70"/>
+                                                    </imageView>
+                                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="15" contentMode="center" fixedFrame="YES" image="icn_design" translatesAutoresizingMaskIntoConstraints="NO" id="pXS-Ho-6VI">
+                                                        <rect key="frame" x="500" y="293" width="70" height="70"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="human_sized.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="J2i-2O-BJn">
+                                                <rect key="frame" x="0.0" y="1536" width="1024" height="364"/>
                                             </imageView>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="coding_sized.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="ibk-l3-2kI">
                                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="364"/>
@@ -1357,7 +1433,7 @@ SKILLS }</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="1" green="0.67786627710000003" blue="0.096910750300000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="0.95412701369999997" green="0.55117130280000004" blue="0.15098124739999999" alpha="1" colorSpace="calibratedRGB"/>
                                                     </view>
                                                     <view tag="2" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ckj-yk-lkv">
                                                         <rect key="frame" x="0.0" y="79" width="227" height="29"/>
@@ -1369,7 +1445,7 @@ SKILLS }</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="0.95412701368331909" green="0.55117130279541016" blue="0.15098124742507935" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="1" green="0.67786627710000003" blue="0.096910750300000001" alpha="1" colorSpace="calibratedRGB"/>
                                                     </view>
                                                     <view tag="3" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4bZ-PA-gFi">
                                                         <rect key="frame" x="0.0" y="116" width="198" height="29"/>
@@ -1381,7 +1457,7 @@ SKILLS }</string>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                         </subviews>
-                                                        <color key="backgroundColor" red="0.98130178451538086" green="0.69315826892852783" blue="0.27907964587211609" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="backgroundColor" red="0.97074460983276367" green="0.70349651575088501" blue="0.35165929794311523" alpha="1" colorSpace="calibratedRGB"/>
                                                     </view>
                                                     <view tag="4" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lp1-9m-m33">
                                                         <rect key="frame" x="0.0" y="153" width="170" height="29"/>
@@ -1528,54 +1604,6 @@ SKILLS }</string>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wearable Devices" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D8R-XZ-lNu">
-                                                <rect key="frame" x="133" y="1247" width="365" height="80"/>
-                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Mobile Development" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r86-5k-mbR">
-                                                <rect key="frame" x="133" y="1157" width="365" height="80"/>
-                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UX &amp; UI Design" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSy-UZ-J5J">
-                                                <rect key="frame" x="133" y="1337" width="365" height="80"/>
-                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Proximity (iBeacons)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ghg-G7-Yof">
-                                                <rect key="frame" x="133" y="1427" width="365" height="80"/>
-                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Identification technologies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8qJ-da-LOr">
-                                                <rect key="frame" x="609" y="1157" width="400" height="80"/>
-                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pervasive technologies" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyp-jp-qQq">
-                                                <rect key="frame" x="609" y="1337" width="400" height="80"/>
-                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Embedded systems" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c4A-G4-uBA">
-                                                <rect key="frame" x="609" y="1247" width="400" height="80"/>
-                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Graphics, Adobe Suite" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hvB-rQ-wxR">
-                                                <rect key="frame" x="609" y="1427" width="400" height="80"/>
-                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
-                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
                                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" fixedFrame="YES" image="coding_wwdc_sized.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="BJ7-Sr-lSD">
                                                 <rect key="frame" x="0.0" y="768" width="1024" height="364"/>
                                             </imageView>
@@ -1585,34 +1613,10 @@ SKILLS }</string>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="icn_mobile" translatesAutoresizingMaskIntoConstraints="NO" id="mTE-qT-8wH">
-                                                <rect key="frame" x="30" y="1162" width="70" height="70"/>
-                                            </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="icn_wearable" translatesAutoresizingMaskIntoConstraints="NO" id="4RR-pb-FyA">
-                                                <rect key="frame" x="30" y="1252" width="70" height="70"/>
-                                            </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="icn_uiux" translatesAutoresizingMaskIntoConstraints="NO" id="qfP-hx-0Id">
-                                                <rect key="frame" x="30" y="1342" width="70" height="70"/>
-                                            </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="icn_pin" translatesAutoresizingMaskIntoConstraints="NO" id="yIW-j3-Ajp">
-                                                <rect key="frame" x="30" y="1432" width="70" height="70"/>
-                                            </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="icn_id" translatesAutoresizingMaskIntoConstraints="NO" id="k6A-cO-U0t">
-                                                <rect key="frame" x="506" y="1162" width="70" height="70"/>
-                                            </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="icn_embedded" translatesAutoresizingMaskIntoConstraints="NO" id="7V1-lK-WPD">
-                                                <rect key="frame" x="506" y="1252" width="70" height="70"/>
-                                            </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="icn_pervasive" translatesAutoresizingMaskIntoConstraints="NO" id="Uvl-8B-a0C">
-                                                <rect key="frame" x="506" y="1342" width="70" height="70"/>
-                                            </imageView>
-                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" tag="1010" contentMode="center" fixedFrame="YES" image="icn_design" translatesAutoresizingMaskIntoConstraints="NO" id="pXS-Ho-6VI">
-                                                <rect key="frame" x="506" y="1432" width="70" height="70"/>
-                                            </imageView>
                                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sHQ-Ox-j0X">
                                                 <rect key="frame" x="0.0" y="1908" width="1024" height="395"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cf3-UV-EJ7">
+                                                    <view tag="1111" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cf3-UV-EJ7">
                                                         <rect key="frame" x="30" y="42" width="458" height="112"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Human languages" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rM-2b-2Es">
@@ -1634,7 +1638,7 @@ SKILLS }</string>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     </view>
-                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PsU-Ou-t6Y">
+                                                    <view tag="1112" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PsU-Ou-t6Y">
                                                         <rect key="frame" x="30" y="197" width="458" height="112"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Metal music lover" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R4n-Mb-ZWC">
@@ -1656,7 +1660,7 @@ SKILLS }</string>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     </view>
-                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uqE-aL-nqR">
+                                                    <view tag="1113" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uqE-aL-nqR">
                                                         <rect key="frame" x="536" y="42" width="458" height="112"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Catholic Action" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O7v-Ir-7kE">
@@ -1678,50 +1682,7 @@ SKILLS }</string>
                                                         </subviews>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                                     </view>
-                                                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gl4-hD-dki">
-                                                        <rect key="frame" x="939" y="163" width="482" height="112"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="I wanna be a Congonaut" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bc3-wp-sJl">
-                                                                <rect key="frame" x="98" y="8" width="384" height="33"/>
-                                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
-                                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rgA-XE-grt">
-                                                                <rect key="frame" x="98" y="41" width="384" height="60"/>
-                                                                <string key="text">I'm helping a voluntary association for a mission in the Democratic Republic of Congo, "Amici di Padre Marcellino", to organize a musical charity event.</string>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
-                                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="5ml-MM-fHc">
-                                                                <rect key="frame" x="0.0" y="16" width="80" height="80"/>
-                                                            </imageView>
-                                                        </subviews>
-                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </view>
-                                                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WxT-Hs-px4">
-                                                        <rect key="frame" x="939" y="283" width="482" height="112"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Human languages" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WCe-td-rkp">
-                                                                <rect key="frame" x="98" y="8" width="384" height="33"/>
-                                                                <fontDescription key="fontDescription" name="Gotham-Bold" family="Gotham" pointSize="22"/>
-                                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Italian is my mothertongue. I also love speaking english - I've got a CEFR B1 certificate from University of Bologna" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSd-pw-SoT">
-                                                                <rect key="frame" x="98" y="41" width="384" height="60"/>
-                                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
-                                                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" image="app_thats" translatesAutoresizingMaskIntoConstraints="NO" id="k8h-qP-8Ga">
-                                                                <rect key="frame" x="0.0" y="16" width="80" height="80"/>
-                                                            </imageView>
-                                                        </subviews>
-                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                                    </view>
-                                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GpW-BD-5TB">
+                                                    <view tag="1114" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GpW-BD-5TB">
                                                         <rect key="frame" x="536" y="197" width="458" height="112"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Average medieval guy" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IcU-g6-Gjq">
@@ -1797,6 +1758,9 @@ source control management tools</string>
                                     <constraint firstAttribute="bottom" secondItem="DoB-qu-hMm" secondAttribute="bottom" id="fVW-Os-jNI"/>
                                     <constraint firstItem="DoB-qu-hMm" firstAttribute="top" secondItem="4Dj-ia-KaD" secondAttribute="top" id="vDE-av-pyG"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="delegate" destination="EQ1-Rx-Pmp" id="zi2-kb-0uc"/>
+                                </connections>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="0.87411127300000002" blue="0.72430275040000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -1813,6 +1777,7 @@ source control management tools</string>
                         <outlet property="contentView" destination="DoB-qu-hMm" id="opb-jh-WXn"/>
                         <outlet property="humanView" destination="sHQ-Ox-j0X" id="wYG-os-7eA"/>
                         <outlet property="imgGitBB" destination="az8-LX-9s3" id="XmH-VM-gnJ"/>
+                        <outlet property="viewInterests" destination="loQ-lD-Jdi" id="qWk-OK-zrF"/>
                         <outlet property="viewLanguages" destination="yvo-3F-qBA" id="bgb-D8-xTe"/>
                         <outlet property="viewPlatforms" destination="mXm-5Q-g0h" id="1gd-mF-SKK"/>
                         <outlet property="viewSCM" destination="F1V-Va-6Kv" id="WDU-nQ-xlo"/>
@@ -1844,7 +1809,6 @@ source control management tools</string>
     <resources>
         <image name="10869619_745719478852188_2852983018894253508_o.jpg" width="2048" height="1536"/>
         <image name="Selfie-Tim-Cook-copy.jpg" width="2047" height="1412"/>
-        <image name="app_thats" width="60" height="60"/>
         <image name="bb" width="44" height="44"/>
         <image name="chevron_down" width="36" height="11"/>
         <image name="chevron_up" width="36" height="11"/>
@@ -1855,6 +1819,7 @@ source control management tools</string>
         <image name="gh" width="44" height="44"/>
         <image name="gitbb" width="295" height="80"/>
         <image name="goldengate_bg.jpg" width="2048" height="1365"/>
+        <image name="human_sized.jpg" width="2048" height="728"/>
         <image name="icn_cross" width="40" height="40"/>
         <image name="icn_design" width="40" height="40"/>
         <image name="icn_embedded" width="40" height="40"/>
@@ -1873,7 +1838,6 @@ source control management tools</string>
         <image name="ig" width="44" height="44"/>
         <image name="lin" width="44" height="44"/>
         <image name="mail" width="44" height="44"/>
-        <image name="nerdies.jpg" width="640" height="260"/>
         <image name="newspapers.jpg" width="2048" height="810"/>
         <image name="nico.jpg" width="960" height="960"/>
         <image name="nico_mrapps.jpg" width="1234" height="1397"/>

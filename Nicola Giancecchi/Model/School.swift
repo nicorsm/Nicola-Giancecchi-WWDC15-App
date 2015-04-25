@@ -20,6 +20,8 @@ class School : JSONObject {
     var background : String = ""
     var ownershipGroup : String = ""
     
+    var animation_visited : Bool = false
+    
     required init(dict : Dictionary<String,AnyObject>){
         school = dict["school"]! as! String
         institution = dict["institution"] as! String
