@@ -68,6 +68,8 @@ class NGWorkViewController: UIViewController, WebBrowserDelegate, ProjectsDelega
         return cell
     }
     
+    
+    
     func openURL(url: String) {
         let browser : NGBrowserViewController = NGBrowserViewController(url:url)
         self.navigationController?.pushViewController(browser, animated: true)

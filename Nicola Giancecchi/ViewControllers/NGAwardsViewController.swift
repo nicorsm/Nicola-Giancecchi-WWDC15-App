@@ -91,8 +91,7 @@ class NGAwardsViewController: UIViewController , WebBrowserDelegate, UIScrollVie
     
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
         if indexPath.row==0 {
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            let wwdc : NGWWDCViewController = storyboard.instantiateViewControllerWithIdentifier("wwdc") as! NGWWDCViewController
+            let wwdc : NGWWDCViewController = NGWWDCViewController()
             self.navigationController?.pushViewController(wwdc, animated: true)
         }
     }

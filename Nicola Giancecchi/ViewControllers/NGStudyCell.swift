@@ -60,9 +60,9 @@ class NGStudyCell: UICollectionViewCell {
     func animate(){
         self.imgBackground.alpha = 0.0
         self.imgLogo.alpha = 0.5
-        self.imgLogo.transform = CGAffineTransformMakeScale(0.5, 0.5)
+        self.imgLogo.transform = CGAffineTransformMakeScale(0.0, 0.0)
         
-        UIView.animateWithDuration(1.25, delay: 0.25, usingSpringWithDamping: 1.2, initialSpringVelocity: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
+        UIView.animateWithDuration(1.25, delay: 0.50, usingSpringWithDamping: 1.2, initialSpringVelocity: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
             self.imgLogo.alpha = 1.0
             self.imgBackground.alpha = 1.0
             self.imgLogo.transform = CGAffineTransformMakeScale(1.0, 1.0)

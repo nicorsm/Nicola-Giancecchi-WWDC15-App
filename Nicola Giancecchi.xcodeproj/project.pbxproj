@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C0348451AEB7AD100BE08DB /* NGWWDCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C0348441AEB7AD100BE08DB /* NGWWDCViewController.xib */; };
 		7C0540951AEB068600440CC3 /* human_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7C0540941AEB068600440CC3 /* human_sized.jpg */; };
 		7C07403F1AE189780092C591 /* NGWorkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C07403D1AE189780092C591 /* NGWorkCell.swift */; };
 		7C0740401AE189780092C591 /* NGWorkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C07403E1AE189780092C591 /* NGWorkCell.xib */; };
@@ -136,6 +137,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C0348441AEB7AD100BE08DB /* NGWWDCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGWWDCViewController.xib; path = ViewControllers/NGWWDCViewController.xib; sourceTree = "<group>"; };
 		7C0540941AEB068600440CC3 /* human_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = human_sized.jpg; sourceTree = "<group>"; };
 		7C07403D1AE189780092C591 /* NGWorkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGWorkCell.swift; path = ViewControllers/NGWorkCell.swift; sourceTree = "<group>"; };
 		7C07403E1AE189780092C591 /* NGWorkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGWorkCell.xib; path = ViewControllers/NGWorkCell.xib; sourceTree = "<group>"; };
@@ -447,6 +449,7 @@
 			isa = PBXGroup;
 			children = (
 				7CC8A9701ADFF00C00F1FCE7 /* NGWWDCViewController.swift */,
+				7C0348441AEB7AD100BE08DB /* NGWWDCViewController.xib */,
 			);
 			name = WWDC2014;
 			sourceTree = "<group>";
@@ -609,7 +612,6 @@
 				7CFC9B861ADD4EB20017DD5B /* Sources */,
 				7CFC9B871ADD4EB20017DD5B /* Frameworks */,
 				7CFC9B881ADD4EB20017DD5B /* Resources */,
-				7C25B0BE1AEA2BD100134D02 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -720,6 +722,7 @@
 				7CD0C2991AE98BCB001F980D /* coding_wwdc_sized.jpg in Resources */,
 				7CE38A481AE946AC00F6C5F7 /* fido2.png in Resources */,
 				7CFC9B9A1ADD4EB20017DD5B /* LaunchScreen.xib in Resources */,
+				7C0348451AEB7AD100BE08DB /* NGWWDCViewController.xib in Resources */,
 				7C07405F1AE1A9980092C591 /* Awards.json in Resources */,
 				7CF6DA991AE843D400F34098 /* reggini1.png in Resources */,
 				7CFD02C11AE8E6ED00588EF6 /* scuolasup_sized.jpg in Resources */,
@@ -763,22 +766,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		7C25B0BE1AEA2BD100134D02 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "./Fabric.framework/run 5722d6c3208e7c9cf9fb8c6525665a09f3398aac 30b960655f33495d0c33f9d5e9612282da864f12b3fc71efae4019467a6b421c";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7CFC9B861ADD4EB20017DD5B /* Sources */ = {

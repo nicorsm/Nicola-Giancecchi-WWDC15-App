@@ -16,20 +16,13 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     
     @IBOutlet weak var collectionView: UICollectionView!
     var pageController : UIPageViewController?
-    var viewControllers : NSMutableArray
-    var projects : Array<Project>
-    var currentViewController : NGProjectDetailViewController
+    var viewControllers : NSMutableArray = NSMutableArray()
+    var projects : Array<Project> = Array<Project>()
     var ownership : String?
-    var currentIndex : Int
-    var nextIndex : Int
+    var currentIndex : Int = 0
     @IBOutlet weak var pageContainerView: UIView!
     
     required init(coder aDecoder: NSCoder) {
-        self.viewControllers = NSMutableArray()
-        self.currentViewController = NGProjectDetailViewController()
-        self.projects = Array<Project>()
-        self.currentIndex = 0
-        self.nextIndex = 0
         super.init(coder: aDecoder)
     }
     
@@ -59,20 +52,51 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         
         for var i = 0; i < projects.count; i++ {
             let vc : NGProjectDetailViewController = NGProjectDetailViewController(project:self.projects[i])
+            vc.pageIndex = i
             self.viewControllers.addObject(vc)
         }
         
-        currentViewController = self.viewControllers[self.currentIndex] as! NGProjectDetailViewController
-        self.pageController!.setViewControllers([currentViewController], direction:UIPageViewControllerNavigationDirection.Forward, animated: false, completion: nil)
+        self.pageController!.setViewControllers([self.viewControllers[self.currentIndex]], direction:UIPageViewControllerNavigationDirection.Forward, animated: false, completion: nil)
         
         self.navigationItem.title = "PROJECTS"
         self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#a01e00")
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
+        if completed{
+            NSLog("idx before: %d", self.currentIndex)
+            let vc : NGProjectDetailViewController = pageViewController.viewControllers.last as! NGProjectDetailViewController
+            self.currentIndex = vc.pageIndex
+            NSLog("idx after: %d", self.currentIndex)
+            collectionView.reloadData()
+            self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: self.currentIndex, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: true)
+        }
+        
     }
+    
+    func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
+        NSLog("NEXT")
+        let idx : Int = self.viewControllers.indexOfObject(viewController)
+        if idx < self.projects.count-1 {
+            return self.viewControllers[idx+1] as! NGProjectDetailViewController
+        }
+        return nil
+    }
+    
+    func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
+        NSLog("PREVIOUS")
+        let idx : Int = self.viewControllers.indexOfObject(viewController)
+        if idx > 0 {
+            return self.viewControllers[idx-1] as! NGProjectDetailViewController
+        }
+        return nil
+    }
+    
+    
+    func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int {
+        return self.viewControllers.count
+    }
+    
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {
         return 1
@@ -99,79 +123,17 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         
     }
     
-    // MARK controllare indici
-    
     func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {
-        
         self.currentIndex = indexPath.item
-        currentViewController = self.viewControllers[self.currentIndex] as! NGProjectDetailViewController
-        self.pageController!.setViewControllers([currentViewController], direction: self.currentIndex>indexPath.row ? .Reverse : .Forward, animated: true) { (Bool) -> Void in
+        self.pageController!.setViewControllers([self.viewControllers[self.currentIndex]], direction: self.currentIndex>indexPath.row ? .Reverse : .Forward, animated: true) { (Bool) -> Void in
             collectionView.reloadData()
+            self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: self.currentIndex, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: true)
         }
         
     }
     
-    func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
-        NSLog("didFinishAnimating")
-        if completed{
-            NSLog("current idx: %d", self.currentIndex)
-            
-            self.currentIndex = self.viewControllers.indexOfObject(previousViewControllers.last!)
-            collectionView.reloadData()
-            //self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: self.currentIndex, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.Left, animated: true)
-            //collectionView.reloadData()
-            
-            //collectionView.reloadData()
-            /*
-            let idx : Int = self.viewControllers.indexOfObject(previousViewControllers.last!)
-            let idx2 : Int = self.viewControllers.indexOfObject(currentViewController)
-            NSLog("index: %d, current: %d", idx, idx2)
-            //self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: idx+1, inSection: 0), atScrollPosition: .Left, animated: true)
-            //MARK: CONTROLLARE FUNZIONAMENTO*/
-        }
-        
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
-    
-    
-    func pageViewController(pageViewController: UIPageViewController, willTransitionToViewControllers pendingViewControllers: [AnyObject]) {
-        //self.currentIndex = self.viewControllers.indexOfObject(pendingViewControllers.last!)
-        //collectionView.reloadData()
-        //let idx : Int = self.viewControllers.indexOfObject(pendingViewControllers.last!)
-        //let idx2 : Int = self.viewControllers.indexOfObject(currentViewController)
-        //NSLog("WILLY index: %d, current: %d", idx, idx2) //WILLY is ok!
-        
-    }
-    
-    func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
-        NSLog("viewControllerAfter")
-        let idx : Int = self.viewControllers.indexOfObject(viewController)
-        if idx < self.projects.count-1 {
-            self.currentIndex = idx+1
-            currentViewController = self.viewControllers[self.currentIndex] as! NGProjectDetailViewController
-            return currentViewController
-        }
-        return nil
-    }
-    
-    func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
-        NSLog("viewControllerPrevious")
-        let idx : Int = self.viewControllers.indexOfObject(viewController)
-        if idx > 0 {
-            self.currentIndex = idx-1
-            currentViewController = self.viewControllers[self.currentIndex] as! NGProjectDetailViewController
-            return currentViewController
-        }
-        return nil
-    }
-    
-    func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
-        
-        
-    }
-    
-    func presentationCountForPageViewController(pageViewController: UIPageViewController) -> Int {
-        return self.viewControllers.count
-    }
-    
-
 }

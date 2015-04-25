@@ -20,9 +20,16 @@ class NGSkillsHobbiesViewController: UIViewController, UIScrollViewDelegate {
     @IBOutlet private weak var viewLanguages: UIView!
     @IBOutlet private weak var viewPlatforms: UIView!
     
+    @IBOutlet private weak var pageControl: UIPageControl!
+    
     @IBOutlet private weak var viewSCM: UIView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.pageControl.transform = CGAffineTransformMakeRotation(CGFloat(M_PI_2))
+        self.pageControl.numberOfPages = 3
+        self.pageControl.currentPage = 0
+        
         
         self.automaticallyAdjustsScrollViewInsets=false
         
@@ -122,32 +129,29 @@ class NGSkillsHobbiesViewController: UIViewController, UIScrollViewDelegate {
     
     func scrollViewDidEndDecelerating(scrollView: UIScrollView) {
         
+        self.pageControl.currentPage = Int(scrollView.contentOffset.y/self.view.frame.size.height)
+        
+        
         if(scrollView.contentOffset.y == self.view.frame.size.height*1 && !interestsRead) {
-            var startingDelay : Double = 0.5
+            var startingDelay : Double = 0.0
             interestsRead = true
             
             for(var i : Int = 1; i < 17; i++){
                 if(i % 2 == 0){ //is label
                     
-                    //MARK controllare
-                    
                     let lbl : UILabel = self.viewInterests.viewWithTag(i) as! UILabel
                     lbl.alpha = 0.0
-                    let currentWidth : CGFloat = lbl.frame.size.width
-                    lbl.frame = CGRectMake(lbl.frame.origin.x, lbl.frame.origin.y, 0, lbl.frame.size.height)
                     UIView.animateWithDuration(1.0, delay: startingDelay, usingSpringWithDamping: 1.2, initialSpringVelocity: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
                         lbl.alpha = 1.0
-                        lbl.frame = CGRectMake(lbl.frame.origin.x, lbl.frame.origin.y, currentWidth, lbl.frame.size.height)
+                        
                         }, completion:nil)
                     startingDelay += 0.30
                     
                 } else { //is imageview
                     let img : UIImageView = self.viewInterests.viewWithTag(i) as! UIImageView
                     img.alpha = 0.0
-                    img.transform = CGAffineTransformMakeScale(0.5, 0.5)
                     UIView.animateWithDuration(1.0, delay: startingDelay, usingSpringWithDamping: 1.2, initialSpringVelocity: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
                         img.alpha = 1.0
-                        img.transform = CGAffineTransformMakeScale(1.0, 1.0)
                         }, completion:nil)
                     startingDelay += 0.30
                 }
@@ -156,7 +160,7 @@ class NGSkillsHobbiesViewController: UIViewController, UIScrollViewDelegate {
         
         if(scrollView.contentOffset.y == self.view.frame.size.height*2 && !humanRead){
             humanRead = true
-            var startingDelay : Double = 0.5
+            var startingDelay : Double = 0.0
             
             for(var i : Int = 1111; i < 1115; i++){
                 
