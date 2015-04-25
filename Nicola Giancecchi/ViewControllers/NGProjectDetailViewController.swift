@@ -79,7 +79,7 @@ class NGProjectDetailViewController: UIViewController, UIScrollViewDelegate {
         btnLink.layer.borderWidth = 2.0
         
         if !proj.appLink.hasPrefix("itms://") {
-            btnLink.setTitle("Find out more", forState: .Normal)
+            btnLink.setTitle("Find out more (in Italian)", forState: .Normal)
         }
         
         lblFirstColumnText.text = proj.firstColumnText;

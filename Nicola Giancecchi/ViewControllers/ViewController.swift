@@ -82,14 +82,10 @@ class ViewController: UIViewController {
         
         for var i : Int = 0; i < buttons.count; i++ {
             buttons[i].center = imgNico.center
-            
-            
-            let currentCenter : CGPoint = centers[i]
-            
-            
-        
+            buttons[i].transform = CGAffineTransformMakeScale(0.5, 0.5)
             UIView.animateWithDuration(1.0, delay: startingDelay, usingSpringWithDamping: 2.0, initialSpringVelocity: 0.0, options: UIViewAnimationOptions.CurveEaseOut, animations: { () -> Void in
                 buttons[i].center = centers[i]
+                buttons[i].transform = CGAffineTransformMakeScale(1.0, 1.0)
                 }, completion:{ (completed: Bool) -> Void in
                     
             })

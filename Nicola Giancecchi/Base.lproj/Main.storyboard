@@ -808,31 +808,31 @@ iOS DEV EXPERIENCE</string>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOa-8q-2Po">
                                 <rect key="frame" x="0.0" y="0.0" width="540" height="800"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54y-cQ-A7b">
-                                        <rect key="frame" x="0.0" y="0.0" width="540" height="828"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="54y-cQ-A7b">
+                                        <rect key="frame" x="0.0" y="0.0" width="540" height="846"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foto-1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vHh-7e-5mh">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="primatorre.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vHh-7e-5mh">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="163"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="roQ-in-wkG"/>
                                                     <constraint firstAttribute="height" constant="163" id="zI3-Dv-h7s"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palazzo-pubblico.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MWW-Se-H8U">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bandiera.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="MWW-Se-H8U">
                                                 <rect key="frame" x="208" y="0.0" width="141" height="163"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="141" id="4D9-Zz-VKe"/>
                                                     <constraint firstAttribute="height" constant="163" id="TOW-NO-c5f"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="patricio.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="drP-fQ-qiW">
-                                                <rect key="frame" x="0.0" y="581" width="200" height="163"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="med_urbino.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="drP-fQ-qiW">
+                                                <rect key="frame" x="0.0" y="614" width="200" height="163"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="6H2-QB-AlT"/>
                                                     <constraint firstAttribute="height" constant="163" id="8iP-bN-fl7"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sm.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7cn-wT-Wg3">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="palazzopubblico.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7cn-wT-Wg3">
                                                 <rect key="frame" x="357" y="0.0" width="183" height="163"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="209" id="jrs-Ko-rwL"/>
@@ -849,43 +849,44 @@ iOS DEV EXPERIENCE</string>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34K-nL-7Lf">
-                                                <rect key="frame" x="15" y="234" width="510" height="71"/>
-                                                <string key="text">San Marino is the oldest Republic in the world located in the heart of the Italian peninsula. San Marino is independent from 301 AD, the year of death of the patron Marino, founder of the Republic. Since then it is considered a land of freedom and a living witness of democracy through the centuries.</string>
+                                                <rect key="frame" x="15" y="234" width="510" height="107"/>
+                                                <string key="text">San Marino is the oldest Republic in the world located in the heart of the Italian peninsula. San Marino is independent from 301 AD, the year of death of the patron Marino, founder of the Republic. Since then it is considered a land of freedom and a living witness of democracy through the centuries.
+San Marino Historic Centre and Mount Titano are in the UNESCO World Heritage List from 2008.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Geq-fD-8H4">
-                                                <rect key="frame" x="0.0" y="320" width="540" height="142"/>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Geq-fD-8H4">
+                                                <rect key="frame" x="0.0" y="359" width="540" height="142"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="142" id="s2U-nG-ROH"/>
                                                 </constraints>
                                             </mapView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywD-NN-L4L">
-                                                <rect key="frame" x="15" y="477" width="510" height="89"/>
-                                                <string key="text">Its size is just over 61 km sq (24 sq miles) with an estimated population of about 32,000 with its capital being the City of San Marino. 
-San Marino has two presidents, the Captains Regent, that change every six months. The Parliament (Consiglio Grande e Generale) is composed of 60 counselors.</string>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
-                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="night.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xTe-Lb-hSe">
-                                                <rect key="frame" x="425" y="581" width="115" height="163"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="med_patricio.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xTe-Lb-hSe">
+                                                <rect key="frame" x="425" y="614" width="115" height="163"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="163" id="acQ-Hj-1bH"/>
                                                     <constraint firstAttribute="width" relation="lessThanOrEqual" constant="141" id="fWF-Gu-NSA"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10869619_745719478852188_2852983018894253508_o.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zic-Vo-8BJ">
-                                                <rect key="frame" x="208" y="581" width="209" height="163"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="med_tower.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zic-Vo-8BJ">
+                                                <rect key="frame" x="208" y="614" width="209" height="163"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="209" id="Pnm-PD-zb0"/>
                                                     <constraint firstAttribute="height" constant="163" id="nx9-Cp-d8s"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbX-xB-rM2">
-                                                <rect key="frame" x="15" y="759" width="510" height="54"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbX-xB-rM2">
+                                                <rect key="frame" x="15" y="792" width="510" height="54"/>
                                                 <string key="text">San Marino has a history of more than 1700 years. An important period in the history of the Republic is the Middle Age, still celebrated every year with the "Medieval Days" in the summer.</string>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywD-NN-L4L">
+                                                <rect key="frame" x="15" y="515" width="510" height="89"/>
+                                                <string key="text">Its size is just over 61 km sq (24 sq miles) with an estimated population of about 32,000 with its capital being the City of San Marino. 
+San Marino has two presidents, the Captains Regent, that change every six months. The Parliament (Consiglio Grande e Generale) is composed of 60 counselors.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1559,12 +1560,11 @@ source control management tools</string>
         </scene>
     </scenes>
     <resources>
-        <image name="10869619_745719478852188_2852983018894253508_o.jpg" width="2048" height="1536"/>
+        <image name="bandiera.jpg" width="282" height="326"/>
         <image name="bb" width="44" height="44"/>
         <image name="coding_sized.jpg" width="2048" height="728"/>
         <image name="coding_wwdc_sized.jpg" width="2048" height="728"/>
         <image name="fb" width="44" height="44"/>
-        <image name="foto-1.jpg" width="1799" height="522"/>
         <image name="gh" width="44" height="44"/>
         <image name="gitbb" width="295" height="80"/>
         <image name="goldengate_bg.jpg" width="2048" height="1365"/>
@@ -1587,14 +1587,15 @@ source control management tools</string>
         <image name="ig" width="44" height="44"/>
         <image name="lin" width="44" height="44"/>
         <image name="mail" width="44" height="44"/>
+        <image name="med_patricio.jpg" width="282" height="326"/>
+        <image name="med_tower.jpg" width="400" height="326"/>
+        <image name="med_urbino.jpg" width="366" height="326"/>
         <image name="nico.jpg" width="960" height="960"/>
         <image name="nico_mrapps.jpg" width="1234" height="1397"/>
-        <image name="night.jpg" width="2048" height="1362"/>
-        <image name="palazzo-pubblico.jpg" width="550" height="412"/>
-        <image name="patricio.jpg" width="720" height="960"/>
+        <image name="palazzopubblico.jpg" width="366" height="326"/>
+        <image name="primatorre.jpg" width="400" height="326"/>
         <image name="sanmarino_sized.jpg" width="2048" height="600"/>
         <image name="scm" width="295" height="80"/>
-        <image name="sm.jpg" width="380" height="219"/>
         <image name="twt" width="44" height="44"/>
     </resources>
 </document>
