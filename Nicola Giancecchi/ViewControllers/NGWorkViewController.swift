@@ -30,13 +30,15 @@ class NGWorkViewController: UIViewController, WebBrowserDelegate, ProjectsDelega
         self.pageControl.currentPage = 0
         
         self.navigationItem.title = "WORK"
-        self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#4082bd")
         
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#4082bd")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     func numberOfSectionsInCollectionView(collectionView: UICollectionView) -> Int {

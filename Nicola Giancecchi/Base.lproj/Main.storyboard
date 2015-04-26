@@ -808,8 +808,8 @@ iOS DEV EXPERIENCE</string>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOa-8q-2Po">
                                 <rect key="frame" x="0.0" y="0.0" width="540" height="800"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="54y-cQ-A7b">
-                                        <rect key="frame" x="0.0" y="0.0" width="540" height="846"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="54y-cQ-A7b">
+                                        <rect key="frame" x="0.0" y="0.0" width="540" height="864"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="primatorre.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vHh-7e-5mh">
                                                 <rect key="frame" x="0.0" y="0.0" width="200" height="163"/>
@@ -825,8 +825,8 @@ iOS DEV EXPERIENCE</string>
                                                     <constraint firstAttribute="height" constant="163" id="TOW-NO-c5f"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="med_urbino.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="drP-fQ-qiW">
-                                                <rect key="frame" x="0.0" y="614" width="200" height="163"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="med_urbino.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="drP-fQ-qiW">
+                                                <rect key="frame" x="0.0" y="617" width="200" height="163"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="200" id="6H2-QB-AlT"/>
                                                     <constraint firstAttribute="height" constant="163" id="8iP-bN-fl7"/>
@@ -850,41 +850,41 @@ iOS DEV EXPERIENCE</string>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34K-nL-7Lf">
                                                 <rect key="frame" x="15" y="234" width="510" height="107"/>
-                                                <string key="text">San Marino is the oldest Republic in the world located in the heart of the Italian peninsula. San Marino is independent from 301 AD, the year of death of the patron Marino, founder of the Republic. Since then it is considered a land of freedom and a living witness of democracy through the centuries.
-San Marino Historic Centre and Mount Titano are in the UNESCO World Heritage List from 2008.</string>
+                                                <string key="text">San Marino is the oldest Republic in the world located in the heart of the Italian peninsula. San Marino is independent since 301 AD, the year of death of the patron Marino, founder of the Republic. From then it is considered a land of freedom and a living witness of democracy through the centuries.
+San Marino Historic Centre and Mount Titano are in the UNESCO World Heritage List since 2008.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Geq-fD-8H4">
-                                                <rect key="frame" x="0.0" y="359" width="540" height="142"/>
+                                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Geq-fD-8H4">
+                                                <rect key="frame" x="0.0" y="356" width="540" height="142"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="142" id="s2U-nG-ROH"/>
                                                 </constraints>
                                             </mapView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="med_patricio.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xTe-Lb-hSe">
-                                                <rect key="frame" x="425" y="614" width="115" height="163"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="med_patricio.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xTe-Lb-hSe">
+                                                <rect key="frame" x="405" y="617" width="135" height="163"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="163" id="acQ-Hj-1bH"/>
-                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="141" id="fWF-Gu-NSA"/>
+                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="191" id="fWF-Gu-NSA"/>
                                                 </constraints>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="med_tower.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zic-Vo-8BJ">
-                                                <rect key="frame" x="208" y="614" width="209" height="163"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="med_tower.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zic-Vo-8BJ">
+                                                <rect key="frame" x="208" y="617" width="189" height="163"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="209" id="Pnm-PD-zb0"/>
+                                                    <constraint firstAttribute="width" constant="189" id="Pnm-PD-zb0"/>
                                                     <constraint firstAttribute="height" constant="163" id="nx9-Cp-d8s"/>
                                                 </constraints>
                                             </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbX-xB-rM2">
-                                                <rect key="frame" x="15" y="792" width="510" height="54"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbX-xB-rM2">
+                                                <rect key="frame" x="15" y="795" width="510" height="54"/>
                                                 <string key="text">San Marino has a history of more than 1700 years. An important period in the history of the Republic is the Middle Age, still celebrated every year with the "Medieval Days" in the summer.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
                                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywD-NN-L4L">
-                                                <rect key="frame" x="15" y="515" width="510" height="89"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ywD-NN-L4L">
+                                                <rect key="frame" x="15" y="513" width="510" height="89"/>
                                                 <string key="text">Its size is just over 61 km sq (24 sq miles) with an estimated population of about 32,000 with its capital being the City of San Marino. 
 San Marino has two presidents, the Captains Regent, that change every six months. The Parliament (Consiglio Grande e Generale) is composed of 60 counselors.</string>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>

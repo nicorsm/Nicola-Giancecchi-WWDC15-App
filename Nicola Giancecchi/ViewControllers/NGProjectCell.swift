@@ -15,7 +15,6 @@ class NGProjectCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
         self.imgIcon.layer.cornerRadius = 15
         self.imgIcon.layer.masksToBounds = true
     }

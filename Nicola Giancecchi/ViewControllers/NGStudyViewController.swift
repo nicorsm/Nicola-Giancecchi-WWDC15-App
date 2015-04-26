@@ -37,8 +37,11 @@ class NGStudyViewController: UIViewController, WebBrowserDelegate, ProjectsDeleg
         self.automaticallyAdjustsScrollViewInsets = false
         
         self.navigationItem.title = "STUDY"
-        self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#467b46")
         
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        self.navigationController?.navigationBar.barTintColor = UIColor().hexStringToUIColor("#467b46")
     }
     
     override func didReceiveMemoryWarning() {

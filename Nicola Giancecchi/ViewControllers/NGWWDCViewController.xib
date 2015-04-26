@@ -36,7 +36,6 @@
                 <outlet property="contentView" destination="qQS-aB-ccy" id="rjH-6j-7kh"/>
                 <outlet property="gradientView" destination="DdF-q0-aUW" id="Fge-DQ-SDP"/>
                 <outlet property="imgChevronDown" destination="gww-JE-wvs" id="5bC-QK-a17"/>
-                <outlet property="imgChevronUp" destination="sc9-Qg-Igj" id="Qey-kJ-1kg"/>
                 <outlet property="imgSelfie" destination="1EA-E6-KhG" id="H8z-hg-oeu"/>
                 <outlet property="lblSanFrancisco" destination="rKi-zi-V8F" id="5cP-0h-Vfe"/>
                 <outlet property="lblWWDC" destination="m4W-zB-1ya" id="5om-QY-B9K"/>
@@ -51,9 +50,6 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="4206"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView hidden="YES" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.0" contentMode="center" fixedFrame="YES" image="chevron_up" translatesAutoresizingMaskIntoConstraints="NO" id="sc9-Qg-Igj">
-                    <rect key="frame" x="476" y="80" width="72" height="22"/>
-                </imageView>
                 <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000001192092896" contentMode="center" fixedFrame="YES" image="chevron_down" translatesAutoresizingMaskIntoConstraints="NO" id="gww-JE-wvs">
                     <rect key="frame" x="476" y="740" width="72" height="22"/>
                 </imageView>
@@ -367,7 +363,6 @@ The following day, I took my WWDC pass and visited the headquarters at One Infin
     <resources>
         <image name="Selfie-Tim-Cook-copy.jpg" width="2047" height="1412"/>
         <image name="chevron_down" width="36" height="11"/>
-        <image name="chevron_up" width="36" height="11"/>
         <image name="newspapers.jpg" width="2048" height="810"/>
         <image name="wwdc_bastille.jpg" width="934" height="600"/>
         <image name="wwdc_flight.jpg" width="934" height="600"/>

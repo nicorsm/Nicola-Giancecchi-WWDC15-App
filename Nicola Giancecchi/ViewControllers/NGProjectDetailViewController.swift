@@ -116,13 +116,8 @@ class NGProjectDetailViewController: UIViewController, UIScrollViewDelegate {
             imgSecond.alpha = 0.0
         }
         
-
-        
-        
         self.view.backgroundColor = UIColor().hexStringToUIColor(proj.appColor)
         
-        
-        // Do any additional setup after loading the view.
     }
     
     override func viewDidAppear(animated: Bool) {

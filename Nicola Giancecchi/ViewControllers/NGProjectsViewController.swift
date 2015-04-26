@@ -37,6 +37,7 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
         self.pageController = UIPageViewController(transitionStyle: .Scroll , navigationOrientation: .Horizontal , options: nil)
         self.pageController!.dataSource = self
         self.pageController!.delegate = self
+        self.pageController!.view.backgroundColor = UIColor.darkGrayColor()
         
         self.pageController!.view.frame = self.pageContainerView.bounds;
         self.addChildViewController(self.pageController!)
@@ -64,10 +65,8 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     
     func pageViewController(pageViewController: UIPageViewController, didFinishAnimating finished: Bool, previousViewControllers: [AnyObject], transitionCompleted completed: Bool) {
         if completed{
-            NSLog("idx before: %d", self.currentIndex)
             let vc : NGProjectDetailViewController = pageViewController.viewControllers.last as! NGProjectDetailViewController
             self.currentIndex = vc.pageIndex
-            NSLog("idx after: %d", self.currentIndex)
             collectionView.reloadData()
             self.collectionView.scrollToItemAtIndexPath(NSIndexPath(forItem: self.currentIndex, inSection: 0), atScrollPosition: UICollectionViewScrollPosition.CenteredHorizontally, animated: true)
         }
@@ -75,7 +74,6 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     }
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerAfterViewController viewController: UIViewController) -> UIViewController? {
-        NSLog("NEXT")
         let idx : Int = self.viewControllers.indexOfObject(viewController)
         if idx < self.projects.count-1 {
             return self.viewControllers[idx+1] as! NGProjectDetailViewController
@@ -84,7 +82,6 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     }
     
     func pageViewController(pageViewController: UIPageViewController, viewControllerBeforeViewController viewController: UIViewController) -> UIViewController? {
-        NSLog("PREVIOUS")
         let idx : Int = self.viewControllers.indexOfObject(viewController)
         if idx > 0 {
             return self.viewControllers[idx-1] as! NGProjectDetailViewController
@@ -134,6 +131,5 @@ class NGProjectsViewController: UIViewController, UIPageViewControllerDelegate, 
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
 }

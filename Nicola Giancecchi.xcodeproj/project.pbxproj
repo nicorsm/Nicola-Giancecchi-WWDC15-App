@@ -40,6 +40,7 @@
 		7C6C04E01ADDB04C00C61B0B /* NGAboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04DF1ADDB04C00C61B0B /* NGAboutMeViewController.swift */; };
 		7C6C04E71ADDBEA600C61B0B /* MRSocial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04E61ADDBEA600C61B0B /* MRSocial.swift */; };
 		7C6C04F51ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6C04F41ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift */; };
+		7C74E6601AECD49200A51177 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C74E65F1AECD49200A51177 /* Images.xcassets */; };
 		7CA1DB0E1AEBE58C00905018 /* bandiera.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1DAE51AEBE58C00905018 /* bandiera.jpg */; };
 		7CA1DB0F1AEBE58C00905018 /* coding_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1DAE61AEBE58C00905018 /* coding_sized.jpg */; };
 		7CA1DB101AEBE58C00905018 /* coding_wwdc_sized.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CA1DAE71AEBE58C00905018 /* coding_wwdc_sized.jpg */; };
@@ -137,7 +138,6 @@
 		7CFC9BFA1ADD51850017DD5B /* Gotham-XLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9BEA1ADD51850017DD5B /* Gotham-XLightItalic.otf */; };
 		7CFC9BFD1ADD728F0017DD5B /* NGStudyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CFC9BFC1ADD728F0017DD5B /* NGStudyCell.swift */; };
 		7CFC9BFF1ADD73910017DD5B /* NGStudyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFC9BFE1ADD73910017DD5B /* NGStudyCell.xib */; };
-		7CFD02CB1AE8EBB800588EF6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CFD02CA1AE8EBB800588EF6 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -174,6 +174,7 @@
 		7C6C04DF1ADDB04C00C61B0B /* NGAboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGAboutMeViewController.swift; path = ViewControllers/NGAboutMeViewController.swift; sourceTree = "<group>"; };
 		7C6C04E61ADDBEA600C61B0B /* MRSocial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MRSocial.swift; path = "Nicola Giancecchi/Libs/MRSocial.swift"; sourceTree = SOURCE_ROOT; };
 		7C6C04F41ADDCE2400C61B0B /* NGSanMarinoInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGSanMarinoInfoViewController.swift; path = ViewControllers/NGSanMarinoInfoViewController.swift; sourceTree = "<group>"; };
+		7C74E65F1AECD49200A51177 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CA1DAE51AEBE58C00905018 /* bandiera.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bandiera.jpg; path = Images/bandiera.jpg; sourceTree = "<group>"; };
 		7CA1DAE61AEBE58C00905018 /* coding_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coding_sized.jpg; path = Images/coding_sized.jpg; sourceTree = "<group>"; };
 		7CA1DAE71AEBE58C00905018 /* coding_wwdc_sized.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = coding_wwdc_sized.jpg; path = Images/coding_wwdc_sized.jpg; sourceTree = "<group>"; };
@@ -252,8 +253,6 @@
 		7CFC9B8E1ADD4EB20017DD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CFC9B941ADD4EB20017DD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7CFC9B991ADD4EB20017DD5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		7CFC9BA41ADD4EB20017DD5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7CFC9BA51ADD4EB30017DD5B /* Nicola_GiancecchiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nicola_GiancecchiTests.swift; sourceTree = "<group>"; };
 		7CFC9BB31ADD4F3A0017DD5B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ViewControllers/ViewController.swift; sourceTree = "<group>"; };
 		7CFC9BB61ADD4F510017DD5B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7CFC9BB81ADD50260017DD5B /* NGStudyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGStudyViewController.swift; path = ViewControllers/NGStudyViewController.swift; sourceTree = "<group>"; };
@@ -275,7 +274,6 @@
 		7CFC9BEA1ADD51850017DD5B /* Gotham-XLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-XLightItalic.otf"; path = "Fonts/Gotham-XLightItalic.otf"; sourceTree = "<group>"; };
 		7CFC9BFC1ADD728F0017DD5B /* NGStudyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NGStudyCell.swift; path = ViewControllers/NGStudyCell.swift; sourceTree = "<group>"; };
 		7CFC9BFE1ADD73910017DD5B /* NGStudyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NGStudyCell.xib; path = ViewControllers/NGStudyCell.xib; sourceTree = "<group>"; };
-		7CFD02CA1AE8EBB800588EF6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -505,7 +503,6 @@
 			isa = PBXGroup;
 			children = (
 				7CFC9B8C1ADD4EB20017DD5B /* Nicola Giancecchi */,
-				7CFC9BA21ADD4EB20017DD5B /* Nicola GiancecchiTests */,
 				7CFC9B8B1ADD4EB20017DD5B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -521,7 +518,7 @@
 		7CFC9B8C1ADD4EB20017DD5B /* Nicola Giancecchi */ = {
 			isa = PBXGroup;
 			children = (
-				7CFD02CA1AE8EBB800588EF6 /* Images.xcassets */,
+				7C74E65F1AECD49200A51177 /* Images.xcassets */,
 				7CF6DA6A1AE83BEA00F34098 /* Projects Mockup */,
 				7C6C04E11ADDBE7500C61B0B /* Libs */,
 				7C6C04C21ADD864C00C61B0B /* Controller */,
@@ -542,23 +539,6 @@
 			isa = PBXGroup;
 			children = (
 				7CFC9B8E1ADD4EB20017DD5B /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7CFC9BA21ADD4EB20017DD5B /* Nicola GiancecchiTests */ = {
-			isa = PBXGroup;
-			children = (
-				7CFC9BA51ADD4EB30017DD5B /* Nicola_GiancecchiTests.swift */,
-				7CFC9BA31ADD4EB20017DD5B /* Supporting Files */,
-			);
-			path = "Nicola GiancecchiTests";
-			sourceTree = "<group>";
-		};
-		7CFC9BA31ADD4EB20017DD5B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				7CFC9BA41ADD4EB20017DD5B /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -674,6 +654,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CA1DB111AEBE58C00905018 /* confindustria_talenti_sized.jpg in Resources */,
+				7C74E6601AECD49200A51177 /* Images.xcassets in Resources */,
 				7CA1DB721AEBE5C200905018 /* thatsmusic2.png in Resources */,
 				7CFC9BED1ADD51850017DD5B /* Gotham-Bold.otf in Resources */,
 				7CA1DB671AEBE5C200905018 /* myitis1.png in Resources */,
@@ -719,7 +700,6 @@
 				7CFC9BFA1ADD51850017DD5B /* Gotham-XLightItalic.otf in Resources */,
 				7CFC9BF31ADD51850017DD5B /* Gotham-Medium.otf in Resources */,
 				7CA1DB5C1AEBE5C200905018 /* fido2.png in Resources */,
-				7CFD02CB1AE8EBB800588EF6 /* Images.xcassets in Resources */,
 				7CA1DB1C1AEBE58C00905018 /* med_urbino.jpg in Resources */,
 				7CFC9BF41ADD51850017DD5B /* Gotham-MediumItalic.otf in Resources */,
 				7C16E9861ADEF3D3004A551A /* NGProjectDetailViewController.xib in Resources */,
@@ -925,17 +905,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Nicola Giancecchi (V936798YQZ)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Nicola",
 					Giancecchi,
 				);
 				INFOPLIST_FILE = "Nicola Giancecchi/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9179f6cb-039d-4d54-99c5-25c08ee9bf97";
+				PROVISIONING_PROFILE = "ba478a04-3c49-415f-afd2-fe4c5ed19cf7";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
@@ -954,10 +934,10 @@
 					Giancecchi,
 				);
 				INFOPLIST_FILE = "Nicola Giancecchi/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "9179f6cb-039d-4d54-99c5-25c08ee9bf97";
+				PROVISIONING_PROFILE = "ba478a04-3c49-415f-afd2-fe4c5ed19cf7";
 				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;

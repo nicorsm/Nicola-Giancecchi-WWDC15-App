@@ -10,7 +10,6 @@ import UIKit
 
 class NGWWDCViewController: UIViewController, UIScrollViewDelegate {
     
-    @IBOutlet private weak var imgChevronUp: UIImageView!
     @IBOutlet private weak var imgChevronDown: UIImageView!
     @IBOutlet private weak var contentView: UIView!
     @IBOutlet private weak var gradientView: UIView!
@@ -43,7 +42,6 @@ class NGWWDCViewController: UIViewController, UIScrollViewDelegate {
         gradient.colors = [cor1 as AnyObject, cor2 as AnyObject!]
         gradientView.layer.insertSublayer(gradient, atIndex: 0)
 
-        self.view.bringSubviewToFront(imgChevronUp)
         self.view.bringSubviewToFront(imgChevronDown)
         
         self.navigationItem.title = "WWDC 2014"
@@ -90,34 +88,12 @@ class NGWWDCViewController: UIViewController, UIScrollViewDelegate {
     
     func scrollViewDidScroll(scrollView: UIScrollView) {
         
-        if(scrollView.contentOffset.y <= 0.0){
-            if(!imgChevronUp.hidden){
-                UIView.animateWithDuration(0.5, animations: { () -> Void in
-                    self.imgChevronUp.alpha = 0.0
-                    self.imgChevronUp.hidden = true
-                })
-            }
-        } else {
-            if(imgChevronUp.hidden){
-                self.imgChevronUp.hidden = false
-                UIView.animateWithDuration(0.5, animations: { () -> Void in
-                    self.imgChevronUp.alpha = 0.8
-                })
-            }
-        }
         
-        if(scrollView.contentOffset.y + 704.0 >= scrollView.contentSize.height){
+        if(scrollView.contentOffset.y>0){
             if(!imgChevronDown.hidden){
                 UIView.animateWithDuration(0.5, animations: { () -> Void in
                     self.imgChevronDown.alpha = 0.0
                     self.imgChevronDown.hidden = true
-                })
-            }
-        } else {
-            if(imgChevronDown.hidden){
-                self.imgChevronDown.hidden = false
-                UIView.animateWithDuration(0.5, animations: { () -> Void in
-                    self.imgChevronDown.alpha = 0.8
                 })
             }
         }
@@ -143,7 +119,6 @@ class NGWWDCViewController: UIViewController, UIScrollViewDelegate {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
     override func viewDidDisappear(animated: Bool) {

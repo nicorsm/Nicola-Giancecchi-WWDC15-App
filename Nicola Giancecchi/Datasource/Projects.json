@@ -349,7 +349,7 @@
       },
       {
         "title": "Publication date",
-        "subtitle": "2.0: March 2015, 1.0: September 2013",
+        "subtitle": "v2.0: March 2015, v1.0: September 2013",
         "icon": "icn_calendar"
       },
       {
@@ -479,7 +479,7 @@
       },
       {
         "title": "Stats",
-        "subtitle": "Used on board of over 20 types of ships in Italy.",
+        "subtitle": "Used on board of over 20 types of ships of G.d.F. in Italy.",
         "icon": "icn_trophy"
       },
       {
@@ -591,7 +591,7 @@
     "appIcon": "app_fridgelist",
     "appColor": "#8fb1ff",
     "textColor": "#ffffff",
-    "appLink": "http://nicola.giancecchi.com/dev/fridgelist/docs/doc_beta.pdf",
+    "appLink": "https://bitbucket.org/ngiancecchi/fridgelist/downloads/Relazione_Final.pdf",
     "firstImage": "fridgelist1.png",
     "secondImage": "fridgelist2.png",
     "firstColumnText": "FridgeList is a quick and easy way to write a grocery list without actually having to write anything.\nApproaching an NFC tag - representing a food - the \"Cart\" (built with Arduino) adds the food to the grocery list and it will send it to the webservice which will update the list on all devices. ",
@@ -614,7 +614,7 @@
       },
       {
         "title": "Stats",
-        "subtitle": "Exam vote: 30 with honours/30",
+        "subtitle": "Exam vote:\n30 with honours/30",
         "icon": "icn_trophy"
       },
       {
@@ -659,7 +659,7 @@
       },
       {
         "title": "Stats",
-        "subtitle": "Exam vote: 30 with honours/30",
+        "subtitle": "Exam vote:\n30 with honours/30",
         "icon": "icn_trophy"
       },
       {
