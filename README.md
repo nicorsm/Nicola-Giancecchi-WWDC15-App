@@ -1,2 +1,2 @@
-# WWDC-2015-Scholarship-App
+# Nicola-Giancecchi-WWDC15-App
 App for Apple WWDC 2015 Student Scholarship
